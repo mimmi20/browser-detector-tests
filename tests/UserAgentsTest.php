@@ -23,7 +23,6 @@ use League\Flysystem\Filesystem;
 use League\Flysystem\Adapter\Local;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use UaDataMapper\InputMapper;
 
 /**
  * Class UserAgentsTest
@@ -41,24 +40,9 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
     protected $object = null;
 
     /**
-     * @var \UaDataMapper\InputMapper
-     */
-    protected static $mapper = null;
-
-    /**
      * @var string
      */
     protected $sourceDirectory = 'tests/issues/00000/';
-
-    /**
-     * This method is called before the first test of this test class is run.
-     *
-     * @since Method available since Release 3.4.0
-     */
-    public static function setUpBeforeClass()
-    {
-        static::$mapper = new InputMapper();
-    }
 
     /**
      * Sets up the fixture, for example, opens a network connection.
@@ -366,7 +350,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
         );
 
         /*
-        $expectedBrowserType = static::$mapper->mapBrowserType($expectedProperties['Browser_Type'])->getName();
+        $expectedBrowserType = $expectedProperties['Browser_Type'];
         $foundBrowserType    = $result->getBrowser()->getType()->getName();
 
         static::assertSame(

@@ -19,8 +19,8 @@ namespace BrowserDetectorTest;
 
 use BrowserDetector\BrowserDetector;
 use Cache\Adapter\Filesystem\FilesystemCachePool;
-use League\Flysystem\Filesystem;
 use League\Flysystem\Adapter\Local;
+use League\Flysystem\Filesystem;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use UaDataMapper\InputMapper;
@@ -107,7 +107,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
             }
         }
 
-        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad(count($data), 6, ' ', STR_PAD_LEFT), ' test', (count($data) <> 1 ? 's' : ''), ')', PHP_EOL;
+        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad(count($data), 6, ' ', STR_PAD_LEFT), ' test', (count($data) !== 1 ? 's' : ''), ')', PHP_EOL;
 
         return $data;
     }

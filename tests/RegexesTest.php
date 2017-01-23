@@ -19,11 +19,11 @@ namespace BrowserDetectorTest;
 
 use BrowserDetector\Factory\NormalizerFactory;
 use BrowserDetector\Factory\RegexFactory;
+use Cache\Adapter\Filesystem\FilesystemCachePool;
+use League\Flysystem\Adapter\Local;
+use League\Flysystem\Filesystem;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use Cache\Adapter\Filesystem\FilesystemCachePool;
-use League\Flysystem\Filesystem;
-use League\Flysystem\Adapter\Local;
 
 /**
  * Class UserAgentsTest
@@ -92,7 +92,7 @@ abstract class RegexesTest extends \PHPUnit_Framework_TestCase
             }
         }
 
-        echo ' finished (', number_format(microtime(true) - $start, 4), ' sec., ', str_pad(count($data), 6, ' ', STR_PAD_LEFT), ' test', (count($data) <> 1 ? 's' : ''), ')', PHP_EOL;
+        echo ' finished (', number_format(microtime(true) - $start, 4), ' sec., ', str_pad(count($data), 6, ' ', STR_PAD_LEFT), ' test', (count($data) !== 1 ? 's' : ''), ')', PHP_EOL;
 
         return $data;
     }
@@ -112,7 +112,7 @@ abstract class RegexesTest extends \PHPUnit_Framework_TestCase
 
         self::assertNotNull($result, 'regexes are missing');
         self::assertNotFalse($result, "no match for UA \n    input     : $userAgent\n    normalized: $normalizedUa");
-        self::$ok++;
+        ++self::$ok;
     }
 
     /**

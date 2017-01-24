@@ -15,48 +15,64 @@ $cache        = new \Cache\Adapter\Filesystem\FilesystemCachePool(new \League\Fl
 
 $iterator = new \RecursiveDirectoryIterator($sourceDirectory);
 
-$companies = json_decode(file_get_contents('vendor/mimmi20/browser-detector/data/companies.json'));
+$companies    = json_decode(file_get_contents('vendor/mimmi20/browser-detector/data/companies.json'));
+$browserTypes = json_decode(file_get_contents('vendor/mimmi20/ua-browser-type/data/types.json'));
+$deviceTypes  = json_decode(file_get_contents('vendor/mimmi20/ua-device-type/data/types.json'));
 
-foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-    /** @var $file \SplFileInfo */
-    if (!$file->isFile() || $file->getExtension() !== 'json') {
-        continue;
-    }
+//foreach (new \RecursiveIteratorIterator($iterator) as $file) {
+//    /** @var $file \SplFileInfo */
+//    if (!$file->isFile() || $file->getExtension() !== 'json') {
+//        continue;
+//    }
+//
+//    echo 'handling ', $file->getPathname(), ' ...', PHP_EOL;
+//
+//    $tests = json_decode(file_get_contents($file->getPathname()));
+//
+//    foreach ($tests as $key => $test) {
+//        foreach ($companies as $companyKey => $companyData) {
+//            if ($test->properties->RenderingEngine_Maker === $companyData->name) {
+//                $test->properties->RenderingEngine_Maker = $companyKey;
+//            }
+//
+//            if ($test->properties->Browser_Maker === $companyData->name) {
+//                $test->properties->Browser_Maker = $companyKey;
+//            }
+//
+//            if ($test->properties->Platform_Maker === $companyData->name) {
+//                $test->properties->Platform_Maker = $companyKey;
+//            }
+//
+//            if ($test->properties->Device_Maker === $companyData->name) {
+//                $test->properties->Device_Maker = $companyKey;
+//            }
+//
+//            if ($test->properties->Device_Brand_Name === $companyData->brandname) {
+//                $test->properties->Device_Brand_Name = $companyKey;
+//            }
+//        }
+//
+//        foreach ($browserTypes as $typeKey => $typeDate) {
+//            if ($test->properties->Browser_Type === $typeDate->name) {
+//                $test->properties->Browser_Type = $typeKey;
+//                break;
+//            }
+//        }
+//
+//        foreach ($deviceTypes as $typeKey => $typeDate) {
+//            if (str_replace('UaDeviceType\\', '', $test->properties->Device_Type) === $typeDate->name) {
+//                $test->properties->Device_Type = $typeKey;
+//                break;
+//            }
+//        }
+//    }
+//
+//    file_put_contents(
+//        $file->getPathname(),
+//        json_encode($tests, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . PHP_EOL
+//    );
+//}
 
-    echo 'handling ', $file->getPathname(), ' ...', PHP_EOL;
-
-    $tests = json_decode(file_get_contents($file->getPathname()));
-
-    foreach ($tests as $key => $test) {
-        foreach ($companies as $companyKey => $companyData) {
-            if ($test->properties->RenderingEngine_Maker === $companyData->name) {
-                $test->properties->RenderingEngine_Maker = $companyKey;
-            }
-
-            if ($test->properties->Browser_Maker === $companyData->name) {
-                $test->properties->Browser_Maker = $companyKey;
-            }
-
-            if ($test->properties->Platform_Maker === $companyData->name) {
-                $test->properties->Platform_Maker = $companyKey;
-            }
-
-            if ($test->properties->Device_Maker === $companyData->name) {
-                $test->properties->Device_Maker = $companyKey;
-            }
-
-            if ($test->properties->Device_Brand_Name === $companyData->brandname) {
-                $test->properties->Device_Brand_Name = $companyKey;
-            }
-        }
-    }
-
-    file_put_contents(
-        $file->getPathname(),
-        json_encode($tests, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . PHP_EOL
-    );
-}
-exit;
 foreach (new \RecursiveIteratorIterator($iterator) as $file) {
     /** @var $file \SplFileInfo */
     if (!$file->isFile() || $file->getExtension() !== 'json') {

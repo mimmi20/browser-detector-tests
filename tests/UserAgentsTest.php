@@ -23,8 +23,8 @@ use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use UaResult\Result\ResultFactory;
 use UaResult\Result\Result;
+use UaResult\Result\ResultFactory;
 
 /**
  * Class UserAgentsTest

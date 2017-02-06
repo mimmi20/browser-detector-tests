@@ -44,12 +44,12 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
     /**
      * @var \Monolog\Logger
      */
-    protected $logger = null;
+    protected static $logger = null;
 
     /**
      * @var \Psr\Cache\CacheItemPoolInterface
      */
-    protected $cache = null;
+    protected static $cache = null;
 
     /**
      * @var string
@@ -62,12 +62,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->logger = new Logger('browser-detector-tests');
-        $this->logger->pushHandler(new NullHandler());
-
-        $adapter      = new Local(__DIR__ . '/../cache/');
-        $this->cache  = new FilesystemCachePool(new Filesystem($adapter));
-        $this->object = new BrowserDetector($this->cache, $this->logger);
+        $this->object = new BrowserDetector(static::getCache(), static::getLogger());
     }
 
     /**
@@ -98,7 +93,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
                 $data[$key] = [
                     'ua'     => $test->ua,
-                    'result' => (new ResultFactory())->fromArray($this->cache, $this->logger, (array) $test->result),
+                    'result' => (new ResultFactory())->fromArray(static::getCache(), static::getLogger(), (array) $test->result),
                 ];
             }
         }
@@ -159,5 +154,35 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
         );
 
         self::assertEquals($expectedResult, $result);
+    }
+
+    /**
+     * @return \Psr\Cache\CacheItemPoolInterface
+     */
+    protected static function getCache()
+    {
+        if (null !== static::$cache) {
+            return static::$cache;
+        }
+
+        $adapter       = new Local(__DIR__ . '/../cache/');
+        static::$cache = new FilesystemCachePool(new Filesystem($adapter));
+
+        return static::$cache;
+    }
+
+    /**
+     * @return \Monolog\Logger
+     */
+    protected static function getLogger()
+    {
+        if (null !== static::$logger) {
+            return static::$logger;
+        }
+
+        static::$logger = new Logger('browser-detector-tests');
+        static::$logger->pushHandler(new NullHandler());
+
+        return static::$logger;
     }
 }

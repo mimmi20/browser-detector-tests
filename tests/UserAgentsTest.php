@@ -42,6 +42,16 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
     protected $object = null;
 
     /**
+     * @var \Monolog\Logger
+     */
+    protected $logger = null;
+
+    /**
+     * @var \Psr\Cache\CacheItemPoolInterface
+     */
+    protected $cache = null;
+
+    /**
      * @var string
      */
     protected $sourceDirectory = 'tests/issues/00000/';
@@ -52,12 +62,12 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $logger = new Logger('browser-detector-tests');
-        $logger->pushHandler(new NullHandler());
+        $this->logger = new Logger('browser-detector-tests');
+        $this->logger->pushHandler(new NullHandler());
 
         $adapter      = new Local(__DIR__ . '/../cache/');
-        $cache        = new FilesystemCachePool(new Filesystem($adapter));
-        $this->object = new BrowserDetector($cache, $logger);
+        $this->cache  = new FilesystemCachePool(new Filesystem($adapter));
+        $this->object = new BrowserDetector($this->cache, $this->logger);
     }
 
     /**
@@ -88,7 +98,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
 
                 $data[$key] = [
                     'ua'     => $test->ua,
-                    'result' => (new ResultFactory())->fromArray((array) $test->result),
+                    'result' => (new ResultFactory())->fromArray($this->cache, $this->logger, (array) $test->result),
                 ];
             }
         }

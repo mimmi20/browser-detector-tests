@@ -152,7 +152,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $foundDevice,
             'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgent . '"'
         );
-
+var_dump($expectedResult->getDevice()->toArray(), $result->getDevice()->toArray());
         self::assertEquals($expectedResult, $result);
     }
 

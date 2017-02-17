@@ -17,7 +17,7 @@
 
 namespace BrowserDetectorTest;
 
-use BrowserDetector\BrowserDetector;
+use BrowserDetector\Detector;
 use Cache\Adapter\Filesystem\FilesystemCachePool;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\Filesystem;
@@ -62,7 +62,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->object = new BrowserDetector(static::getCache(), static::getLogger());
+        $this->object = new Detector(static::getCache(), static::getLogger());
     }
 
     /**
@@ -152,7 +152,7 @@ abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
             $foundDevice,
             'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgent . '"'
         );
-var_dump($expectedResult->getDevice()->toArray(), $result->getDevice()->toArray());
+
         self::assertEquals($expectedResult, $result);
     }
 

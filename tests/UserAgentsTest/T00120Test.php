@@ -18,6 +18,7 @@
 namespace BrowserDetectorTest\UserAgentsTest;
 
 use BrowserDetectorTest\UserAgentsTest;
+use UaResult\Result\Result;
 
 /**
  * Class UserAgentsTest
@@ -37,20 +38,16 @@ class T00120Test extends UserAgentsTest
     /**
      * @dataProvider userAgentDataProvider
      *
-     * @param string $userAgent
-     * @param array  $expectedProperties
+     * @param string                  $userAgent
+     * @param \UaResult\Result\Result $expectedResult
      *
      * @throws \Exception
      * @group  integration
      * @group  useragenttest
      * @group  00120
      */
-    public function testUserAgents($userAgent, $expectedProperties)
+    public function testUserAgents($userAgent, Result $expectedResult)
     {
-        if (!is_array($expectedProperties) || !count($expectedProperties)) {
-            self::markTestSkipped('Could not run test - no properties were defined to test');
-        }
-
-        parent::testUserAgents($userAgent, $expectedProperties);
+        parent::testUserAgents($userAgent, $expectedResult);
     }
 }

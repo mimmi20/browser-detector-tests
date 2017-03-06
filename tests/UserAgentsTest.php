@@ -29,7 +29,7 @@ use UaResult\Result\ResultFactory;
  * @author     Thomas Mueller <mimmi20@live.de>
  * @group      useragenttest
  */
-abstract class UserAgentsTest extends \PHPUnit_Framework_TestCase
+abstract class UserAgentsTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \BrowserDetector\BrowserDetector

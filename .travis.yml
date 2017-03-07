@@ -22,8 +22,6 @@ matrix:
       dist: trusty
       group: edge
     - php: 7.1
-      env: COVERAGE=yes
-    - php: 7.1
       env: EXECUTE_CS_CHECK=yes
   allow_failures:
     - php: nightly
@@ -43,7 +41,6 @@ install:
   - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction $COMPOSER_FLAGS
 
 script:
-  - if [[ $COVERAGE = yes ]]; then vendor/bin/phpunit --colors=auto --coverage-clover=coverage.clover; else vendor/bin/phpunit --no-coverage --colors=auto; fi
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/phpcs; fi
   - if [[ $EXECUTE_CS_CHECK == yes ]]; then php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv; fi
 

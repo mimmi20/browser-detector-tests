@@ -21,6 +21,8 @@ use UaResult\Result\Result;
  *
  * @author     Thomas Mueller <mimmi20@live.de>
  * @group      useragenttest
+ * @group      integration
+ * @group      00174
  */
 class T00174Test extends UserAgentsTest
 {

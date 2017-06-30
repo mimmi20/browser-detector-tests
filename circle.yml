@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   override:
-    - composer update --optimize-autoloader --prefer-dist --prefer-stable --no-interaction --no-progress
+    - composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv
 
 test:
   override:
@@ -208,6 +208,9 @@ test:
     #   102 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00196Test.php
 
+    #   102 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00224Test.php
+
     #   103 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00067Test.php
 
@@ -243,6 +246,9 @@ test:
 
     #   127 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00210Test.php
+
+    #   141 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00223Test.php
 
     #   159 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00193Test.php

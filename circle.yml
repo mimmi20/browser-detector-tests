@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   override:
-    - composer update --optimize-autoloader --prefer-dist --prefer-stable --no-interaction --no-progress
+    - composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv
 
 test:
   override:
@@ -178,6 +178,9 @@ test:
     #    65 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00197Test.php
 
+    #    67 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00227Test.php
+
     #    68 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00072Test.php
 
@@ -207,6 +210,9 @@ test:
 
     #   102 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00196Test.php
+
+    #   102 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00224Test.php
 
     #   103 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00067Test.php
@@ -244,6 +250,9 @@ test:
     #   127 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00210Test.php
 
+    #   141 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00223Test.php
+
     #   159 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00193Test.php
 
@@ -280,6 +289,9 @@ test:
     #   266 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00222Test.php
 
+    #   279 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00225Test.php
+
     #   309 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00219Test.php
 
@@ -291,6 +303,9 @@ test:
 
     #   350 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00212Test.php
+
+    #   357 tests
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00226Test.php
 
     #   376 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T00199Test.php

@@ -11,10 +11,10 @@ dependencies:
 test:
   override:
     #     1 test
-    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000284Test.php
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000284Test.php -- 1 test
 
     #     1 test
-    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000285Test.php
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000285Test.php -- 1 test
 
     #     1 test
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000286Test.php
@@ -23,7 +23,7 @@ test:
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000365Test.php
 
     #     2 tests
-    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000081Test.php
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000081Test.php -- 2 tests
 
     #     2 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000287Test.php
@@ -50,7 +50,7 @@ test:
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000275Test.php
 
     #    10 tests
-    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000274Test.php
+    - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000274Test.php -- 10 tests
 
     #    10 tests
     - php -n vendor/bin/phpunit --colors=auto --no-coverage tests/UserAgentsTest/T0000283Test.php

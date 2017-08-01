@@ -16,7 +16,7 @@ use BrowserDetectorTest\UserAgentsTest;
 /**
  * Class T0000349Test
  *
- * has    189 tests
+ * has 189 tests
  * this file was created/edited automatically, please do not edit it
  *
  * @author     Thomas Mueller <mimmi20@live.de>

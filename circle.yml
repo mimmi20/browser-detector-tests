@@ -500,6 +500,9 @@ test:
     # 480 tests
     - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000064Test.php --  480 tests
 
+    # 504 tests
+    - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000729Test.php --  504 tests
+
     # 508 tests
     - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000311Test.php --  508 tests
 
@@ -667,6 +670,9 @@ test:
 
     # 901 tests
     - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000048Test.php --  901 tests
+
+    # 907 tests
+    - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000730Test.php --  907 tests
 
     # 910 tests
     - php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000303Test.php --  910 tests

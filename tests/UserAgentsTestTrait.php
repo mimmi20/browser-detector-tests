@@ -20,35 +20,22 @@ use UaResult\Result\ResultFactory;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Log\LoggerInterface;
 
-/**
- * Class UserAgentsTest
- *
- * @category   CompareTest
- *
- * @author     Thomas Mueller <mimmi20@live.de>
- * @group      useragenttest
- */
-abstract class UserAgentsTest extends \PHPUnit\Framework\TestCase
+trait UserAgentsTestTrait
 {
     /**
      * @var \BrowserDetector\Detector
      */
-    protected $object = null;
+    private $object = null;
 
     /**
      * @var \Monolog\Logger
      */
-    protected static $logger = null;
+    private static $logger = null;
 
     /**
      * @var \Psr\Cache\CacheItemPoolInterface
      */
-    protected static $cache = null;
-
-    /**
-     * @var string
-     */
-    protected $sourceDirectory = 'tests/issues/00000/';
+    private static $cache = null;
 
     /**
      * Sets up the fixture, for example, opens a network connection.
@@ -153,7 +140,7 @@ abstract class UserAgentsTest extends \PHPUnit\Framework\TestCase
     /**
      * @return \Psr\Cache\CacheItemPoolInterface
      */
-    protected static function getCache(): CacheItemPoolInterface
+    private static function getCache(): CacheItemPoolInterface
     {
         if (null !== static::$cache) {
             return static::$cache;
@@ -167,7 +154,7 @@ abstract class UserAgentsTest extends \PHPUnit\Framework\TestCase
     /**
      * @return \Psr\Log\LoggerInterface
      */
-    protected static function getLogger(): LoggerInterface
+    private static function getLogger(): LoggerInterface
     {
         if (null !== static::$logger) {
             return static::$logger;

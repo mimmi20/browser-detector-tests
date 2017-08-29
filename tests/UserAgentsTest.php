@@ -14,11 +14,11 @@ namespace BrowserDetectorTest;
 use BrowserDetector\Detector;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
+use Psr\Cache\CacheItemPoolInterface;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use UaResult\Result\Result;
 use UaResult\Result\ResultFactory;
-use Psr\Cache\CacheItemPoolInterface;
-use Psr\Log\LoggerInterface;
 
 /**
  * Class UserAgentsTest

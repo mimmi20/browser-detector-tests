@@ -19,6 +19,7 @@ use Psr\Log\LoggerInterface;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use UaResult\Result\Result;
 use UaResult\Result\ResultFactory;
+use UaResult\Result\ResultInterface;
 
 trait UserAgentsTestTrait
 {
@@ -87,19 +88,19 @@ trait UserAgentsTestTrait
     /**
      * @dataProvider userAgentDataProvider
      *
-     * @param string                  $userAgent
-     * @param \UaResult\Result\Result $expectedResult
+     * @param string                           $userAgent
+     * @param \UaResult\Result\ResultInterface $expectedResult
      *
      * @throws \Exception
      */
-    public function testUserAgents(string $userAgent, Result $expectedResult): void
+    public function testUserAgents(string $userAgent, ResultInterface $expectedResult): void
     {
         $result = $this->object->getBrowser($userAgent);
 
         static::assertInstanceOf(
-            \UaResult\Result\Result::class,
+            \UaResult\Result\ResultInterface::class,
             $result,
-            'Expected result is not an instance of "\UaResult\Result\Result" for useragent "' . $userAgent . '"'
+            'Expected result is not an instance of "\UaResult\Result\ResultInterface" for useragent "' . $userAgent . '"'
         );
 
         $foundBrowser = $result->getBrowser();
@@ -110,6 +111,8 @@ trait UserAgentsTestTrait
             'Expected browser is not an instance of "\UaResult\Browser\BrowserInterface" for useragent "' . $userAgent . '"'
         );
 
+        self::assertEquals($expectedResult->getBrowser(), $foundBrowser);
+
         $foundEngine = $result->getEngine();
 
         static::assertInstanceOf(
@@ -117,6 +120,8 @@ trait UserAgentsTestTrait
             $foundEngine,
             'Expected engine is not an instance of "\UaResult\Engine\EngineInterface" for useragent "' . $userAgent . '"'
         );
+
+        self::assertEquals($expectedResult->getEngine(), $foundEngine);
 
         $foundPlatform = $result->getOs();
 
@@ -126,6 +131,8 @@ trait UserAgentsTestTrait
             'Expected platform is not an instance of "\UaResult\Os\OsInterface" for useragent "' . $userAgent . '"'
         );
 
+        self::assertEquals($expectedResult->getOs(), $foundPlatform);
+
         $foundDevice = $result->getDevice();
 
         static::assertInstanceOf(
@@ -134,7 +141,9 @@ trait UserAgentsTestTrait
             'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgent . '"'
         );
 
-        self::assertEquals($expectedResult, $result);
+        self::assertEquals($expectedResult->getDevice(), $foundDevice);
+
+        //self::assertEquals($expectedResult, $result);
     }
 
     /**

@@ -26,7 +26,7 @@ trait UserAgentsTestTrait
     /**
      * @var \BrowserDetector\Detector
      */
-    private $object = null;
+    private $object;
 
     /**
      * @var \Monolog\Logger
@@ -42,7 +42,7 @@ trait UserAgentsTestTrait
      * Sets up the fixture, for example, opens a network connection.
      * This method is called before a test is executed.
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->object = new Detector(static::getCache(), static::getLogger());
     }
@@ -61,7 +61,7 @@ trait UserAgentsTestTrait
 
         foreach ($iterator as $file) {
             /** @var $file \SplFileInfo */
-            if (!$file->isFile() || $file->getExtension() !== 'json') {
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
 
@@ -80,7 +80,7 @@ trait UserAgentsTestTrait
             }
         }
 
-        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 6, ' ', STR_PAD_LEFT), ' test', (count($data) !== 1 ? 's' : ''), ')', PHP_EOL;
+        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 6, ' ', STR_PAD_LEFT), ' test', (1 !== count($data) ? 's' : ''), ')', PHP_EOL;
 
         return $data;
     }

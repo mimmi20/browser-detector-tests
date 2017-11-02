@@ -2,7 +2,7 @@
     "test-0000377-000": {
         "ua": "LG C3380",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG C3380"
             },
             "device": {
@@ -13,7 +13,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -41,7 +41,7 @@
     "test-0000377-001": {
         "ua": "LG C3400",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG C3400"
             },
             "device": {
@@ -52,7 +52,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -80,7 +80,7 @@
     "test-0000377-002": {
         "ua": "Mozilla/5.0 (LG-C360 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (LG-C360 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000377-003": {
         "ua": "Mozilla/5.0 (LG-C365 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (LG-C365 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000377-004": {
         "ua": "Mozilla/5.0 (LG-C370 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (LG-C370 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000377-005": {
         "ua": "Mozilla/5.0 (LG-C375 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (LG-C375 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000377-006": {
         "ua": "Mozilla/5.0 (Java; U; en-us; lg-c395) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-us; lg-c395) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000377-007": {
         "ua": "LG-C395/V10e Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C395/V10e Obigo/Q7.3 Profile/MIDP-2.1 Configuration/CLDC-1.1"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000377-008": {
         "ua": "Mozilla/5.0 (LG-C510 AppleWebKit/531 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1),gzip(gfe),gzip(gfe)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (LG-C510 AppleWebKit/531 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1),gzip(gfe),gzip(gfe)"
             },
             "device": {
@@ -329,12 +329,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "Java Standard Library",
+                "name": "Safari",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "bot"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -353,7 +353,7 @@
     "test-0000377-009": {
         "ua": "TwitterAndroid/2.0.1 (122) LG-C550/8 (LGE;hazel;lge;lge_hazel;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "TwitterAndroid/2.0.1 (122) LG-C550/8 (LGE;hazel;lge;lge_hazel;)"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000377-010": {
         "ua": "Mozilla/5.0 (Linux U Android 2.1-update1 en-us LG-C710 Build/Eclair) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux U Android 2.1-update1 en-us LG-C710 Build/Eclair) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000377-011": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-C729 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-C729 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2"
             },
             "device": {
@@ -442,7 +442,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -470,7 +470,7 @@
     "test-0000377-012": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-C800 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-C800 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2"
             },
             "device": {
@@ -481,7 +481,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -509,7 +509,7 @@
     "test-0000377-013": {
         "ua": "LG-C810/1.0 UP.Browser/4.1.26l",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C810/1.0 UP.Browser/4.1.26l"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000377-014": {
         "ua": "LG-C900",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C900"
             },
             "device": {
@@ -559,7 +559,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -587,7 +587,7 @@
     "test-0000377-015": {
         "ua": "LG-C900B",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C900B"
             },
             "device": {
@@ -598,7 +598,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -626,7 +626,7 @@
     "test-0000377-016": {
         "ua": "LG-C900k",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C900k"
             },
             "device": {
@@ -637,7 +637,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -665,7 +665,7 @@
     "test-0000377-017": {
         "ua": "LG-C950/1.0UP.Browser/6.2.3.2(GUI)MMp/2.0UP.Link/6.3.0.0.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-C950/1.0UP.Browser/6.2.3.2(GUI)MMp/2.0UP.Link/6.3.0.0.0"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000377-018": {
         "ua": "LG CB630",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CB630"
             },
             "device": {
@@ -715,7 +715,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -743,7 +743,7 @@
     "test-0000377-019": {
         "ua": "LG CE110",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CE110"
             },
             "device": {
@@ -754,7 +754,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -782,7 +782,7 @@
     "test-0000377-020": {
         "ua": "LG CE500",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CE500"
             },
             "device": {
@@ -793,7 +793,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -821,7 +821,7 @@
     "test-0000377-021": {
         "ua": "LG CF360",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CF360"
             },
             "device": {
@@ -832,7 +832,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -860,7 +860,7 @@
     "test-0000377-022": {
         "ua": "LG CF750",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CF750"
             },
             "device": {
@@ -871,7 +871,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -899,7 +899,7 @@
     "test-0000377-023": {
         "ua": "LG-CG180/V0.9 UP.Browser/6.2.3 (GUI) MMP/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CG180/V0.9 UP.Browser/6.2.3 (GUI) MMP/1.0"
             },
             "device": {
@@ -938,7 +938,7 @@
     "test-0000377-024": {
         "ua": "LG-CG225",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CG225"
             },
             "device": {
@@ -949,7 +949,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -977,7 +977,7 @@
     "test-0000377-025": {
         "ua": "LG-CG300 UP.Browser/6.2.3 (GUI) MMP/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CG300 UP.Browser/6.2.3 (GUI) MMP/1.0"
             },
             "device": {
@@ -1016,7 +1016,7 @@
     "test-0000377-026": {
         "ua": "LG-CP150/V09e Teleca/WAP2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CP150/V09e Teleca/WAP2.0"
             },
             "device": {
@@ -1055,7 +1055,7 @@
     "test-0000377-027": {
         "ua": "LG-CQ3100 AU/4.10 Profile MIDP-1.0 Configuration CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CQ3100 AU/4.10 Profile MIDP-1.0 Configuration CLDC-1.0"
             },
             "device": {
@@ -1094,7 +1094,7 @@
     "test-0000377-028": {
         "ua": "LG-CT810",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CT810"
             },
             "device": {
@@ -1105,7 +1105,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1133,7 +1133,7 @@
     "test-0000377-029": {
         "ua": "LG CU320",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CU320"
             },
             "device": {
@@ -1144,7 +1144,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1172,7 +1172,7 @@
     "test-0000377-030": {
         "ua": "LG-CU400",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU400"
             },
             "device": {
@@ -1183,7 +1183,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1211,7 +1211,7 @@
     "test-0000377-031": {
         "ua": "LG-CU405/",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU405/"
             },
             "device": {
@@ -1222,7 +1222,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1250,7 +1250,7 @@
     "test-0000377-032": {
         "ua": "LG-CU500",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU500"
             },
             "device": {
@@ -1261,7 +1261,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1289,7 +1289,7 @@
     "test-0000377-033": {
         "ua": "LG CU500v",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CU500v"
             },
             "device": {
@@ -1300,7 +1300,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1328,7 +1328,7 @@
     "test-0000377-034": {
         "ua": "LG CU515",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CU515"
             },
             "device": {
@@ -1339,7 +1339,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1367,7 +1367,7 @@
     "test-0000377-035": {
         "ua": "LG-CU575",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU575"
             },
             "device": {
@@ -1378,7 +1378,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1406,7 +1406,7 @@
     "test-0000377-036": {
         "ua": "LG-CU6160/1.0 UP.Browser/4.1.26l",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU6160/1.0 UP.Browser/4.1.26l"
             },
             "device": {
@@ -1445,7 +1445,7 @@
     "test-0000377-037": {
         "ua": "LG-CU720",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-CU720"
             },
             "device": {
@@ -1456,7 +1456,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1484,7 +1484,7 @@
     "test-0000377-038": {
         "ua": "LGE-CU8080/1.0 UP.Browser/4.1.26l UP.Link/5.1.2.9",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LGE-CU8080/1.0 UP.Browser/4.1.26l UP.Link/5.1.2.9"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000377-039": {
         "ua": "LGE-CU8280/1.0 UP.Browser/4.1.27",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LGE-CU8280/1.0 UP.Browser/4.1.27"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000377-040": {
         "ua": "LG CU915",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CU915"
             },
             "device": {
@@ -1573,7 +1573,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1601,7 +1601,7 @@
     "test-0000377-041": {
         "ua": "LG CU920",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG CU920"
             },
             "device": {
@@ -1612,7 +1612,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1640,7 +1640,7 @@
     "test-0000377-042": {
         "ua": "LGE-CX5450",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LGE-CX5450"
             },
             "device": {
@@ -1651,7 +1651,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1679,7 +1679,7 @@
     "test-0000377-043": {
         "ua": "LG-D605/V10a Player/LG Player 1.0 for Android(stagefright alternative)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-D605/V10a Player/LG Player 1.0 for Android(stagefright alternative)"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000377-044": {
         "ua": "AppTokens/Android/de/LGE/LG-D802/4.2.2/1.1.0/-/-/-/-/-/-",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "AppTokens/Android/de/LGE/LG-D802/4.2.2/1.1.0/-/-/-/-/-/-"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000377-045": {
         "ua": "LG-DG200",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-DG200"
             },
             "device": {
@@ -1768,7 +1768,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1796,7 +1796,7 @@
     "test-0000377-046": {
         "ua": "LGE-DM120",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LGE-DM120"
             },
             "device": {
@@ -1807,7 +1807,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1835,7 +1835,7 @@
     "test-0000377-047": {
         "ua": "(LGE/e0/LG-E400)API 10. Language Deutsch",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(LGE/e0/LG-E400)API 10. Language Deutsch"
             },
             "device": {
@@ -1846,7 +1846,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1874,7 +1874,7 @@
     "test-0000377-048": {
         "ua": "Android LG-E400f",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Android LG-E400f"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000377-049": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us ; LG-E405 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1/UCBrowser/8.4.1.204/145/35",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us ; LG-E405 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1/UCBrowser/8.4.1.204/145/35"
             },
             "device": {
@@ -1952,7 +1952,7 @@
     "test-0000377-050": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; pt-br; LG-E405f Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; pt-br; LG-E405f Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.2"
             },
             "device": {
@@ -1963,7 +1963,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1991,7 +1991,7 @@
     "test-0000377-051": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10c-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10c-EUR-XX)"
             },
             "device": {
@@ -2030,7 +2030,7 @@
     "test-0000377-052": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10d-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10d-EUR-XX)"
             },
             "device": {
@@ -2069,7 +2069,7 @@
     "test-0000377-053": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10f-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E410i10f-EUR-XX)"
             },
             "device": {
@@ -2108,7 +2108,7 @@
     "test-0000377-054": {
         "ua": "(LGE/vee3e/LG-E430)API 16. Language Deutsch",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(LGE/vee3e/LG-E430)API 16. Language Deutsch"
             },
             "device": {
@@ -2119,7 +2119,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2147,7 +2147,7 @@
     "test-0000377-055": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010a-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010a-EUR-XX)"
             },
             "device": {
@@ -2186,7 +2186,7 @@
     "test-0000377-056": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010b-214-07)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010b-214-07)"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000377-057": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010c-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010c-EUR-XX)"
             },
             "device": {
@@ -2264,7 +2264,7 @@
     "test-0000377-058": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010d-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E43010d-EUR-XX)"
             },
             "device": {
@@ -2303,7 +2303,7 @@
     "test-0000377-059": {
         "ua": "Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: LG-E440 Firmware version: 4.1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dr.Web anti-virus Light Version: 7.00.11.7032 Device model: LG-E440 Firmware version: 4.1.2"
             },
             "device": {
@@ -2314,7 +2314,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2342,7 +2342,7 @@
     "test-0000377-060": {
         "ua": "AMT Games/SAS3/2.043/__STABLE__ (LG-E460;androidOS;4.1.2;Europe/Berlin;de_DE)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "AMT Games/SAS3/2.043/__STABLE__ (LG-E460;androidOS;4.1.2;Europe/Berlin;de_DE)"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000377-061": {
         "ua": "LG-E500/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1,gzip(gfe)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-E500/V100 Obigo/Q7.3 MMS/LG-MMS-V1.1/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1,gzip(gfe)"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000377-062": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; LG-E510 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; ru-ru; LG-E510 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.0/1.2"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000377-063": {
         "ua": "(LGE/m4/LG-E610)API 15. Language Deutsch",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(LGE/m4/LG-E610)API 15. Language Deutsch"
             },
             "device": {
@@ -2470,7 +2470,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2498,7 +2498,7 @@
     "test-0000377-064": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020a-MBK-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020a-MBK-XX)"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000377-065": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020b-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020b-EUR-XX)"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000377-066": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020c-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020c-EUR-XX)"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000377-067": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020d-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020d-EUR-XX)"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000377-068": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020f-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020f-EUR-XX)"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000377-069": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020g-EUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61020g-EUR-XX)"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000377-070": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E610GO20a-O2D-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E610GO20a-O2D-XX)"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000377-071": {
         "ua": "Tagged/3.9.7/an LG-E610v(lge/m4_vdf_com/m4:4.0.3/IML74K/lge610v-V10g.20130211.093327:user/release-keys)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Tagged/3.9.7/an LG-E610v(lge/m4_vdf_com/m4:4.0.3/IML74K/lge610v-V10g.20130211.093327:user/release-keys)"
             },
             "device": {
@@ -2782,7 +2782,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2810,7 +2810,7 @@
     "test-0000377-072": {
         "ua": "LG-E612 LG-Android-MMS-V2.0/1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-E612 LG-Android-MMS-V2.0/1.2"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000377-073": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61220b-AME-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61220b-AME-XX)"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000377-074": {
         "ua": "stagefright/1.2 (Linux;Android NexPlayer LG-E61220c-TUR-XX)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "stagefright/1.2 (Linux;Android NexPlayer LG-E61220c-TUR-XX)"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000377-075": {
         "ua": "Layar/4.0 Android/2.2.1 (LGE LG-E720)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Layar/4.0 Android/2.2.1 (LGE LG-E720)"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000377-076": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-E730 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; LG-E730 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 MMS/LG-Android-MMS-V1.2"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000377-077": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; es-mx; LG-E730f Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Versin/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; es-mx; LG-E730f Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Versin/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3044,7 +3044,7 @@
     "test-0000377-078": {
         "ua": "RhythmDisplayAdSDK-E-Android LG-E739-2.3.6-43074",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "RhythmDisplayAdSDK-E-Android LG-E739-2.3.6-43074"
             },
             "device": {
@@ -3083,7 +3083,7 @@
     "test-0000377-079": {
         "ua": "BBC News (AndroidApp; 2.5.1 WW; 58) LG-E975 (Android 4.1.2, SDK 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BBC News (AndroidApp; 2.5.1 WW; 58) LG-E975 (Android 4.1.2, SDK 16)"
             },
             "device": {
@@ -3122,19 +3122,19 @@
     "test-0000377-080": {
         "ua": "GoogleEarth/7.1.0003.1255(Android;Android (LG-E986-geefhd-user-4.1.2);de-DE;kml:2.2;client:Free;type:default)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "GoogleEarth/7.1.0003.1255(Android;Android (LG-E986-geefhd-user-4.1.2);de-DE;kml:2.2;client:Free;type:default)"
             },
             "device": {
-                "deviceName": "general LG Device",
-                "marketingName": "general LG Device",
+                "deviceName": "E986",
+                "marketingName": "Optimus G Pro",
                 "manufacturer": "Lg",
                 "brand": "Lg",
                 "pointingMethod": "touchscreen",
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "mobile-phone"
+                "resolutionWidth": 1080,
+                "resolutionHeight": 1920,
+                "dualOrientation": true,
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Google Bot",
@@ -3161,7 +3161,7 @@
     "test-0000377-081": {
         "ua": "Mozilla/5.0 (Linux; U; Android 1.5; LG Eve) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 Java/Jbed/7.0 Profile/MIDP-2.1 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 1.5; LG Eve) AppleWebKit/528.5 (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 Java/Jbed/7.0 Profile/MIDP-2.1 Configuration/CLDC-1.1"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000377-082": {
         "ua": "LG-F1200",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F1200"
             },
             "device": {
@@ -3211,7 +3211,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3239,7 +3239,7 @@
     "test-0000377-083": {
         "ua": "KAKAOSTORY/2.1.5_66 Android/2.3.6 LG-F120K",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "KAKAOSTORY/2.1.5_66 Android/2.3.6 LG-F120K"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000377-084": {
         "ua": "nApps (LG-F160S; 16; naversearchapp; 5.0.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "nApps (LG-F160S; 16; naversearchapp; 5.0.1)"
             },
             "device": {
@@ -3289,7 +3289,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3317,7 +3317,7 @@
     "test-0000377-085": {
         "ua": "LG-F2100",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2100"
             },
             "device": {
@@ -3328,7 +3328,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3356,7 +3356,7 @@
     "test-0000377-086": {
         "ua": "LG-F2200",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2200"
             },
             "device": {
@@ -3367,7 +3367,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3395,7 +3395,7 @@
     "test-0000377-087": {
         "ua": "LG-F2250",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2250"
             },
             "device": {
@@ -3406,7 +3406,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3434,7 +3434,7 @@
     "test-0000377-088": {
         "ua": "LG-F2300",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2300"
             },
             "device": {
@@ -3445,7 +3445,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3473,7 +3473,7 @@
     "test-0000377-089": {
         "ua": "LG-F2400",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2400"
             },
             "device": {
@@ -3484,7 +3484,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3512,7 +3512,7 @@
     "test-0000377-090": {
         "ua": "kinApp/1.0.0 (Android OS 4.1.2;LGE LG-F240S)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "kinApp/1.0.0 (Android OS 4.1.2;LGE LG-F240S)"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000377-091": {
         "ua": "LG-F2410",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F2410"
             },
             "device": {
@@ -3562,7 +3562,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3590,7 +3590,7 @@
     "test-0000377-092": {
         "ua": "LG F3000",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG F3000"
             },
             "device": {
@@ -3601,7 +3601,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3629,7 +3629,7 @@
     "test-0000377-093": {
         "ua": "kinApp/1.0.0 (Android OS 4.4.2;LGE LG-F320L)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "kinApp/1.0.0 (Android OS 4.4.2;LGE LG-F320L)"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000377-094": {
         "ua": "LG-F7100 AU/4.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F7100 AU/4.10"
             },
             "device": {
@@ -3679,7 +3679,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3707,7 +3707,7 @@
     "test-0000377-095": {
         "ua": "LG-F7200",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F7200"
             },
             "device": {
@@ -3718,7 +3718,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3746,7 +3746,7 @@
     "test-0000377-096": {
         "ua": "LG-F7250 UP.Browser",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F7250 UP.Browser"
             },
             "device": {
@@ -3785,7 +3785,7 @@
     "test-0000377-097": {
         "ua": "LG-F9100",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-F9100"
             },
             "device": {
@@ -3796,7 +3796,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3824,7 +3824,7 @@
     "test-0000377-098": {
         "ua": "LG-G1100 UP.Browser/6.2.2 (GUI) MMP/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-G1100 UP.Browser/6.2.2 (GUI) MMP/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000377-099": {
         "ua": "LG-G1500 AU/4.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG-G1500 AU/4.2"
             },
             "device": {
@@ -3874,7 +3874,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {

@@ -2,7 +2,7 @@
     "test-0000393-400": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.3; MultiZilla v1.4.0.3J) Gecko/20030312",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.3; MultiZilla v1.4.0.3J) Gecko/20030312"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000393-401": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4.1; MultiZilla v1.5.0.2j) Gecko/20031008",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4.1; MultiZilla v1.5.0.2j) Gecko/20031008"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000393-402": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.3b; MultiZilla v1.3.1 (a)) Gecko/20030210",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.3b; MultiZilla v1.3.1 (a)) Gecko/20030210"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000393-403": {
         "ua": "Mozilla/5.0 (compatible; Charlotte/1.0t; http://www.searchme.com/support/)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; Charlotte/1.0t; http://www.searchme.com/support/)"
             },
             "device": {
@@ -130,16 +130,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Charlotte",
+                "name": null,
                 "modus": null,
-                "version": "1.0.0",
-                "manufacturer": "Searchme",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "bot"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -158,7 +158,7 @@
     "test-0000393-404": {
         "ua": "Mozilla/5.0 (compatible; Charlotte/0.9t; +http://www.searchme.com/support/)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; Charlotte/0.9t; +http://www.searchme.com/support/)"
             },
             "device": {
@@ -169,16 +169,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Charlotte",
+                "name": null,
                 "modus": null,
-                "version": "0.9.0",
-                "manufacturer": "Searchme",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "bot"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -197,7 +197,7 @@
     "test-0000393-405": {
         "ua": "Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.searchme.com/support/)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.searchme.com/support/)"
             },
             "device": {
@@ -208,16 +208,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Charlotte",
+                "name": null,
                 "modus": null,
-                "version": "1.0.0-beta",
-                "manufacturer": "Searchme",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "bot"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -236,7 +236,7 @@
     "test-0000393-406": {
         "ua": "Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.betaspider.com/)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; Charlotte/1.0b; http://www.betaspider.com/)"
             },
             "device": {
@@ -247,16 +247,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Charlotte",
+                "name": null,
                 "modus": null,
-                "version": "1.0.0-beta",
-                "manufacturer": "Searchme",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "bot"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -275,7 +275,7 @@
     "test-0000393-407": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-49) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-49) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36"
             },
             "device": {

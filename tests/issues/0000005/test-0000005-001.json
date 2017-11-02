@@ -2,7 +2,7 @@
     "test-0000005-100": {
         "ua": "Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Crazy Browser 1.x.x)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Crazy Browser 1.x.x)"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000005-101": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Q312461; Crazy Browser 1.0.5; .NET CLR 1.0.3705)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; Q312461; Crazy Browser 1.0.5; .NET CLR 1.0.3705)"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000005-102": {
         "ua": "Cyberdog/2.0 (Macintosh; PPC)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Cyberdog/2.0 (Macintosh; PPC)"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000005-103": {
         "ua": "Cyberdog/2.0 (Macintosh; 68k)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Cyberdog/2.0 (Macintosh; 68k)"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000005-104": {
         "ua": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-pl) AppleWebKit/312.8 (KHTML, like Gecko, Safari) DeskBrowse/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X; pl-pl) AppleWebKit/312.8 (KHTML, like Gecko, Safari) DeskBrowse/1.0"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000005-105": {
         "ua": "Dooble/0.07 (de_CH) WebKit",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dooble/0.07 (de_CH) WebKit"
             },
             "device": {
@@ -208,16 +208,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": null,
+                "name": "Safari",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": null,
@@ -236,7 +236,7 @@
     "test-0000005-106": {
         "ua": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x25)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x25)"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000005-107": {
         "ua": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x24)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 80x24)"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000005-108": {
         "ua": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 143x45)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 143x45)"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000005-109": {
         "ua": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 126x14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks (0.4.3; NetBSD 3.0.2_PATCH sparc64; 126x14)"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000005-110": {
         "ua": "ELinks (0.4.3; NetBSD 3.0.2PATCH sparc64; 141x19)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks (0.4.3; NetBSD 3.0.2PATCH sparc64; 141x19)"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000005-111": {
         "ua": "Elinks (0.3.2; Linux 2.4.20-13.8 i686)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Elinks (0.3.2; Linux 2.4.20-13.8 i686)"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000005-112": {
         "ua": "ELinks/0.12pre1.GIT",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ELinks/0.12pre1.GIT"
             },
             "device": {
@@ -481,7 +481,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -509,7 +509,7 @@
     "test-0000005-113": {
         "ua": "Elinks (textmode)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Elinks (textmode)"
             },
             "device": {
@@ -520,7 +520,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -548,7 +548,7 @@
     "test-0000005-114": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/534.26+ (KHTML, like Gecko) Ubuntu/11.04 Epiphany/2.30.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; it-it) AppleWebKit/534.26+ (KHTML, like Gecko) Ubuntu/11.04 Epiphany/2.30.6"
             },
             "device": {
@@ -587,7 +587,7 @@
     "test-0000005-115": {
         "ua": "Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.30.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.30.0"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000005-116": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; nl-nl) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; nl-nl) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000005-117": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; fr-fr) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; fr-fr) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.29.91"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000005-118": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.2 SUSE/2.28.0-2.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.2 SUSE/2.28.0-2.4"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000005-119": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.0 SUSE/2.28.0-2.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; zh-cn) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ Epiphany/2.28.0 SUSE/2.28.0-2.4"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000005-120": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Fedora/2.24.3-4.fc10 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Fedora/2.24.3-4.fc10 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -797,10 +797,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -821,7 +821,7 @@
     "test-0000005-121": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -836,10 +836,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -860,7 +860,7 @@
     "test-0000005-122": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.14) Gecko/20080528 Ubuntu/9.10 (karmic) Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.14) Gecko/20080528 Ubuntu/9.10 (karmic) Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -875,10 +875,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -899,7 +899,7 @@
     "test-0000005-123": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -914,10 +914,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -938,7 +938,7 @@
     "test-0000005-124": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -953,10 +953,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -977,7 +977,7 @@
     "test-0000005-125": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080322 Epiphany/2.22 Firefox/2.0.0.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080322 Epiphany/2.22 Firefox/2.0.0.4"
             },
             "device": {
@@ -992,10 +992,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.4",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -1016,7 +1016,7 @@
     "test-0000005-126": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en_GB; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en_GB; rv:1.9.0.1) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1031,10 +1031,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1055,7 +1055,7 @@
     "test-0000005-127": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.9) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1070,10 +1070,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1094,7 +1094,7 @@
     "test-0000005-128": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.8) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1109,10 +1109,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1133,7 +1133,7 @@
     "test-0000005-129": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.5) Gecko/20080528 Fedora/2.24.1-3.fc10 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.5) Gecko/20080528 Fedora/2.24.1-3.fc10 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1148,10 +1148,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1172,7 +1172,7 @@
     "test-0000005-130": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.4) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.4) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1187,10 +1187,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1211,7 +1211,7 @@
     "test-0000005-131": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.15) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.15) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1226,10 +1226,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1250,7 +1250,7 @@
     "test-0000005-132": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.12) Gecko/20080528 Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9.0.12) Gecko/20080528 Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1265,10 +1265,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1289,7 +1289,7 @@
     "test-0000005-133": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9) Gecko/20080528 (Gentoo) Epiphany/2.22 Firefox/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9) Gecko/20080528 (Gentoo) Epiphany/2.22 Firefox/3.0"
             },
             "device": {
@@ -1304,10 +1304,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.22.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "3.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1328,7 +1328,7 @@
     "test-0000005-134": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.14) Gecko/20080616 Fedora/2.20.3-4.fc8 Epiphany/2.20 Firefox/2.0.0.14",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.14) Gecko/20080616 Fedora/2.20.3-4.fc8 Epiphany/2.20 Firefox/2.0.0.14"
             },
             "device": {
@@ -1343,10 +1343,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.14",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -1367,7 +1367,7 @@
     "test-0000005-135": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080326 (Debian-1.8.1.13-1) Epiphany/2.20",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; en; rv:1.8.1.13) Gecko/20080326 (Debian-1.8.1.13-1) Epiphany/2.20"
             },
             "device": {
@@ -1382,10 +1382,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -1406,7 +1406,7 @@
     "test-0000005-136": {
         "ua": "Mozilla/5.0 (X11; U; Linux ppc; en; rv:1.8.1.13) Gecko/20080325 Epiphany/2.20 Firefox/2.0.0.13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux ppc; en; rv:1.8.1.13) Gecko/20080325 Epiphany/2.20 Firefox/2.0.0.13"
             },
             "device": {
@@ -1421,10 +1421,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.13",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1445,7 +1445,7 @@
     "test-0000005-137": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9b3) Gecko Epiphany/2.20",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.9b3) Gecko Epiphany/2.20"
             },
             "device": {
@@ -1460,10 +1460,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1484,7 +1484,7 @@
     "test-0000005-138": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.19) Gecko/20081216 Epiphany/2.20 Firefox/2.0.0.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.19) Gecko/20081216 Epiphany/2.20 Firefox/2.0.0.19"
             },
             "device": {
@@ -1499,10 +1499,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.19",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1523,7 +1523,7 @@
     "test-0000005-139": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.17) Gecko/20080927 Epiphany/2.20 Firefox/2.0.0.17 (Dropline GNOME)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.17) Gecko/20080927 Epiphany/2.20 Firefox/2.0.0.17 (Dropline GNOME)"
             },
             "device": {
@@ -1538,10 +1538,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.17",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1562,7 +1562,7 @@
     "test-0000005-140": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.14) Gecko/20080418 Epiphany/2.20 Firefox/2.0.0.14",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.14) Gecko/20080418 Epiphany/2.20 Firefox/2.0.0.14"
             },
             "device": {
@@ -1577,10 +1577,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.14",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1601,7 +1601,7 @@
     "test-0000005-141": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-5) Epiphany/2.20",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-5) Epiphany/2.20"
             },
             "device": {
@@ -1616,10 +1616,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1640,7 +1640,7 @@
     "test-0000005-142": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-2) Epiphany/2.20",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.12) Gecko/20080208 (Debian-1.8.1.12-2) Epiphany/2.20"
             },
             "device": {
@@ -1655,10 +1655,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1679,7 +1679,7 @@
     "test-0000005-143": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.10) Gecko/20071213 Epiphany/2.20 Firefox/2.0.0.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en; rv:1.8.1.10) Gecko/20071213 Epiphany/2.20 Firefox/2.0.0.10"
             },
             "device": {
@@ -1694,10 +1694,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.10",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1718,7 +1718,7 @@
     "test-0000005-144": {
         "ua": "Mozilla/5.0 (X11; U; FreeBSD i386; pl; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; FreeBSD i386; pl; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12"
             },
             "device": {
@@ -1733,10 +1733,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.12",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1757,7 +1757,7 @@
     "test-0000005-145": {
         "ua": "Mozilla/5.0 (X11; U; FreeBSD i386; en; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; FreeBSD i386; en; rv:1.8.1.12) Gecko/20080213 Epiphany/2.20 Firefox/2.0.0.12"
             },
             "device": {
@@ -1772,10 +1772,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.20.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.12",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1796,7 +1796,7 @@
     "test-0000005-146": {
         "ua": "Mozilla/5.0 (X11; U; OpenBSD amd64; en; rv:1.8.1.6) Gecko/20070817 Epiphany/2.18 Firefox/2.0.0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; OpenBSD amd64; en; rv:1.8.1.6) Gecko/20070817 Epiphany/2.18 Firefox/2.0.0.6"
             },
             "device": {
@@ -1811,10 +1811,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Firefox",
                 "modus": null,
-                "version": "2.18.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "2.0.0.6",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -1835,7 +1835,7 @@
     "test-0000005-147": {
         "ua": "Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1) Gecko/20070322 Epiphany/2.18",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.8.1) Gecko/20070322 Epiphany/2.18"
             },
             "device": {
@@ -1850,10 +1850,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.18.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1874,7 +1874,7 @@
     "test-0000005-148": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.13) Gecko/20060501 Epiphany/2.14",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.13) Gecko/20060501 Epiphany/2.14"
             },
             "device": {
@@ -1889,10 +1889,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "2.14.0",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1913,7 +1913,7 @@
     "test-0000005-149": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051215 Epiphany/1.8.4.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051215 Epiphany/1.8.4.1"
             },
             "device": {
@@ -1928,10 +1928,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.8.4.1",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1952,7 +1952,7 @@
     "test-0000005-150": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20060208 Epiphany/1.8.3",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20060208 Epiphany/1.8.3"
             },
             "device": {
@@ -1967,10 +1967,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.8.3",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1991,7 +1991,7 @@
     "test-0000005-151": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)"
             },
             "device": {
@@ -2006,10 +2006,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.8.2",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 64,
                 "type": "browser"
             },
@@ -2030,7 +2030,7 @@
     "test-0000005-152": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.12) Gecko/20051010 Epiphany/1.8.2 (Ubuntu) (Ubuntu package 1.0.7)"
             },
             "device": {
@@ -2045,10 +2045,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.8.2",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2069,7 +2069,7 @@
     "test-0000005-153": {
         "ua": "Mozilla/5.0 (X11; U; SunOS 5.11; en-US; rv:1.8.0.2) Gecko/20050405 Epiphany/1.7.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; SunOS 5.11; en-US; rv:1.8.0.2) Gecko/20050405 Epiphany/1.7.1"
             },
             "device": {
@@ -2084,10 +2084,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.7.1",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2108,7 +2108,7 @@
     "test-0000005-154": {
         "ua": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.7.5) Gecko/20050105 Epiphany/1.4.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.7.5) Gecko/20050105 Epiphany/1.4.8"
             },
             "device": {
@@ -2123,10 +2123,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.4.8",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2147,7 +2147,7 @@
     "test-0000005-155": {
         "ua": "Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.6) Gecko/20040413 Epiphany/1.2.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.6) Gecko/20040413 Epiphany/1.2.6"
             },
             "device": {
@@ -2162,10 +2162,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.2.6",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2186,7 +2186,7 @@
     "test-0000005-156": {
         "ua": "Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5"
             },
             "device": {
@@ -2201,10 +2201,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.2.5",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2225,7 +2225,7 @@
     "test-0000005-157": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040114 Epiphany/1.0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040114 Epiphany/1.0.7"
             },
             "device": {
@@ -2240,10 +2240,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.0.7",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2264,7 +2264,7 @@
     "test-0000005-158": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; de-AT; rv:1.6) Gecko/20040114 Epiphany/1.0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; de-AT; rv:1.6) Gecko/20040114 Epiphany/1.0.7"
             },
             "device": {
@@ -2279,10 +2279,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "1.0.7",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2303,7 +2303,7 @@
     "test-0000005-159": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030908 Epiphany/0.9.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030908 Epiphany/0.9.2"
             },
             "device": {
@@ -2318,10 +2318,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "0.9.2",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2342,7 +2342,7 @@
     "test-0000005-160": {
         "ua": "Mozilla/5.0 (X11; U; Linux i586; en-US) Gecko/20030908 Epiphany/0.9.2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i586; en-US) Gecko/20030908 Epiphany/0.9.2"
             },
             "device": {
@@ -2357,10 +2357,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Epiphany",
+                "name": "Mozilla",
                 "modus": null,
-                "version": "0.9.2",
-                "manufacturer": "TheGnomeProject",
+                "version": "5.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2381,7 +2381,7 @@
     "test-0000005-161": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; pl-pl) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-browser",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; pl-pl) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-browser"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000005-162": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-gb) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-webkit",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-gb) AppleWebKit/525.1+ (KHTML, like Gecko, Safari/525.1+) epiphany-webkit"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000005-163": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; x64; fr; rv:1.9.2.13) Gecko/20101203 Firebird/3.6.13"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000005-164": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031212 Firebird/0.7+",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031212 Firebird/0.7+"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000005-165": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6a) Gecko/20031002 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6a) Gecko/20031002 Firebird/0.7"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000005-166": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000005-167": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000005-168": {
         "ua": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000005-169": {
         "ua": "Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5) Gecko/20031007 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5) Gecko/20031007 Firebird/0.7"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000005-170": {
         "ua": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5) Gecko/20031026 Firebird/0.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5) Gecko/20031026 Firebird/0.7"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000005-171": {
         "ua": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5a) Gecko/20030729 Mozilla Firebird/0.6.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5a) Gecko/20030729 Mozilla Firebird/0.6.1"
             },
             "device": {
@@ -2810,7 +2810,7 @@
     "test-0000005-172": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000005-173": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000005-174": {
         "ua": "Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000005-175": {
         "ua": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000005-176": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030630 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030630 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000005-177": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030607 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030607 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3044,7 +3044,7 @@
     "test-0000005-178": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3083,7 +3083,7 @@
     "test-0000005-179": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030505 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030505 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3122,7 +3122,7 @@
     "test-0000005-180": {
         "ua": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4a) Gecko/20030425 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4a) Gecko/20030425 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3161,7 +3161,7 @@
     "test-0000005-181": {
         "ua": "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.4b) Gecko/20030610 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.4b) Gecko/20030610 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000005-182": {
         "ua": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000005-183": {
         "ua": "Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000005-184": {
         "ua": "Mozilla/5.0 (Windows x86; rv:19.0) Gecko/20100101 Firefox/19.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows x86; rv:19.0) Gecko/20100101 Firefox/19.0"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000005-185": {
         "ua": "Mozilla/5.0 (X11; NetBSD amd64; rv:16.0) Gecko/20121102 Firefox/16.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; NetBSD amd64; rv:16.0) Gecko/20121102 Firefox/16.0"
             },
             "device": {
@@ -3356,7 +3356,7 @@
     "test-0000005-186": {
         "ua": "Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/6.0 (Macintosh; I; Intel Mac OS X 11_7_9; de-LI; rv:1.9b4) Gecko/2012010317 Firefox/10.0a4"
             },
             "device": {
@@ -3395,7 +3395,7 @@
     "test-0000005-187": {
         "ua": "mozilla/3.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/5.0.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "mozilla/3.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/5.0.1"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000005-188": {
         "ua": "Mozilla/4.0 (compatible;  Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible;  Intel Mac OS X 10.6; rv:2.0b8) Gecko/20100101 Firefox/4.0b8)"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000005-189": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (X11; U; Linux i686; it-IT; rv:1.9.0.2) Gecko/2008092313 Ubuntu/9.25 (jaunty) Firefox/3.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Mozilla/5.0 (X11; U; Linux i686; it-IT; rv:1.9.0.2) Gecko/2008092313 Ubuntu/9.25 (jaunty) Firefox/3.8"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000005-190": {
         "ua": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20091218 Firefox 3.6b5",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2) Gecko/20091218 Firefox 3.6b5"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000005-191": {
         "ua": "Mozilla/5.0 Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.13) Firefox/3.6.13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.13) Firefox/3.6.13"
             },
             "device": {
@@ -3590,7 +3590,7 @@
     "test-0000005-192": {
         "ua": "Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.9.2.12) Gecko/20101030 Firefox/3.6.12",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; NetBSD i386; en-US; rv:1.9.2.12) Gecko/20101030 Firefox/3.6.12"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000005-193": {
         "ua": "Mozilla/5.0(Windows; U; Windows NT 7.0; rv:1.9.2) Gecko/20100101 Firefox/3.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0(Windows; U; Windows NT 7.0; rv:1.9.2) Gecko/20100101 Firefox/3.6"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000005-194": {
         "ua": "Mozilla/5.0 (X11; FreeBSD i686) Firefox/3.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; FreeBSD i686) Firefox/3.6"
             },
             "device": {
@@ -3707,7 +3707,7 @@
     "test-0000005-195": {
         "ua": "Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1) Gecko/20090720 Firefox/3.5.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1) Gecko/20090720 Firefox/3.5.1"
             },
             "device": {
@@ -3746,7 +3746,7 @@
     "test-0000005-196": {
         "ua": "Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; DragonFly i386; de; rv:1.9.1b2) Gecko/20081201 Firefox/3.1b2"
             },
             "device": {
@@ -3785,7 +3785,7 @@
     "test-0000005-197": {
         "ua": "Mozilla/6.0 (Windows; U; Windows NT 7.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.9 (.NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/6.0 (Windows; U; Windows NT 7.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.9 (.NET CLR 3.5.30729)"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000005-198": {
         "ua": "Mozilla/5.0  (Windows; U;  Windows NT 5.1; de; rv:1.9.0.4) Firefox/3.0.8)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0  (Windows; U;  Windows NT 5.1; de; rv:1.9.0.4) Firefox/3.0.8)"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000005-199": {
         "ua": "Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8 (.NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8 (.NET CLR 3.5.30729)"
             },
             "device": {

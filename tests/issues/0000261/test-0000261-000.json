@@ -2,7 +2,7 @@
     "test-0000261-000": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.3; pl-pl; SonyC1905 Build/15.4.A.1.9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.3; pl-pl; SonyC1905 Build/15.4.A.1.9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000261-001": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20120422 Firefox/12.0 SeaMonkey/2.9",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20120422 Firefox/12.0 SeaMonkey/2.9"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000261-002": {
         "ua": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W2-U00)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HUAWEI; W2-U00)"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000261-003": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.34 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.34 Safari/537.36"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000261-004": {
         "ua": "UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia501) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "UCWEB/2.0 (Java; U; MIDP-2.0; en-US; Nokia501) U2/1.0.0 UCBrowser/9.5.0.449 U2/1.0.0 Mobile"
             },
             "device": {
@@ -173,12 +173,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "9.5.0.449",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Nokia OS",
@@ -197,7 +197,7 @@
     "test-0000261-005": {
         "ua": "Dalvik/1.6.0 (Linux; U; Android 4.2.2; GT-S7582 Build/JDQ39)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dalvik/1.6.0 (Linux; U; Android 4.2.2; GT-S7582 Build/JDQ39)"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000261-006": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; LT26ii Build/6.2.B.1.96) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; LT26ii Build/6.2.B.1.96) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000261-007": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000261-008": {
         "ua": "Dalvik/1.6.0 (Linux; U; Android 4.2.2; C6903 Build/14.1.G.1.518)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dalvik/1.6.0 (Linux; U; Android 4.2.2; C6903 Build/14.1.G.1.518)"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000261-009": {
         "ua": "Mechanize/2.7.2 Ruby/2.1.2p95 (http://github.com/sparklemotion/mechanize/)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mechanize/2.7.2 Ruby/2.1.2p95 (http://github.com/sparklemotion/mechanize/)"
             },
             "device": {
@@ -364,7 +364,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -392,7 +392,7 @@
     "test-0000261-010": {
         "ua": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1729.3 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1729.3 Safari/537.36"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000261-011": {
         "ua": "Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; AT100 Build/HTK55D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 3.2.1; en-us; AT100 Build/HTK55D) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000261-012": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9b4) Gecko/2008030317 Firefox/3.0b4"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000261-013": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; en-nz; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; en-nz; SM-T110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000261-014": {
         "ua": "Nokia501/2.0 (14.0.4) Profile/MIDP-2.1 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Nokia501/2.0 (14.0.4) Profile/MIDP-2.1 Configuration/CLDC-1.1"
             },
             "device": {
@@ -563,12 +563,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "Nokia Browser",
+                "name": null,
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Nokia",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Nokia OS",
@@ -587,7 +587,7 @@
     "test-0000261-015": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Tablet PC 2.0; Microsoft Outlook 15.0.4701; Microsoft Outlook 15.0.4701; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/5.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; Tablet PC 2.0; Microsoft Outlook 15.0.4701; Microsoft Outlook 15.0.4701; ms-office; MSOffice 15)"
             },
             "device": {
@@ -602,12 +602,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -626,7 +626,7 @@
     "test-0000261-016": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG GT-I9190 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; es-us; SAMSUNG GT-I9190 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {

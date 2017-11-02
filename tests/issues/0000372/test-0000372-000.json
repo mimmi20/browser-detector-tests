@@ -2,7 +2,7 @@
     "test-0000372-000": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) ASUS-P735/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) ASUS-P735/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000372-001": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) ASUSP750/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) ASUSP750/1.0"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000372-002": {
         "ua": "VKAndroidApp/3.4.1-298 (Android 4.1.1; SDK 16; armeabi-v7a; asus PadFone 2; ru)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "VKAndroidApp/3.4.1-298 (Android 4.1.1; SDK 16; armeabi-v7a; asus PadFone 2; ru)"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000372-003": {
         "ua": "ghosts-app/1.0.2.1 (ASUSTeK COMPUTER INC.; X550CC; Windows 8 (X86); en)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ghosts-app/1.0.2.1 (ASUSTeK COMPUTER INC.; X550CC; Windows 8 (X86); en)"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000372-004": {
         "ua": "GG-Android/4.0.0.20098 (OS;Android;17) (HWD;asus;ASUS Transformer Pad TF300T;4.2.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "GG-Android/4.0.0.20098 (OS;Android;17) (HWD;asus;ASUS Transformer Pad TF300T;4.2.1)"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000372-005": {
         "ua": "Dr.Web anti-virus Light Version: 7.00.8.7029 Device model: ASUS Transformer Pad TF300TG Firmware version: 4.2.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dr.Web anti-virus Light Version: 7.00.8.7029 Device model: ASUS Transformer Pad TF300TG Firmware version: 4.2.1"
             },
             "device": {
@@ -208,7 +208,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -236,7 +236,7 @@
     "test-0000372-006": {
         "ua": "ASUS Transformer Pad TF300TL; 4.1.1; JRO03C.WW_epad-10.4.3.9-20121106; de-ch",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS Transformer Pad TF300TL; 4.1.1; JRO03C.WW_epad-10.4.3.9-20121106; de-ch"
             },
             "device": {
@@ -247,7 +247,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -275,7 +275,7 @@
     "test-0000372-007": {
         "ua": "ASUS Transformer Pad TF700KL; 4.1.1; JRO03L.WW_epad-V5.0.4.15-VF-20130904; fr-fr",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS Transformer Pad TF700KL; 4.1.1; JRO03L.WW_epad-V5.0.4.15-VF-20130904; fr-fr"
             },
             "device": {
@@ -286,7 +286,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -314,7 +314,7 @@
     "test-0000372-008": {
         "ua": "com.google.android.apps.plus/413009748 (Linux; U; Android 4.2.1; da_DK; ASUS Transformer Pad TF700T; Build/JOP40D; ChromiumJNI/29.0.1547.59/1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "com.google.android.apps.plus/413009748 (Linux; U; Android 4.2.1; da_DK; ASUS Transformer Pad TF700T; Build/JOP40D; ChromiumJNI/29.0.1547.59/1)"
             },
             "device": {
@@ -329,12 +329,12 @@
                 "type": "tablet"
             },
             "browser": {
-                "name": "Chromium",
+                "name": "Google Bot",
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Google",
                 "bits": 32,
-                "type": "browser"
+                "type": "bot"
             },
             "os": {
                 "name": "Android",
@@ -353,7 +353,7 @@
     "test-0000372-009": {
         "ua": "VKAndroidApp/3.3.3-266 (Android 4.0.3; SDK 15; armeabi-v7a; asus Transformer TF101G; es)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "VKAndroidApp/3.3.3-266 (Android 4.0.3; SDK 15; armeabi-v7a; asus Transformer TF101G; es)"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000372-010": {
         "ua": "asusUPCTLoader",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "asusUPCTLoader"
             },
             "device": {
@@ -403,7 +403,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -431,7 +431,7 @@
     "test-0000372-011": {
         "ua": "ASUS-V55/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS-V55/1.0"
             },
             "device": {
@@ -442,7 +442,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -470,7 +470,7 @@
     "test-0000372-012": {
         "ua": "ASUS-V66/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS-V66/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000372-013": {
         "ua": "ASUS-V75",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS-V75"
             },
             "device": {
@@ -520,7 +520,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -548,7 +548,7 @@
     "test-0000372-014": {
         "ua": "GetJarSDK/20130302.04 (8) com.miniclip.railrush/24 android/4.3 (asus; WW_epad; K00E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "GetJarSDK/20130302.04 (8) com.miniclip.railrush/24 android/4.3 (asus; WW_epad; K00E)"
             },
             "device": {
@@ -587,7 +587,7 @@
     "test-0000372-015": {
         "ua": "ASUS-Z801/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "ASUS-Z801/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000372-016": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; @TAB-NINE-X2-B Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.61541",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; @TAB-NINE-X2-B Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.61541"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000372-017": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; @TAB-SEVEN-X2-B Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.61541",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; @TAB-SEVEN-X2-B Build/JRO03H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36 OPR/15.0.1162.61541"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000372-018": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; En-gb; @TAB-TEN.1-X2-B Build/JRO03H) AppleWebKit/534.30 (KHTML, Like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; En-gb; @TAB-TEN.1-X2-B Build/JRO03H) AppleWebKit/534.30 (KHTML, Like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000372-019": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; T-02D Build/V15R47B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; T-02D Build/V15R47B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -754,7 +754,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -782,7 +782,7 @@
     "test-0000372-020": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; T-07B Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; T-07B Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22"
             },
             "device": {
@@ -793,7 +793,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -821,7 +821,7 @@
     "test-0000372-021": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; T-10B Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; T-10B Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -832,7 +832,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -860,7 +860,7 @@
     "test-0000372-022": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; es-es; T-112 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.3; es-es; T-112 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -871,7 +871,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -899,7 +899,7 @@
     "test-0000372-023": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; T-17B Build/JRO03H) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; T-17B Build/JRO03H) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22"
             },
             "device": {
@@ -910,7 +910,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -938,7 +938,7 @@
     "test-0000372-024": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; T-17P Build/JRO03H) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; T-17P Build/JRO03H) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22"
             },
             "device": {
@@ -949,7 +949,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -977,7 +977,7 @@
     "test-0000372-025": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3; T-200 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.3; T-200 Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -988,7 +988,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1016,7 +1016,7 @@
     "test-0000372-026": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; ca-es; T-701 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) FlyFlow/2.5 Version/4.0 Safari/534.30 baidubrowser/021_3.9.5.2_diordna_467_084/nwonknu_51_3.0.4_107-T/1000437a/5242F981109FFAA5A3719A53DF09C271|690194100718853/1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; ca-es; T-701 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) FlyFlow/2.5 Version/4.0 Safari/534.30 baidubrowser/021_3.9.5.2_diordna_467_084/nwonknu_51_3.0.4_107-T/1000437a/5242F981109FFAA5A3719A53DF09C271|690194100718853/1"
             },
             "device": {
@@ -1027,7 +1027,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1055,7 +1055,7 @@
     "test-0000372-027": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; T-703A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; T-703A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1066,7 +1066,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1094,7 +1094,7 @@
     "test-0000372-028": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; T-711D Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; T-711D Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -1105,7 +1105,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1133,7 +1133,7 @@
     "test-0000372-029": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; T-900 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; T-900 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -1144,7 +1144,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1172,7 +1172,7 @@
     "test-0000372-030": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; T-909 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; T-909 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1183,7 +1183,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1211,7 +1211,7 @@
     "test-0000372-031": {
         "ua": "Android 4.0.4;AppleWebKit/534.30;Build/IMM76D;T-970 Build/IMM76D",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Android 4.0.4;AppleWebKit/534.30;Build/IMM76D;T-970 Build/IMM76D"
             },
             "device": {
@@ -1226,12 +1226,12 @@
                 "type": "mobile-device"
             },
             "browser": {
-                "name": null,
+                "name": "Safari",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Android",
@@ -1250,7 +1250,7 @@
     "test-0000372-032": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; T-990A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; ru-ru; T-990A Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1261,7 +1261,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1289,7 +1289,7 @@
     "test-0000372-033": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; id-id; Picopad-7 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; id-id; Picopad-7 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1300,7 +1300,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1328,7 +1328,7 @@
     "test-0000372-034": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3; PICOpad_GEA Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.3; PICOpad_GEA Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -1339,7 +1339,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1367,7 +1367,7 @@
     "test-0000372-035": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GEW Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GEW Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -1378,7 +1378,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1406,7 +1406,7 @@
     "test-0000372-036": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GFI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GFI Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {
@@ -1417,7 +1417,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1445,7 +1445,7 @@
     "test-0000372-037": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; en-id; Picopad GFI Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; en-id; Picopad GFI Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1456,7 +1456,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1484,7 +1484,7 @@
     "test-0000372-038": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GGD Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GGD Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/535.19"
             },
             "device": {
@@ -1495,7 +1495,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1523,7 +1523,7 @@
     "test-0000372-039": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GGG Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GGG Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -1534,7 +1534,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1562,7 +1562,7 @@
     "test-0000372-040": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GHM Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GHM Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31"
             },
             "device": {
@@ -1573,7 +1573,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1601,7 +1601,7 @@
     "test-0000372-041": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; Axioo PICOpad GIM Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; Axioo PICOpad GIM Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -1612,7 +1612,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1640,7 +1640,7 @@
     "test-0000372-042": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GJT Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; PICOpad GJT Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -1651,7 +1651,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1679,7 +1679,7 @@
     "test-0000372-043": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.2.1; En-us; PICOpad-QGN Build/FRG83) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.2.1; En-us; PICOpad-QGN Build/FRG83) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000372-044": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; id; Axioo_PICOpad_GIM Build/IMM76D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.7.0.315 Ponsel",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; id; Axioo_PICOpad_GIM Build/IMM76D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.7.0.315 Ponsel"
             },
             "device": {
@@ -1729,7 +1729,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1757,7 +1757,7 @@
     "test-0000372-045": {
         "ua": "Android 2.3.7;AppleWebKit/533.1;Build/MIUI;Axioo Vigo 410 Build/MIUI",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Android 2.3.7;AppleWebKit/533.1;Build/MIUI;Axioo Vigo 410 Build/MIUI"
             },
             "device": {
@@ -1772,12 +1772,12 @@
                 "type": "mobile-device"
             },
             "browser": {
-                "name": null,
+                "name": "Safari",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Miui OS",
@@ -1796,7 +1796,7 @@
     "test-0000372-046": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.2.2; En-us; Axioo-VIGO350 Build/FRG83G) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.2.2; En-us; Axioo-VIGO350 Build/FRG83G) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000372-047": {
         "ua": "Mozilla/5.0 (Linux; Android 2.3.4; Axioo-VIGO410 Build/GRJ22) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 2.3.4; Axioo-VIGO410 Build/GRJ22) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453"
             },
             "device": {
@@ -1846,7 +1846,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1874,7 +1874,7 @@
     "test-0000372-048": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3; V700B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.3; V700B Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36"
             },
             "device": {
@@ -1885,7 +1885,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1913,7 +1913,7 @@
     "test-0000372-049": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; V700NA Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-us; V700NA Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1924,7 +1924,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1952,7 +1952,7 @@
     "test-0000372-050": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; V8000_USA_Cricket Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; V8000_USA_Cricket Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -1963,7 +1963,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1991,7 +1991,7 @@
     "test-0000372-051": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; V800H Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; V800H Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.92 Safari/537.36"
             },
             "device": {
@@ -2002,7 +2002,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2030,7 +2030,7 @@
     "test-0000372-052": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; Pt-br; IBAK-796CAP Build/IML74K) AppleWebKit/534.30 (KHTML, Like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; Pt-br; IBAK-796CAP Build/IML74K) AppleWebKit/534.30 (KHTML, Like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2069,19 +2069,19 @@
     "test-0000372-053": {
         "ua": "Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.5.33043 (BANGOLUFSEN, A3, wired)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Linux i686; HbbTV/1.1.1 (+PVR; BANGOLUFSEN; A3; ; ; ) CE-HTML/1.0 NETTV/4.3.9) Presto/2.12.407 Version/12.50 A3/1.0.5.33043 (BANGOLUFSEN, A3, wired)"
             },
             "device": {
-                "deviceName": "Linux Desktop",
-                "marketingName": "Linux Desktop",
+                "deviceName": "general TV Device",
+                "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "mouse",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "desktop"
+                "type": "tv"
             },
             "browser": {
                 "name": "Opera",
@@ -2108,7 +2108,7 @@
     "test-0000372-054": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.1; HY5001 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.64 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.1; HY5001 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.64 Mobile Safari/537.36"
             },
             "device": {
@@ -2119,7 +2119,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2147,7 +2147,7 @@
     "test-0000372-055": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.9; I5 Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.58201",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.9; I5 Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.58201"
             },
             "device": {
@@ -2186,7 +2186,7 @@
     "test-0000372-056": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.9; de-de; X12 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.9; de-de; X12 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000372-057": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.9; X21 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.9; X21 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36"
             },
             "device": {
@@ -2236,7 +2236,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2264,7 +2264,7 @@
     "test-0000372-058": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; JC-A107 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; JC-A107 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2275,7 +2275,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2303,7 +2303,7 @@
     "test-0000372-059": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; JC-A109 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/061_8.3_diordna_084_023/nwonknu_01_5.3.2_901A-CJ/1000772b/0AB843F5DB5D5DA10BE61DD11508D709|3163c48100001a/1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; JC-A109 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/061_8.3_diordna_084_023/nwonknu_01_5.3.2_901A-CJ/1000772b/0AB843F5DB5D5DA10BE61DD11508D709|3163c48100001a/1"
             },
             "device": {
@@ -2314,7 +2314,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2342,7 +2342,7 @@
     "test-0000372-060": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; En-us; JC-S9220 Build/GRK39F) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; En-us; JC-S9220 Build/GRK39F) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000372-061": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; BIRD A11C Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; BIRD A11C Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2392,7 +2392,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2420,7 +2420,7 @@
     "test-0000372-062": {
         "ua": "BIRD.A120",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.A120"
             },
             "device": {
@@ -2431,7 +2431,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2459,7 +2459,7 @@
     "test-0000372-063": {
         "ua": "BIRD.A150",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.A150"
             },
             "device": {
@@ -2470,7 +2470,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2498,7 +2498,7 @@
     "test-0000372-064": {
         "ua": "BIRD.D220/SW3.09.1015/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.D220/SW3.09.1015/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000372-065": {
         "ua": "BIRD.D700 UP.Browser/5.0.1.1.102 (GUI)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.D700 UP.Browser/5.0.1.1.102 (GUI)"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000372-066": {
         "ua": "BIRD D718/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD D718/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000372-067": {
         "ua": "BIRD E818/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD E818/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000372-068": {
         "ua": "BIRD.F501/1.00 Nucleus RTOS/V1.11.19 MTK6227/05C_V24 Release/11.21.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.F501/1.00 Nucleus RTOS/V1.11.19 MTK6227/05C_V24 Release/11.21.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000372-069": {
         "ua": "BIRD F518/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD F518/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000372-070": {
         "ua": "BIRD.G118",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.G118"
             },
             "device": {
@@ -2743,7 +2743,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2771,7 +2771,7 @@
     "test-0000372-071": {
         "ua": "BIRD K298",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD K298"
             },
             "device": {
@@ -2782,7 +2782,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2810,7 +2810,7 @@
     "test-0000372-072": {
         "ua": "BIRD-M19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD-M19"
             },
             "device": {
@@ -2821,7 +2821,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2849,7 +2849,7 @@
     "test-0000372-073": {
         "ua": "BIRD.Q168 UP.Browser/5.0.1.1.102 (GUI) UP.Link/4.2.1.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.Q168 UP.Browser/5.0.1.1.102 (GUI) UP.Link/4.2.1.8"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000372-074": {
         "ua": "BIRD S230_CMCC/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S230_CMCC/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000372-075": {
         "ua": "BIRD S305_CMCC/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S305_CMCC/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000372-076": {
         "ua": "BIRD S305A/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S305A/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000372-077": {
         "ua": "BIRD.S580",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.S580"
             },
             "device": {
@@ -3016,7 +3016,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3044,7 +3044,7 @@
     "test-0000372-078": {
         "ua": "BIRD-S689",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD-S689"
             },
             "device": {
@@ -3055,7 +3055,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3083,7 +3083,7 @@
     "test-0000372-079": {
         "ua": "BIRD S701_GPRS/1.0 OSE/V1.6.0 ULC/2.0 Release/04.21.2008 Browser/JB4.3",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S701_GPRS/1.0 OSE/V1.6.0 ULC/2.0 Release/04.21.2008 Browser/JB4.3"
             },
             "device": {
@@ -3094,7 +3094,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3122,7 +3122,7 @@
     "test-0000372-080": {
         "ua": "BIRD S710_BLEU/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S710_BLEU/1.00 Nucleus RTOS/V1.11.19 MTK6223/07A Release/07.28.2007 Browser/Teleca"
             },
             "device": {
@@ -3161,7 +3161,7 @@
     "test-0000372-081": {
         "ua": "BIRD S918/1.00 Nucleus RTOS/V1.11.19 MTK6225/06B Release/06.20.2007 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD S918/1.00 Nucleus RTOS/V1.11.19 MTK6225/06B Release/06.20.2007 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000372-082": {
         "ua": "BIRD SC01 UP.Browser/5.0.5.5 (GUI)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD SC01 UP.Browser/5.0.5.5 (GUI)"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000372-083": {
         "ua": "BIRD.SC14",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.SC14"
             },
             "device": {
@@ -3250,7 +3250,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3278,7 +3278,7 @@
     "test-0000372-084": {
         "ua": "BIRD.SC24",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.SC24"
             },
             "device": {
@@ -3289,7 +3289,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3317,7 +3317,7 @@
     "test-0000372-085": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; BIRD T900 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/061_2.7.3_diordna_084_023/drps_01_5.3.2_009T DRIB/7300043a/0B83D996383DD1C9ED5A6BC9BC4B0B7C|0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.5; zh-cn; BIRD T900 Build/MocorDroid2.3.5) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 baiduboxapp/061_2.7.3_diordna_084_023/drps_01_5.3.2_009T DRIB/7300043a/0B83D996383DD1C9ED5A6BC9BC4B0B7C|0"
             },
             "device": {
@@ -3328,7 +3328,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3356,7 +3356,7 @@
     "test-0000372-086": {
         "ua": "BIRD-V007",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD-V007"
             },
             "device": {
@@ -3367,7 +3367,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3395,7 +3395,7 @@
     "test-0000372-087": {
         "ua": "WhatsApp/2.11.62 Android/4.0.4 Device/BIRD-V1277",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "WhatsApp/2.11.62 Android/4.0.4 Device/BIRD-V1277"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000372-088": {
         "ua": "BIRD.V59",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD.V59"
             },
             "device": {
@@ -3445,7 +3445,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3473,7 +3473,7 @@
     "test-0000372-089": {
         "ua": "BIRD V750/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD V750/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000372-090": {
         "ua": "BIRD V780/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD V780/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000372-091": {
         "ua": "BIRD V788/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "BIRD V788/1.00 Nucleus RTOS/V1.11.19 MTK6227/06A Release/12.28.2006 Browser/Teleca Profile/MIDP-2.0 Configuration/CLDC-1.0"
             },
             "device": {
@@ -3590,7 +3590,7 @@
     "test-0000372-092": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.1; fr-fr; BIRD-W3 Build/Android4.2.1) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.1; fr-fr; BIRD-W3 Build/Android4.2.1) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3601,7 +3601,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3629,7 +3629,7 @@
     "test-0000372-093": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; BB EH7 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; BB EH7 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -3640,7 +3640,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3668,7 +3668,7 @@
     "test-0000372-094": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; BB EH7LE Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; BB EH7LE Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19"
             },
             "device": {
@@ -3679,7 +3679,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3707,7 +3707,7 @@
     "test-0000372-095": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Q10 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Q10 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3718,7 +3718,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3746,7 +3746,7 @@
     "test-0000372-096": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Q5 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Q5 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3757,7 +3757,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3785,7 +3785,7 @@
     "test-0000372-097": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Z10 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Z10 Build/10.2.0.131) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3796,7 +3796,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3824,7 +3824,7 @@
     "test-0000372-098": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Z30 Build/10.2.0.132) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; BB Z30 Build/10.2.0.132) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000372-099": {
         "ua": "Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10 (KHTML, like Gecko) Version/10.1.0.1471 Mobile Safari/537.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10 (KHTML, like Gecko) Version/10.1.0.1471 Mobile Safari/537.10"
             },
             "device": {
@@ -3874,8 +3874,8 @@
                 "pointingMethod": "touchscreen",
                 "resolutionWidth": 720,
                 "resolutionHeight": 720,
-                "dualOrientation": false,
-                "type": "mobile-phone"
+                "dualOrientation": true,
+                "type": "smartphone"
             },
             "browser": {
                 "name": "BlackBerry",

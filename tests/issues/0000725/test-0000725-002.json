@@ -2,7 +2,7 @@
     "test-0000725-200": {
         "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Klar/3.2 Mobile/14E304",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Klar/3.2 Mobile/14E304"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000725-201": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; ACGP; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; ACGP; rv:11.0) like Gecko"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000725-202": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; tb-gmx/2.6.15; LCJB; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; tb-gmx/2.6.15; LCJB; rv:11.0) like Gecko"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000725-203": {
         "ua": "Dalvik/2.1.0 (Linux; U; Android 7.0; VTR-L09 Build/HUAWEIVTR-L09)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 7.0; VTR-L09 Build/HUAWEIVTR-L09)"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000725-204": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; P024 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; P024 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000725-205": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000725-206": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; HUAWEI CAN-L01 Build/HUAWEICAN-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; HUAWEI CAN-L01 Build/HUAWEICAN-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000725-207": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; Venue 8 7840 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Venue 8 7840 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000725-208": {
         "ua": "Mozilla/5.0 (Windows NT 5.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 5.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000725-209": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3162.0 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3162.0 Safari/537.36"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000725-210": {
         "ua": "14747",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "14747"
             },
             "device": {
@@ -403,7 +403,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -431,7 +431,7 @@
     "test-0000725-211": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; Nexus 6 Build/NBD92G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; Nexus 6 Build/NBD92G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000725-212": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; InfoPath.3; Microsoft Outlook 15.0.4919; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; InfoPath.3; Microsoft Outlook 15.0.4919; ms-office; MSOffice 15)"
             },
             "device": {
@@ -485,12 +485,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -509,7 +509,7 @@
     "test-0000725-213": {
         "ua": "Opera/9.80 (Linux armv7l; U; HbbTV/1.2.1 (; TechniSat; DIGIT ISIO STC+; 2.68.0.7; 55.0-3; ); CE-HTML/1.0 (); TechniSat DIGIT ISIO STC+ BCM2 STB; de) Presto/2.12.407 Version/12.51",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Linux armv7l; U; HbbTV/1.2.1 (; TechniSat; DIGIT ISIO STC+; 2.68.0.7; 55.0-3; ); CE-HTML/1.0 (); TechniSat DIGIT ISIO STC+ BCM2 STB; de) Presto/2.12.407 Version/12.51"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000725-214": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36 OPR/46.0.2597.26374 (Edition Campaign 75)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36 OPR/46.0.2597.26374 (Edition Campaign 75)"
             },
             "device": {
@@ -587,7 +587,7 @@
     "test-0000725-215": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; Archos 101 Platinum 3G Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; Archos 101 Platinum 3G Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
             },
             "device": {
@@ -598,7 +598,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -626,7 +626,7 @@
     "test-0000725-216": {
         "ua": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3300.190 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3300.190 Safari/537.36"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000725-217": {
         "ua": "Mozilla/5.0 (Android; Mobile; rv:25.9) Gecko/25.9 Firefox/31.9 PaleMoon/25.9.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android; Mobile; rv:25.9) Gecko/25.9 Firefox/31.9 PaleMoon/25.9.6"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000725-218": {
         "ua": "Mozilla/5.0 (Android; Mobile; rv:25.9.6) Gecko/25.9.6 Firefox/25.9.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android; Mobile; rv:25.9.6) Gecko/25.9.6 Firefox/25.9.6"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000725-219": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; HTC One A9s Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; HTC One A9s Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000725-220": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; WAS-LX1 Build/HUAWEIWAS-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; WAS-LX1 Build/HUAWEIWAS-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -821,7 +821,7 @@
     "test-0000725-221": {
         "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3100.0 Iron Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3100.0 Iron Safari/537.36"
             },
             "device": {
@@ -860,7 +860,7 @@
     "test-0000725-222": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; GT-I9060 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; GT-I9060 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000725-223": {
         "ua": "Mozilla/5.0 (Linux; Android 7.1.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.1 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.1.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.1 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -938,7 +938,7 @@
     "test-0000725-224": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; SM-G360F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; SM-G360F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36"
             },
             "device": {
@@ -977,7 +977,7 @@
     "test-0000725-225": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A320F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A320F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36"
             },
             "device": {
@@ -1016,7 +1016,7 @@
     "test-0000725-226": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; GT-I9505 Build/MOB31K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; GT-I9505 Build/MOB31K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996"
             },
             "device": {
@@ -1055,7 +1055,7 @@
     "test-0000725-227": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G800H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G800H Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1094,7 +1094,7 @@
     "test-0000725-228": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; thl T9 Pro Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; thl T9 Pro Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1133,7 +1133,7 @@
     "test-0000725-229": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; de-de;  5025D Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; de-de;  5025D Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000725-230": {
         "ua": "Python/3.6 aiohttp/2.2.3",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Python/3.6 aiohttp/2.2.3"
             },
             "device": {
@@ -1183,7 +1183,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1211,7 +1211,7 @@
     "test-0000725-231": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; PadFone 2 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; PadFone 2 Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 ACHEETAHI/1"
             },
             "device": {
@@ -1226,10 +1226,10 @@
                 "type": "smartphone"
             },
             "browser": {
-                "name": "CM Browser",
+                "name": "Android Webkit",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "CheetahMobile",
+                "version": "4.0.0",
+                "manufacturer": "Google",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1250,7 +1250,7 @@
     "test-0000725-232": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Aquaris M5.5 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; Aquaris M5.5 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1259,10 +1259,10 @@
                 "manufacturer": "Bq",
                 "brand": "Bq",
                 "pointingMethod": "touchscreen",
-                "resolutionWidth": 320,
-                "resolutionHeight": 480,
+                "resolutionWidth": 1080,
+                "resolutionHeight": 1920,
                 "dualOrientation": true,
-                "type": "tablet"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -1289,7 +1289,7 @@
     "test-0000725-233": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 3 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 3 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1328,7 +1328,7 @@
     "test-0000725-234": {
         "ua": "Mozilla/5.0 (X11; KnutLinux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; KnutLinux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
             },
             "device": {
@@ -1367,7 +1367,7 @@
     "test-0000725-235": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; THOR_10 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; THOR_10 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -1406,7 +1406,7 @@
     "test-0000725-236": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; Win64; x64; Trident/7.0; tb-webde/2.6.15; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; Win64; x64; Trident/7.0; tb-webde/2.6.15; rv:11.0) like Gecko"
             },
             "device": {
@@ -1445,7 +1445,7 @@
     "test-0000725-237": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/54.0.1 (x86 de) Anonymisiert durch AlMiSoft Browser-Anonymisierer 61606145",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/54.0.1 (x86 de) Anonymisiert durch AlMiSoft Browser-Anonymisierer 61606145"
             },
             "device": {
@@ -1484,7 +1484,7 @@
     "test-0000725-238": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Lenovo A5500-H Build/JDQ39) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16 Chrome/33.0.0.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; Lenovo A5500-H Build/JDQ39) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Safari/537.16 Chrome/33.0.0.0"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000725-239": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Anonymisiert durch AlMiSoft Browser-Maulkorb 75848586",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Anonymisiert durch AlMiSoft Browser-Maulkorb 75848586"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000725-240": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14E304 Safari/602.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14E304 Safari/602.1"
             },
             "device": {
@@ -1601,7 +1601,7 @@
     "test-0000725-241": {
         "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/30.1.161623614 Mobile/14C92 Safari/602.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/30.1.161623614 Mobile/14C92 Safari/602.1"
             },
             "device": {
@@ -1640,7 +1640,7 @@
     "test-0000725-242": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; MT15i Build/4.1.B.0.587) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/20.0.2254.110284",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; MT15i Build/4.1.B.0.587) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 OPR/20.0.2254.110284"
             },
             "device": {
@@ -1655,10 +1655,10 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "Opera Mobile",
+                "name": "Android Webkit",
                 "modus": null,
-                "version": "20.0.2254.110284",
-                "manufacturer": "Opera",
+                "version": "4.0.0",
+                "manufacturer": "Google",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1679,7 +1679,7 @@
     "test-0000725-243": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; T02 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; T02 Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000725-244": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; IEOS_QUAD_W Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; IEOS_QUAD_W Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Safari/537.36"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000725-245": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 1013861495",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 1013861495"
             },
             "device": {
@@ -1796,7 +1796,7 @@
     "test-0000725-246": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; T04 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; T04 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000725-247": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G928F/G928FXXS3CQF8 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G928F/G928FXXS3CQF8 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.2 Chrome/51.0.2704.106 Mobile Safari/537.36"
             },
             "device": {
@@ -1874,7 +1874,7 @@
     "test-0000725-248": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D620 Build/KOT49I.A1407998226) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D620 Build/KOT49I.A1407998226) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000725-249": {
         "ua": "WordPress/4.8; http://www.wikitunes.de",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "WordPress/4.8; http://www.wikitunes.de"
             },
             "device": {
@@ -1924,7 +1924,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1952,7 +1952,7 @@
     "test-0000725-250": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Lenovo YT-X703F Build/S100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; Lenovo YT-X703F Build/S100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -1963,7 +1963,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1991,7 +1991,7 @@
     "test-0000725-251": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; SUPER Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; SUPER Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2002,7 +2002,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2030,7 +2030,7 @@
     "test-0000725-252": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; U200 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; U200 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2041,7 +2041,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2069,7 +2069,7 @@
     "test-0000725-253": {
         "ua": "Mozilla/5.0 (Linux; Android 7.1.1; G8141 Build/45.0.A.7.90) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.1.1; G8141 Build/45.0.A.7.90) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2108,7 +2108,7 @@
     "test-0000725-254": {
         "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/59.3.1 like Chrome/59.0.3071.117 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/59.3.1 like Chrome/59.0.3071.117 Safari/537.36"
             },
             "device": {
@@ -2147,7 +2147,7 @@
     "test-0000725-255": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D686 Build/KOT49I.D68620e) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D686 Build/KOT49I.D68620e) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2186,7 +2186,7 @@
     "test-0000725-256": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.1 Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.1 Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000725-257": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; SiteKiosk 7.8 Build 332; SI1004055)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; SiteKiosk 7.8 Build 332; SI1004055)"
             },
             "device": {
@@ -2240,10 +2240,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2255,16 +2255,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000725-258": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; Y100_Plus Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Y100_Plus Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2275,7 +2275,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2303,7 +2303,7 @@
     "test-0000725-259": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 496659003",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 496659003"
             },
             "device": {
@@ -2342,7 +2342,7 @@
     "test-0000725-260": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; FRD-AL00 Build/HUAWEIFRD-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; FRD-AL00 Build/HUAWEIFRD-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000725-261": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T535 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T535 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000725-262": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; CONNECT8PLUS Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; CONNECT8PLUS Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000725-263": {
         "ua": "Mozilla/5.0 (MSIE 9.0; GACID=pil_6314; LTID=6314; Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (MSIE 9.0; GACID=pil_6314; LTID=6314; Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000725-264": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; 5056D Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; 5056D Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36"
             },
             "device": {
@@ -2509,7 +2509,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2537,7 +2537,7 @@
     "test-0000725-265": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; rv:52.0) Gecko/20100101 Firefox/52.0 TO-Browser/TOB7.52.0.1 anonymized by Abelssoft 1088736540",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; rv:52.0) Gecko/20100101 Firefox/52.0 TO-Browser/TOB7.52.0.1 anonymized by Abelssoft 1088736540"
             },
             "device": {
@@ -2552,10 +2552,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "T-Online Browser",
+                "name": "Firefox",
                 "modus": null,
-                "version": "7.52.0.1",
-                "manufacturer": "Unknown",
+                "version": "52.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2576,7 +2576,7 @@
     "test-0000725-266": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1.1; SMARTBOOK_S7QS Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SMARTBOOK_S7QS Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000725-267": {
         "ua": "Mozilla/5.0 (PlayStation 4 4.72) AppleWebKit/601.2 (KHTML, like Gecko)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (PlayStation 4 4.72) AppleWebKit/601.2 (KHTML, like Gecko)"
             },
             "device": {
@@ -2654,19 +2654,19 @@
     "test-0000725-268": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1.1; MPQC1040i Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; MPQC1040i Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
-                "deviceName": "not found",
-                "marketingName": null,
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": null,
-                "type": "unknown"
+                "deviceName": "MPQC1040i",
+                "marketingName": "MPQC1040i",
+                "manufacturer": "MPMan",
+                "brand": "MPMan",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 1280,
+                "resolutionHeight": 800,
+                "dualOrientation": true,
+                "type": "fone-pad"
             },
             "browser": {
                 "name": "Chrome",
@@ -2693,7 +2693,7 @@
     "test-0000725-269": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; D5803 Build/23.5.A.0.575) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; D5803 Build/23.5.A.0.575) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000725-270": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; HUAWEI RIO-L01 Build/HuaweiRIO-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; HUAWEI RIO-L01 Build/HuaweiRIO-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000725-271": {
         "ua": "Mozilla/5.0 (Linux; Android 7.1.1; Nexus 5X Build/N4F26O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.1.1; Nexus 5X Build/N4F26O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2810,7 +2810,7 @@
     "test-0000725-272": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 ASW/3.55.2393.609",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 ASW/3.55.2393.609"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000725-273": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; ONEPLUS A3000 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; ONEPLUS A3000 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000725-274": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; GAMBIT_10_PLUS_3G Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; GAMBIT_10_PLUS_3G Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Safari/537.36"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000725-275": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G900F/XXU1CPDF Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-G900F/XXU1CPDF Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000725-276": {
         "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) FxiOS/8.0b4558 Mobile/14G60 Safari/603.3.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) FxiOS/8.0b4558 Mobile/14G60 Safari/603.3.8"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000725-277": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; FRD-L09 Build/HUAWEIFRD-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; FRD-L09 Build/HUAWEIFRD-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.72 Mobile Safari/537.36"
             },
             "device": {
@@ -3044,19 +3044,19 @@
     "test-0000725-278": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; Y6 Max Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; Y6 Max Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
-                "deviceName": "not found",
-                "marketingName": null,
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": null,
-                "type": "unknown"
+                "deviceName": "Y6 Max",
+                "marketingName": "Y6 Max",
+                "manufacturer": "Doogee",
+                "brand": "Doogee",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 1080,
+                "resolutionHeight": 1920,
+                "dualOrientation": true,
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -3083,7 +3083,7 @@
     "test-0000725-279": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14B100 Safari/602.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14B100 Safari/602.1"
             },
             "device": {
@@ -3122,7 +3122,7 @@
     "test-0000725-280": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; 5051D Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; 5051D Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -3133,7 +3133,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3161,7 +3161,7 @@
     "test-0000725-281": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; LG-H815 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; LG-H815 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000725-282": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 559082892",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; rv:54.0) Gecko/20100101 Firefox/54.0 anonymized by Abelssoft 559082892"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000725-283": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; Lenovo TB3-X70F Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; Lenovo TB3-X70F Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000725-284": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; SM-G920F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.8.2246.118192",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; SM-G920F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.8.2246.118192"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000725-285": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.46"
             },
             "device": {
@@ -3356,7 +3356,7 @@
     "test-0000725-286": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; WOW64; x64) AppleWebKit/530.60.17 (KHTML, like Gecko) Chrome/55.1.5942.0679 Safari/532.00 OPR/41.9.4129.9857",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; WOW64; x64) AppleWebKit/530.60.17 (KHTML, like Gecko) Chrome/55.1.5942.0679 Safari/532.00 OPR/41.9.4129.9857"
             },
             "device": {
@@ -3395,7 +3395,7 @@
     "test-0000725-287": {
         "ua": "Mozilla/5.0 (Android 5.0.1; Tablet; rv:55.0) Gecko/55.0 Firefox/55.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 5.0.1; Tablet; rv:55.0) Gecko/55.0 Firefox/55.0"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000725-288": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.0 Chrome/56.0.2924.87 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Klar/1.0 Chrome/56.0.2924.87 Mobile Safari/537.36"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000725-289": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; LG-H525n Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.3.2192.109351",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; LG-H525n Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.3.2192.109351"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000725-290": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; P024 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Safari/537.36 ACHEETAHI/1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; P024 Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Safari/537.36 ACHEETAHI/1"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000725-291": {
         "ua": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; P024 Build/MMB29M)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; P024 Build/MMB29M)"
             },
             "device": {
@@ -3590,7 +3590,7 @@
     "test-0000725-292": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14F90 Safari/602.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) GSA/31.0.161834491 Mobile/14F90 Safari/602.1"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000725-293": {
         "ua": "Mozilla/5.0 (Linux; Android 7.0; P00A Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 7.0; P00A Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Safari/537.36"
             },
             "device": {
@@ -3640,7 +3640,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3668,7 +3668,7 @@
     "test-0000725-294": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.57",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2597.57"
             },
             "device": {
@@ -3707,7 +3707,7 @@
     "test-0000725-295": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; CONNECT Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501080",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; CONNECT Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100501080"
             },
             "device": {
@@ -3718,14 +3718,14 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "CM Browser",
+                "name": "Android Webkit",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "CheetahMobile",
+                "version": "4.0.0",
+                "manufacturer": "Google",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3746,7 +3746,7 @@
     "test-0000725-296": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; HUAWEI TIT-AL00 Build/HUAWEITIT-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; HUAWEI TIT-AL00 Build/HUAWEITIT-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
             },
             "device": {
@@ -3757,7 +3757,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3785,7 +3785,7 @@
     "test-0000725-297": {
         "ua": "Mozilla/5.0 (Windows NT 6.0; rv:46.0.1) Gecko/20100101 Firefox/46.0.1 anonymized by Abelssoft 184539559",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.0; rv:46.0.1) Gecko/20100101 Firefox/46.0.1 anonymized by Abelssoft 184539559"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000725-298": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MALC; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbNRO2/5.15.25.44892)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; MALC; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbNRO2/5.15.25.44892)"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000725-299": {
         "ua": "Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; MicrosoftMDG; Lumia 950 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 Edge/15.15230",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows Phone 10.0; Android 6.0.1; MicrosoftMDG; Lumia 950 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Mobile Safari/537.36 Edge/15.15230"
             },
             "device": {

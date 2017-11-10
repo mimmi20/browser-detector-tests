@@ -2,7 +2,7 @@
     "test-0000333-200": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; tb-webde/2.6.9; (web.de/1.3.0.0); rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; tb-webde/2.6.9; (web.de/1.3.0.0); rv:11.0) like Gecko"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000333-201": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E; Tablet PC 2.0; GWX:RESERVED; (webde/1.0.0.8); MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET4.0C; .NET4.0E; Tablet PC 2.0; GWX:RESERVED; (webde/1.0.0.8); MSOffice 12)"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000333-202": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; MSOffice 12)"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000333-203": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; YOGA Tablet 2-830L Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; YOGA Tablet 2-830L Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -158,19 +158,19 @@
     "test-0000333-204": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; ROBBY Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; ROBBY Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
-                "deviceName": "not found",
-                "marketingName": null,
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": null,
-                "type": "unknown"
+                "deviceName": "Robby",
+                "marketingName": "Robby",
+                "manufacturer": "Wiko",
+                "brand": "Wiko",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 720,
+                "resolutionHeight": 1280,
+                "dualOrientation": true,
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Android WebView",
@@ -197,7 +197,7 @@
     "test-0000333-205": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.5.0 Lightning/4.7.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Thunderbird/45.5.0 Lightning/4.7.4"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000333-206": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1497171930; anonymized by Abelssoft 1206493388; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1497171930; anonymized by Abelssoft 1206493388; MSOffice 12)"
             },
             "device": {
@@ -251,12 +251,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Internet Explorer",
+                "name": "Office",
                 "modus": null,
-                "version": "11.0.0",
+                "version": "2007.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "browser"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -275,7 +275,7 @@
     "test-0000333-207": {
         "ua": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 YaBrowser/16.10.1.1116 Yowser/2.5 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 YaBrowser/16.10.1.1116 Yowser/2.5 Safari/537.36"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000333-208": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Mobile Safari/537.36"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000333-209": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; SM-G360F Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; SM-G360F Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000333-210": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36 AviraScout/16.10.2840.1797",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36 AviraScout/16.10.2840.1797"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000333-211": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS102380; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; BRI/2; T-Brand-RC)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS102380; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; BRI/2; T-Brand-RC)"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000333-212": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; TmstmpExt)"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000333-213": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000333-214": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.2; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.2; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)"
             },
             "device": {
@@ -563,12 +563,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -587,7 +587,7 @@
     "test-0000333-215": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -602,12 +602,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -626,7 +626,7 @@
     "test-0000333-216": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P7-L10 Build/HuaweiP7-L10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P7-L10 Build/HuaweiP7-L10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000333-217": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; MATMJS; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; MATMJS; TmstmpExt)"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000333-218": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -719,12 +719,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.2",
@@ -743,7 +743,7 @@
     "test-0000333-219": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1812920896; .NET4.0C; .NET4.0E; tb-1und1/2.6.8; anonymized by Abelssoft 2051896001; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1812920896; .NET4.0C; .NET4.0E; tb-1und1/2.6.8; anonymized by Abelssoft 2051896001; MSOffice 12)"
             },
             "device": {
@@ -758,12 +758,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Internet Explorer",
+                "name": "Office",
                 "modus": null,
-                "version": "11.0.0",
+                "version": "2007.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "browser"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -782,7 +782,7 @@
     "test-0000333-220": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; Media Center PC 6.0; GWX:DOWNLOADED; GWX:RESERVED; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; Media Center PC 6.0; GWX:DOWNLOADED; GWX:RESERVED; TmstmpExt)"
             },
             "device": {
@@ -821,7 +821,7 @@
     "test-0000333-221": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; (gmx/1.4.0.0; ms-office; MSOffice 14); Microsoft Outlook 14.0.7172)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; InfoPath.3; (gmx/1.4.0.0; ms-office; MSOffice 14); Microsoft Outlook 14.0.7172)"
             },
             "device": {
@@ -836,12 +836,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.2",
@@ -860,7 +860,7 @@
     "test-0000333-222": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)"
             },
             "device": {
@@ -875,12 +875,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.3",
@@ -899,7 +899,7 @@
     "test-0000333-223": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASU2JS; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASU2JS; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -914,12 +914,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -938,7 +938,7 @@
     "test-0000333-224": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; MASBJS; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; MASBJS; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)"
             },
             "device": {
@@ -953,12 +953,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -977,7 +977,7 @@
     "test-0000333-225": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MANM; .NET4.0C; .NET4.0E; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MANM; .NET4.0C; .NET4.0E; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -992,12 +992,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -1016,7 +1016,7 @@
     "test-0000333-226": {
         "ua": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/7.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/7.0; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -1031,12 +1031,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.2",
@@ -1055,7 +1055,7 @@
     "test-0000333-227": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; .NET CLR 3.5.30729; .NET CLR 3.0.30729; InfoPath.3; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; .NET CLR 3.5.30729; .NET CLR 3.0.30729; InfoPath.3; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -1070,12 +1070,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -1094,7 +1094,7 @@
     "test-0000333-228": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.4456; Microsoft Outlook 16.0.4456; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.4456; Microsoft Outlook 16.0.4456; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)"
             },
             "device": {
@@ -1109,12 +1109,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -1133,7 +1133,7 @@
     "test-0000333-229": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 1566854862",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 1566854862"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000333-230": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; P1040X Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; P1040X Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -1211,7 +1211,7 @@
     "test-0000333-231": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 464497650",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 464497650"
             },
             "device": {
@@ -1250,7 +1250,7 @@
     "test-0000333-232": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E; MANM; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E; MANM; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -1265,12 +1265,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -1289,7 +1289,7 @@
     "test-0000333-233": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; SLCC2; Media Center PC 6.0; MAMD; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; EIE10; DEDEWOL; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; SLCC2; Media Center PC 6.0; MAMD; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; EIE10; DEDEWOL; TmstmpExt)"
             },
             "device": {
@@ -1328,7 +1328,7 @@
     "test-0000333-234": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; YOGA Tablet 2-1050F Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; YOGA Tablet 2-1050F Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -1367,7 +1367,7 @@
     "test-0000333-235": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1.1; C6833 Build/14.6.A.1.236; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; C6833 Build/14.6.A.1.236; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -1406,7 +1406,7 @@
     "test-0000333-236": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -1421,12 +1421,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -1445,7 +1445,7 @@
     "test-0000333-237": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; Archos 55 Platinum Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Archos 55 Platinum Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -1484,7 +1484,7 @@
     "test-0000333-238": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4346.1009; Windows NT 5.1; Trident/4.0; GTB7.5; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; AOL 9.7; AOLBuild 4346.1009; Windows NT 5.1; Trident/4.0; GTB7.5; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000333-239": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAMD; InfoPath.2; Tablet PC 2.0; .NET4.0C; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0E; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAMD; InfoPath.2; Tablet PC 2.0; .NET4.0C; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0E; MSOffice 12)"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000333-240": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; F5121 Build/34.0.A.2.292; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; F5121 Build/34.0.A.2.292; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -1601,7 +1601,7 @@
     "test-0000333-241": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 7 Build/MOB30P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 7 Build/MOB30P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36"
             },
             "device": {
@@ -1640,7 +1640,7 @@
     "test-0000333-242": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; XT1068 Build/MPB24.65-34-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -1679,7 +1679,7 @@
     "test-0000333-243": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0 TO-Browser/TOB7.48.0.111_01",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0 TO-Browser/TOB7.48.0.111_01"
             },
             "device": {
@@ -1694,10 +1694,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "T-Online Browser",
+                "name": "Firefox",
                 "modus": null,
-                "version": "7.48.0.111.01",
-                "manufacturer": "Unknown",
+                "version": "48.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1718,7 +1718,7 @@
     "test-0000333-244": {
         "ua": "Mozilla/5.0 (Linux; U; Android 5.0.1; en-us; LG-D850 Build/LRX21Y) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 5.0.1; en-us; LG-D850 Build/LRX21Y) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1729,7 +1729,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1757,7 +1757,7 @@
     "test-0000333-245": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; Tablet PC 2.0; .NET4.0E; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Win64; x64; Trident/7.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; .NET4.0C; Tablet PC 2.0; .NET4.0E; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -1772,12 +1772,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -1796,7 +1796,7 @@
     "test-0000333-246": {
         "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Thunderbird/45.5.0 Lightning/4.7.5",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Thunderbird/45.5.0 Lightning/4.7.5"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000333-247": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; MotoG3 Build/MPI24.107-55-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; MotoG3 Build/MPI24.107-55-2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -1874,7 +1874,7 @@
     "test-0000333-248": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1.1; E6653 Build/32.0.A.6.200; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.117 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; E6653 Build/32.0.A.6.200; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.117 Mobile Safari/537.36"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000333-249": {
         "ua": "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; Microsoft; Lumia 535) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; WebBrowser/8.1; IEMobile/11.0; Microsoft; Lumia 535) like Gecko"
             },
             "device": {
@@ -1952,7 +1952,7 @@
     "test-0000333-250": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; tb-webde/2.6.9; BOIE9;DEDE; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; tb-webde/2.6.9; BOIE9;DEDE; rv:11.0) like Gecko"
             },
             "device": {
@@ -1991,7 +1991,7 @@
     "test-0000333-251": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; Anonymisiert durch AlMiSoft Browser-Anonymisierer 11438521; Trident/7.0; rv:11.0) like Gecko/20100101 Firefox/12.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; Anonymisiert durch AlMiSoft Browser-Anonymisierer 11438521; Trident/7.0; rv:11.0) like Gecko/20100101 Firefox/12.0"
             },
             "device": {
@@ -2006,10 +2006,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Firefox",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "12.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2021,28 +2021,28 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000333-252": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1; K960 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; K960 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.68 Safari/537.36"
             },
             "device": {
-                "deviceName": "not found",
-                "marketingName": null,
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": null,
-                "type": "unknown"
+                "deviceName": "K960",
+                "marketingName": "K960",
+                "manufacturer": "Jlinksz",
+                "brand": "Jlinksz",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 1280,
+                "resolutionHeight": 800,
+                "dualOrientation": true,
+                "type": "fone-pad"
             },
             "browser": {
                 "name": "Android WebView",
@@ -2069,7 +2069,7 @@
     "test-0000333-253": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; SLCC2; Media Center PC 6.0; MAMD; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; SLCC2; Media Center PC 6.0; MAMD; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; TmstmpExt)"
             },
             "device": {
@@ -2108,7 +2108,7 @@
     "test-0000333-254": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -2147,7 +2147,7 @@
     "test-0000333-255": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C; InfoPath.3; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Win64; x64; Trident/7.0; .NET4.0E; .NET4.0C; InfoPath.3; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -2162,12 +2162,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.3",
@@ -2186,7 +2186,7 @@
     "test-0000333-256": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; D6683 Build/23.1.2.E.0.13; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; D6683 Build/23.1.2.E.0.13; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -2197,7 +2197,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2225,7 +2225,7 @@
     "test-0000333-257": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0; LG-H525n Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; LG-H525n Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -2264,7 +2264,7 @@
     "test-0000333-258": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; HRTS; H9P; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; HRTS; H9P; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)"
             },
             "device": {
@@ -2279,12 +2279,12 @@
                 "type": "fone-pad"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -2303,7 +2303,7 @@
     "test-0000333-259": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.3; .NET4.0E; tb-gmx/1.6.2; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.3; .NET4.0E; tb-gmx/1.6.2; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -2318,12 +2318,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.0",
@@ -2342,7 +2342,7 @@
     "test-0000333-260": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3; ASU2JS)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3; ASU2JS)"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000333-261": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; MALNJS)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2; MALNJS)"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000333-262": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ALCATEL ONE TOUCH 7047D Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ALCATEL ONE TOUCH 7047D Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.68 Mobile Safari/537.36"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000333-263": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; tb-gmx/2.6.10; MAARJS; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; tb-gmx/2.6.10; MAARJS; rv:11.0) like Gecko"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000333-264": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.18.2785.143 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.18.2785.143 Safari/537.36"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000333-265": {
         "ua": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 TO-Browser/TOB7.49.0.110_13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0 TO-Browser/TOB7.49.0.110_13"
             },
             "device": {
@@ -2552,10 +2552,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "T-Online Browser",
+                "name": "Firefox",
                 "modus": null,
-                "version": "7.49.0.110.13",
-                "manufacturer": "Unknown",
+                "version": "49.0.0",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2576,7 +2576,7 @@
     "test-0000333-266": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; Lenovo N308 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; Lenovo N308 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Safari/537.36"
             },
             "device": {
@@ -2587,7 +2587,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2615,7 +2615,7 @@
     "test-0000333-267": {
         "ua": "Mozilla/5.0 (Linux; Android 5.1.1; SM-G928F Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SM-G928F Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000333-268": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 () Gecko/20100101 Firefox/50.0 ( anonymized by Abelssoft 912185324",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:50.0 () Gecko/20100101 Firefox/50.0 ( anonymized by Abelssoft 912185324"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000333-269": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3; BRI/2; MALNJS; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.3; BRI/2; MALNJS; Microsoft Outlook 14.0.7172; ms-office; MSOffice 14)"
             },
             "device": {
@@ -2708,12 +2708,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.2",
@@ -2732,7 +2732,7 @@
     "test-0000333-270": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 15.0.4875; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 15.0.4875; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -2747,12 +2747,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -2771,7 +2771,7 @@
     "test-0000333-271": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.4417; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; Tablet PC 2.0; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.4417; ms-office; MSOffice 16)"
             },
             "device": {
@@ -2786,12 +2786,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -2810,7 +2810,7 @@
     "test-0000333-272": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; MASMJS; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; MASMJS; MSOffice 12)"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000333-273": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Media Center PC 6.0; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Media Center PC 6.0; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -2864,12 +2864,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -2888,7 +2888,7 @@
     "test-0000333-274": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 828320533",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; rv:50.0 ) Gecko/20100101 Firefox/50.0  anonymized by Abelssoft 828320533"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000333-275": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; VF-1497 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; VF-1497 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000333-276": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3; MAPBJS; Microsoft Outlook 15.0.4867; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.3; MAPBJS; Microsoft Outlook 15.0.4867; ms-office; MSOffice 15)"
             },
             "device": {
@@ -2981,12 +2981,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3005,7 +3005,7 @@
     "test-0000333-277": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; X111 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; X111 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -3016,7 +3016,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3044,7 +3044,7 @@
     "test-0000333-278": {
         "ua": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 1stBrowser/45.0.2454.171 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 1stBrowser/45.0.2454.171 Safari/537.36"
             },
             "device": {
@@ -3083,7 +3083,7 @@
     "test-0000333-279": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1497171930; anonymized by Abelssoft 1103086512; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; anonymized by Abelssoft 1497171930; anonymized by Abelssoft 1103086512; MSOffice 12)"
             },
             "device": {
@@ -3098,12 +3098,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Internet Explorer",
+                "name": "Office",
                 "modus": null,
-                "version": "11.0.0",
+                "version": "2007.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "browser"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -3122,7 +3122,7 @@
     "test-0000333-280": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:49.0.2) Gecko/20100101 Firefox/49.0.2 anonymized by Abelssoft 468127172",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:49.0.2) Gecko/20100101 Firefox/49.0.2 anonymized by Abelssoft 468127172"
             },
             "device": {
@@ -3161,7 +3161,7 @@
     "test-0000333-281": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; F8331 Build/39.0.A.3.30; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; F8331 Build/39.0.A.3.30; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000333-282": {
         "ua": "Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Thunderbird/45.1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; rv:45.0) Gecko/20100101 Thunderbird/45.1.1"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000333-283": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000333-284": {
         "ua": "Mozilla/5.0 (Linux; Android 6.0.1; SM-J500F Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SM-J500F Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000333-285": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 10.0; Win64; x64; Anonymisiert durch AlMiSoft Browser-Maulkorb 30469178; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASU2JS; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 10.0; Win64; x64; Anonymisiert durch AlMiSoft Browser-Maulkorb 30469178; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASU2JS; TmstmpExt)"
             },
             "device": {
@@ -3332,12 +3332,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Internet Explorer",
+                "name": "Windows Live Mail",
                 "modus": null,
-                "version": "11.0.0",
+                "version": "7.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "browser"
+                "type": "email-client"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3356,7 +3356,7 @@
     "test-0000333-286": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0; InfoPath.3; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0; InfoPath.3; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3371,12 +3371,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.3",
@@ -3395,7 +3395,7 @@
     "test-0000333-287": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; MASBJS; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; MASBJS; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3410,12 +3410,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3434,7 +3434,7 @@
     "test-0000333-288": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Tablet PC 2.0; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3449,12 +3449,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3473,7 +3473,7 @@
     "test-0000333-289": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; AT200 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; AT200 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000333-290": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; SLCC2; Media Center PC 6.0; Tablet PC 2.0; Microsoft Outlook 16.0.7466; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; SLCC2; Media Center PC 6.0; Tablet PC 2.0; Microsoft Outlook 16.0.7466; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)"
             },
             "device": {
@@ -3527,12 +3527,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3551,7 +3551,7 @@
     "test-0000333-291": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3566,12 +3566,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -3590,7 +3590,7 @@
     "test-0000333-292": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; MAARJS; Microsoft Outlook 15.0.4875; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; MAARJS; Microsoft Outlook 15.0.4875; Microsoft Outlook 15.0.4875; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3605,12 +3605,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -3629,7 +3629,7 @@
     "test-0000333-293": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; Microsoft Outlook 16.0.7369; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; McAfee; Microsoft Outlook 16.0.7369; ms-office; MSOffice 16)"
             },
             "device": {
@@ -3644,12 +3644,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3668,7 +3668,7 @@
     "test-0000333-294": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; SLCC2; Media Center PC 6.0; Tablet PC 2.0; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; SLCC2; Media Center PC 6.0; Tablet PC 2.0; Microsoft Outlook 16.0.4456; ms-office; MSOffice 16)"
             },
             "device": {
@@ -3683,12 +3683,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3707,7 +3707,7 @@
     "test-0000333-295": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; LCTE; Microsoft Outlook 16.0.7466; ms-office; MSOffice 16)"
             },
             "device": {
@@ -3722,12 +3722,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3746,7 +3746,7 @@
     "test-0000333-296": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASTE; Microsoft Outlook 16.0.7369; Microsoft Outlook 16.0.7369; ms-office; MSOffice 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; ASTE; Microsoft Outlook 16.0.7369; Microsoft Outlook 16.0.7369; ms-office; MSOffice 16)"
             },
             "device": {
@@ -3761,12 +3761,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2016.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -3785,7 +3785,7 @@
     "test-0000333-297": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36 AviraScout/16.10.2840.1758",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36 AviraScout/16.10.2840.1758"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000333-298": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; P01T_1 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; P01T_1 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Safari/537.36"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000333-299": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0; LG-D855 Build/LRX21R.A1439892504; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0; LG-D855 Build/LRX21R.A1439892504; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36"
             },
             "device": {

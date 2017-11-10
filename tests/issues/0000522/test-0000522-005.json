@@ -2,7 +2,7 @@
     "test-0000522-500": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; es-mx; ONE TOUCH 4033A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 GSA/3.1.8.914827.arm",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; es-mx; ONE TOUCH 4033A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 GSA/3.1.8.914827.arm"
             },
             "device": {
@@ -13,7 +13,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -41,7 +41,7 @@
     "test-0000522-501": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3; AskTbAVR-3/5.15.31.57710)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.3; AskTbAVR-3/5.15.31.57710)"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000522-502": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:22.0) Gecko/20130619 Zotero/4.0.9",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:22.0) Gecko/20130619 Zotero/4.0.9"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000522-503": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; tb-webde/2.5.1; (webde/1.4.0.0; ms-office; MSOffice 14); (web.de/1.0.0.8); Microsoft Outlook 14.0.7113)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; tb-webde/2.5.1; (webde/1.4.0.0; ms-office; MSOffice 14); (web.de/1.0.0.8); Microsoft Outlook 14.0.7113)"
             },
             "device": {
@@ -134,12 +134,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -158,7 +158,7 @@
     "test-0000522-504": {
         "ua": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1653.0 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1653.0 Safari/537.36"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000522-505": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAAU; InfoPath.3; BRI/2; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; WWTClient2; anonymized by Abelssoft 1875344785; Microsoft Outlook 14.0.7113; ms-office; MSOffice 14)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAAU; InfoPath.3; BRI/2; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; WWTClient2; anonymized by Abelssoft 1875344785; Microsoft Outlook 14.0.7113; ms-office; MSOffice 14)"
             },
             "device": {
@@ -212,12 +212,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Internet Explorer",
+                "name": "Office",
                 "modus": null,
-                "version": "11.0.0",
+                "version": "2010.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "browser"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -236,7 +236,7 @@
     "test-0000522-506": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; MATM;WUID=71F7C244A05C4EE3B0373506CD129166;WTB=6787)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; MATM;WUID=71F7C244A05C4EE3B0373506CD129166;WTB=6787)"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000522-507": {
         "ua": "Mozilla/5.0 (Windows NT 6.0; rv:32.0; WUID=32ab76c74a6db768c6fdb3130f9e05ea; WTB=2876) Gecko/20100101 Firefox/32.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.0; rv:32.0; WUID=32ab76c74a6db768c6fdb3130f9e05ea; WTB=2876) Gecko/20100101 Firefox/32.0"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000522-508": {
         "ua": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000522-509": {
         "ua": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-ca) AppleWebKit/525.7 (KHTML, like Gecko) Version/3.1 Safari/525.7",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-ca) AppleWebKit/525.7 (KHTML, like Gecko) Version/3.1 Safari/525.7"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000522-510": {
         "ua": "Mozilla/5.0 (X11; U; FreeBSD i386; ja; rv:1.9.0.1) Gecko/20121221 Firefox/3.6.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; FreeBSD i386; ja; rv:1.9.0.1) Gecko/20121221 Firefox/3.6.8"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000522-511": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.0; pt-pt) AppleWebKit/523.10.6 (KHTML, like Gecko) Version/3.0.4 Safari/523.10.6",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.0; pt-pt) AppleWebKit/523.10.6 (KHTML, like Gecko) Version/3.0.4 Safari/523.10.6"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000522-512": {
         "ua": "Mozilla/5.0 (X11; U; FreeBSD i386; zh-CN; rv:1.9.0) Gecko/20060629 Firefox/1.5.0.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; FreeBSD i386; zh-CN; rv:1.9.0) Gecko/20060629 Firefox/1.5.0.4"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000522-513": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3.1; GT-P5110 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3.1; GT-P5110 Build/JLS36I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Safari/537.36"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000522-514": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; EIE10;DEDEWOL; rv:11.0;WUID=EC572132A9004693AFB326D8BB140960;WTB=6787) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; EIE10;DEDEWOL; rv:11.0;WUID=EC572132A9004693AFB326D8BB140960;WTB=6787) like Gecko"
             },
             "device": {
@@ -587,7 +587,7 @@
     "test-0000522-515": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB7.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30618; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbORJ/5.15.15.36191; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB7.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30618; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbORJ/5.15.15.36191; .NET4.0C)"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000522-516": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.65 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.65 Safari/537.36"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000522-517": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N7000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N7000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000522-518": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MDDR; InfoPath.1; .NET4.0C; .NET4.0E; Tablet PC 2.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MDDR; InfoPath.1; .NET4.0C; .NET4.0E; Tablet PC 2.0)"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000522-519": {
         "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2189.0 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2189.0 Safari/537.36"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000522-520": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0;WUID=BF9AF594A2F74D0BB0E51213028B42D2;WTB=3580) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0;WUID=BF9AF594A2F74D0BB0E51213028B42D2;WTB=3580) like Gecko"
             },
             "device": {
@@ -821,7 +821,7 @@
     "test-0000522-521": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; ST26i Build/11.2.A.0.31) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.59 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; ST26i Build/11.2.A.0.31) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.59 Mobile Safari/537.36"
             },
             "device": {
@@ -860,7 +860,7 @@
     "test-0000522-522": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; AskTbNDV/5.13.2.19379; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; AskTbNDV/5.13.2.19379; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000522-523": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; tb-gmx/2.5.1; (gmx/1.4.0.0))",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; tb-gmx/2.5.1; (gmx/1.4.0.0))"
             },
             "device": {
@@ -938,7 +938,7 @@
     "test-0000522-524": {
         "ua": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0; WUID=87354de4426815d18078fcf996916e99; WTB=3869) Gecko/20100101 Firefox/29.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:29.0; WUID=87354de4426815d18078fcf996916e99; WTB=3869) Gecko/20100101 Firefox/29.0"
             },
             "device": {
@@ -977,7 +977,7 @@
     "test-0000522-525": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G900T1 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G900T1 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Mobile Safari/537.36"
             },
             "device": {
@@ -1016,7 +1016,7 @@
     "test-0000522-526": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; .NET4.0E; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; .NET4.0E; .NET4.0C)"
             },
             "device": {
@@ -1055,7 +1055,7 @@
     "test-0000522-527": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28 (.NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28 (.NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)"
             },
             "device": {
@@ -1094,7 +1094,7 @@
     "test-0000522-528": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; tb-webde/2.5.1; (webde/1.0.0.8))",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; tb-webde/2.5.1; (webde/1.0.0.8))"
             },
             "device": {
@@ -1133,7 +1133,7 @@
     "test-0000522-529": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Q342532)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Q342532)"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000522-530": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Chrome/17.0.926.0 Safari/535.8",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.8 (KHTML, like Gecko) Chrome/17.0.926.0 Safari/535.8"
             },
             "device": {
@@ -1211,7 +1211,7 @@
     "test-0000522-531": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.1.15) Gecko/20101028",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.1.15) Gecko/20101028"
             },
             "device": {
@@ -1250,7 +1250,7 @@
     "test-0000522-532": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; rv:29.0) Gecko/20100101 Firefox/29.0 anonymized by Abelssoft 457406721",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; rv:29.0) Gecko/20100101 Firefox/29.0 anonymized by Abelssoft 457406721"
             },
             "device": {
@@ -1289,7 +1289,7 @@
     "test-0000522-533": {
         "ua": "Opera/9.23 (Windows; U; id)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Opera/9.23 (Windows; U; id)"
             },
             "device": {
@@ -1328,7 +1328,7 @@
     "test-0000522-534": {
         "ua": "Opera/9.23 (Windows; U; nn)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Opera/9.23 (Windows; U; nn)"
             },
             "device": {
@@ -1367,7 +1367,7 @@
     "test-0000522-535": {
         "ua": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-ca) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.1 Safari/530.18",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-ca) AppleWebKit/530.19.2 (KHTML, like Gecko) Version/4.0.1 Safari/530.18"
             },
             "device": {
@@ -1406,7 +1406,7 @@
     "test-0000522-536": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; rv:32.0.3) Gecko/20100101 Firefox/32.0.3 anonymized by Abelssoft 1479360550",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; rv:32.0.3) Gecko/20100101 Firefox/32.0.3 anonymized by Abelssoft 1479360550"
             },
             "device": {
@@ -1445,7 +1445,7 @@
     "test-0000522-537": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; AskTbAVR-4/5.15.11.30498; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; AskTbAVR-4/5.15.11.30498; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)"
             },
             "device": {
@@ -1484,7 +1484,7 @@
     "test-0000522-538": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; AskTbARS2/5.15.4.23821)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; AskTbARS2/5.15.4.23821)"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000522-539": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; it-it) AppleWebKit/523.13 (KHTML, like Gecko) Version/3.0 Safari/523.13",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; it-it) AppleWebKit/523.13 (KHTML, like Gecko) Version/3.0 Safari/523.13"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000522-540": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.01; Windows 98; .NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.01; Windows 98; .NET CLR 3.5.30729)"
             },
             "device": {
@@ -1601,7 +1601,7 @@
     "test-0000522-541": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BistroPortal; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; BistroPortal)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BistroPortal; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; BistroPortal)"
             },
             "device": {
@@ -1640,7 +1640,7 @@
     "test-0000522-542": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=e61d3c65f32816f43ae0976d8b8846ce; WTB=6581) Gecko/20100101 Firefox/32.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=e61d3c65f32816f43ae0976d8b8846ce; WTB=6581) Gecko/20100101 Firefox/32.0"
             },
             "device": {
@@ -1679,7 +1679,7 @@
     "test-0000522-543": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0.666.0.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0.666.0.0"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000522-544": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; AlexaToolbar/amzni-3.0; InfoPath.3; .NET4.0E; tb-webde/2.5.1; (webde/1.4.0.0))",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; AlexaToolbar/amzni-3.0; InfoPath.3; .NET4.0E; tb-webde/2.5.1; (webde/1.4.0.0))"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000522-545": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.44 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.44 Safari/537.36"
             },
             "device": {
@@ -1796,7 +1796,7 @@
     "test-0000522-546": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 OPR/23.0.1522.77 (Edition Campaign 34)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 OPR/23.0.1522.77 (Edition Campaign 34)"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000522-547": {
         "ua": "Mozilla/5.0 (X11; Linux i686 on x86_64; rv:32.0) Gecko/20100101 Firefox/32.0 (f11wank)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; Linux i686 on x86_64; rv:32.0) Gecko/20100101 Firefox/32.0 (f11wank)"
             },
             "device": {
@@ -1874,7 +1874,7 @@
     "test-0000522-548": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-fr) AppleWebKit/533.4 (KHTML, like Gecko) Version/4.1 Safari/533.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-fr) AppleWebKit/533.4 (KHTML, like Gecko) Version/4.1 Safari/533.4"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000522-549": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-I8160P Build/GINGERBREAD) AppleWebKit/533.1 (KHTML,",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-I8160P Build/GINGERBREAD) AppleWebKit/533.1 (KHTML,"
             },
             "device": {
@@ -1928,10 +1928,10 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1943,16 +1943,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "533.1.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000522-550": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS122327; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.2; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS122327; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C; InfoPath.2; MSOffice 12)"
             },
             "device": {
@@ -1991,7 +1991,7 @@
     "test-0000522-551": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SIMBAR={2B4B8BAC-7C2A-4E7E-BABD-4D497E57BF96}; BTRS108272; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-3/5.15.1.22229)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SIMBAR={2B4B8BAC-7C2A-4E7E-BABD-4D497E57BF96}; BTRS108272; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-3/5.15.1.22229)"
             },
             "device": {
@@ -2030,7 +2030,7 @@
     "test-0000522-552": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:31.0; WUID=053c692f0767c2a62ff8ed4bf892f777; WTB=3580) Gecko/20100101 Firefox/31.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:31.0; WUID=053c692f0767c2a62ff8ed4bf892f777; WTB=3580) Gecko/20100101 Firefox/31.0"
             },
             "device": {
@@ -2069,7 +2069,7 @@
     "test-0000522-553": {
         "ua": "Mozilla/5.0 (X11; U; SunOS i86pc; fa; rv:1.8.1.2) Gecko/20041215 Firefox/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; U; SunOS i86pc; fa; rv:1.8.1.2) Gecko/20041215 Firefox/1.0"
             },
             "device": {
@@ -2108,7 +2108,7 @@
     "test-0000522-554": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.4 (KHTML, like Gecko) Chrome/6.0.481.0 Safari/534.4",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.4 (KHTML, like Gecko) Chrome/6.0.481.0 Safari/534.4"
             },
             "device": {
@@ -2147,7 +2147,7 @@
     "test-0000522-555": {
         "ua": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36 OPR/25.0.1614.50 (Edition Campaign 26)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.101 Safari/537.36 OPR/25.0.1614.50 (Edition Campaign 26)"
             },
             "device": {
@@ -2186,7 +2186,7 @@
     "test-0000522-556": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=9c4e798d976daa4b48cd95998e77ca1e; WTB=6581) Gecko/20100101 Firefox/32.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=9c4e798d976daa4b48cd95998e77ca1e; WTB=6581) Gecko/20100101 Firefox/32.0"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000522-557": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; GT-I9295 Build/KTU84P) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; GT-I9295 Build/KTU84P) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16"
             },
             "device": {
@@ -2264,7 +2264,7 @@
     "test-0000522-558": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; BTRS109653; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; BTRS109653; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)"
             },
             "device": {
@@ -2303,7 +2303,7 @@
     "test-0000522-559": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; BTRS108447; GTB7.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; BTRS108447; GTB7.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727)"
             },
             "device": {
@@ -2342,7 +2342,7 @@
     "test-0000522-560": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; HTC Wildfire S A510e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) FlyFlow/2.1 Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; HTC Wildfire S A510e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) FlyFlow/2.1 Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000522-561": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 OPR/24.0.1558.61",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36 OPR/24.0.1558.61"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000522-562": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.1; InfoPath.3; Tablet PC 2.0; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.1; InfoPath.3; Tablet PC 2.0; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000522-563": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 OPR/23.0.1522.60 (Edition Campaign 24)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 OPR/23.0.1522.60 (Edition Campaign 24)"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000522-564": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/17.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 53878407",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 6.1; de; rv:1.9.2.6) Gecko/20100625 Firefox/17.0.1 (de) Anonymisiert durch AlMiSoft Browser-Maulkorb 53878407"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000522-565": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 OPR/23.0.1522.60 (Edition Campaign 16)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36 OPR/23.0.1522.60 (Edition Campaign 16)"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000522-566": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0C)"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000522-567": {
         "ua": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.22 anonymized by Abelssoft 1709514020",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.22 anonymized by Abelssoft 1709514020"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000522-568": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129235; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-4/5.15.26.45268; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS129235; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-4/5.15.26.45268; .NET4.0C)"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000522-569": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS129235; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-4/5.15.26.45268; .NET4.0C)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; BTRS129235; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; AskTbAVR-4/5.15.26.45268; .NET4.0C)"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000522-570": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB7.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; AskTbORJ/5.15.15.36191; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; GTB7.5; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; AskTbORJ/5.15.15.36191; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET4.0E)"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000522-571": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; BTRS102568; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E; MS-RTC LM 8)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; BTRS102568; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; InfoPath.3; .NET4.0E; MS-RTC LM 8)"
             },
             "device": {
@@ -2810,7 +2810,7 @@
     "test-0000522-572": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0; WUID=38cfbebac0ebb1174a6fb7e1195e7802; WTB=3580) Gecko/20100101 Firefox/23.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0; WUID=38cfbebac0ebb1174a6fb7e1195e7802; WTB=3580) Gecko/20100101 Firefox/23.0"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000522-573": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; InfoPath.3; tb-gmx/2.5.1; (gmx/1.4.0.0))",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; InfoPath.3; tb-gmx/2.5.1; (gmx/1.4.0.0))"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000522-574": {
         "ua": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.4) Gecko/20100611 Firefox/3.6.4 (.NET CLR 1.1.4322)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.4) Gecko/20100611 Firefox/3.6.4 (.NET CLR 1.1.4322)"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000522-575": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; BRI/2; AskTbORJ/5.15.23.36191)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; BRI/2; AskTbORJ/5.15.23.36191)"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000522-576": {
         "ua": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.2; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.2; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; MSOffice 12)"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000522-577": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 1.1.4322; InfoPath.2; AskTbORJ/5.14.1.20007; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 1.1.4322; InfoPath.2; AskTbORJ/5.14.1.20007; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)"
             },
             "device": {
@@ -3044,7 +3044,7 @@
     "test-0000522-578": {
         "ua": "Mozilla/5.0 (Windows NT 6.0; WOW64; rv:32.0; WUID=b80da1bdcc26af498c3671cb01ea63b9; WTB=24086; WUID=b80da1bdcc26af498c3671cb01ea63b9; WTB=24086) Gecko/20100101 Firefox/32.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.0; WOW64; rv:32.0; WUID=b80da1bdcc26af498c3671cb01ea63b9; WTB=24086; WUID=b80da1bdcc26af498c3671cb01ea63b9; WTB=24086) Gecko/20100101 Firefox/32.0"
             },
             "device": {
@@ -3083,7 +3083,7 @@
     "test-0000522-579": {
         "ua": "Mozilla/5.0 (Windows NT 6.2; rv:32.0.3) Gecko/20100101 Firefox/32.0.3 anonymized by Abelssoft 1261826347",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:32.0.3) Gecko/20100101 Firefox/32.0.3 anonymized by Abelssoft 1261826347"
             },
             "device": {
@@ -3122,7 +3122,7 @@
     "test-0000522-580": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; InfoPath.3; Microsoft Outlook 15.0.4649; ms-office; MSOffice 15)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; InfoPath.3; Microsoft Outlook 15.0.4649; ms-office; MSOffice 15)"
             },
             "device": {
@@ -3137,12 +3137,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Outlook",
+                "name": "Office",
                 "modus": null,
                 "version": "2013.0.0",
                 "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "email-client"
+                "type": "application"
             },
             "os": {
                 "name": "Windows NT 6.2",
@@ -3161,7 +3161,7 @@
     "test-0000522-581": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; hr-hr; RC0709B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; hr-hr; RC0709B Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -3172,7 +3172,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3200,7 +3200,7 @@
     "test-0000522-582": {
         "ua": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:17.0) Gecko/20130328 Firefox/17.0 TenFourFox/7450",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10.5; rv:17.0) Gecko/20130328 Firefox/17.0 TenFourFox/7450"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000522-583": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/33.0.1750.117 Chrome/33.0.1750.117 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) WhiteHat Aviator/33.0.1750.117 Chrome/33.0.1750.117 Safari/537.36"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000522-584": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; MAFS; AskTbAVR-IDW/5.15.18.37268; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; MAFS; AskTbAVR-IDW/5.15.18.37268; TmstmpExt)"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000522-585": {
         "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20140102 Firefox/24.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:24.0) Gecko/20140102 Firefox/24.0"
             },
             "device": {
@@ -3356,7 +3356,7 @@
     "test-0000522-586": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; MAFSJS)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/6.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; MAFSJS)"
             },
             "device": {
@@ -3395,7 +3395,7 @@
     "test-0000522-587": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; tb-gmx/2.5.1; MDDRJS; xs-JDtQB7ZgAT8;rBuAOe)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; tb-gmx/2.5.1; MDDRJS; xs-JDtQB7ZgAT8;rBuAOe)"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000522-588": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; tb-gmx/2.5.1; MDDRJS; )",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; tb-gmx/2.5.1; MDDRJS; )"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000522-589": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KVT49L.A1401795101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.103 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KVT49L.A1401795101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.103 Mobile Safari/537.36"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000522-590": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; LG-D802 Build/KVT49L.A1401795101) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.4.2; de-de; LG-D802 Build/KVT49L.A1401795101) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36"
             },
             "device": {
@@ -3551,19 +3551,19 @@
     "test-0000522-591": {
         "ua": "Opera/9.80 (Android; Opera Mini/7.5.33361/35.4999; U; de) Presto/2.8.119 Version/11.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Android; Opera Mini/7.5.33361/35.4999; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
+                "deviceName": "Presto",
+                "marketingName": "Presto",
+                "manufacturer": "O+",
+                "brand": "O+",
                 "pointingMethod": "touchscreen",
-                "resolutionWidth": null,
-                "resolutionHeight": null,
+                "resolutionWidth": 480,
+                "resolutionHeight": 854,
                 "dualOrientation": true,
-                "type": "mobile-device"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -3590,7 +3590,7 @@
     "test-0000522-592": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; InfoPath.1; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; InfoPath.1; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000522-593": {
         "ua": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.2; McAfee; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; MDDSJS; TmstmpExt)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Outlook-Express/7.0 (MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; InfoPath.2; McAfee; OfficeLiveConnector.1.5; OfficeLivePatch.1.3; MDDSJS; TmstmpExt)"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000522-594": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 3.0.30618; Media Center PC 5.0; SLCC1; .NET4.0C; AskTbORJ/5.15.25.44892; .NET4.0E; MSOffice 12)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET CLR 3.0.30618; Media Center PC 5.0; SLCC1; .NET4.0C; AskTbORJ/5.15.25.44892; .NET4.0E; MSOffice 12)"
             },
             "device": {
@@ -3707,7 +3707,7 @@
     "test-0000522-595": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=9bfcaf531792688b276b02147bd4eec0; WTB=3869) Gecko/20100101 Firefox/32.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:32.0; WUID=9bfcaf531792688b276b02147bd4eec0; WTB=3869) Gecko/20100101 Firefox/32.0"
             },
             "device": {
@@ -3746,7 +3746,7 @@
     "test-0000522-596": {
         "ua": "Airmail 1.4.1 rv:249 (Macintosh; Mac OS X 10.10.0; en_AT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Airmail 1.4.1 rv:249 (Macintosh; Mac OS X 10.10.0; en_AT)"
             },
             "device": {
@@ -3785,7 +3785,7 @@
     "test-0000522-597": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; rv:33.0) Gecko/20100101 Firefox/33.0 anonymized by Abelssoft 1261826347",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1; rv:33.0) Gecko/20100101 Firefox/33.0 anonymized by Abelssoft 1261826347"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000522-598": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SIMBAR={84B2A5FA-B3BE-11E2-90AF-78DD08B50175}; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; SRS_IT_E8790771B3765B5A31AE96; Tablet PC 2.0; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SIMBAR={84B2A5FA-B3BE-11E2-90AF-78DD08B50175}; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; SRS_IT_E8790771B3765B5A31AE96; Tablet PC 2.0; .NET4.0C; .NET4.0E; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000522-599": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/15.0.0.16.28;FBBV/4463064;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/;FBID/tablet;FBLC/tr_TR;FBOP/1]",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 [FBAN/FBIOS;FBAV/15.0.0.16.28;FBBV/4463064;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.0.2;FBSS/2; FBCR/;FBID/tablet;FBLC/tr_TR;FBOP/1]"
             },
             "device": {

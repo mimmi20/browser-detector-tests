@@ -2,7 +2,7 @@
     "test-0000323-000": {
         "ua": "(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000323-001": {
         "ua": "(Windows NT 6.1; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(Windows NT 6.1; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000323-002": {
         "ua": "(Windows NT 8.1;  rv:41.0) Gecko/20110101",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(Windows NT 8.1;  rv:41.0) Gecko/20110101"
             },
             "device": {
@@ -95,12 +95,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Firefox",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "manufacturer": "MozillaFoundation",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Windows NT",
@@ -119,7 +119,7 @@
     "test-0000323-003": {
         "ua": "(XING-Windows-Universal/3.10.12.0/Windows.Mobile.10.0.10586.545/Unknown/WindowsPhone)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "(XING-Windows-Universal/3.10.12.0/Windows.Mobile.10.0.10586.545/Unknown/WindowsPhone)"
             },
             "device": {
@@ -134,12 +134,12 @@
                 "type": "mobile-device"
             },
             "browser": {
-                "name": "XING App",
+                "name": null,
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "XING",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "application"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -158,7 +158,7 @@
     "test-0000323-004": {
         "ua": "DVBViewer/TV HbbTV/1.1.1 (+PVR+DL;CMUV;DVBViewer;1.0;1.0;) SmartTV",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "DVBViewer/TV HbbTV/1.1.1 (+PVR+DL;CMUV;DVBViewer;1.0;1.0;) SmartTV"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000323-005": {
         "ua": "HbbTV/1.1.1 (; iWedia; Development; 0.1; 0.1;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (; iWedia; Development; 0.1; 0.1;)"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000323-006": {
         "ua": "HbbTV/1.1.1 (;;;;) Maple_2011",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;) Maple_2011"
             },
             "device": {
@@ -275,27 +275,27 @@
     "test-0000323-007": {
         "ua": "HbbTV/1.1.1 (;;;;) Mozilla/5.0 (compatible; ANTGalio/3.0.2.1.22.43.08; Linux2.6.18-7.1/7405d0-smp)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;) Mozilla/5.0 (compatible; ANTGalio/3.0.2.1.22.43.08; Linux2.6.18-7.1/7405d0-smp)"
             },
             "device": {
-                "deviceName": "Linux Desktop",
-                "marketingName": "Linux Desktop",
+                "deviceName": "general TV Device",
+                "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "mouse",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "desktop"
+                "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": null,
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -305,16 +305,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000323-008": {
         "ua": "HbbTV/1.1.1 (;;;;;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;)"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000323-009": {
         "ua": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.18",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.18"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000323-010": {
         "ua": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000323-011": {
         "ua": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19.1-signed",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19.1-signed"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000323-012": {
         "ua": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19.1-signed.1-signed",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.19.1-signed.1-signed"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000323-013": {
         "ua": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.20",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.3.20"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000323-014": {
         "ua": "HbbTV/1.1.1 (;;;;;) Mozilla/5.0 AppleWebKit/535.20+ (KHTML, like Gecko) Version/5.0 Safari/535.20+",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) Mozilla/5.0 AppleWebKit/535.20+ (KHTML, like Gecko) Version/5.0 Safari/535.20+"
             },
             "device": {
@@ -587,7 +587,7 @@
     "test-0000323-015": {
         "ua": "HbbTV/1.1.1 (;;;;;) NETRANGEMMH Netfront webkit",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) NETRANGEMMH Netfront webkit"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000323-016": {
         "ua": "HbbTV/1.1.1 (;;;;;) WebKit",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;;;;;) WebKit"
             },
             "device": {
@@ -641,12 +641,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": null,
+                "name": "Safari",
                 "modus": null,
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Linux",
@@ -665,7 +665,7 @@
     "test-0000323-017": {
         "ua": "HbbTV/1.1.1 (;Access;NetFront NX 3;;;) Netfont webkit",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Access;NetFront NX 3;;;) Netfont webkit"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000323-018": {
         "ua": "HbbTV/1.1.1 (;Hisense;MT5651;;;) ANTGalio/3.3.0.26.04",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Hisense;MT5651;;;) ANTGalio/3.3.0.26.04"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000323-019": {
         "ua": "HbbTV/1.1.1 (;IP4TV;DXD5505;1.0;1.0;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;IP4TV;DXD5505;1.0;1.0;)"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000323-020": {
         "ua": "HbbTV/1.1.1 (;iWedia;Teatro;3.5;;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;iWedia;Teatro;3.5;;)"
             },
             "device": {
@@ -821,7 +821,7 @@
     "test-0000323-021": {
         "ua": "HbbTV/1.1.1 (;Metz;MMS;;;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Metz;MMS;;;)"
             },
             "device": {
@@ -860,7 +860,7 @@
     "test-0000323-022": {
         "ua": "HbbTV/1.1.1 (;MTK;MT5396;;;) ANTGalio/3.2.0.C341.06",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;MTK;MT5396;;;) ANTGalio/3.2.0.C341.06"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000323-023": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.210;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.210;0071-3403 1000-0000;)"
             },
             "device": {
@@ -914,12 +914,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -938,7 +938,7 @@
     "test-0000323-024": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.212;0071-1103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.212;0071-1103 0000-0200;)"
             },
             "device": {
@@ -953,12 +953,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -977,7 +977,7 @@
     "test-0000323-025": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.213;0071-3403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.213;0071-3403 0000-0200;)"
             },
             "device": {
@@ -992,12 +992,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1016,7 +1016,7 @@
     "test-0000323-026": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.213;0071-3403 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.213;0071-3403 0400-0000;)"
             },
             "device": {
@@ -1031,12 +1031,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1055,7 +1055,7 @@
     "test-0000323-027": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.217;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.217;0071-3403 1000-0000;)"
             },
             "device": {
@@ -1070,12 +1070,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1094,7 +1094,7 @@
     "test-0000323-028": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.253;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.253;0071-3403 2000-0000;)"
             },
             "device": {
@@ -1109,12 +1109,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1133,7 +1133,7 @@
     "test-0000323-029": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.256;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.256;0071-3403 1000-0000;)"
             },
             "device": {
@@ -1148,12 +1148,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1172,7 +1172,7 @@
     "test-0000323-030": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.256;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.256;0071-3403 2000-0000;)"
             },
             "device": {
@@ -1187,12 +1187,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1211,7 +1211,7 @@
     "test-0000323-031": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.257;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.257;0071-3403 1000-0000;)"
             },
             "device": {
@@ -1226,12 +1226,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1250,7 +1250,7 @@
     "test-0000323-032": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-2403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-2403 0000-0200;)"
             },
             "device": {
@@ -1265,12 +1265,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1289,7 +1289,7 @@
     "test-0000323-033": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3103 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3103 1000-0000;)"
             },
             "device": {
@@ -1304,12 +1304,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1328,7 +1328,7 @@
     "test-0000323-034": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 0000-0200;)"
             },
             "device": {
@@ -1343,12 +1343,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1367,7 +1367,7 @@
     "test-0000323-035": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 0400-0000;)"
             },
             "device": {
@@ -1382,12 +1382,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1406,7 +1406,7 @@
     "test-0000323-036": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 1000-0000;)"
             },
             "device": {
@@ -1421,12 +1421,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1445,7 +1445,7 @@
     "test-0000323-037": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3403 2000-0000;)"
             },
             "device": {
@@ -1460,12 +1460,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1484,7 +1484,7 @@
     "test-0000323-038": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-1103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-1103 0000-0200;)"
             },
             "device": {
@@ -1499,12 +1499,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1523,7 +1523,7 @@
     "test-0000323-039": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-1103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-1103 2000-0000;)"
             },
             "device": {
@@ -1538,12 +1538,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1562,7 +1562,7 @@
     "test-0000323-040": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 0000-0200;)"
             },
             "device": {
@@ -1577,12 +1577,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1601,7 +1601,7 @@
     "test-0000323-041": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 0400-0000;)"
             },
             "device": {
@@ -1616,12 +1616,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1640,7 +1640,7 @@
     "test-0000323-042": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 1000-0000;)"
             },
             "device": {
@@ -1655,12 +1655,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1679,7 +1679,7 @@
     "test-0000323-043": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.263;0071-3403 2000-0000;)"
             },
             "device": {
@@ -1694,12 +1694,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1718,7 +1718,7 @@
     "test-0000323-044": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 0000-0200;)"
             },
             "device": {
@@ -1733,12 +1733,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1757,7 +1757,7 @@
     "test-0000323-045": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 0000-0400;)"
             },
             "device": {
@@ -1772,12 +1772,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1796,7 +1796,7 @@
     "test-0000323-046": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-1103 2000-0000;)"
             },
             "device": {
@@ -1811,12 +1811,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1835,7 +1835,7 @@
     "test-0000323-047": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 0000-0400;)"
             },
             "device": {
@@ -1850,12 +1850,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1874,7 +1874,7 @@
     "test-0000323-048": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 2000-0000;)"
             },
             "device": {
@@ -1889,12 +1889,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1913,7 +1913,7 @@
     "test-0000323-049": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2402 4000-0000;)"
             },
             "device": {
@@ -1928,12 +1928,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1952,7 +1952,7 @@
     "test-0000323-050": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2403 0000-0200;)"
             },
             "device": {
@@ -1967,12 +1967,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -1991,7 +1991,7 @@
     "test-0000323-051": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-2403 2000-0000;)"
             },
             "device": {
@@ -2006,12 +2006,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2030,7 +2030,7 @@
     "test-0000323-052": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 1000-0000;)"
             },
             "device": {
@@ -2045,12 +2045,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2069,7 +2069,7 @@
     "test-0000323-053": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3103 2000-0000;)"
             },
             "device": {
@@ -2084,12 +2084,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2108,7 +2108,7 @@
     "test-0000323-054": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0000-0200;)"
             },
             "device": {
@@ -2123,12 +2123,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2147,7 +2147,7 @@
     "test-0000323-055": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0000-0400;)"
             },
             "device": {
@@ -2162,12 +2162,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2186,7 +2186,7 @@
     "test-0000323-056": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 0400-0000;)"
             },
             "device": {
@@ -2201,12 +2201,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2225,7 +2225,7 @@
     "test-0000323-057": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 1000-0000;)"
             },
             "device": {
@@ -2240,12 +2240,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2264,7 +2264,7 @@
     "test-0000323-058": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.266;0071-3403 2000-0000;)"
             },
             "device": {
@@ -2279,12 +2279,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2303,7 +2303,7 @@
     "test-0000323-059": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 0000-0200;)"
             },
             "device": {
@@ -2318,12 +2318,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2342,7 +2342,7 @@
     "test-0000323-060": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 0000-0400;)"
             },
             "device": {
@@ -2357,12 +2357,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2381,7 +2381,7 @@
     "test-0000323-061": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-1103 2000-0000;)"
             },
             "device": {
@@ -2396,12 +2396,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2420,7 +2420,7 @@
     "test-0000323-062": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 0000-0400;)"
             },
             "device": {
@@ -2435,12 +2435,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2459,7 +2459,7 @@
     "test-0000323-063": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 2000-0000;)"
             },
             "device": {
@@ -2474,12 +2474,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2498,7 +2498,7 @@
     "test-0000323-064": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2102 4000-0000;)"
             },
             "device": {
@@ -2513,12 +2513,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2537,7 +2537,7 @@
     "test-0000323-065": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2103 0000-0200;)"
             },
             "device": {
@@ -2552,12 +2552,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2576,7 +2576,7 @@
     "test-0000323-066": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2103 2000-0000;)"
             },
             "device": {
@@ -2591,12 +2591,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2615,7 +2615,7 @@
     "test-0000323-067": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 0000-0400;)"
             },
             "device": {
@@ -2630,12 +2630,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2654,7 +2654,7 @@
     "test-0000323-068": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 0004-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 0004-0000;)"
             },
             "device": {
@@ -2669,12 +2669,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2693,7 +2693,7 @@
     "test-0000323-069": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 2000-0000;)"
             },
             "device": {
@@ -2708,12 +2708,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2732,7 +2732,7 @@
     "test-0000323-070": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2402 4000-0000;)"
             },
             "device": {
@@ -2747,12 +2747,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2771,7 +2771,7 @@
     "test-0000323-071": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2403 0000-0200;)"
             },
             "device": {
@@ -2786,12 +2786,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2810,7 +2810,7 @@
     "test-0000323-072": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-2403 2000-0000;)"
             },
             "device": {
@@ -2825,12 +2825,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2849,7 +2849,7 @@
     "test-0000323-073": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3102 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3102 2000-0000;)"
             },
             "device": {
@@ -2864,12 +2864,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2888,7 +2888,7 @@
     "test-0000323-074": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3102 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3102 4000-0000;)"
             },
             "device": {
@@ -2903,12 +2903,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2927,7 +2927,7 @@
     "test-0000323-075": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0000-0200;)"
             },
             "device": {
@@ -2942,12 +2942,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -2966,7 +2966,7 @@
     "test-0000323-076": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0000-0400;)"
             },
             "device": {
@@ -2981,12 +2981,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3005,7 +3005,7 @@
     "test-0000323-077": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 0400-0000;)"
             },
             "device": {
@@ -3020,12 +3020,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3044,7 +3044,7 @@
     "test-0000323-078": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 1000-0000;)"
             },
             "device": {
@@ -3059,12 +3059,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3083,7 +3083,7 @@
     "test-0000323-079": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3103 2000-0000;)"
             },
             "device": {
@@ -3098,12 +3098,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3122,7 +3122,7 @@
     "test-0000323-080": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0200;)"
             },
             "device": {
@@ -3137,12 +3137,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3161,7 +3161,7 @@
     "test-0000323-081": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0400;)"
             },
             "device": {
@@ -3176,12 +3176,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3200,7 +3200,7 @@
     "test-0000323-082": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0800;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0000-0800;)"
             },
             "device": {
@@ -3215,12 +3215,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3239,7 +3239,7 @@
     "test-0000323-083": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0400-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 0400-0000;)"
             },
             "device": {
@@ -3254,12 +3254,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3278,7 +3278,7 @@
     "test-0000323-084": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 1000-0000;)"
             },
             "device": {
@@ -3293,12 +3293,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3317,7 +3317,7 @@
     "test-0000323-085": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.267;0071-3403 2000-0000;)"
             },
             "device": {
@@ -3332,12 +3332,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3356,7 +3356,7 @@
     "test-0000323-086": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.268;0071-3403 1000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.268;0071-3403 1000-0000;)"
             },
             "device": {
@@ -3371,12 +3371,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3395,7 +3395,7 @@
     "test-0000323-087": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.268;0071-3403 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.268;0071-3403 2000-0000;)"
             },
             "device": {
@@ -3410,12 +3410,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3434,7 +3434,7 @@
     "test-0000323-088": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.624;0021-0102 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.624;0021-0102 0000-0400;)"
             },
             "device": {
@@ -3449,12 +3449,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3473,7 +3473,7 @@
     "test-0000323-089": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.624;0021-0103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.624;0021-0103 2000-0000;)"
             },
             "device": {
@@ -3488,12 +3488,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3512,7 +3512,7 @@
     "test-0000323-090": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.626;0021-0102 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.626;0021-0102 4000-0000;)"
             },
             "device": {
@@ -3527,12 +3527,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3551,7 +3551,7 @@
     "test-0000323-091": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0102 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0102 4000-0000;)"
             },
             "device": {
@@ -3566,12 +3566,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3590,7 +3590,7 @@
     "test-0000323-092": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0103 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0103 0000-0400;)"
             },
             "device": {
@@ -3605,12 +3605,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3629,7 +3629,7 @@
     "test-0000323-093": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0103 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-0103 2000-0000;)"
             },
             "device": {
@@ -3644,12 +3644,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3668,7 +3668,7 @@
     "test-0000323-094": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-1102 2000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.629;0021-1102 2000-0000;)"
             },
             "device": {
@@ -3683,12 +3683,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3707,7 +3707,7 @@
     "test-0000323-095": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 0000-0400;)"
             },
             "device": {
@@ -3722,12 +3722,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3746,7 +3746,7 @@
     "test-0000323-096": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 0004-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 0004-0000;)"
             },
             "device": {
@@ -3761,12 +3761,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3785,7 +3785,7 @@
     "test-0000323-097": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 4000-0000;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0102 4000-0000;)"
             },
             "device": {
@@ -3800,12 +3800,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3824,7 +3824,7 @@
     "test-0000323-098": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0103 0000-0200;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0103 0000-0200;)"
             },
             "device": {
@@ -3839,12 +3839,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",
@@ -3863,7 +3863,7 @@
     "test-0000323-099": {
         "ua": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0103 0000-0400;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.630;0021-0103 0000-0400;)"
             },
             "device": {
@@ -3878,12 +3878,12 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Viera Browser",
+                "name": null,
                 "modus": null,
-                "version": "2012.0.0",
-                "manufacturer": "Panasonic",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Linux",

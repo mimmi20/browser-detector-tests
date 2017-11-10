@@ -2,7 +2,7 @@
     "test-0000382-300": {
         "ua": "SAMSUNG-GT-C3200",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3200"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000382-301": {
         "ua": "OneBrowser/3.1 (SAMSUNG GT-C3212)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG GT-C3212)"
             },
             "device": {
@@ -56,12 +56,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -71,16 +71,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-302": {
         "ua": "samsung gt-c3212, SAMSUNG-GT-C3212/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "samsung gt-c3212, SAMSUNG-GT-C3212/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000382-303": {
         "ua": "MQQBrowser/Mini2.6 (SAMSUNG GT-C3212i)\\n",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.6 (SAMSUNG GT-C3212i)\\n"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000382-304": {
         "ua": "Mozilla/4.0 (compatible; MSIE 4.0; ) Opera/UC Browser7.8.0.95/69/351, SAMSUNG-GT-C3222/C3222DDJL3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 4.0; ) Opera/UC Browser7.8.0.95/69/351, SAMSUNG-GT-C3222/C3222DDJL3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000382-305": {
         "ua": "Mozilla/5.0 (Java; U; Id; samsung gt-c3222) UCBrowser8.3.0.154/69/444/UCWEB Mobile, SAMSUNG-GT-C3222/C3222DDJL3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Id; samsung gt-c3222) UCBrowser8.3.0.154/69/444/UCWEB Mobile, SAMSUNG-GT-C3222/C3222DDJL3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -212,12 +212,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.3.0.154",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -236,7 +236,7 @@
     "test-0000382-306": {
         "ua": "SAMSUNG-GT-C3222W/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3222W/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000382-307": {
         "ua": "Mozilla/5.0 (Java; U; en-us; samsung-gt-c3262) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile, SAMSUNG-GT-C3262/C3262DDLHA Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-us; samsung-gt-c3262) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile, SAMSUNG-GT-C3262/C3262DDLHA Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000382-308": {
         "ua": "MQQBrowser/Mini2.5 (SAMSUNG-GT-C3262)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.5 (SAMSUNG-GT-C3262)"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000382-309": {
         "ua": "SAMSUNG-GT-C3300/C3303DDJE2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3300/C3303DDJE2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000382-310": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3300i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/352/UCWEB Mobile,SAMSUNG-GT-C3300i/C3300iXXKJ2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3300i) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/352/UCWEB Mobile,SAMSUNG-GT-C3300i/C3300iXXKJ2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000382-311": {
         "ua": "MQQBrowser/Mini2.5 (SAMSUNG GT-C3300i)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.5 (SAMSUNG GT-C3300i)"
             },
             "device": {
@@ -470,7 +470,7 @@
     "test-0000382-312": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3300k) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile, SAMSUNG-GT-C3300K/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3300k) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/84/352/UCWEB Mobile, SAMSUNG-GT-C3300K/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
             },
             "device": {
@@ -509,7 +509,7 @@
     "test-0000382-313": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3300K)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3300K)"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000382-314": {
         "ua": "Mozilla/5.0 (Java; U; en-in; samsung-gt-c3300k-orange) UCBrowser8.4.0.159/69/352/UCWEB Mobile, SAMSUNG-GT-C3300K-ORANGE/C3300KBVJG3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-in; samsung-gt-c3300k-orange) UCBrowser8.4.0.159/69/352/UCWEB Mobile, SAMSUNG-GT-C3300K-ORANGE/C3300KBVJG3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
             },
             "device": {
@@ -563,12 +563,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.4.0.159",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Java",
@@ -587,7 +587,7 @@
     "test-0000382-315": {
         "ua": "SAMSUNG-GT-C3300K-ORANGE/C3300KAFKA3 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3300K-ORANGE/C3300KAFKA3 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000382-316": {
         "ua": "Mozilla/5.0 (Java; U; en-in; samsung gt-c3303) UCBrowser8.3.0.154/69/405/UCWEB Mobile, SAMSUNG-GT-C3303/C3303DDJFB Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-in; samsung gt-c3303) UCBrowser8.3.0.154/69/405/UCWEB Mobile, SAMSUNG-GT-C3303/C3303DDJFB Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -641,12 +641,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.3.0.154",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -665,7 +665,7 @@
     "test-0000382-317": {
         "ua": "SAMSUNG-GT-C3303/C3303DDJFB NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3303/C3303DDJFB NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000382-318": {
         "ua": "Mozilla/5.0 (Java; U; en-id; samsung gt-c3303i) UCBrowser8.2.1.144/69/444/UCWEB Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-id; samsung gt-c3303i) UCBrowser8.2.1.144/69/444/UCWEB Mobile"
             },
             "device": {
@@ -719,12 +719,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.2.1.144",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Java",
@@ -743,7 +743,7 @@
     "test-0000382-319": {
         "ua": "MQQBrowser/Mini2.5 (SAMSUNG GT-C3303i)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.5 (SAMSUNG GT-C3303i)"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000382-320": {
         "ua": "Mozilla/5.0 (Java; U; Id; samsung gt-c3303k) UCBrowser8.2.1.144/69/444/UCWEB Mobile,SAMSUNG-GT-C3303K/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Id; samsung gt-c3303k) UCBrowser8.2.1.144/69/444/UCWEB Mobile,SAMSUNG-GT-C3303K/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -797,12 +797,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.2.1.144",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -821,7 +821,7 @@
     "test-0000382-321": {
         "ua": "SAMSUNG GT-C3303K Profile/MIDP-1.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG GT-C3303K Profile/MIDP-1.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -860,7 +860,7 @@
     "test-0000382-322": {
         "ua": "MQQBrowser/Mini2.8 (SAMSUNG-GT-C3310)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.8 (SAMSUNG-GT-C3310)"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000382-323": {
         "ua": "OneBrowser/3.1 (SAMSUNG-GT-C3310R)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG-GT-C3310R)"
             },
             "device": {
@@ -914,12 +914,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Java",
@@ -929,16 +929,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-324": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3312)\\n",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3312)\\n"
             },
             "device": {
@@ -977,7 +977,7 @@
     "test-0000382-325": {
         "ua": "SAMSUNG-GT-C3312R Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.32562/34.1853; U; en) Presto/2.8.119 Version/11.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3312R Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.32562/34.1853; U; en) Presto/2.8.119 Version/11.10"
             },
             "device": {
@@ -1016,7 +1016,7 @@
     "test-0000382-326": {
         "ua": "OneBrowser/3.1 (SAMSUNG-GT-C3313T)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG-GT-C3313T)"
             },
             "device": {
@@ -1031,12 +1031,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1046,16 +1046,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-327": {
         "ua": "Mozilla/5.0 (Java; U; Id; samsung gt-c3322) UCBrowser8.3.0.154/69/444/UCWEB Mobile, SAMSUNG-GT-C3322/C3322DDKK1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Id; samsung gt-c3322) UCBrowser8.3.0.154/69/444/UCWEB Mobile, SAMSUNG-GT-C3322/C3322DDKK1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -1070,12 +1070,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.3.0.154",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -1094,7 +1094,7 @@
     "test-0000382-328": {
         "ua": "MQQBrowser/Mini2.8 (SAMSUNG-GT-C3322)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.8 (SAMSUNG-GT-C3322)"
             },
             "device": {
@@ -1133,7 +1133,7 @@
     "test-0000382-329": {
         "ua": "SAMSUNG-GT-C3322i Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33886/34.1499; U; uk) Presto/2.8.119 Version/11.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3322i Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33886/34.1499; U; uk) Presto/2.8.119 Version/11.10"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000382-330": {
         "ua": "MQQBrowser/Mini2.4 (SAMSUNG-GT-C3330)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.4 (SAMSUNG-GT-C3330)"
             },
             "device": {
@@ -1211,7 +1211,7 @@
     "test-0000382-331": {
         "ua": "SAMSUNG-GT-C3332",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3332"
             },
             "device": {
@@ -1250,7 +1250,7 @@
     "test-0000382-332": {
         "ua": "OneBrowser/3.1 (SAMSUNG-GT-C3350)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG-GT-C3350)"
             },
             "device": {
@@ -1265,12 +1265,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Java",
@@ -1280,16 +1280,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-333": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3500) UCBrowser8.2.0.132/69/352/UCWEB Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3500) UCBrowser8.2.0.132/69/352/UCWEB Mobile"
             },
             "device": {
@@ -1304,12 +1304,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.2.0.132",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Android",
@@ -1328,7 +1328,7 @@
     "test-0000382-334": {
         "ua": "OneBrowser/3.1 (SAMSUNG GT-C3500)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG GT-C3500)"
             },
             "device": {
@@ -1343,12 +1343,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Android",
@@ -1358,16 +1358,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-335": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3510) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/82/352/UCWEB Mobile, SAMSUNG-GT-C3510/C3510XXJI1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c3510) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/82/352/UCWEB Mobile, SAMSUNG-GT-C3510/C3510XXJI1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -1406,7 +1406,7 @@
     "test-0000382-336": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3510)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3510)"
             },
             "device": {
@@ -1445,7 +1445,7 @@
     "test-0000382-337": {
         "ua": "SAMSUNG-GT-C3510-Bouygues/C3510POIL2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3510-Bouygues/C3510POIL2 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -1484,7 +1484,7 @@
     "test-0000382-338": {
         "ua": "SAMSUNG-GT-C3510-ORANGE/C3510AFJC2",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3510-ORANGE/C3510AFJC2"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000382-339": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung-gt-c3510t) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung-gt-c3510t) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.5.0.185/83/352/UCWEB Mobile UNTRUSTED/1.0"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000382-340": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3510T/C3510TUYJG1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3510T/C3510TUYJG1)"
             },
             "device": {
@@ -1601,7 +1601,7 @@
     "test-0000382-341": {
         "ua": "SAMSUNG-GT-C3518/1.0 RTK-E/1.0 DF/1.0 Release/22.12.2009 Browser/NetFront3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3518/1.0 RTK-E/1.0 DF/1.0 Release/22.12.2009 Browser/NetFront3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -1640,7 +1640,7 @@
     "test-0000382-342": {
         "ua": "Mozilla/5.0 (Java; U; es-la; samsung gt-c3520) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; es-la; samsung gt-c3520) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile"
             },
             "device": {
@@ -1679,7 +1679,7 @@
     "test-0000382-343": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3520)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-C3520)"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000382-344": {
         "ua": "SAMSUNG-GT-C3530",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3530"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000382-345": {
         "ua": "OneBrowser/3.1 (SAMSUNG-GT-C3560)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG-GT-C3560)"
             },
             "device": {
@@ -1772,12 +1772,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1787,16 +1787,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-346": {
         "ua": "SAMSUNG-GT-C3590 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33886/34.1153; U; de) Presto/2.8.119 Version/11.10",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3590 Opera/9.80 (J2ME/MIDP; Opera Mini/7.1.33886/34.1153; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000382-347": {
         "ua": "SAMSUNG-GT-C3595/C3595XAMG1 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3595/C3595XAMG1 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -1874,7 +1874,7 @@
     "test-0000382-348": {
         "ua": "SAMSUNG-GT-C3630/1.0 SHP/VPP/R5 NetFront/3.4 Nextreaming SMM-MMS/1.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3630/1.0 SHP/VPP/R5 NetFront/3.4 Nextreaming SMM-MMS/1.2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000382-349": {
         "ua": "SAMSUNG-GT-C3630C_CMCC/1.0 RTK-E/1.0 SHP/VPP-R5 Release/11.17.2009 Browser/NetFront3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1 SMM-MMS/1.2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3630C_CMCC/1.0 RTK-E/1.0 SHP/VPP-R5 Release/11.17.2009 Browser/NetFront3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1 SMM-MMS/1.2.0"
             },
             "device": {
@@ -1952,7 +1952,7 @@
     "test-0000382-350": {
         "ua": "MQQBrowser/Mini2.4 (SAMSUNG-GT-C3750)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.4 (SAMSUNG-GT-C3750)"
             },
             "device": {
@@ -1991,7 +1991,7 @@
     "test-0000382-351": {
         "ua": "SAMSUNG-GT-C3750-Bouygues/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3750-Bouygues/1.0 NetFront/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -2030,7 +2030,7 @@
     "test-0000382-352": {
         "ua": "MQQBrowser/Mini2.5 (SAMSUNG-GT-C3752)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.5 (SAMSUNG-GT-C3752)"
             },
             "device": {
@@ -2069,7 +2069,7 @@
     "test-0000382-353": {
         "ua": "OneBrowser/3.1 (SAMSUNG GT-C3780)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG GT-C3780)"
             },
             "device": {
@@ -2084,12 +2084,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": "Android",
@@ -2099,16 +2099,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-354": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3782/C3782XXLE1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG-GT-C3782/C3782XXLE1)"
             },
             "device": {
@@ -2147,7 +2147,7 @@
     "test-0000382-355": {
         "ua": "UCWEB/2.0 (Java; U; MIDP-2.0; ru; samsung gt-c3782) U2/1.0.0 UCBrowser/8.9.0.251 U2/1.0.0 Mobile,SAMSUNG-GT-C3782-ORANGE/C3782BVLF3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "UCWEB/2.0 (Java; U; MIDP-2.0; ru; samsung gt-c3782) U2/1.0.0 UCBrowser/8.9.0.251 U2/1.0.0 Mobile,SAMSUNG-GT-C3782-ORANGE/C3782BVLF3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 ("
             },
             "device": {
@@ -2162,12 +2162,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.9.0.251",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -2186,7 +2186,7 @@
     "test-0000382-356": {
         "ua": "SAMSUNG-GT-C3782-ORANGE/C3782BVLF3 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C3782-ORANGE/C3782BVLF3 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000382-357": {
         "ua": "SAMSUNG-GT-C5010",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5010"
             },
             "device": {
@@ -2264,7 +2264,7 @@
     "test-0000382-358": {
         "ua": "SAMSUNG-GT-C5010B/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5010B/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -2303,7 +2303,7 @@
     "test-0000382-359": {
         "ua": "SAMSUNG-GT-C5010E",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5010E"
             },
             "device": {
@@ -2342,7 +2342,7 @@
     "test-0000382-360": {
         "ua": "SAMSUNG-GT-C5010L/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5010L/1.0 NetFront/3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000382-361": {
         "ua": "Mozilla/5.0 (Java; U; en-in; samsung-gt-c5130) UCBrowser8.3.0.154/69/405/UCWEB Mobile UNTRUSTED/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-in; samsung-gt-c5130) UCBrowser8.3.0.154/69/405/UCWEB Mobile UNTRUSTED/1.0"
             },
             "device": {
@@ -2396,12 +2396,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.3.0.154",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Java",
@@ -2420,7 +2420,7 @@
     "test-0000382-362": {
         "ua": "OneBrowser/3.1 (SAMSUNG-GT-C5130/C5130DDIJ6)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG-GT-C5130/C5130DDIJ6)"
             },
             "device": {
@@ -2435,12 +2435,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -2450,16 +2450,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-363": {
         "ua": "SAMSUNG-GT-C5130S",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5130S"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000382-364": {
         "ua": "SAMSUNG-GT-C5130S-ORANGE/C5130SBVJA1 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5130S-ORANGE/C5130SBVJA1 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000382-365": {
         "ua": "SAMSUNG-GT-C5130S-Vodafone/SBAIJ4 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5130S-Vodafone/SBAIJ4 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000382-366": {
         "ua": "Samsung GT-C5212",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Samsung GT-C5212"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000382-367": {
         "ua": "Mozilla/4.0 (compatible; MSIE 4.0; ) Opera/UCWEB7.5.0.66/69/352, SAMSUNG-GT-C5212i/C5212iXEJH2 Profile/MIDP-2.0 Configuration",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 4.0; ) Opera/UCWEB7.5.0.66/69/352, SAMSUNG-GT-C5212i/C5212iXEJH2 Profile/MIDP-2.0 Configuration"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000382-368": {
         "ua": "Mozilla/5.0 (Java; U; Id; samsung gt-c5212i) UCBrowser8.3.0.154/69/405/UCWEB Mobile, SAMSUNG-GT-C5212i/C5212iDDJH6 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Id; samsung gt-c5212i) UCBrowser8.3.0.154/69/405/UCWEB Mobile, SAMSUNG-GT-C5212i/C5212iDDJH6 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -2669,12 +2669,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "8.3.0.154",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -2693,7 +2693,7 @@
     "test-0000382-369": {
         "ua": "Samsung GT-C5220",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Samsung GT-C5220"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000382-370": {
         "ua": "Mozilla/5.0 (Java; U; en-us; samsung-gt-c5510) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile UNTRUSTED/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; en-us; samsung-gt-c5510) AppleWebKit/530.13 (KHTML, like Gecko) UCBrowser/8.6.0.199/69/444/UCWEB Mobile UNTRUSTED/1.0"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000382-371": {
         "ua": "SAMSUNG-GT-C5510",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5510"
             },
             "device": {
@@ -2810,7 +2810,7 @@
     "test-0000382-372": {
         "ua": "SAMSUNG-GT-C5510U/1.0 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1/*MzU1ODk3MDMxNDQ1MzA3",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C5510U/1.0 SHP/VPP/R5 NetFront/3.5 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1/*MzU1ODk3MDMxNDQ1MzA3"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000382-373": {
         "ua": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c6112) UCBrowser8.2.1.144/69/444/UCWEB Mobile",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Pt-br; samsung gt-c6112) UCBrowser8.2.1.144/69/444/UCWEB Mobile"
             },
             "device": {
@@ -2864,12 +2864,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.2.1.144",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Java",
@@ -2888,7 +2888,7 @@
     "test-0000382-374": {
         "ua": "OneBrowser/3.1 (SAMSUNG GT-C6112)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.1 (SAMSUNG GT-C6112)"
             },
             "device": {
@@ -2903,12 +2903,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.1.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -2918,16 +2918,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-375": {
         "ua": "SAMSUNG-GT-C6112C/1.0 RTK-E/1.0 DF/1.0 Release/08.18.2009 Browser/NetFront3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C6112C/1.0 RTK-E/1.0 DF/1.0 Release/08.18.2009 Browser/NetFront3.5 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000382-376": {
         "ua": "Mozilla/5.0 (Java; U; Id; samsung-gt-c6712) UCBrowser8.4.0.159/70/352/UCWEB Mobile UNTRUSTED/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Java; U; Id; samsung-gt-c6712) UCBrowser8.4.0.159/70/352/UCWEB Mobile UNTRUSTED/1.0"
             },
             "device": {
@@ -2981,12 +2981,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Java Standard Library",
                 "modus": null,
-                "version": "8.4.0.159",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Oracle",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "bot"
             },
             "os": {
                 "name": "Java",
@@ -3005,7 +3005,7 @@
     "test-0000382-377": {
         "ua": "SAMSUNG-GT-C6712/1.0 SHP/VPP/R5 Dolfin/2.0 SMM-MMS/1.2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-C6712/1.0 SHP/VPP/R5 Dolfin/2.0 SMM-MMS/1.2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1"
             },
             "device": {
@@ -3044,7 +3044,7 @@
     "test-0000382-378": {
         "ua": "SAMSUNG-GT-E1130B/E1130BFOJA1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E1130B/E1130BFOJA1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0"
             },
             "device": {
@@ -3083,7 +3083,7 @@
     "test-0000382-379": {
         "ua": "SAMSUNG-GT-E1130B-ORANGE/E1130BABIL2 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E1130B-ORANGE/E1130BABIL2 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0"
             },
             "device": {
@@ -3122,7 +3122,7 @@
     "test-0000382-380": {
         "ua": "SAMSUNG-GT-E1282T",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E1282T"
             },
             "device": {
@@ -3161,7 +3161,7 @@
     "test-0000382-381": {
         "ua": "SAMSUNG-GT-E1390/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E1390/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000382-382": {
         "ua": "SAMSUNG-GT-E1500/E1500JVLH6 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E1500/E1500JVLH6 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000382-383": {
         "ua": "SAMSUNG-GT-E2120",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2120"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000382-384": {
         "ua": "SAMSUNG-GT-E2120-ORANGE/E2120BVII2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2120-ORANGE/E2120BVII2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000382-385": {
         "ua": "SAMSUNG GT-E2120B UCWEB/6.0,SAMSUNG-GT-E2120B/E2120BDDIH2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG GT-E2120B UCWEB/6.0,SAMSUNG-GT-E2120B/E2120BDDIH2 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -3332,12 +3332,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "6.0.0",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -3356,7 +3356,7 @@
     "test-0000382-386": {
         "ua": "SAMSUNG-GT-E2120C",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2120C"
             },
             "device": {
@@ -3395,7 +3395,7 @@
     "test-0000382-387": {
         "ua": "SAMSUNG-GT-E2120i",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2120i"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000382-388": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2120L)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2120L)"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000382-389": {
         "ua": "SAMSUNG-GT-E2121",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2121"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000382-390": {
         "ua": "samsung gt-e2121, SAMSUNG-GT-E2121/E2121JBJF1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "samsung gt-e2121, SAMSUNG-GT-E2121/E2121JBJF1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000382-391": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG-GT-E2121B/E2121BXXKH1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG-GT-E2121B/E2121BXXKH1)"
             },
             "device": {
@@ -3590,7 +3590,7 @@
     "test-0000382-392": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2121L)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2121L)"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000382-393": {
         "ua": "SAMSUNG-GT-E2121N/E2121NJCJJ1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2121N/E2121NJCJJ1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000382-394": {
         "ua": "SAMSUNG GT-E2130 UCWEB/6.0,SAMSUNG-GT-E2130/E2130DDII1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG GT-E2130 UCWEB/6.0,SAMSUNG-GT-E2130/E2130DDII1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.102 (GUI) MMP/2.0 Untrusted/1.0"
             },
             "device": {
@@ -3683,12 +3683,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": "Openwave Mobile Browser",
                 "modus": null,
-                "version": "6.0.0",
-                "manufacturer": "UcWeb",
+                "version": "6.2.3.3",
+                "manufacturer": "Myriad",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "browser"
             },
             "os": {
                 "name": "Java",
@@ -3707,7 +3707,7 @@
     "test-0000382-395": {
         "ua": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2152)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MQQBrowser/Mini2.2 (SAMSUNG GT-E2152)"
             },
             "device": {
@@ -3746,7 +3746,7 @@
     "test-0000382-396": {
         "ua": "samsung-gt-e2152/UC Browser7.2.2.51/70/400, SAMSUNG-GT-E2152/E2152XXJH3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "samsung-gt-e2152/UC Browser7.2.2.51/70/400, SAMSUNG-GT-E2152/E2152XXJH3 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0"
             },
             "device": {
@@ -3761,12 +3761,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "UC Browser",
+                "name": null,
                 "modus": null,
-                "version": "7.2.2.51",
-                "manufacturer": "UcWeb",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "transcoder"
+                "type": "unknown"
             },
             "os": {
                 "name": "Java",
@@ -3785,7 +3785,7 @@
     "test-0000382-397": {
         "ua": "SAMSUNG-GT-E2152i",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2152i"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000382-398": {
         "ua": "OneBrowser/3.0 (SAMSUNG GT-E2152L)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "OneBrowser/3.0 (SAMSUNG GT-E2152L)"
             },
             "device": {
@@ -3839,12 +3839,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "OneBrowser",
+                "name": null,
                 "modus": null,
-                "version": "3.0.0",
+                "version": "0.0.0",
                 "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -3854,16 +3854,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "Apple"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000382-399": {
         "ua": "SAMSUNG-GT-E2200 Opera(J2ME/MIDP; Opera Mini; U; en)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "SAMSUNG-GT-E2200 Opera(J2ME/MIDP; Opera Mini; U; en)"
             },
             "device": {

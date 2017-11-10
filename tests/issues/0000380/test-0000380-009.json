@@ -2,7 +2,7 @@
     "test-0000380-900": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9082L Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9082L Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -41,7 +41,7 @@
     "test-0000380-901": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; GT-I9205 Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; GT-I9205 Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22"
             },
             "device": {
@@ -80,7 +80,7 @@
     "test-0000380-902": {
         "ua": "Mozilla/5.0 (Linux; Android 2.3.5; GT-N7000 Build/GINGERBREAD) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 2.3.5; GT-N7000 Build/GINGERBREAD) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57453"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000380-903": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-N7000-ORANGE/N7000XXKKA Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-N7000-ORANGE/N7000XXKKA Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000380-904": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; GT-N7000B Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; GT-N7000B Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Mobile Safari/537.22"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000380-905": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-N7005 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; GT-N7005 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -208,7 +208,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -236,7 +236,7 @@
     "test-0000380-906": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; GT-N7100 Build/S5-V1.0-2012.12.01) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.58201",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; GT-N7100 Build/S5-V1.0-2012.12.01) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.58201"
             },
             "device": {
@@ -248,7 +248,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Opera Mobile",
@@ -275,7 +275,7 @@
     "test-0000380-907": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; bg-bg; GT-N7100-ORANGE/N7100XXALIJ Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; bg-bg; GT-N7100-ORANGE/N7100XXALIJ Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -287,7 +287,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Android Webkit",
@@ -314,7 +314,7 @@
     "test-0000380-908": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; GT-N7100-ProBam Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; GT-N7100-ProBam Build/JDQ39E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36"
             },
             "device": {
@@ -326,7 +326,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -353,7 +353,7 @@
     "test-0000380-909": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3; GT-N7100T Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; GT-N7100T Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Mobile Safari/537.36"
             },
             "device": {
@@ -365,7 +365,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -392,7 +392,7 @@
     "test-0000380-910": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7102 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7102 Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -403,7 +403,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -431,7 +431,7 @@
     "test-0000380-911": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N7102i Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N7102i Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36"
             },
             "device": {
@@ -442,7 +442,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -470,7 +470,7 @@
     "test-0000380-912": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7105 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7105 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -482,7 +482,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -509,7 +509,7 @@
     "test-0000380-913": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-N7105-ORANGE/N7105XXDMF2 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; GT-N7105-ORANGE/N7105XXDMF2 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -521,7 +521,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Android Webkit",
@@ -548,7 +548,7 @@
     "test-0000380-914": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7105T Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7105T Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -560,7 +560,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -587,7 +587,7 @@
     "test-0000380-915": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7108 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; GT-N7108 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -599,7 +599,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Chrome",
@@ -626,7 +626,7 @@
     "test-0000380-916": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; GT-N7108D Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; zh-cn; GT-N7108D Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -638,7 +638,7 @@
                 "resolutionWidth": 720,
                 "resolutionHeight": 1280,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Android Webkit",
@@ -665,7 +665,7 @@
     "test-0000380-917": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; GT-N7200 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; GT-N7200 Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -676,7 +676,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -704,7 +704,7 @@
     "test-0000380-918": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3; ar-tn; SAMSUNG SM-N9005 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.3; ar-tn; SAMSUNG SM-N9005 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {
@@ -743,7 +743,7 @@
     "test-0000380-919": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3; de-de; SAMSUNG SM-N9005-ORANGE Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; de-de; SAMSUNG SM-N9005-ORANGE Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {
@@ -782,7 +782,7 @@
     "test-0000380-920": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3; Nexus S Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.3; Nexus S Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Safari/537.36"
             },
             "device": {
@@ -821,7 +821,7 @@
     "test-0000380-921": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; Nexus s Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.1; de-de; Nexus s Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -860,7 +860,7 @@
     "test-0000380-922": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Nexus S 4G Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Nexus S 4G Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000380-923": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; SAMSUNG EK-GC100/GC100XXALJF Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; SAMSUNG EK-GC100/GC100XXALJF Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -910,7 +910,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -938,7 +938,7 @@
     "test-0000380-924": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; SAMSUNG GT-19300/S5830BUKT2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; SAMSUNG GT-19300/S5830BUKT2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -949,7 +949,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -977,7 +977,7 @@
     "test-0000380-925": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-B5330/B5330XWALH6 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-B5330/B5330XWALH6 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -988,7 +988,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1016,7 +1016,7 @@
     "test-0000380-926": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-B5510/B5510XXLE1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-B5510/B5510XXLE1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1055,7 +1055,7 @@
     "test-0000380-927": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I8160/I8160BOLE1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I8160/I8160BOLE1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1094,7 +1094,7 @@
     "test-0000380-928": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae; SAMSUNG GT-I8190/I8190XXALJL Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae; SAMSUNG GT-I8190/I8190XXALJL Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1133,7 +1133,7 @@
     "test-0000380-929": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-I8190N/I8190NXXALL4 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-I8190N/I8190NXXALL4 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000380-930": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-ch; SAMSUNG GT-I8530/I8530BULE3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-ch; SAMSUNG GT-I8530/I8530BULE3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1211,7 +1211,7 @@
     "test-0000380-931": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-; SAMSUNG GT-I8730/I8730XWAMG1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-; SAMSUNG GT-I8730/I8730XWAMG1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1250,7 +1250,7 @@
     "test-0000380-932": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9000/I9000BOJW6 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9000/I9000BOJW6 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1289,7 +1289,7 @@
     "test-0000380-933": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; bg-bg; SAMSUNG GT-I9001/I9001BUKG1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.3; bg-bg; SAMSUNG GT-I9001/I9001BUKG1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1328,7 +1328,7 @@
     "test-0000380-934": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9070/I9070BULK1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9070/I9070BULK1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1367,7 +1367,7 @@
     "test-0000380-935": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9070P/I9070PBOLK1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9070P/I9070PBOLK1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1406,7 +1406,7 @@
     "test-0000380-936": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.1; de-de; Samsung GT-I9100/I9100BUKB1 Build/GRH78) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.1; de-de; Samsung GT-I9100/I9100BUKB1 Build/GRH78) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1445,7 +1445,7 @@
     "test-0000380-937": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-I9100P/I9100PXXLPP Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-I9100P/I9100PXXLPP Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1484,7 +1484,7 @@
     "test-0000380-938": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-I9105P/I9105PXXAMB6 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-I9105P/I9105PXXAMB6 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1523,7 +1523,7 @@
     "test-0000380-939": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9195/I9195XXUAMF6 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9195/I9195XXUAMF6 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -1562,7 +1562,7 @@
     "test-0000380-940": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9210/I9210XXLC2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-I9210/I9210XXLC2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -1601,7 +1601,7 @@
     "test-0000380-941": {
         "ua": "Android 2.3.6;AppleWebKit/533.1;Build/GINGERBREAD;SAMSUNG GT-I9210T/I9210TDVLC4 Build/GINGERBREAD",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Android 2.3.6;AppleWebKit/533.1;Build/GINGERBREAD;SAMSUNG GT-I9210T/I9210TDVLC4 Build/GINGERBREAD"
             },
             "device": {
@@ -1616,12 +1616,12 @@
                 "type": "mobile-phone"
             },
             "browser": {
-                "name": "VLC Media Player",
+                "name": "Safari",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "VideoLan",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
-                "type": "multimedia-player"
+                "type": "browser"
             },
             "os": {
                 "name": "Android",
@@ -1640,7 +1640,7 @@
     "test-0000380-942": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9295/I9295XXUAMF5 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9295/I9295XXUAMF5 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -1679,7 +1679,7 @@
     "test-0000380-943": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-I9300/I9100BOLPD Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-I9300/I9100BOLPD Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000380-944": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae; SAMSUNG GT-I9305/I9305XXALI5 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; ar-ae; SAMSUNG GT-I9305/I9305XXALI5 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000380-945": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9505/I9505XXUAMDC Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9505/I9505XXUAMDC Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -1796,7 +1796,7 @@
     "test-0000380-946": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9506/I9506XXUAMHE Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ar-ae; SAMSUNG GT-I9506/I9506XXUAMHE Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -1835,7 +1835,7 @@
     "test-0000380-947": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; SAMSUNG GT-N5110/N5120XXBME1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; SAMSUNG GT-N5110/N5120XXBME1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1874,7 +1874,7 @@
     "test-0000380-948": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-ch; SAMSUNG GT-N5120/N5120XXBME1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-ch; SAMSUNG GT-N5120/N5120XXBME1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1913,7 +1913,7 @@
     "test-0000380-949": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-N8000/N8000XWALG9 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-N8000/N8000XWALG9 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1952,7 +1952,7 @@
     "test-0000380-950": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; bg-bg; SAMSUNG GT-N8020/N8020XXALJD Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; bg-bg; SAMSUNG GT-N8020/N8020XXALJD Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -1991,7 +1991,7 @@
     "test-0000380-951": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; cs-cz; SAMSUNG GT-P1000/P1000BOJU3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; cs-cz; SAMSUNG GT-P1000/P1000BOJU3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2030,7 +2030,7 @@
     "test-0000380-952": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-P3100/P3100BUALD5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; SAMSUNG GT-P3100/P3100BUALD5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2069,7 +2069,7 @@
     "test-0000380-953": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; bg-bg; SAMSUNG GT-P5100/P5100BUALD5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.3; bg-bg; SAMSUNG GT-P5100/P5100BUALD5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2108,7 +2108,7 @@
     "test-0000380-954": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; cs-cz; SAMSUNG GT-P5200/P5200XXUAMFC Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; cs-cz; SAMSUNG GT-P5200/P5200XXUAMFC Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2147,7 +2147,7 @@
     "test-0000380-955": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG GT-P5220/P5220XXUAMH8 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG GT-P5220/P5220XXUAMH8 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2186,7 +2186,7 @@
     "test-0000380-956": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-P7300/P7300XXLQD Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; cs-cz; SAMSUNG GT-P7300/P7300XXLQD Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2225,7 +2225,7 @@
     "test-0000380-957": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SAMSUNG GT-P7320/P7320XXLPM Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SAMSUNG GT-P7320/P7320XXLPM Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2264,7 +2264,7 @@
     "test-0000380-958": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SAMSUNG GT-P7501/P7501BUMA1 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SAMSUNG GT-P7501/P7501BUMA1 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -2303,7 +2303,7 @@
     "test-0000380-959": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; ar-ae; SAMSUNG GT-S5301/S5301XXAMA3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; ar-ae; SAMSUNG GT-S5301/S5301XXAMA3 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2342,7 +2342,7 @@
     "test-0000380-960": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; bg-bg; SAMSUNG GT-S5310/S5310XXAME5 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; bg-bg; SAMSUNG GT-S5310/S5310XXAME5 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2381,7 +2381,7 @@
     "test-0000380-961": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5369/S5369BUKL3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5369/S5369BUKL3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000380-962": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; bg-bg; SAMSUNG GT-S5570/S5570BUKS1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.5; bg-bg; SAMSUNG GT-S5570/S5570BUKS1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000380-963": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-ch; SAMSUNG GT-S5660V/S5660VXXKQE Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-ch; SAMSUNG GT-S5660V/S5660VXXKQE Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000380-964": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5690/S5690BOLL1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5690/S5690BOLL1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000380-965": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; bg-bg; SAMSUNG GT-S5830/S5830BUKPE Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.3; bg-bg; SAMSUNG GT-S5830/S5830BUKPE Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000380-966": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5830i/S5830iXXLA4 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5830i/S5830iXXLA4 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000380-967": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5839i/S5839iBOLC5 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S5839i/S5839iBOLC5 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000380-968": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; da-dk; SAMSUNG GT-S6310/S6310XXAMC4 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; da-dk; SAMSUNG GT-S6310/S6310XXAMC4 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2693,7 +2693,7 @@
     "test-0000380-969": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-S6310N/S6310NXXAMD1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-S6310N/S6310NXXAMD1 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2732,7 +2732,7 @@
     "test-0000380-970": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S6500/S6500BUMD1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S6500/S6500BUMD1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2771,7 +2771,7 @@
     "test-0000380-971": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S6500D/S6500DXXLD3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; bg-bg; SAMSUNG GT-S6500D/S6500DXXLD3 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2810,7 +2810,7 @@
     "test-0000380-972": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-S6810P/S6810PXXAMC3 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; ar-ae; SAMSUNG GT-S6810P/S6810PXXAMC3 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2849,7 +2849,7 @@
     "test-0000380-973": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-ch; SAMSUNG GT-S7275R/S7275RXXUAMK2 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-ch; SAMSUNG GT-S7275R/S7275RXXUAMK2 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -2888,7 +2888,7 @@
     "test-0000380-974": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; cs-cz; SAMSUNG GT-S7500/S7500BUMB1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; cs-cz; SAMSUNG GT-S7500/S7500BUMB1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -2927,7 +2927,7 @@
     "test-0000380-975": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-ch; SAMSUNG GT-S7560/S7560XXAME9 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-ch; SAMSUNG GT-S7560/S7560XXAME9 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000380-976": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SAMSUNG GT-S7580/S7580XXUAMK6 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SAMSUNG GT-S7580/S7580XXUAMK6 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000380-977": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; SAMSUNG SGH-I757M/I757MUGLCA Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; SAMSUNG SGH-I757M/I757MUGLCA Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3016,7 +3016,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3044,7 +3044,7 @@
     "test-0000380-978": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E300K/KKUAMDK Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E300K/KKUAMDK Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3055,7 +3055,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3083,7 +3083,7 @@
     "test-0000380-979": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; en-gb; SAMSUNG SHV-E300S/K Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; en-gb; SAMSUNG SHV-E300S/K Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3094,7 +3094,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3122,7 +3122,7 @@
     "test-0000380-980": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E310K/KKUAML4 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E310K/KKUAML4 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3133,7 +3133,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3161,7 +3161,7 @@
     "test-0000380-981": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E330K/KKUAMH3 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E330K/KKUAMH3 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000380-982": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E370K/KKUAMH9 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG SHV-E370K/KKUAMH9 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3239,7 +3239,7 @@
     "test-0000380-983": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-G350/G350XXUAMKB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-G350/G350XXUAMKB Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3278,7 +3278,7 @@
     "test-0000380-984": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-G3815/G3815XXUAMJ1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-G3815/G3815XXUAMJ1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
@@ -3317,7 +3317,7 @@
     "test-0000380-985": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; bg-bg; SAMSUNG SM-G900F/G900FXXU1ANC9 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; bg-bg; SAMSUNG SM-G900F/G900FXXU1ANC9 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.6 Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {
@@ -3356,7 +3356,7 @@
     "test-0000380-986": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3; de-de; SAMSUNG SM-N900K/KKUBMJ5 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; de-de; SAMSUNG SM-N900K/KKUBMJ5 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36"
             },
             "device": {
@@ -3395,7 +3395,7 @@
     "test-0000380-987": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; SAMSUNG SM-T211/T211XXAMGI Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; SAMSUNG SM-T211/T211XXAMGI Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000380-988": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SAMSUNG SM-T311/T311XXUAMED Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; SAMSUNG SM-T311/T311XXUAMED Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000380-989": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-T315/T315XWUAMJ1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; ar-ae; SAMSUNG SM-T315/T315XWUAMJ1 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000380-990": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; SAMSUNG VS910 4G/I9100BUKG2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; SAMSUNG VS910 4G/I9100BUKG2 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000380-991": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG XT1080/I9505XXUAME2 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; de-de; SAMSUNG XT1080/I9505XXUAME2 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3562,7 +3562,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3590,7 +3590,7 @@
     "test-0000380-992": {
         "ua": "Mozilla/0.5 (Linux; U; Android 1.5; he-; Galaxy Build/CUPCAKE) AppleWebkit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/0.5 (Linux; U; Android 1.5; he-; Galaxy Build/CUPCAKE) AppleWebkit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000380-993": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Galaxy Ace Build/JELLYBEAN) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Galaxy Ace Build/JELLYBEAN) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000380-994": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Galaxy Mini Plus 4G Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-de; Galaxy Mini Plus 4G Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
             },
             "device": {
@@ -3707,7 +3707,7 @@
     "test-0000380-995": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.1; Galaxy Nexus Build/ITL41F) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.1; Galaxy Nexus Build/ITL41F) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31"
             },
             "device": {
@@ -3746,7 +3746,7 @@
     "test-0000380-996": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy S III Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy S III Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -3785,7 +3785,7 @@
     "test-0000380-997": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy SIII Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy SIII Build/IMM76D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000380-998": {
         "ua": "Mozilla/5.0 (Linux; U; Android 1.5; de-de; Galaxy with MCR 1.2 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 1.5; de-de; Galaxy with MCR 1.2 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000380-999": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG EK-GN120 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; en-us; SAMSUNG EK-GN120 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Chrome/18.0.1025.308 Mobile Safari/535.19"
             },
             "device": {
@@ -3874,7 +3874,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {

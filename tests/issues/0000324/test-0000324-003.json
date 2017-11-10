@@ -2,7 +2,7 @@
     "test-0000324-300": {
         "ua": "HbbTV/1.2.1 (+PVR;Panasonic;DIGA WebKit M7268;3.310;;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HbbTV/1.2.1 (+PVR;Panasonic;DIGA WebKit M7268;3.310;;)"
             },
             "device": {
@@ -10,6 +10,45 @@
                 "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
+                "pointingMethod": null,
+                "resolutionWidth": null,
+                "resolutionHeight": null,
+                "dualOrientation": false,
+                "type": "tv"
+            },
+            "browser": {
+                "name": "Safari",
+                "modus": null,
+                "version": "0.0.0",
+                "manufacturer": "Apple",
+                "bits": 32,
+                "type": "browser"
+            },
+            "os": {
+                "name": "Linux",
+                "marketingName": "Linux",
+                "version": "0.0.0",
+                "manufacturer": "LinuxFoundation",
+                "bits": 32
+            },
+            "engine": {
+                "name": "WebKit",
+                "version": "0.0.0",
+                "manufacturer": "Apple"
+            }
+        }
+    },
+    "test-0000324-301": {
+        "ua": "HbbTV/1.3.1 (;Panasonic;Viera2016.mid;33.3303;0601-0003 0080-0000;) FVC/1.0 (Panasonic;Viera2016;) (avdn/Panasonic.tv.mid.2016)",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "HbbTV/1.3.1 (;Panasonic;Viera2016.mid;33.3303;0601-0003 0080-0000;) FVC/1.0 (Panasonic;Viera2016;) (avdn/Panasonic.tv.mid.2016)"
+            },
+            "device": {
+                "deviceName": "Viera TV",
+                "marketingName": "Viera TV",
+                "manufacturer": "Panasonic",
+                "brand": "Panasonic",
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
@@ -32,45 +71,6 @@
                 "bits": 32
             },
             "engine": {
-                "name": "WebKit",
-                "version": "0.0.0",
-                "manufacturer": "Apple"
-            }
-        }
-    },
-    "test-0000324-301": {
-        "ua": "HbbTV/1.3.1 (;Panasonic;Viera2016.mid;33.3303;0601-0003 0080-0000;) FVC/1.0 (Panasonic;Viera2016;) (avdn/Panasonic.tv.mid.2016)",
-        "result": {
-            "request": {
-                "HTTP_USER_AGENT": "HbbTV/1.3.1 (;Panasonic;Viera2016.mid;33.3303;0601-0003 0080-0000;) FVC/1.0 (Panasonic;Viera2016;) (avdn/Panasonic.tv.mid.2016)"
-            },
-            "device": {
-                "deviceName": "Viera TV",
-                "marketingName": "Viera TV",
-                "manufacturer": "Panasonic",
-                "brand": "Panasonic",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "tv"
-            },
-            "browser": {
-                "name": "Viera Browser",
-                "modus": null,
-                "version": "2016.0.0",
-                "manufacturer": "Panasonic",
-                "bits": 32,
-                "type": "browser"
-            },
-            "os": {
-                "name": "Linux",
-                "marketingName": "Linux",
-                "version": "0.0.0",
-                "manufacturer": "LinuxFoundation",
-                "bits": 32
-            },
-            "engine": {
                 "name": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown"
@@ -80,7 +80,7 @@
     "test-0000324-302": {
         "ua": "HTCD816t_LTE/1.0 Android/4.4 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HTCD816t_LTE/1.0 Android/4.4 release/2013 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30"
             },
             "device": {
@@ -119,7 +119,7 @@
     "test-0000324-303": {
         "ua": "HTCM8St_TD/1.0 Android/4.4 release/2014 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HTCM8St_TD/1.0 Android/4.4 release/2014 Browser/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 AppleWebKit/534.30"
             },
             "device": {
@@ -158,7 +158,7 @@
     "test-0000324-304": {
         "ua": "HUAWEI_G610-T00_TD/1.0 Android/4.2.1 (Linux; U; Android 4.2.1; zh-cn) Release/05.15.2013 Browser/WAP2.0 (AppleWebKit/534.30) Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_G610-T00_TD/1.0 Android/4.2.1 (Linux; U; Android 4.2.1; zh-cn) Release/05.15.2013 Browser/WAP2.0 (AppleWebKit/534.30) Mobile Safari/534.30"
             },
             "device": {
@@ -197,7 +197,7 @@
     "test-0000324-305": {
         "ua": "HUAWEI_G700-T00_TD/1.0 Android/4.2.1 (Linux; U; Android 4.2.1; zh-cn) Release/04.01.2013 Browser/WAP2.0 (AppleWebKit/534.30) Mobile Safari/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_G700-T00_TD/1.0 Android/4.2.1 (Linux; U; Android 4.2.1; zh-cn) Release/04.01.2013 Browser/WAP2.0 (AppleWebKit/534.30) Mobile Safari/534.30"
             },
             "device": {
@@ -236,7 +236,7 @@
     "test-0000324-306": {
         "ua": "HUAWEI_GRA-TL00_TD/5.0 Android/5.0.1 (Linux; U; Android 5.0.1; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_GRA-TL00_TD/5.0 Android/5.0.1 (Linux; U; Android 5.0.1; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36"
             },
             "device": {
@@ -275,7 +275,7 @@
     "test-0000324-307": {
         "ua": "HUAWEI_H60_L03/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_H60_L03/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36"
             },
             "device": {
@@ -314,7 +314,7 @@
     "test-0000324-308": {
         "ua": "HUAWEI_KIW-TL00_TD/5.0 Android/5.1 (Linux; U; Android 5.1; zh-cn) Release/09.02.2015 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_KIW-TL00_TD/5.0 Android/5.1 (Linux; U; Android 5.1; zh-cn) Release/09.02.2015 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36"
             },
             "device": {
@@ -353,7 +353,7 @@
     "test-0000324-309": {
         "ua": "HUAWEI_MT7-TL00_TD/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_MT7-TL00_TD/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36"
             },
             "device": {
@@ -392,7 +392,7 @@
     "test-0000324-310": {
         "ua": "HUAWEI_PE-TL00M_TD/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "HUAWEI_PE-TL00M_TD/5.0 Android/4.4.2 (Linux; U; Android 4.4.2; zh-cn) Release/01.18.2014 Browser/WAP2.0 (AppleWebKit/537.36) Mobile Safari/537.36"
             },
             "device": {
@@ -431,7 +431,7 @@
     "test-0000324-311": {
         "ua": "IE ( ; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "IE ( ; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0)"
             },
             "device": {
@@ -446,12 +446,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Windows NT 10.0",
@@ -470,7 +470,7 @@
     "test-0000324-312": {
         "ua": "Internet Explorer (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Internet Explorer (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)"
             },
             "device": {
@@ -485,12 +485,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "9.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Windows NT 6.0",
@@ -509,7 +509,7 @@
     "test-0000324-313": {
         "ua": "internet explorer (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "internet explorer (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586"
             },
             "device": {
@@ -548,7 +548,7 @@
     "test-0000324-314": {
         "ua": "Internet Explorer (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Internet Explorer (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -563,12 +563,12 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 64,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": "Windows NT 6.1",
@@ -587,7 +587,7 @@
     "test-0000324-315": {
         "ua": "iTunes/12.0.1.26 (Macintosh; Intel Mac OS X 10.10.1) AppleWebKit/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "iTunes/12.0.1.26 (Macintosh; Intel Mac OS X 10.10.1) AppleWebKit/537.36"
             },
             "device": {
@@ -626,7 +626,7 @@
     "test-0000324-316": {
         "ua": "LenovoA658t_TD/1.0 Android 4.0.3 Release/10.01.2012 Browser/WAP2.0 appleWebkit/534.30",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LenovoA658t_TD/1.0 Android 4.0.3 Release/10.01.2012 Browser/WAP2.0 appleWebkit/534.30"
             },
             "device": {
@@ -665,7 +665,7 @@
     "test-0000324-317": {
         "ua": "LG Browser/5.0.0 InettvBrowser/2.2 (00E091;LGE2D2012M;01;00)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "LG Browser/5.0.0 InettvBrowser/2.2 (00E091;LGE2D2012M;01;00)"
             },
             "device": {
@@ -704,7 +704,7 @@
     "test-0000324-318": {
         "ua": "MAGIX /2.5.12.19 (compatible; MSIE 9.1) MAGIX Video deluxe 2015 Plus/14.0.0.162",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MAGIX /2.5.12.19 (compatible; MSIE 9.1) MAGIX Video deluxe 2015 Plus/14.0.0.162"
             },
             "device": {
@@ -715,16 +715,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "9.1.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": null,
@@ -743,7 +743,7 @@
     "test-0000324-319": {
         "ua": "MAGIX /2.5.12.19 (compatible; MSIE 9.1) MAGIX Video deluxe 2015 Plus/14.0.0.183",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MAGIX /2.5.12.19 (compatible; MSIE 9.1) MAGIX Video deluxe 2015 Plus/14.0.0.183"
             },
             "device": {
@@ -754,16 +754,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "9.1.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": null,
@@ -782,7 +782,7 @@
     "test-0000324-320": {
         "ua": "MAGIX /2.5.7.101 (compatible; MSIE 9.1) MAGIX Video Pro X6/13.0.5.9",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "MAGIX /2.5.7.101 (compatible; MSIE 9.1) MAGIX Video Pro X6/13.0.5.9"
             },
             "device": {
@@ -793,16 +793,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "9.1.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
-                "type": "unknown"
+                "type": "browser"
             },
             "os": {
                 "name": null,
@@ -821,7 +821,7 @@
     "test-0000324-321": {
         "ua": "Mozilla / 4.0(compatible; MSIE 8.0; Windows NT 6.1; Trident / 4.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla / 4.0(compatible; MSIE 8.0; Windows NT 6.1; Trident / 4.0)"
             },
             "device": {
@@ -836,10 +836,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "8.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -851,16 +851,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-322": {
         "ua": "Mozilla / 5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla / 5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36 115Browser/6.0.0"
             },
             "device": {
@@ -899,7 +899,7 @@
     "test-0000324-323": {
         "ua": "Mozilla / 5.0(compatible; MSIE 9.0; Windows NT 6.1; Trident / 5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla / 5.0(compatible; MSIE 9.0; Windows NT 6.1; Trident / 5.0)"
             },
             "device": {
@@ -914,10 +914,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "9.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -929,16 +929,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-324": {
         "ua": "Mozilla / 5.0(Windows NT 6.1; WOW64)AppleWebKit / 537.36(KHTML, like Gecko)Chrome / 27.0.1453.94 Safari / 537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla / 5.0(Windows NT 6.1; WOW64)AppleWebKit / 537.36(KHTML, like Gecko)Chrome / 27.0.1453.94 Safari / 537.36"
             },
             "device": {
@@ -977,7 +977,7 @@
     "test-0000324-325": {
         "ua": "Mozilla/ (Android; Mobile;) Gecko/ Firefox/",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/ (Android; Mobile;) Gecko/ Firefox/"
             },
             "device": {
@@ -1016,7 +1016,7 @@
     "test-0000324-326": {
         "ua": "Mozilla/4.0 (compatible; MS; WOW64; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MS; WOW64; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1027,14 +1027,14 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1046,16 +1046,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-327": {
         "ua": "Mozilla/4.0 (compatible; MSIE 10; Windows 7; .NET CLR 1.0.3705; .NET CLR 1.1.4322; IEC2.5)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 10; Windows 7; .NET CLR 1.0.3705; .NET CLR 1.1.4322; IEC2.5)"
             },
             "device": {
@@ -1070,10 +1070,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1085,16 +1085,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-328": {
         "ua": "Mozilla/4.0 (compatible; MSIE 10; Windows 7; AGIS; .NET CLR 1.1.4322)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 10; Windows 7; AGIS; .NET CLR 1.1.4322)"
             },
             "device": {
@@ -1109,10 +1109,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1124,16 +1124,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-329": {
         "ua": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.0; Crazy Browser 2.0.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.0; Crazy Browser 2.0.1)"
             },
             "device": {
@@ -1172,7 +1172,7 @@
     "test-0000324-330": {
         "ua": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -1187,10 +1187,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Cent",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1202,16 +1202,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Blink",
-                "version": "0.0.0",
-                "manufacturer": "Google"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-331": {
         "ua": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; BRI/1; AskTbSTC-SRS/5.12.2.16752; McAfee; .NET4.0E; BOIE9;ENGB)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; BRI/1; AskTbSTC-SRS/5.12.2.16752; McAfee; .NET4.0E; BOIE9;ENGB)"
             },
             "device": {
@@ -1226,10 +1226,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Cent",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1241,16 +1241,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Blink",
-                "version": "0.0.0",
-                "manufacturer": "Google"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-332": {
         "ua": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAAR; .NET4.0C; .NET4.0E)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MAAR; .NET4.0C; .NET4.0E)"
             },
             "device": {
@@ -1265,10 +1265,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Cent",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1280,16 +1280,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Blink",
-                "version": "0.0.0",
-                "manufacturer": "Google"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-333": {
         "ua": "Mozilla/4.0 (compatible; MSIE 11; Windows 8; DPAG)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 11; Windows 8; DPAG)"
             },
             "device": {
@@ -1304,10 +1304,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1319,16 +1319,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-334": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; atpacnet; Trident/4.0; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 8.0; atpacnet; Trident/4.0; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727)"
             },
             "device": {
@@ -1339,7 +1339,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1367,7 +1367,7 @@
     "test-0000324-335": {
         "ua": "Mozilla/4.0 (compatible; MSIE 999.1; Unknown)            rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 999.1; Unknown)            rv:11.0) like Gecko"
             },
             "device": {
@@ -1378,14 +1378,14 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "999.1.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1397,16 +1397,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "0.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-336": {
         "ua": "Mozilla/4.0 (compatible; snom m9 9.6.1-a)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; snom m9 9.6.1-a)"
             },
             "device": {
@@ -1417,16 +1417,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": null,
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1436,16 +1436,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000324-337": {
         "ua": "Mozilla/4.0 (compatible; snom370-SIP 7.3.30 1.1.3-u)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; snom370-SIP 7.3.30 1.1.3-u)"
             },
             "device": {
@@ -1456,16 +1456,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": null,
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1475,16 +1475,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000324-338": {
         "ua": "Mozilla/4.0 (compatible; snom370-SIP 7.3.30)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; snom370-SIP 7.3.30)"
             },
             "device": {
@@ -1495,16 +1495,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": null,
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1514,16 +1514,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000324-339": {
         "ua": "Mozilla/4.0 (compatible; snom710-SIP 8.7.3.25.5)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; snom710-SIP 8.7.3.25.5)"
             },
             "device": {
@@ -1534,16 +1534,16 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": null,
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Unknown",
                 "bits": 32,
-                "type": "browser"
+                "type": "unknown"
             },
             "os": {
                 "name": null,
@@ -1553,16 +1553,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": null,
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Unknown"
             }
         }
     },
     "test-0000324-340": {
         "ua": "Mozilla/4.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1577,10 +1577,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1592,16 +1592,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-341": {
         "ua": "Mozilla/4.0 (Windows NT 6.1; WOW64; Trident/7.0; BOIE9;DEAT; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (Windows NT 6.1; WOW64; Trident/7.0; BOIE9;DEAT; rv:11.0) like Gecko"
             },
             "device": {
@@ -1616,10 +1616,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1631,16 +1631,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-342": {
         "ua": "Mozilla/4.0GueGue (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0GueGue (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1655,10 +1655,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "11.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -1670,16 +1670,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "11.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "7.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-343": {
         "ua": "Mozilla/5.0     (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko)     Version/4.0 Mobile Safari/537.36 SmartTV/7.0 (NetCast) Android",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0     (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko)     Version/4.0 Mobile Safari/537.36 SmartTV/7.0 (NetCast) Android"
             },
             "device": {
@@ -1718,7 +1718,7 @@
     "test-0000324-344": {
         "ua": "Mozilla/5.0     (Linux; U; webOS; LGE ) AppleWebKit/537.36 (KHTML, like Gecko)     Version/4.0 Mobile Safari/537.36 SmartTV/7.0 (NetCast) Android",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0     (Linux; U; webOS; LGE ) AppleWebKit/537.36 (KHTML, like Gecko)     Version/4.0 Mobile Safari/537.36 SmartTV/7.0 (NetCast) Android"
             },
             "device": {
@@ -1757,7 +1757,7 @@
     "test-0000324-345": {
         "ua": "Mozilla/5.0 ( ; -; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 ( ; -; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1768,7 +1768,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1796,7 +1796,7 @@
     "test-0000324-346": {
         "ua": "Mozilla/5.0 () AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 () AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
             },
             "device": {
@@ -1807,7 +1807,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1835,7 +1835,7 @@
     "test-0000324-347": {
         "ua": "Mozilla/5.0 () Gecko/20100101 Firefox/45.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 () Gecko/20100101 Firefox/45.0"
             },
             "device": {
@@ -1846,7 +1846,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1874,7 +1874,7 @@
     "test-0000324-348": {
         "ua": "Mozilla/5.0 (******* NT 6.1; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (******* NT 6.1; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1885,7 +1885,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1913,7 +1913,7 @@
     "test-0000324-349": {
         "ua": "Mozilla/5.0 (; Trident/7.0; MALC; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (; Trident/7.0; MALC; rv:11.0) like Gecko"
             },
             "device": {
@@ -1924,7 +1924,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1952,7 +1952,7 @@
     "test-0000324-350": {
         "ua": "Mozilla/5.0 (; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -1963,7 +1963,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -1991,7 +1991,7 @@
     "test-0000324-351": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL 6654N Volksbox Web Edition +; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL 6654N Volksbox Web Edition +; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0"
             },
             "device": {
@@ -2006,10 +2006,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2021,16 +2021,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-352": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6640N Volksbox Essential; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6640N Volksbox Essential; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0"
             },
             "device": {
@@ -2045,10 +2045,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2060,16 +2060,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-353": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6651N Volksbox Web Edition; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6651N Volksbox Web Edition; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0"
             },
             "device": {
@@ -2084,10 +2084,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2099,16 +2099,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-354": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; selevision; Selevision EMC1000i; 1.0; 1.0;)  Version/V1_0_2_81  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; selevision; Selevision EMC1000i; 1.0; 1.0;)  Version/V1_0_2_81  CE-HTML/1.0"
             },
             "device": {
@@ -2123,10 +2123,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2138,16 +2138,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-355": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; CX10; 1.0; 1.0;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; CX10; 1.0; 1.0;)  CE-HTML/1.0"
             },
             "device": {
@@ -2162,10 +2162,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2177,16 +2177,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-356": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; VX10; 1.0; 1.0;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; VX10; 1.0; 1.0;)  CE-HTML/1.0"
             },
             "device": {
@@ -2201,10 +2201,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2216,16 +2216,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-357": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; ZAPPIX HD+; 1.0; 1.0;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; smart; ZAPPIX HD+; 1.0; 1.0;)  CE-HTML/1.0"
             },
             "device": {
@@ -2240,10 +2240,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2255,16 +2255,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-358": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; telestar; DIGIO; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; telestar; DIGIO; 1.0; 1.0;) hdplusinteraktiv/1.0 (NETRANGEMMH;)  CE-HTML/1.0"
             },
             "device": {
@@ -2279,10 +2279,10 @@
                 "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2294,16 +2294,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "534.6.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-359": {
         "ua": "Mozilla/5.0 (1; 1; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (1; 1; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -2314,7 +2314,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2342,7 +2342,7 @@
     "test-0000324-360": {
         "ua": "Mozilla/5.0 (2; 2; Trident/7.0; rv:11.0) like Gecko",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (2; 2; Trident/7.0; rv:11.0) like Gecko"
             },
             "device": {
@@ -2353,7 +2353,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2381,7 +2381,7 @@
     "test-0000324-361": {
         "ua": "Mozilla/5.0 (Android 3.2;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 3.2;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1"
             },
             "device": {
@@ -2420,7 +2420,7 @@
     "test-0000324-362": {
         "ua": "Mozilla/5.0 (Android 4.1.1;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 4.1.1;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1"
             },
             "device": {
@@ -2459,7 +2459,7 @@
     "test-0000324-363": {
         "ua": "Mozilla/5.0 (Android 4.4.3;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 4.4.3;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1"
             },
             "device": {
@@ -2498,7 +2498,7 @@
     "test-0000324-364": {
         "ua": "Mozilla/5.0 (Android 6.0.1; Sony E6853) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 6.0.1; Sony E6853) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 BlueBrowser/3.0"
             },
             "device": {
@@ -2537,7 +2537,7 @@
     "test-0000324-365": {
         "ua": "Mozilla/5.0 (Android 6.0;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android 6.0;) AppleWebKit/1.1 Version/4.0 Mobile Safari/1.1"
             },
             "device": {
@@ -2576,7 +2576,7 @@
     "test-0000324-366": {
         "ua": "Mozilla/5.0 (Android; Mobile; rv:19.0) Gecko/19.0 K9Browser/19.0.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android; Mobile; rv:19.0) Gecko/19.0 K9Browser/19.0.0"
             },
             "device": {
@@ -2615,7 +2615,7 @@
     "test-0000324-367": {
         "ua": "Mozilla/5.0 (bada bing; rv:29.0) Gecko/20100101 Firefox/29.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (bada bing; rv:29.0) Gecko/20100101 Firefox/29.0"
             },
             "device": {
@@ -2654,7 +2654,7 @@
     "test-0000324-368": {
         "ua": "Mozilla/5.0 (compatible; en;) Gecko/20100101",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; en;) Gecko/20100101"
             },
             "device": {
@@ -2665,7 +2665,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2693,7 +2693,7 @@
     "test-0000324-369": {
         "ua": "Mozilla/5.0 (compatible; HTL Graz-Gösting; Windows NT 6.1; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; HTL Graz-Gösting; Windows NT 6.1; Trident/5.0)"
             },
             "device": {
@@ -2708,10 +2708,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "9.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2723,16 +2723,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "5.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-370": {
         "ua": "Mozilla/5.0 (compatible; HTL Graz-Gösting; Windows NT 6.1; WOW64; Trident/6.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; HTL Graz-Gösting; Windows NT 6.1; WOW64; Trident/6.0)"
             },
             "device": {
@@ -2747,10 +2747,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2762,16 +2762,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "6.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-371": {
         "ua": "Mozilla/5.0 (compatible; Internet Explorer 9.0; Windows NT 6.1; WOW64; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; Internet Explorer 9.0; Windows NT 6.1; WOW64; Trident/5.0)"
             },
             "device": {
@@ -2786,10 +2786,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "9.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2801,16 +2801,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "5.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-372": {
         "ua": "Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/6.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 11.0; Windows NT 6.1; WOW64; Trident/6.0)"
             },
             "device": {
@@ -2825,10 +2825,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -2840,16 +2840,16 @@
                 "bits": 64
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "6.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-373": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0"
             },
             "device": {
@@ -2860,7 +2860,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2888,7 +2888,7 @@
     "test-0000324-374": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; ; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0; ; Trident/5.0)"
             },
             "device": {
@@ -2899,7 +2899,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -2927,7 +2927,7 @@
     "test-0000324-375": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Trident/5.0; IEMobile/9.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0; Trident/5.0; IEMobile/9.0)"
             },
             "device": {
@@ -2966,7 +2966,7 @@
     "test-0000324-376": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0;Windows NT 6.0; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9.0;Windows NT 6.0; Trident/5.0)"
             },
             "device": {
@@ -3005,7 +3005,7 @@
     "test-0000324-377": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9; Windows NT 6.1; Trident/6.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 9; Windows NT 6.1; Trident/6.0)"
             },
             "device": {
@@ -3020,10 +3020,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3035,16 +3035,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "6.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-378": {
         "ua": "Mozilla/5.0 (compatible; MSIE9.0; Windows NT 6.0; Trident/5.0)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE9.0; Windows NT 6.0; Trident/5.0)"
             },
             "device": {
@@ -3059,10 +3059,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "9.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3074,16 +3074,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "Trident",
+                "version": "5.0.0",
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-379": {
         "ua": "Mozilla/5.0 (compatible; U; MSIE 10.0; Windows NT 6.1)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; U; MSIE 10.0; Windows NT 6.1)"
             },
             "device": {
@@ -3098,10 +3098,10 @@
                 "type": "desktop"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "10.0.0",
+                "manufacturer": "Microsoft",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3113,16 +3113,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "manufacturer": "Microsoft"
             }
         }
     },
     "test-0000324-380": {
         "ua": "Mozilla/5.0 (compatible;) Gecko/20100101",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (compatible;) Gecko/20100101"
             },
             "device": {
@@ -3133,7 +3133,7 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
@@ -3161,7 +3161,7 @@
     "test-0000324-381": {
         "ua": "Mozilla/5.0 (CrKey armv7l 1.4.15250) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (CrKey armv7l 1.4.15250) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36"
             },
             "device": {
@@ -3200,7 +3200,7 @@
     "test-0000324-382": {
         "ua": "Mozilla/5.0 (DAG; 2.2; like Gecko) AppleWebkit/535.17",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DAG; 2.2; like Gecko) AppleWebkit/535.17"
             },
             "device": {
@@ -3211,14 +3211,14 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3230,16 +3230,16 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "535.17.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-383": {
         "ua": "Mozilla/5.0 (DAG; 2.3; like Gecko) AppleWebkit/535.17",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DAG; 2.3; like Gecko) AppleWebkit/535.17"
             },
             "device": {
@@ -3250,14 +3250,14 @@
                 "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": null,
+                "dualOrientation": false,
                 "type": "unknown"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
-                "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "version": "0.0.0",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3269,34 +3269,34 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "535.17.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-384": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/535.4+ (KHTML, like Gecko) Version/5.0HbbTV/1.1.1 (+DL+PVR;;;;;) CE-HTML/1.0",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/535.4+ (KHTML, like Gecko) Version/5.0HbbTV/1.1.1 (+DL+PVR;;;;;) CE-HTML/1.0"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": "general TV Device",
+                "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "tv"
             },
             "browser": {
-                "name": "Mozilla",
+                "name": "Safari",
                 "modus": null,
                 "version": "5.0.0",
-                "manufacturer": "MozillaFoundation",
+                "manufacturer": "Apple",
                 "bits": 32,
                 "type": "browser"
             },
@@ -3308,28 +3308,28 @@
                 "bits": 32
             },
             "engine": {
-                "name": "Gecko",
-                "version": "0.0.0",
-                "manufacturer": "MozillaFoundation"
+                "name": "WebKit",
+                "version": "535.4.0",
+                "manufacturer": "Apple"
             }
         }
     },
     "test-0000324-385": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ HbbTV/1.2.1 (+DRM ;LGE ;SimpleSmart-2016 ;04.01.11 ;LCD_SS1A ;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ HbbTV/1.2.1 (+DRM ;LGE ;SimpleSmart-2016 ;04.01.11 ;LCD_SS1A ;)"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": "general TV Device",
+                "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "tv"
             },
             "browser": {
                 "name": "Safari",
@@ -3356,19 +3356,19 @@
     "test-0000324-386": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ HbbTV/1.2.1 (+DRM ;LGE ;SimpleSmart-2016 ;04.01.19 ;LCD_SS1A ;)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ HbbTV/1.2.1 (+DRM ;LGE ;SimpleSmart-2016 ;04.01.19 ;LCD_SS1A ;)"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": "general TV Device",
+                "marketingName": "general TV Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "tv"
             },
             "browser": {
                 "name": "Safari",
@@ -3395,7 +3395,7 @@
     "test-0000324-387": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+"
             },
             "device": {
@@ -3434,7 +3434,7 @@
     "test-0000324-388": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.00;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.00;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3473,7 +3473,7 @@
     "test-0000324-389": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.01;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.01;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3512,7 +3512,7 @@
     "test-0000324-390": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.01T;) Config(L:eng,CC:DEU)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.01T;) Config(L:eng,CC:DEU)"
             },
             "device": {
@@ -3551,7 +3551,7 @@
     "test-0000324-391": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.02;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.02;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3590,7 +3590,7 @@
     "test-0000324-392": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.02;) Config(L:ita,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.02;) Config(L:ita,CC:AUT)"
             },
             "device": {
@@ -3629,7 +3629,7 @@
     "test-0000324-393": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.03;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.03;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3668,7 +3668,7 @@
     "test-0000324-394": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.03;) Config(L:eng,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UD20E;v2.03;) Config(L:eng,CC:AUT)"
             },
             "device": {
@@ -3707,7 +3707,7 @@
     "test-0000324-395": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.11;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.11;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3746,7 +3746,7 @@
     "test-0000324-396": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.12;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.12;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3785,7 +3785,7 @@
     "test-0000324-397": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.12;) Config(L:eng,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v1.12;) Config(L:eng,CC:AUT)"
             },
             "device": {
@@ -3824,7 +3824,7 @@
     "test-0000324-398": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.01;) Config(L:deu,CC:AUT)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.01;) Config(L:deu,CC:AUT)"
             },
             "device": {
@@ -3863,7 +3863,7 @@
     "test-0000324-399": {
         "ua": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.01;) Config(L:deu,CC:DEU)",
         "result": {
-            "request": {
+            "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.01;) Config(L:deu,CC:DEU)"
             },
             "device": {

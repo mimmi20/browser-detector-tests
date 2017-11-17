@@ -1,5 +1,5 @@
 {
-    "test-0001721-00000": {
+    "test-0001721-000": {
         "ua": "-1094' OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'dCnX' LIKE 'dCnX",
         "result": {
             "headers": {
@@ -21,7 +21,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -29,7 +29,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -38,7 +38,7 @@
             }
         }
     },
-    "test-0001721-00001": {
+    "test-0001721-001": {
         "ua": "BfeK",
         "result": {
             "headers": {
@@ -60,7 +60,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -68,7 +68,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -77,7 +77,7 @@
             }
         }
     },
-    "test-0001721-00002": {
+    "test-0001721-002": {
         "ua": "-1310%')) OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND (('%'='",
         "result": {
             "headers": {
@@ -99,7 +99,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -107,7 +107,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -116,85 +116,85 @@
             }
         }
     },
-    "test-0001721-00003": {
+    "test-0001721-003": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('GPWF'='GPWF",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('GPWF'='GPWF"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00004": {
+    "test-0001721-004": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00005": {
+    "test-0001721-005": {
         "ua": "-5095) OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -216,7 +216,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -224,7 +224,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -233,7 +233,7 @@
             }
         }
     },
-    "test-0001721-00006": {
+    "test-0001721-006": {
         "ua": "-9728))) OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -255,7 +255,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -263,7 +263,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -272,7 +272,7 @@
             }
         }
     },
-    "test-0001721-00007": {
+    "test-0001721-007": {
         "ua": "-8017 OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -294,7 +294,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -302,7 +302,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -311,7 +311,7 @@
             }
         }
     },
-    "test-0001721-00008": {
+    "test-0001721-008": {
         "ua": "-2134') OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -333,7 +333,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -341,7 +341,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -350,7 +350,7 @@
             }
         }
     },
-    "test-0001721-00009": {
+    "test-0001721-009": {
         "ua": "-2820' OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -372,7 +372,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -380,7 +380,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -389,7 +389,7 @@
             }
         }
     },
-    "test-0001721-00010": {
+    "test-0001721-010": {
         "ua": ")) OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -411,7 +411,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -419,7 +419,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -428,7 +428,7 @@
             }
         }
     },
-    "test-0001721-00011": {
+    "test-0001721-011": {
         "ua": "-2915')) OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND (('Dzkp' LIKE 'Dzkp",
         "result": {
             "headers": {
@@ -450,7 +450,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -458,7 +458,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -467,7 +467,7 @@
             }
         }
     },
-    "test-0001721-00012": {
+    "test-0001721-012": {
         "ua": "eQcV",
         "result": {
             "headers": {
@@ -489,7 +489,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -497,7 +497,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -506,7 +506,7 @@
             }
         }
     },
-    "test-0001721-00013": {
+    "test-0001721-013": {
         "ua": "-6802%') OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND ('%'='",
         "result": {
             "headers": {
@@ -528,7 +528,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -536,7 +536,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -545,7 +545,7 @@
             }
         }
     },
-    "test-0001721-00014": {
+    "test-0001721-014": {
         "ua": "-6577) OR 4692=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (4692=4692) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (4682=4682",
         "result": {
             "headers": {
@@ -567,7 +567,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -575,7 +575,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -584,7 +584,7 @@
             }
         }
     },
-    "test-0001721-00015": {
+    "test-0001721-015": {
         "ua": "AzTD",
         "result": {
             "headers": {
@@ -606,7 +606,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -614,7 +614,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -623,7 +623,7 @@
             }
         }
     },
-    "test-0001721-00016": {
+    "test-0001721-016": {
         "ua": "TbbI",
         "result": {
             "headers": {
@@ -645,7 +645,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -653,7 +653,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -662,7 +662,7 @@
             }
         }
     },
-    "test-0001721-00017": {
+    "test-0001721-017": {
         "ua": "-6789) OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (4548=4548",
         "result": {
             "headers": {
@@ -684,7 +684,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -692,7 +692,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -701,7 +701,7 @@
             }
         }
     },
-    "test-0001721-00018": {
+    "test-0001721-018": {
         "ua": "-4279)) OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ((4220=4220",
         "result": {
             "headers": {
@@ -723,7 +723,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -731,7 +731,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -740,7 +740,7 @@
             }
         }
     },
-    "test-0001721-00019": {
+    "test-0001721-019": {
         "ua": "-7466') OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ('somM' LIKE 'somM",
         "result": {
             "headers": {
@@ -762,7 +762,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -770,7 +770,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -779,7 +779,7 @@
             }
         }
     },
-    "test-0001721-00020": {
+    "test-0001721-020": {
         "ua": "-7886) OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58))",
         "result": {
             "headers": {
@@ -801,7 +801,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -809,7 +809,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -818,7 +818,7 @@
             }
         }
     },
-    "test-0001721-00021": {
+    "test-0001721-021": {
         "ua": "-9656)) OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND ((3973=3973",
         "result": {
             "headers": {
@@ -840,7 +840,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -848,7 +848,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -857,7 +857,7 @@
             }
         }
     },
-    "test-0001721-00022": {
+    "test-0001721-022": {
         "ua": "-2137))) OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND (((4063=4063",
         "result": {
             "headers": {
@@ -879,7 +879,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -887,7 +887,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -896,7 +896,7 @@
             }
         }
     },
-    "test-0001721-00023": {
+    "test-0001721-023": {
         "ua": "-9674 OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58))",
         "result": {
             "headers": {
@@ -918,7 +918,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -926,7 +926,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -935,7 +935,7 @@
             }
         }
     },
-    "test-0001721-00024": {
+    "test-0001721-024": {
         "ua": "-8312')) OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND (('LdEz'='LdEz",
         "result": {
             "headers": {
@@ -957,7 +957,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -965,7 +965,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -974,7 +974,7 @@
             }
         }
     },
-    "test-0001721-00025": {
+    "test-0001721-025": {
         "ua": "-9045'))) OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND ((('ZIuZ'='ZIuZ",
         "result": {
             "headers": {
@@ -996,7 +996,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1004,7 +1004,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1013,7 +1013,7 @@
             }
         }
     },
-    "test-0001721-00026": {
+    "test-0001721-026": {
         "ua": "-2593' OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND 'ZQts'='ZQts",
         "result": {
             "headers": {
@@ -1035,7 +1035,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1043,7 +1043,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1052,7 +1052,7 @@
             }
         }
     },
-    "test-0001721-00027": {
+    "test-0001721-027": {
         "ua": "CnWY",
         "result": {
             "headers": {
@@ -1074,7 +1074,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1082,7 +1082,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1091,7 +1091,7 @@
             }
         }
     },
-    "test-0001721-00028": {
+    "test-0001721-028": {
         "ua": "-2432%') OR 4508=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4508=4508) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND ('%'='",
         "result": {
             "headers": {
@@ -1113,7 +1113,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1121,7 +1121,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1130,7 +1130,7 @@
             }
         }
     },
-    "test-0001721-00029": {
+    "test-0001721-029": {
         "ua": "-9175) OR 1635=(':wts:'||(SELECT CASE 1635 WHEN 1635 THEN 1 ELSE 0 END FROM RDB$DATABASE)||':xkg:')",
         "result": {
             "headers": {
@@ -1152,7 +1152,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1160,7 +1160,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1169,7 +1169,7 @@
             }
         }
     },
-    "test-0001721-00030": {
+    "test-0001721-030": {
         "ua": "-4189')) OR 1635=(':wts:'||(SELECT CASE 1635 WHEN 1635 THEN 1 ELSE 0 END FROM RDB$DATABASE)||':xkg:') AND (('huEh' LIKE 'huEh",
         "result": {
             "headers": {
@@ -1191,7 +1191,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1199,7 +1199,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1208,7 +1208,7 @@
             }
         }
     },
-    "test-0001721-00031": {
+    "test-0001721-031": {
         "ua": "Gcsf",
         "result": {
             "headers": {
@@ -1230,7 +1230,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1238,7 +1238,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1247,7 +1247,7 @@
             }
         }
     },
-    "test-0001721-00032": {
+    "test-0001721-032": {
         "ua": "ausi",
         "result": {
             "headers": {
@@ -1269,7 +1269,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1277,7 +1277,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1286,7 +1286,7 @@
             }
         }
     },
-    "test-0001721-00033": {
+    "test-0001721-033": {
         "ua": "AOpY",
         "result": {
             "headers": {
@@ -1308,7 +1308,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1316,7 +1316,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1325,46 +1325,46 @@
             }
         }
     },
-    "test-0001721-00034": {
+    "test-0001721-034": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727),(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (2680=2680) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL)",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727),(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (2680=2680) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL)"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00035": {
+    "test-0001721-035": {
         "ua": "(SELECT (CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (4161=4161) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)))",
         "result": {
             "headers": {
@@ -1386,7 +1386,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1394,7 +1394,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1403,7 +1403,7 @@
             }
         }
     },
-    "test-0001721-00036": {
+    "test-0001721-036": {
         "ua": "(SELECT CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6428=6428) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))",
         "result": {
             "headers": {
@@ -1425,7 +1425,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1433,7 +1433,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1442,7 +1442,7 @@
             }
         }
     },
-    "test-0001721-00037": {
+    "test-0001721-037": {
         "ua": "SELECT ':wts:'||(SELECT (CASE WHEN (6051=6051) THEN 1 ELSE 0 END))||':xkg:'",
         "result": {
             "headers": {
@@ -1464,7 +1464,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1472,7 +1472,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1481,7 +1481,7 @@
             }
         }
     },
-    "test-0001721-00038": {
+    "test-0001721-038": {
         "ua": "SELECT ':wts:'||(CASE 2140 WHEN 2140 THEN 1 ELSE 0 END)||':xkg:' FROM RDB$DATABASE",
         "result": {
             "headers": {
@@ -1503,7 +1503,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1511,7 +1511,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1520,124 +1520,124 @@
             }
         }
     },
-    "test-0001721-00039": {
+    "test-0001721-039": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))); SELECT SLEEP(10)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))); SELECT SLEEP(10)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00040": {
+    "test-0001721-040": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))); SELECT SLEEP(10)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))); SELECT SLEEP(10)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00041": {
+    "test-0001721-041": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727); SELECT SLEEP(10)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727); SELECT SLEEP(10)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00042": {
+    "test-0001721-042": {
         "ua": ")); SELECT SLEEP(10)--",
         "result": {
             "headers": {
@@ -1659,7 +1659,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1667,7 +1667,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1676,358 +1676,358 @@
             }
         }
     },
-    "test-0001721-00043": {
+    "test-0001721-043": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))); SELECT BENCHMARK(10000000,MD5(0x5042476f))--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))); SELECT BENCHMARK(10000000,MD5(0x5042476f))--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00044": {
+    "test-0001721-044": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727); SELECT BENCHMARK(10000000,MD5(0x5042476f))--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727); SELECT BENCHMARK(10000000,MD5(0x5042476f))--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00045": {
+    "test-0001721-045": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))); SELECT BENCHMARK(10000000,MD5(0x5042476f))--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))); SELECT BENCHMARK(10000000,MD5(0x5042476f))--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00046": {
+    "test-0001721-046": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%'; SELECT BENCHMARK(10000000,MD5(0x5042476f))--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%'; SELECT BENCHMARK(10000000,MD5(0x5042476f))--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00047": {
+    "test-0001721-047": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')); SELECT BENCHMARK(10000000,MD5(0x5042476f))--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')); SELECT BENCHMARK(10000000,MD5(0x5042476f))--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00048": {
+    "test-0001721-048": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))); SELECT PG_SLEEP(10)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))); SELECT PG_SLEEP(10)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00049": {
+    "test-0001721-049": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00050": {
+    "test-0001721-050": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%'); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%'); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00051": {
+    "test-0001721-051": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')); SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00052": {
+    "test-0001721-052": {
         "ua": ")); SELECT COUNT(*) FROM RDB$FIELDS AS T1,RDB$TYPES AS T2,RDB$COLLATIONS AS T3,RDB$FUNCTIONS AS T4--",
         "result": {
             "headers": {
@@ -2049,7 +2049,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2057,7 +2057,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2066,85 +2066,85 @@
             }
         }
     },
-    "test-0001721-00053": {
+    "test-0001721-053": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND SLEEP(10) AND (6240=6240",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND SLEEP(10) AND (6240=6240"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00054": {
+    "test-0001721-054": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND SLEEP(10) AND ((1490=1490",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND SLEEP(10) AND ((1490=1490"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00055": {
+    "test-0001721-055": {
         "ua": "vdFh",
         "result": {
             "headers": {
@@ -2166,7 +2166,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2174,7 +2174,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2183,7 +2183,7 @@
             }
         }
     },
-    "test-0001721-00056": {
+    "test-0001721-056": {
         "ua": "jUVP",
         "result": {
             "headers": {
@@ -2205,7 +2205,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2213,7 +2213,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2222,163 +2222,163 @@
             }
         }
     },
-    "test-0001721-00057": {
+    "test-0001721-057": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND SLEEP(10) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND SLEEP(10) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00058": {
+    "test-0001721-058": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND SLEEP(10) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND SLEEP(10) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00059": {
+    "test-0001721-059": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND SLEEP(10) AND '%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND SLEEP(10) AND '%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00060": {
+    "test-0001721-060": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 2938=BENCHMARK(10000000,MD5(0x5164596b)) AND ((('EJxa'='EJxa",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 2938=BENCHMARK(10000000,MD5(0x5164596b)) AND ((('EJxa'='EJxa"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00061": {
+    "test-0001721-061": {
         "ua": "Kqke",
         "result": {
             "headers": {
@@ -2400,7 +2400,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2408,7 +2408,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2417,202 +2417,202 @@
             }
         }
     },
-    "test-0001721-00062": {
+    "test-0001721-062": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 2938=BENCHMARK(10000000,MD5(0x5164596b)) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 2938=BENCHMARK(10000000,MD5(0x5164596b)) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00063": {
+    "test-0001721-063": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND (9662=9662",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND (9662=9662"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00064": {
+    "test-0001721-064": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 9423=(SELECT 9423 FROM PG_SLEEP(10))",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 9423=(SELECT 9423 FROM PG_SLEEP(10))"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00065": {
+    "test-0001721-065": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND ((('IbMy'='IbMy",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND ((('IbMy'='IbMy"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00066": {
+    "test-0001721-066": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND ('jeTL' LIKE 'jeTL",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND ('jeTL' LIKE 'jeTL"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00067": {
+    "test-0001721-067": {
         "ua": "nQGR",
         "result": {
             "headers": {
@@ -2634,7 +2634,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2642,7 +2642,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2651,7 +2651,7 @@
             }
         }
     },
-    "test-0001721-00068": {
+    "test-0001721-068": {
         "ua": "kdtU",
         "result": {
             "headers": {
@@ -2673,7 +2673,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2681,7 +2681,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2690,7 +2690,7 @@
             }
         }
     },
-    "test-0001721-00069": {
+    "test-0001721-069": {
         "ua": "wByk",
         "result": {
             "headers": {
@@ -2712,7 +2712,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2720,7 +2720,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2729,7 +2729,7 @@
             }
         }
     },
-    "test-0001721-00070": {
+    "test-0001721-070": {
         "ua": "ZNKU",
         "result": {
             "headers": {
@@ -2751,7 +2751,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2759,7 +2759,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2768,436 +2768,436 @@
             }
         }
     },
-    "test-0001721-00071": {
+    "test-0001721-071": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00072": {
+    "test-0001721-072": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND '%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 9423=(SELECT 9423 FROM PG_SLEEP(10)) AND '%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00073": {
+    "test-0001721-073": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000))",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000))"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00074": {
+    "test-0001721-074": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (3994=3994",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (3994=3994"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00075": {
+    "test-0001721-075": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ((3469=3469",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ((3469=3469"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00076": {
+    "test-0001721-076": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('wmAC'='wmAC",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('wmAC'='wmAC"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00077": {
+    "test-0001721-077": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (('tmkD'='tmkD",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (('tmkD'='tmkD"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00078": {
+    "test-0001721-078": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ((('ohYQ'='ohYQ",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ((('ohYQ'='ohYQ"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00079": {
+    "test-0001721-079": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND 'OXaU'='OXaU",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND 'OXaU'='OXaU"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00080": {
+    "test-0001721-080": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('Deyt' LIKE 'Deyt",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('Deyt' LIKE 'Deyt"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00081": {
+    "test-0001721-081": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (('zPsU' LIKE 'zPsU",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND (('zPsU' LIKE 'zPsU"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00082": {
+    "test-0001721-082": {
         "ua": "kixR",
         "result": {
             "headers": {
@@ -3219,7 +3219,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3227,7 +3227,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3236,46 +3236,46 @@
             }
         }
     },
-    "test-0001721-00083": {
+    "test-0001721-083": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 3965=(SELECT COUNT(*) FROM GENERATE_SERIES(1,10000000)) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00084": {
+    "test-0001721-084": {
         "ua": ")) WAITFOR DELAY '0:0:10'--",
         "result": {
             "headers": {
@@ -3297,7 +3297,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3305,7 +3305,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3314,514 +3314,514 @@
             }
         }
     },
-    "test-0001721-00085": {
+    "test-0001721-085": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00086": {
+    "test-0001721-086": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' WAITFOR DELAY '0:0:10'--",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' WAITFOR DELAY '0:0:10'--"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00087": {
+    "test-0001721-087": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00088": {
+    "test-0001721-088": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (6882=6882",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (6882=6882"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00089": {
+    "test-0001721-089": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ((1984=1984",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ((1984=1984"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00090": {
+    "test-0001721-090": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (((2129=2129",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (((2129=2129"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00091": {
+    "test-0001721-091": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7)"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00092": {
+    "test-0001721-092": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('EMAp'='EMAp",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('EMAp'='EMAp"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00093": {
+    "test-0001721-093": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (('fnaG'='fnaG",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (('fnaG'='fnaG"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00094": {
+    "test-0001721-094": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND 'jVMq'='jVMq",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND 'jVMq'='jVMq"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00095": {
+    "test-0001721-095": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('gLjF' LIKE 'gLjF",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('gLjF' LIKE 'gLjF"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00096": {
+    "test-0001721-096": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (('SoFX' LIKE 'SoFX",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND (('SoFX' LIKE 'SoFX"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00097": {
+    "test-0001721-097": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND 'DXOD' LIKE 'DXOD",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND 'DXOD' LIKE 'DXOD"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001721-00098": {
+    "test-0001721-098": {
         "ua": "LAAa",
         "result": {
             "headers": {
@@ -3843,7 +3843,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3851,7 +3851,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3860,42 +3860,42 @@
             }
         }
     },
-    "test-0001721-00099": {
+    "test-0001721-099": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 7769=(SELECT COUNT(*) FROM sysusers AS sys1,sysusers AS sys2,sysusers AS sys3,sysusers AS sys4,sysusers AS sys5,sysusers AS sys6,sysusers AS sys7) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     }

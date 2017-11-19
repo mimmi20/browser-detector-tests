@@ -1,5 +1,5 @@
 {
-    "test-0001719-00900": {
+    "test-0001719-900": {
         "ua": "); SELECT (CASE WHEN (8597=9267) THEN 8597 ELSE 1/(SELECT 0) END)--",
         "result": {
             "headers": {
@@ -21,7 +21,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -29,7 +29,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -38,7 +38,7 @@
             }
         }
     },
-    "test-0001719-00901": {
+    "test-0001719-901": {
         "ua": ")); SELECT (CASE WHEN (6481=2864) THEN 6481 ELSE 1/(SELECT 0) END)--",
         "result": {
             "headers": {
@@ -60,7 +60,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -68,7 +68,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -77,7 +77,7 @@
             }
         }
     },
-    "test-0001719-00902": {
+    "test-0001719-902": {
         "ua": "; SELECT (CASE WHEN (1635=9666) THEN 1635 ELSE 1/(SELECT 0) END)--",
         "result": {
             "headers": {
@@ -99,7 +99,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -107,7 +107,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -116,7 +116,7 @@
             }
         }
     },
-    "test-0001719-00903": {
+    "test-0001719-903": {
         "ua": "zsgO",
         "result": {
             "headers": {
@@ -138,7 +138,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -146,7 +146,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -155,85 +155,85 @@
             }
         }
     },
-    "test-0001719-00904": {
+    "test-0001719-904": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a))",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a))"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00905": {
+    "test-0001719-905": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a)) AND 'YDoi'='YDoi",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a)) AND 'YDoi'='YDoi"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00906": {
+    "test-0001719-906": {
         "ua": "rSoc",
         "result": {
             "headers": {
@@ -255,7 +255,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -263,7 +263,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -272,85 +272,85 @@
             }
         }
     },
-    "test-0001719-00907": {
+    "test-0001719-907": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a)) AND '%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND EXTRACTVALUE(1434,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (1434=1434) THEN 1 ELSE 0 END)),0x3a786b673a)) AND '%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00908": {
+    "test-0001719-908": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND UPDATEXML(1953,CONCAT(0x2e,0x3a7774733a,(SELECT (CASE WHEN (1953=1953) THEN 1 ELSE 0 END)),0x3a786b673a),3881)",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) AND UPDATEXML(1953,CONCAT(0x2e,0x3a7774733a,(SELECT (CASE WHEN (1953=1953) THEN 1 ELSE 0 END)),0x3a786b673a),3881)"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00909": {
+    "test-0001719-909": {
         "ua": "AULS",
         "result": {
             "headers": {
@@ -372,7 +372,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -380,7 +380,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -389,7 +389,7 @@
             }
         }
     },
-    "test-0001719-00910": {
+    "test-0001719-910": {
         "ua": "kbrY",
         "result": {
             "headers": {
@@ -411,7 +411,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -419,7 +419,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -428,7 +428,7 @@
             }
         }
     },
-    "test-0001719-00911": {
+    "test-0001719-911": {
         "ua": "gAdI",
         "result": {
             "headers": {
@@ -450,7 +450,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -458,7 +458,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -467,7 +467,7 @@
             }
         }
     },
-    "test-0001719-00912": {
+    "test-0001719-912": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND ROW(5716,8981)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (5716=5716) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 3684 UNION SELECT 7604 UNION SELECT 7994 UNION SELECT 5116)a GROUP BY x) AND '%'='",
         "result": {
             "headers": {
@@ -485,28 +485,28 @@
                 "type": "unknown"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
                 "name": null,
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00913": {
+    "test-0001719-913": {
         "ua": "tQjU",
         "result": {
             "headers": {
@@ -528,7 +528,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -536,7 +536,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -545,7 +545,7 @@
             }
         }
     },
-    "test-0001719-00914": {
+    "test-0001719-914": {
         "ua": "uONA",
         "result": {
             "headers": {
@@ -567,7 +567,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -575,7 +575,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -584,7 +584,7 @@
             }
         }
     },
-    "test-0001719-00915": {
+    "test-0001719-915": {
         "ua": "HoES",
         "result": {
             "headers": {
@@ -606,7 +606,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -614,7 +614,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -623,7 +623,7 @@
             }
         }
     },
-    "test-0001719-00916": {
+    "test-0001719-916": {
         "ua": "ONbZ",
         "result": {
             "headers": {
@@ -645,7 +645,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -653,7 +653,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -662,7 +662,7 @@
             }
         }
     },
-    "test-0001719-00917": {
+    "test-0001719-917": {
         "ua": "ifkX",
         "result": {
             "headers": {
@@ -684,7 +684,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -692,7 +692,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -701,241 +701,241 @@
             }
         }
     },
-    "test-0001719-00918": {
+    "test-0001719-918": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00919": {
+    "test-0001719-919": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00920": {
+    "test-0001719-920": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND '%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 8819=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (8819=8819) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND '%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00921": {
+    "test-0001719-921": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ((6405=6405",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ((6405=6405"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00922": {
+    "test-0001719-922": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00923": {
+    "test-0001719-923": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ((('PshW'='PshW",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ((('PshW'='PshW"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00924": {
+    "test-0001719-924": {
         "ua": "iPqZ",
         "result": {
             "headers": {
@@ -957,7 +957,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -965,7 +965,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -974,7 +974,7 @@
             }
         }
     },
-    "test-0001719-00925": {
+    "test-0001719-925": {
         "ua": "cGzI",
         "result": {
             "headers": {
@@ -996,7 +996,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1004,7 +1004,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1013,7 +1013,7 @@
             }
         }
     },
-    "test-0001719-00926": {
+    "test-0001719-926": {
         "ua": "wuEy",
         "result": {
             "headers": {
@@ -1035,7 +1035,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1043,7 +1043,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1052,202 +1052,202 @@
             }
         }
     },
-    "test-0001719-00927": {
+    "test-0001719-927": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00928": {
+    "test-0001719-928": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 6270 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (6270=6270) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00929": {
+    "test-0001719-929": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ((3778=3778",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ((3778=3778"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00930": {
+    "test-0001719-930": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (((8248=8248",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (((8248=8248"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00931": {
+    "test-0001719-931": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ((('WABn'='WABn",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ((('WABn'='WABn"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00932": {
+    "test-0001719-932": {
         "ua": "Mrrc",
         "result": {
             "headers": {
@@ -1269,7 +1269,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1277,7 +1277,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1286,7 +1286,7 @@
             }
         }
     },
-    "test-0001719-00933": {
+    "test-0001719-933": {
         "ua": "ekGV",
         "result": {
             "headers": {
@@ -1308,7 +1308,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1316,7 +1316,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1325,163 +1325,163 @@
             }
         }
     },
-    "test-0001719-00934": {
+    "test-0001719-934": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%')) AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00935": {
+    "test-0001719-935": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00936": {
+    "test-0001719-936": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND '%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%' AND 4277=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (4277=4277) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND '%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00937": {
+    "test-0001719-937": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 7500=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7500=7500) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND ((('hpuh'='hpuh",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'))) AND 7500=UTL_INADDR.GET_HOST_ADDRESS(CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7500=7500) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AND ((('hpuh'='hpuh"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00938": {
+    "test-0001719-938": {
         "ua": "XvPI",
         "result": {
             "headers": {
@@ -1503,7 +1503,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1511,7 +1511,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1520,7 +1520,7 @@
             }
         }
     },
-    "test-0001719-00939": {
+    "test-0001719-939": {
         "ua": "-6565)) OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND ((7392=7392",
         "result": {
             "headers": {
@@ -1542,7 +1542,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1550,7 +1550,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1559,7 +1559,7 @@
             }
         }
     },
-    "test-0001719-00940": {
+    "test-0001719-940": {
         "ua": "-6088') OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND ('AhTj'='AhTj",
         "result": {
             "headers": {
@@ -1581,7 +1581,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1589,7 +1589,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1598,7 +1598,7 @@
             }
         }
     },
-    "test-0001719-00941": {
+    "test-0001719-941": {
         "ua": "-3732')) OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND (('TBPo'='TBPo",
         "result": {
             "headers": {
@@ -1620,7 +1620,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1628,7 +1628,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1637,7 +1637,7 @@
             }
         }
     },
-    "test-0001719-00942": {
+    "test-0001719-942": {
         "ua": "-3006'))) OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND ((('RkRy'='RkRy",
         "result": {
             "headers": {
@@ -1659,7 +1659,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1667,7 +1667,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1676,7 +1676,7 @@
             }
         }
     },
-    "test-0001719-00943": {
+    "test-0001719-943": {
         "ua": "-7002' OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND 'bFQC'='bFQC",
         "result": {
             "headers": {
@@ -1698,7 +1698,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1706,7 +1706,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1715,7 +1715,7 @@
             }
         }
     },
-    "test-0001719-00944": {
+    "test-0001719-944": {
         "ua": "-6923')) OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND (('qixq' LIKE 'qixq",
         "result": {
             "headers": {
@@ -1737,7 +1737,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1745,7 +1745,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1754,7 +1754,7 @@
             }
         }
     },
-    "test-0001719-00945": {
+    "test-0001719-945": {
         "ua": "raVc",
         "result": {
             "headers": {
@@ -1776,7 +1776,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1784,7 +1784,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1793,7 +1793,7 @@
             }
         }
     },
-    "test-0001719-00946": {
+    "test-0001719-946": {
         "ua": "flfj",
         "result": {
             "headers": {
@@ -1815,7 +1815,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1823,7 +1823,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1832,7 +1832,7 @@
             }
         }
     },
-    "test-0001719-00947": {
+    "test-0001719-947": {
         "ua": "-8411%' OR (SELECT 3399 FROM(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3399=3399) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.CHARACTER_SETS GROUP BY x)a) AND '%'='",
         "result": {
             "headers": {
@@ -1854,7 +1854,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -1862,7 +1862,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -1871,319 +1871,319 @@
             }
         }
     },
-    "test-0001719-00948": {
+    "test-0001719-948": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (9847=9847",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (9847=9847"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00949": {
+    "test-0001719-949": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (((7888=7888",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)))) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (((7888=7888"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00950": {
+    "test-0001719-950": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ((7970=7970",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727))) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ((7970=7970"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00951": {
+    "test-0001719-951": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a))",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a))"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00952": {
+    "test-0001719-952": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('EqJb'='EqJb",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('EqJb'='EqJb"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00953": {
+    "test-0001719-953": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND 'CEfU'='CEfU",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)' OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND 'CEfU'='CEfU"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00954": {
+    "test-0001719-954": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('fKoa' LIKE 'fKoa",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('fKoa' LIKE 'fKoa"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00955": {
+    "test-0001719-955": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('HnCO' LIKE 'HnCO",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)')) OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND (('HnCO' LIKE 'HnCO"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00956": {
+    "test-0001719-956": {
         "ua": "FmUC",
         "result": {
             "headers": {
@@ -2205,7 +2205,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2213,7 +2213,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2222,7 +2222,7 @@
             }
         }
     },
-    "test-0001719-00957": {
+    "test-0001719-957": {
         "ua": "pQTP",
         "result": {
             "headers": {
@@ -2244,7 +2244,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2252,7 +2252,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2261,7 +2261,7 @@
             }
         }
     },
-    "test-0001719-00958": {
+    "test-0001719-958": {
         "ua": "nSnk",
         "result": {
             "headers": {
@@ -2283,7 +2283,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2291,7 +2291,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2300,7 +2300,7 @@
             }
         }
     },
-    "test-0001719-00959": {
+    "test-0001719-959": {
         "ua": "jVem",
         "result": {
             "headers": {
@@ -2322,7 +2322,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2330,7 +2330,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2339,46 +2339,46 @@
             }
         }
     },
-    "test-0001719-00960": {
+    "test-0001719-960": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('%'='",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)%') OR EXTRACTVALUE(7028,CONCAT(0x5c,0x3a7774733a,(SELECT (CASE WHEN (7028=7028) THEN 1 ELSE 0 END)),0x3a786b673a)) AND ('%'='"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
                 "dualOrientation": false,
-                "type": "unknown"
+                "type": "desktop"
             },
             "browser": {
-                "name": null,
+                "name": "Internet Explorer",
                 "modus": null,
-                "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null,
-                "type": "unknown"
+                "version": "7.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 32,
+                "type": "browser"
             },
             "os": {
-                "name": null,
-                "marketingName": null,
+                "name": "Windows NT 5.1",
+                "marketingName": "Windows XP",
                 "version": "0.0.0",
-                "manufacturer": "Unknown",
-                "bits": null
+                "manufacturer": "Microsoft",
+                "bits": 32
             },
             "engine": {
-                "name": null,
+                "name": "Trident",
                 "version": "0.0.0",
-                "manufacturer": "Unknown"
+                "manufacturer": "Microsoft"
             }
         }
     },
-    "test-0001719-00961": {
+    "test-0001719-961": {
         "ua": "-6212) OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x)",
         "result": {
             "headers": {
@@ -2400,7 +2400,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2408,7 +2408,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2417,7 +2417,7 @@
             }
         }
     },
-    "test-0001719-00962": {
+    "test-0001719-962": {
         "ua": "-2151) OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x) AND (3171=3171",
         "result": {
             "headers": {
@@ -2439,7 +2439,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2447,7 +2447,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2456,7 +2456,7 @@
             }
         }
     },
-    "test-0001719-00963": {
+    "test-0001719-963": {
         "ua": "-7666)) OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x) AND ((5398=5398",
         "result": {
             "headers": {
@@ -2478,7 +2478,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2486,7 +2486,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2495,7 +2495,7 @@
             }
         }
     },
-    "test-0001719-00964": {
+    "test-0001719-964": {
         "ua": "-6489'))) OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x) AND ((('QCCI'='QCCI",
         "result": {
             "headers": {
@@ -2517,7 +2517,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2525,7 +2525,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2534,7 +2534,7 @@
             }
         }
     },
-    "test-0001719-00965": {
+    "test-0001719-965": {
         "ua": "-2421' OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x) AND 'veXz'='veXz",
         "result": {
             "headers": {
@@ -2556,7 +2556,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2564,7 +2564,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2573,7 +2573,7 @@
             }
         }
     },
-    "test-0001719-00966": {
+    "test-0001719-966": {
         "ua": "-8135') OR ROW(8606,1008)>(SELECT COUNT(*),CONCAT(0x3a7774733a,(SELECT (CASE WHEN (8606=8606) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2))x FROM (SELECT 7821 UNION SELECT 7487 UNION SELECT 3928 UNION SELECT 3221)a GROUP BY x) AND ('yzUj' LIKE 'yzUj",
         "result": {
             "headers": {
@@ -2595,7 +2595,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2603,7 +2603,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2612,7 +2612,7 @@
             }
         }
     },
-    "test-0001719-00967": {
+    "test-0001719-967": {
         "ua": "LtwU",
         "result": {
             "headers": {
@@ -2634,7 +2634,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2642,7 +2642,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2651,7 +2651,7 @@
             }
         }
     },
-    "test-0001719-00968": {
+    "test-0001719-968": {
         "ua": "gFQc",
         "result": {
             "headers": {
@@ -2673,7 +2673,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2681,7 +2681,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2690,7 +2690,7 @@
             }
         }
     },
-    "test-0001719-00969": {
+    "test-0001719-969": {
         "ua": "-5038') OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -2712,7 +2712,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2720,7 +2720,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2729,7 +2729,7 @@
             }
         }
     },
-    "test-0001719-00970": {
+    "test-0001719-970": {
         "ua": "-8942' OR 1 GROUP BY CONCAT(0x3a7774733a,(SELECT (CASE WHEN (3719=3719) THEN 1 ELSE 0 END)),0x3a786b673a,FLOOR(RAND(0)*2)) HAVING MIN(0)#",
         "result": {
             "headers": {
@@ -2751,7 +2751,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2759,7 +2759,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2768,7 +2768,7 @@
             }
         }
     },
-    "test-0001719-00971": {
+    "test-0001719-971": {
         "ua": "-9868)) OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND ((8698=8698",
         "result": {
             "headers": {
@@ -2790,7 +2790,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2798,7 +2798,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2807,7 +2807,7 @@
             }
         }
     },
-    "test-0001719-00972": {
+    "test-0001719-972": {
         "ua": "-6110') OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND ('HACZ'='HACZ",
         "result": {
             "headers": {
@@ -2829,7 +2829,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2837,7 +2837,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2846,7 +2846,7 @@
             }
         }
     },
-    "test-0001719-00973": {
+    "test-0001719-973": {
         "ua": "-3410' OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND 'KjLv'='KjLv",
         "result": {
             "headers": {
@@ -2868,7 +2868,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2876,7 +2876,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2885,7 +2885,7 @@
             }
         }
     },
-    "test-0001719-00974": {
+    "test-0001719-974": {
         "ua": "-6399%')) OR 6896=CAST((CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58))||(SELECT (CASE WHEN (6896=6896) THEN 1 ELSE 0 END))::text||(CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)) AS NUMERIC) AND (('%'='",
         "result": {
             "headers": {
@@ -2907,7 +2907,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2915,7 +2915,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2924,7 +2924,7 @@
             }
         }
     },
-    "test-0001719-00975": {
+    "test-0001719-975": {
         "ua": "-3067' OR 4692=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (4692=4692) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))",
         "result": {
             "headers": {
@@ -2946,7 +2946,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2954,7 +2954,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -2963,7 +2963,7 @@
             }
         }
     },
-    "test-0001719-00976": {
+    "test-0001719-976": {
         "ua": "-2555))) OR 4692=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (4692=4692) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (((7016=7016",
         "result": {
             "headers": {
@@ -2985,7 +2985,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -2993,7 +2993,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3002,7 +3002,7 @@
             }
         }
     },
-    "test-0001719-00977": {
+    "test-0001719-977": {
         "ua": "hvbV",
         "result": {
             "headers": {
@@ -3024,7 +3024,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3032,7 +3032,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3041,7 +3041,7 @@
             }
         }
     },
-    "test-0001719-00978": {
+    "test-0001719-978": {
         "ua": "gmsI",
         "result": {
             "headers": {
@@ -3063,7 +3063,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3071,7 +3071,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3080,7 +3080,7 @@
             }
         }
     },
-    "test-0001719-00979": {
+    "test-0001719-979": {
         "ua": "JLDs",
         "result": {
             "headers": {
@@ -3102,7 +3102,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3110,7 +3110,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3119,7 +3119,7 @@
             }
         }
     },
-    "test-0001719-00980": {
+    "test-0001719-980": {
         "ua": "-1321%' OR 4692=CONVERT(INT,(CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (4692=4692) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND '%'='",
         "result": {
             "headers": {
@@ -3141,7 +3141,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3149,7 +3149,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3158,7 +3158,7 @@
             }
         }
     },
-    "test-0001719-00981": {
+    "test-0001719-981": {
         "ua": "-4506) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))",
         "result": {
             "headers": {
@@ -3180,7 +3180,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3188,7 +3188,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3197,7 +3197,7 @@
             }
         }
     },
-    "test-0001719-00982": {
+    "test-0001719-982": {
         "ua": "-1812' OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))",
         "result": {
             "headers": {
@@ -3219,7 +3219,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3227,7 +3227,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3236,7 +3236,7 @@
             }
         }
     },
-    "test-0001719-00983": {
+    "test-0001719-983": {
         "ua": "-1138) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (3386=3386",
         "result": {
             "headers": {
@@ -3258,7 +3258,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3266,7 +3266,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3275,7 +3275,7 @@
             }
         }
     },
-    "test-0001719-00984": {
+    "test-0001719-984": {
         "ua": "-7945 OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58)))",
         "result": {
             "headers": {
@@ -3297,7 +3297,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3305,7 +3305,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3314,7 +3314,7 @@
             }
         }
     },
-    "test-0001719-00985": {
+    "test-0001719-985": {
         "ua": "-1724')) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('xyFx'='xyFx",
         "result": {
             "headers": {
@@ -3336,7 +3336,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3344,7 +3344,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3353,7 +3353,7 @@
             }
         }
     },
-    "test-0001719-00986": {
+    "test-0001719-986": {
         "ua": "-5446'))) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ((('WFHM'='WFHM",
         "result": {
             "headers": {
@@ -3375,7 +3375,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3383,7 +3383,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3392,7 +3392,7 @@
             }
         }
     },
-    "test-0001719-00987": {
+    "test-0001719-987": {
         "ua": "-2818' OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND 'mjeA'='mjeA",
         "result": {
             "headers": {
@@ -3414,7 +3414,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3422,7 +3422,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3431,7 +3431,7 @@
             }
         }
     },
-    "test-0001719-00988": {
+    "test-0001719-988": {
         "ua": "-9882') OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('plTe' LIKE 'plTe",
         "result": {
             "headers": {
@@ -3453,7 +3453,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3461,7 +3461,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3470,7 +3470,7 @@
             }
         }
     },
-    "test-0001719-00989": {
+    "test-0001719-989": {
         "ua": "-4543')) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('OnWt' LIKE 'OnWt",
         "result": {
             "headers": {
@@ -3492,7 +3492,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3500,7 +3500,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3509,7 +3509,7 @@
             }
         }
     },
-    "test-0001719-00990": {
+    "test-0001719-990": {
         "ua": "-3788' OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND 'UtEa' LIKE 'UtEa",
         "result": {
             "headers": {
@@ -3531,7 +3531,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3539,7 +3539,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3548,7 +3548,7 @@
             }
         }
     },
-    "test-0001719-00991": {
+    "test-0001719-991": {
         "ua": "Sopi",
         "result": {
             "headers": {
@@ -3570,7 +3570,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3578,7 +3578,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3587,7 +3587,7 @@
             }
         }
     },
-    "test-0001719-00992": {
+    "test-0001719-992": {
         "ua": "eehi",
         "result": {
             "headers": {
@@ -3609,7 +3609,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3617,7 +3617,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3626,7 +3626,7 @@
             }
         }
     },
-    "test-0001719-00993": {
+    "test-0001719-993": {
         "ua": "-1365%') OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND ('%'='",
         "result": {
             "headers": {
@@ -3648,7 +3648,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3656,7 +3656,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3665,7 +3665,7 @@
             }
         }
     },
-    "test-0001719-00994": {
+    "test-0001719-994": {
         "ua": "-2448%')) OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND (('%'='",
         "result": {
             "headers": {
@@ -3687,7 +3687,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3695,7 +3695,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3704,7 +3704,7 @@
             }
         }
     },
-    "test-0001719-00995": {
+    "test-0001719-995": {
         "ua": "-1607%' OR 9040 IN ((CHAR(58)+CHAR(119)+CHAR(116)+CHAR(115)+CHAR(58)+(SELECT (CASE WHEN (9040=9040) THEN CHAR(49) ELSE CHAR(48) END))+CHAR(58)+CHAR(120)+CHAR(107)+CHAR(103)+CHAR(58))) AND '%'='",
         "result": {
             "headers": {
@@ -3726,7 +3726,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3734,7 +3734,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3743,7 +3743,7 @@
             }
         }
     },
-    "test-0001719-00996": {
+    "test-0001719-996": {
         "ua": "-6422) OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL)",
         "result": {
             "headers": {
@@ -3765,7 +3765,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3773,7 +3773,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3782,7 +3782,7 @@
             }
         }
     },
-    "test-0001719-00997": {
+    "test-0001719-997": {
         "ua": "-8890' OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL)",
         "result": {
             "headers": {
@@ -3804,7 +3804,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3812,7 +3812,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3821,7 +3821,7 @@
             }
         }
     },
-    "test-0001719-00998": {
+    "test-0001719-998": {
         "ua": "-7967))) OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL) AND (((7215=7215",
         "result": {
             "headers": {
@@ -3843,7 +3843,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3851,7 +3851,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,
@@ -3860,7 +3860,7 @@
             }
         }
     },
-    "test-0001719-00999": {
+    "test-0001719-999": {
         "ua": "-4595 OR 7982=(SELECT UPPER(XMLType(CHR(60)||CHR(58)||CHR(119)||CHR(116)||CHR(115)||CHR(58)||(SELECT (CASE WHEN (7982=7982) THEN 1 ELSE 0 END) FROM DUAL)||CHR(58)||CHR(120)||CHR(107)||CHR(103)||CHR(58)||CHR(62))) FROM DUAL)",
         "result": {
             "headers": {
@@ -3882,7 +3882,7 @@
                 "modus": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null,
+                "bits": 32,
                 "type": "unknown"
             },
             "os": {
@@ -3890,7 +3890,7 @@
                 "marketingName": null,
                 "version": "0.0.0",
                 "manufacturer": "Unknown",
-                "bits": null
+                "bits": 32
             },
             "engine": {
                 "name": null,

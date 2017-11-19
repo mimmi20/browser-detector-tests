@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the browser-detector-tests package.
+ * This file is part of the browscap-helper package.
  *
  * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
  *
@@ -11,7 +11,8 @@
 declare(strict_types = 1);
 namespace BrowserDetectorTest\UserAgentsTest;
 
-use BrowserDetectorTest\UserAgentsTest;
+use BrowserDetectorTest\UserAgentsTestTrait;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class T0000113Test
@@ -22,10 +23,12 @@ use BrowserDetectorTest\UserAgentsTest;
  * @author     Thomas Mueller <mimmi20@live.de>
  * @group      0000113
  */
-class T0000113Test extends UserAgentsTest
+class T0000113Test extends TestCase
 {
+    use UserAgentsTestTrait;
+
     /**
      * @var string
      */
-    protected $sourceDirectory = 'tests/issues/0000113/';
+    private $sourceDirectory = 'tests/issues/0000113/';
 }

@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class T0000722Test
  *
- * has 769 tests
+ * has 1000 tests
  * this file was created/edited automatically, please do not edit it
  *
  * @author     Thomas Mueller <mimmi20@live.de>
@@ -30,5 +30,7 @@ class T0000722Test extends TestCase
     /**
      * @var string
      */
-    private $sourceDirectory = 'tests/issues/0000722/';
+    private $sourceDirectory = [
+        'tests/issues/0001902/'
+    ];
 }

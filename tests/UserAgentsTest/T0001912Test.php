@@ -30,5 +30,7 @@ class T0001912Test extends TestCase
     /**
      * @var string
      */
-    private $sourceDirectory = 'tests/issues/0001912/';
+    private $sourceDirectory = [
+        'tests/issues/0000679/'
+    ];
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the browscap-helper package.
+ * This file is part of the browser-detector-tests package.
  *
  * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
  *

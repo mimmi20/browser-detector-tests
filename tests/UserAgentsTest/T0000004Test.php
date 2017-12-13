@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the browser-detector-tests package.
+ * This file is part of the browscap-helper package.
  *
  * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
  *
@@ -31,6 +31,6 @@ class T0000004Test extends TestCase
      * @var string
      */
     private $sourceDirectory = [
-        'tests/issues/0002621/'
+        'tests/issues/0000325/',
     ];
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the browser-detector-tests package.
+ * This file is part of the browscap-helper package.
  *
  * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
  *
@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class T0000338Test
  *
- * has 1000 tests
+ * has 980 tests
  * this file was created/edited automatically, please do not edit it
  *
  * @author     Thomas Mueller <mimmi20@live.de>
@@ -31,6 +31,19 @@ class T0000338Test extends TestCase
      * @var string
      */
     private $sourceDirectory = [
-        'tests/issues/0002287/'
+        'tests/issues/0000660/',
+        'tests/issues/0001232/',
+        'tests/issues/0000583/',
+        'tests/issues/0000661/',
+        'tests/issues/0000665/',
+        'tests/issues/0000901/',
+        'tests/issues/0000436/',
+        'tests/issues/0000679/',
+        'tests/issues/0000952/',
+        'tests/issues/0000988/',
+        'tests/issues/0000592/',
+        'tests/issues/0000439/',
+        'tests/issues/0000595/',
+        'tests/issues/0000407/',
     ];
 }

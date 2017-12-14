@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class T0000305Test
  *
- * has 928 tests
+ * has 1000 tests
  * this file was created/edited automatically, please do not edit it
  *
  * @author     Thomas Mueller <mimmi20@live.de>
@@ -28,12 +28,9 @@ class T0000305Test extends TestCase
     use UserAgentsTestTrait;
 
     /**
-     * @var string
+     * @var string[]
      */
     private $sourceDirectory = [
-        'tests/issues/0000320/',
-        'tests/issues/0000445/',
-        'tests/issues/0000545/',
-        'tests/issues/0000567/',
+        'tests/issues/0000013/',
     ];
 }

@@ -56,41 +56,33 @@ trait UserAgentsTestTrait
     {
         $start = microtime(true);
 
-        echo 'starting provider ', static::class, ' ...', PHP_EOL;
+        echo 'starting provider ', static::class, ' ...';
 
         $data     = [];
+        $iterator = new \DirectoryIterator($this->sourceDirectory);
 
-        foreach ($this->sourceDirectory as $sourceDirectory) {
-            $iterator = new \DirectoryIterator($sourceDirectory);
+        foreach ($iterator as $file) {
+            /** @var $file \SplFileInfo */
+            if (!$file->isFile() || 'json' !== $file->getExtension()) {
+                continue;
+            }
 
-            foreach ($iterator as $file) {
-                /** @var $file \SplFileInfo */
-                if (!$file->isFile() || 'json' !== $file->getExtension()) {
+            $tests = json_decode(file_get_contents($file->getPathname()), true);
+
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    // Test data is duplicated for key
                     continue;
                 }
 
-                $fileStart = microtime(true);
-                echo '    starting file ', $file->getFilename(), ' ...', PHP_EOL;
-
-                $tests = json_decode(file_get_contents($file->getPathname()), true);
-
-                foreach ($tests as $key => $test) {
-                    if (array_key_exists($key, $data)) {
-                        // Test data is duplicated for key
-                        continue;
-                    }
-
-                    $data[$key] = [
-                        'ua'     => $test['ua'],
-                        'result' => (new ResultFactory())->fromArray(static::getCache(), static::getLogger(), $test['result']),
-                    ];
-                }
-
-                echo '    finished file ', $file->getFilename(), ' (', str_pad(number_format(microtime(true) - $fileStart, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($tests), 6, ' ', STR_PAD_LEFT), ' test', (1 !== count($tests) ? 's' : ''), ')', PHP_EOL;
+                $data[$key] = [
+                    'ua'     => $test['ua'],
+                    'result' => (new ResultFactory())->fromArray(static::getCache(), static::getLogger(), $test['result']),
+                ];
             }
         }
 
-        echo ' finished provider ', static::class, ' (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 6, ' ', STR_PAD_LEFT), ' test', (1 !== count($data) ? 's' : ''), ')', PHP_EOL;
+        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 6, ' ', STR_PAD_LEFT), ' test', (1 !== count($data) ? 's' : ''), ')', PHP_EOL;
 
         return $data;
     }

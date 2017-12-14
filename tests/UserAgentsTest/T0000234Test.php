@@ -28,7 +28,9 @@ class T0000234Test extends TestCase
     use UserAgentsTestTrait;
 
     /**
-     * @var string
+     * @var string[]
      */
-    private $sourceDirectory = 'tests/issues/0000234/';
+    private $sourceDirectory = [
+        'tests/issues/0000084/',
+    ];
 }

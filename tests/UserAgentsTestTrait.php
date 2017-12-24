@@ -17,7 +17,6 @@ use Monolog\Logger;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
-use UaResult\Result\Result;
 use UaResult\Result\ResultFactory;
 use UaResult\Result\ResultInterface;
 
@@ -59,26 +58,28 @@ trait UserAgentsTestTrait
         echo 'starting provider ', static::class, ' ...';
 
         $data     = [];
-        $iterator = new \DirectoryIterator($this->sourceDirectory);
+        foreach ($this->sourceDirectory as $directory) {
+            $iterator = new \DirectoryIterator($directory);
 
-        foreach ($iterator as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
-            }
-
-            $tests = json_decode(file_get_contents($file->getPathname()), true);
-
-            foreach ($tests as $key => $test) {
-                if (isset($data[$key])) {
-                    // Test data is duplicated for key
+            foreach ($iterator as $file) {
+                /** @var $file \SplFileInfo */
+                if (!$file->isFile() || 'json' !== $file->getExtension()) {
                     continue;
                 }
 
-                $data[$key] = [
-                    'ua'     => $test['ua'],
-                    'result' => (new ResultFactory())->fromArray(static::getCache(), static::getLogger(), $test['result']),
-                ];
+                $tests = json_decode(file_get_contents($file->getPathname()), true);
+
+                foreach ($tests as $key => $test) {
+                    if (isset($data[$key])) {
+                        // Test data is duplicated for key
+                        continue;
+                    }
+
+                    $data[$key] = [
+                        'ua'     => $test['ua'],
+                        'result' => (new ResultFactory())->fromArray(static::getLogger(), $test['result']),
+                    ];
+                }
             }
         }
 
@@ -93,7 +94,8 @@ trait UserAgentsTestTrait
      * @param string                           $userAgent
      * @param \UaResult\Result\ResultInterface $expectedResult
      *
-     * @throws \Exception
+     * @throws \Psr\Cache\InvalidArgumentException
+     * @throws \Seld\JsonLint\ParsingException
      *
      * @return void
      */

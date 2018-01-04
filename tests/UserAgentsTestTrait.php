@@ -14,9 +14,9 @@ namespace BrowserDetectorTest;
 use BrowserDetector\Detector;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
-use Psr\Cache\CacheItemPoolInterface;
 use Psr\Log\LoggerInterface;
-use Symfony\Component\Cache\Adapter\FilesystemAdapter;
+use Psr\SimpleCache\CacheInterface;
+use Symfony\Component\Cache\Simple\FilesystemCache;
 use UaResult\Result\ResultFactory;
 use UaResult\Result\ResultInterface;
 
@@ -33,7 +33,7 @@ trait UserAgentsTestTrait
     private static $logger = null;
 
     /**
-     * @var \Psr\Cache\CacheItemPoolInterface
+     * @var \Psr\SimpleCache\CacheInterface
      */
     private static $cache = null;
 
@@ -153,15 +153,15 @@ trait UserAgentsTestTrait
     }
 
     /**
-     * @return \Psr\Cache\CacheItemPoolInterface
+     * @return \Psr\SimpleCache\CacheInterface
      */
-    private static function getCache(): CacheItemPoolInterface
+    private static function getCache(): CacheInterface
     {
         if (null !== static::$cache) {
             return static::$cache;
         }
 
-        static::$cache = new FilesystemAdapter('', 0, __DIR__ . '/../cache/');
+        static::$cache = new FilesystemCache('', 0, __DIR__ . '/../cache/');
 
         return static::$cache;
     }

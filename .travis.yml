@@ -29,7 +29,7 @@ before_install:
 
 install: travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-suggest $COMPOSER_FLAGS -vv
 
-script: composer validate
+script: skip
 
 jobs:
   fast_finish: true
@@ -63,7 +63,7 @@ jobs:
       env:
         - COMPOSER_FLAGS=""
         - TEST=phpstan
-      script: vendor/bin/phpstan.phar analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests
+      script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests
 
 notifications:
   email: false

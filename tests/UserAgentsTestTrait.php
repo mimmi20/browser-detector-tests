@@ -46,6 +46,7 @@ trait UserAgentsTestTrait
     protected function setUp(): void
     {
         $this->object = new Detector(static::getCache(), static::getLogger());
+        $this->object->warmupCache();
     }
 
     /**

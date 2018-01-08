@@ -46,6 +46,7 @@ trait UserAgentsTestTrait
     protected function setUp(): void
     {
         $this->object = new Detector(static::getCache(), static::getLogger());
+        $this->object->warmupCache();
     }
 
     /**
@@ -83,7 +84,7 @@ trait UserAgentsTestTrait
             }
         }
 
-        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 8, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 6, ' ', STR_PAD_LEFT), ' test', (1 !== count($data) ? 's' : ''), ')', PHP_EOL;
+        echo ' finished (', str_pad(number_format(microtime(true) - $start, 4), 7, ' ', STR_PAD_LEFT), ' sec., ', str_pad((string) count($data), 4, ' ', STR_PAD_LEFT), ' test', (1 !== count($data) ? 's' : ''), ')', PHP_EOL;
 
         return $data;
     }

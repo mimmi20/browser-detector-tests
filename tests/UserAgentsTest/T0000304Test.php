@@ -20,7 +20,6 @@ use PHPUnit\Framework\TestCase;
  * has 1000 tests
  * this file was created/edited automatically, please do not edit it
  *
- * @author     Thomas Mueller <mimmi20@live.de>
  * @group      0000304
  */
 class T0000304Test extends TestCase

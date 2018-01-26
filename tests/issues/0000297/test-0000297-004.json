@@ -1,5 +1,122 @@
 {
     "test-0000297-00400": {
+        "ua": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:12.0) Gecko/20120424 Firefox/12.0 PaleMoon/12.0",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:12.0) Gecko/20120424 Firefox/12.0 PaleMoon/12.0"
+            },
+            "device": {
+                "deviceName": "Windows Desktop",
+                "marketingName": "Windows Desktop",
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": "mouse",
+                "resolutionWidth": null,
+                "resolutionHeight": null,
+                "dualOrientation": false,
+                "type": "desktop"
+            },
+            "browser": {
+                "name": "PaleMoon",
+                "modus": null,
+                "version": "12.0.0",
+                "manufacturer": "MoonchildProductions",
+                "bits": 32,
+                "type": "browser"
+            },
+            "os": {
+                "name": "Windows NT 6.2",
+                "marketingName": "Windows 8",
+                "version": "0.0.0",
+                "manufacturer": "Microsoft",
+                "bits": 64
+            },
+            "engine": {
+                "name": "Gecko",
+                "version": "12.0.0",
+                "manufacturer": "MozillaFoundation"
+            }
+        }
+    },
+    "test-0000297-00401": {
+        "ua": "Opera/9.80 (Android; Opera Mini/7.0.29473/27.1993; U; de) Presto/2.8.119 Version/11.10",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "Opera/9.80 (Android; Opera Mini/7.0.29473/27.1993; U; de) Presto/2.8.119 Version/11.10"
+            },
+            "device": {
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": null,
+                "resolutionHeight": null,
+                "dualOrientation": true,
+                "type": "mobile-device"
+            },
+            "browser": {
+                "name": "Opera Mini",
+                "modus": null,
+                "version": "7.0.29473",
+                "manufacturer": "Opera",
+                "bits": 32,
+                "type": "transcoder"
+            },
+            "os": {
+                "name": "Android",
+                "marketingName": "Android",
+                "version": "0.0.0",
+                "manufacturer": "Google",
+                "bits": 32
+            },
+            "engine": {
+                "name": "Presto",
+                "version": "2.8.119",
+                "manufacturer": "Opera"
+            }
+        }
+    },
+    "test-0000297-00402": {
+        "ua": "BlackBerry9300/5.0.0.846 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/114",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "BlackBerry9300/5.0.0.846 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/114"
+            },
+            "device": {
+                "deviceName": "BlackBerry 9300",
+                "marketingName": "BlackBerry Curve 3G 9300",
+                "manufacturer": "Rim",
+                "brand": "Rim",
+                "pointingMethod": "clickwheel",
+                "resolutionWidth": 320,
+                "resolutionHeight": 240,
+                "dualOrientation": false,
+                "type": "feature-phone"
+            },
+            "browser": {
+                "name": "BlackBerry",
+                "modus": null,
+                "version": "5.0.0.846",
+                "manufacturer": "Rim",
+                "bits": 32,
+                "type": "browser"
+            },
+            "os": {
+                "name": "RIM OS",
+                "marketingName": "RIM OS",
+                "version": "5.0.0.846",
+                "manufacturer": "Rim",
+                "bits": 32
+            },
+            "engine": {
+                "name": "BlackBerry",
+                "version": "0.0.0",
+                "manufacturer": "Rim"
+            }
+        }
+    },
+    "test-0000297-00403": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; it-it; SAMSUNG GT-I9300/I9300XXALE8 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30,gzip(gfe) (via translate.google.com)",
         "result": {
             "headers": {
@@ -38,7 +155,7 @@
             }
         }
     },
-    "test-0000297-00401": {
+    "test-0000297-00404": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 Safari/7534.48.3 Sleipnir/2.0m",
         "result": {
             "headers": {
@@ -77,7 +194,7 @@
             }
         }
     },
-    "test-0000297-00402": {
+    "test-0000297-00405": {
         "ua": "Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/534.7 (KHTML, like Gecko) Epiphany/2.30.6 Safari/534.7",
         "result": {
             "headers": {
@@ -116,22 +233,22 @@
             }
         }
     },
-    "test-0000297-00403": {
+    "test-0000297-00406": {
         "ua": "Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Windows Mobile; Opera Mini/5.1.21594/27.1993; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -155,22 +272,22 @@
             }
         }
     },
-    "test-0000297-00404": {
+    "test-0000297-00407": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.24725/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.24725/27.1993; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -181,10 +298,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -194,7 +311,7 @@
             }
         }
     },
-    "test-0000297-00405": {
+    "test-0000297-00408": {
         "ua": "Opera/9.80 (iPad; Opera Mini/7.0.2/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -233,7 +350,7 @@
             }
         }
     },
-    "test-0000297-00406": {
+    "test-0000297-00409": {
         "ua": "Opera/9.80 (Android 3.1; Linux; Opera Tablet/ADR-1203051631; U; de) Presto/2.10.254 Version/12.00",
         "result": {
             "headers": {
@@ -272,7 +389,7 @@
             }
         }
     },
-    "test-0000297-00407": {
+    "test-0000297-00410": {
         "ua": "Mozilla/5.0 (Windows NT 6.0; rv:12.1) Gecko/20120516 Firefox/12.1 PaleMoon/12.1",
         "result": {
             "headers": {
@@ -311,7 +428,7 @@
             }
         }
     },
-    "test-0000297-00408": {
+    "test-0000297-00411": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Mac_PowerPC; de) Opera 11.61",
         "result": {
             "headers": {
@@ -350,7 +467,7 @@
             }
         }
     },
-    "test-0000297-00409": {
+    "test-0000297-00412": {
         "ua": "Mozilla/5.0 (BlackBerry; U; BlackBerry 9900; de) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.437 Mobile Safari/534.11+",
         "result": {
             "headers": {
@@ -389,7 +506,7 @@
             }
         }
     },
-    "test-0000297-00410": {
+    "test-0000297-00413": {
         "ua": "Opera/9.80 (Android; Opera Mini/7.0.29530/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -428,22 +545,22 @@
             }
         }
     },
-    "test-0000297-00411": {
+    "test-0000297-00414": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.1.15082/27.1993; U; en) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.1.15082/27.1993; U; en) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -454,10 +571,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -467,7 +584,7 @@
             }
         }
     },
-    "test-0000297-00412": {
+    "test-0000297-00415": {
         "ua": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; HTC_IncredibleS_S710e; de-fr) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16",
         "result": {
             "headers": {
@@ -506,22 +623,22 @@
             }
         }
     },
-    "test-0000297-00413": {
+    "test-0000297-00416": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/7.0.29482/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/7.0.29482/27.1993; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -545,7 +662,7 @@
             }
         }
     },
-    "test-0000297-00414": {
+    "test-0000297-00417": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; novo7_Advanced2 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
             "headers": {
@@ -584,7 +701,7 @@
             }
         }
     },
-    "test-0000297-00415": {
+    "test-0000297-00418": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-at; HTC Desire Build/IMM76D; CyanogenMod-9.0.0) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -623,22 +740,22 @@
             }
         }
     },
-    "test-0000297-00416": {
+    "test-0000297-00419": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.24009/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.24009/27.1993; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -649,10 +766,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -662,7 +779,7 @@
             }
         }
     },
-    "test-0000297-00417": {
+    "test-0000297-00420": {
         "ua": "Mozilla/5.0 (X11; SunOS i86pc; U; de; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 10.01",
         "result": {
             "headers": {
@@ -701,7 +818,7 @@
             }
         }
     },
-    "test-0000297-00418": {
+    "test-0000297-00421": {
         "ua": "Mozilla/5.0 (iPhone; U; CPU iPhone OS 5_1 like Mac OS X; en_US) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.1.1;FBBV/4110.0;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/5.1;FBSS/2; FBCR/o2-de;FBID/phone;FBLC/en_US;FBSF/2.0]",
         "result": {
             "headers": {
@@ -740,7 +857,7 @@
             }
         }
     },
-    "test-0000297-00419": {
+    "test-0000297-00422": {
         "ua": "Opera/9.80 (iPhone; Opera Mini/7.0.2/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -779,7 +896,7 @@
             }
         }
     },
-    "test-0000297-00420": {
+    "test-0000297-00423": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; GT-P7310 Build/IMM76I) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19",
         "result": {
             "headers": {
@@ -818,7 +935,7 @@
             }
         }
     },
-    "test-0000297-00421": {
+    "test-0000297-00424": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-ch; SonyEricssonLT15i Build/4.0.2.A.0.69) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -857,7 +974,7 @@
             }
         }
     },
-    "test-0000297-00422": {
+    "test-0000297-00425": {
         "ua": "Opera/9.80 (Android; Opera Mini/7.0.29530/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -896,22 +1013,22 @@
             }
         }
     },
-    "test-0000297-00423": {
+    "test-0000297-00426": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/6.5.27354/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/6.5.27354/27.2020; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -935,7 +1052,7 @@
             }
         }
     },
-    "test-0000297-00424": {
+    "test-0000297-00427": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.7; de-at; GT-I9100 Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -974,22 +1091,22 @@
             }
         }
     },
-    "test-0000297-00425": {
+    "test-0000297-00428": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/7.0.29974/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/7.0.29974/27.2020; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -1013,7 +1130,7 @@
             }
         }
     },
-    "test-0000297-00426": {
+    "test-0000297-00429": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:13.0) Gecko/20120604 Firefox/13.0 SeaMonkey/2.10 Lightning/1.5b2",
         "result": {
             "headers": {
@@ -1052,22 +1169,22 @@
             }
         }
     },
-    "test-0000297-00427": {
+    "test-0000297-00430": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/7.0.29974/27.1993; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/7.0.29974/27.1993; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -1091,7 +1208,7 @@
             }
         }
     },
-    "test-0000297-00428": {
+    "test-0000297-00431": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; HTC Sensation Z710e Build/IML74K)MaxthonMaxthon AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -1130,22 +1247,22 @@
             }
         }
     },
-    "test-0000297-00429": {
+    "test-0000297-00432": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.24725/27.2020; U; pl) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.24725/27.2020; U; pl) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -1156,10 +1273,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -1169,7 +1286,7 @@
             }
         }
     },
-    "test-0000297-00430": {
+    "test-0000297-00433": {
         "ua": "Opera/9.80 (Android; Opera Mini/7.0.29950/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -1208,7 +1325,7 @@
             }
         }
     },
-    "test-0000297-00431": {
+    "test-0000297-00434": {
         "ua": "Opera/9.80 (Android 2.3; Linux; Opera Tablet/ADR-1205181138; U; de) Presto/2.10.254 Version/12.00",
         "result": {
             "headers": {
@@ -1247,7 +1364,7 @@
             }
         }
     },
-    "test-0000297-00432": {
+    "test-0000297-00435": {
         "ua": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/20.0.1131.0 Safari/537.1",
         "result": {
             "headers": {
@@ -1286,7 +1403,7 @@
             }
         }
     },
-    "test-0000297-00433": {
+    "test-0000297-00436": {
         "ua": "BlackBerry8520/5.0.0.1075 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/114",
         "result": {
             "headers": {
@@ -1325,7 +1442,7 @@
             }
         }
     },
-    "test-0000297-00434": {
+    "test-0000297-00437": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-gb; GT-S5660 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1364,7 +1481,7 @@
             }
         }
     },
-    "test-0000297-00435": {
+    "test-0000297-00438": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-at; HTC One S Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -1403,7 +1520,7 @@
             }
         }
     },
-    "test-0000297-00436": {
+    "test-0000297-00439": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; es-pe; SonyEricssonMT15i Build/4.0.2.A.0.69) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1442,7 +1559,7 @@
             }
         }
     },
-    "test-0000297-00437": {
+    "test-0000297-00440": {
         "ua": "Opera/9.80 (Android; Opera Mini/6.1.25622/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -1481,7 +1598,7 @@
             }
         }
     },
-    "test-0000297-00438": {
+    "test-0000297-00441": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; Nexus S Build/IMM76L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
         "result": {
             "headers": {
@@ -1520,7 +1637,7 @@
             }
         }
     },
-    "test-0000297-00439": {
+    "test-0000297-00442": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.1-update1; sv-se; SonyEricssonE15i Build/2.1.1.C.0.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
         "result": {
             "headers": {
@@ -1559,22 +1676,22 @@
             }
         }
     },
-    "test-0000297-00440": {
+    "test-0000297-00443": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/6.5.27309/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/6.5.27309/27.2020; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -1598,7 +1715,7 @@
             }
         }
     },
-    "test-0000297-00441": {
+    "test-0000297-00444": {
         "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.13 (KHTML, like Gecko) Version/5.1 Mobile/10A333 Safari/7534.48.3",
         "result": {
             "headers": {
@@ -1637,7 +1754,7 @@
             }
         }
     },
-    "test-0000297-00442": {
+    "test-0000297-00445": {
         "ua": "Opera/9.80 (Android 2.3.7; Linux; Opera Mobi/ADR-1205181138; U; tr) Presto/2.10.254 Version/12.00",
         "result": {
             "headers": {
@@ -1676,7 +1793,7 @@
             }
         }
     },
-    "test-0000297-00443": {
+    "test-0000297-00446": {
         "ua": "Mozilla/4.0 (compatible; MSIE 7.0; TOB 6.05; Windows NT 6.1; Trident/4.0; GTB7.3; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; MALN; .NET CLR 1.1.4322; InfoPath.1; BRI/2; OfficeLiveConnector.1.5; OfficeLivePatch.1.3)",
         "result": {
             "headers": {
@@ -1715,7 +1832,7 @@
             }
         }
     },
-    "test-0000297-00444": {
+    "test-0000297-00447": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-li; SonyEricssonLT15i Build/4.0.2.A.0.42) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1754,7 +1871,7 @@
             }
         }
     },
-    "test-0000297-00445": {
+    "test-0000297-00448": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-P1000T Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1793,7 +1910,7 @@
             }
         }
     },
-    "test-0000297-00446": {
+    "test-0000297-00449": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; de-pt; HTC/WildfireS/2.26.161.1 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1832,7 +1949,7 @@
             }
         }
     },
-    "test-0000297-00447": {
+    "test-0000297-00450": {
         "ua": "BlackBerry8520/5.2.0.104 Profile/MIDP-2.0 Configuration/CLDC-1.1/UC Browser7.8.0.95/159/350",
         "result": {
             "headers": {
@@ -1871,22 +1988,22 @@
             }
         }
     },
-    "test-0000297-00448": {
+    "test-0000297-00451": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.26955/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/6.5.26955/27.2020; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -1897,10 +2014,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -1910,7 +2027,7 @@
             }
         }
     },
-    "test-0000297-00449": {
+    "test-0000297-00452": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-at; SAMSUNG GT-S7500/S7500BULC1 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1949,7 +2066,7 @@
             }
         }
     },
-    "test-0000297-00450": {
+    "test-0000297-00453": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.6; de-de; GT-I9300 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -1988,7 +2105,7 @@
             }
         }
     },
-    "test-0000297-00451": {
+    "test-0000297-00454": {
         "ua": "Opera/9.80 (Android; Opera Mini/5.1.22460/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -2027,7 +2144,7 @@
             }
         }
     },
-    "test-0000297-00452": {
+    "test-0000297-00455": {
         "ua": "Opera/9.80 (Android; Opera Mini/6.5.27452/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -2066,7 +2183,7 @@
             }
         }
     },
-    "test-0000297-00453": {
+    "test-0000297-00456": {
         "ua": "Opera/9.80 (Linux mips; U; InettvBrowser/2.2 (00014A;SonyDTV115;0002;0100) KDL32EX727; CC/DEU; en) Presto/2.7.61 Version/11.00",
         "result": {
             "headers": {
@@ -2105,7 +2222,7 @@
             }
         }
     },
-    "test-0000297-00454": {
+    "test-0000297-00457": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; nl-be; GT-I9100 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2144,7 +2261,7 @@
             }
         }
     },
-    "test-0000297-00455": {
+    "test-0000297-00458": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.0; de) Opera 11.62",
         "result": {
             "headers": {
@@ -2183,22 +2300,22 @@
             }
         }
     },
-    "test-0000297-00456": {
+    "test-0000297-00459": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.27461/27.2020; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.27461/27.2020; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -2209,10 +2326,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -2222,7 +2339,7 @@
             }
         }
     },
-    "test-0000297-00457": {
+    "test-0000297-00460": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.1-update1; de-nl; HTC Legend Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
         "result": {
             "headers": {
@@ -2261,7 +2378,7 @@
             }
         }
     },
-    "test-0000297-00458": {
+    "test-0000297-00461": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-lu; HTC_Flyer_P510e Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2300,7 +2417,7 @@
             }
         }
     },
-    "test-0000297-00459": {
+    "test-0000297-00462": {
         "ua": "Mozilla/5.0 (iPad; U; CPU OS 4_3 like Mac OS X; el-gr) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8F191 Safari/6533.18.5",
         "result": {
             "headers": {
@@ -2339,22 +2456,22 @@
             }
         }
     },
-    "test-0000297-00460": {
+    "test-0000297-00463": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.22228/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.22228/28.1857; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -2365,10 +2482,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -2378,7 +2495,7 @@
             }
         }
     },
-    "test-0000297-00461": {
+    "test-0000297-00464": {
         "ua": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; xs-12D5kiD3U4M;A6RZQ9; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)",
         "result": {
             "headers": {
@@ -2417,7 +2534,7 @@
             }
         }
     },
-    "test-0000297-00462": {
+    "test-0000297-00465": {
         "ua": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19 AppEngine-Google; (+http://code.google.com/appengine; appid: s~raymondwang20120101)",
         "result": {
             "headers": {
@@ -2456,7 +2573,7 @@
             }
         }
     },
-    "test-0000297-00463": {
+    "test-0000297-00466": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.3;  LT18i Build/4.1.A.0.562) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19",
         "result": {
             "headers": {
@@ -2495,7 +2612,7 @@
             }
         }
     },
-    "test-0000297-00464": {
+    "test-0000297-00467": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-at; SonyEricssonMT11i Build/4.0.1.A.0.283) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2534,7 +2651,7 @@
             }
         }
     },
-    "test-0000297-00465": {
+    "test-0000297-00468": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; en-za; GT-I8150 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2573,7 +2690,7 @@
             }
         }
     },
-    "test-0000297-00466": {
+    "test-0000297-00469": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-at; SonyEricssonLT18iv Build/4.0.1.A.0.266) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2612,7 +2729,7 @@
             }
         }
     },
-    "test-0000297-00467": {
+    "test-0000297-00470": {
         "ua": "Opera/9.80 (Android; Opera Mini/7.0.29952/28.1857; U; lv) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -2651,7 +2768,7 @@
             }
         }
     },
-    "test-0000297-00468": {
+    "test-0000297-00471": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; he-il; GT-I9000T Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2666,7 +2783,7 @@
                 "resolutionWidth": 480,
                 "resolutionHeight": 800,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Android Webkit",
@@ -2690,7 +2807,7 @@
             }
         }
     },
-    "test-0000297-00469": {
+    "test-0000297-00472": {
         "ua": "Opera/9.80 (Android 2.3.5; Linux; Opera Mobi/ADR-1204201924; U; de) Presto/2.10.254 Version/12.00",
         "result": {
             "headers": {
@@ -2729,7 +2846,7 @@
             }
         }
     },
-    "test-0000297-00470": {
+    "test-0000297-00473": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.5; de-de; HTC Desire Z Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -2768,7 +2885,7 @@
             }
         }
     },
-    "test-0000297-00471": {
+    "test-0000297-00474": {
         "ua": "Mozilla/5.0 (PLAYSTATION 3 4.10) AppleWebKit/531.22.8 (KHTML, like Gecko)",
         "result": {
             "headers": {
@@ -2807,7 +2924,7 @@
             }
         }
     },
-    "test-0000297-00472": {
+    "test-0000297-00475": {
         "ua": "Opera/9.80 (BlackBerry; Opera Mini/6.5.27548/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -2846,7 +2963,7 @@
             }
         }
     },
-    "test-0000297-00473": {
+    "test-0000297-00476": {
         "ua": "Mozilla/5.0 (Windows NT;en-us) Firefox/3.5.9",
         "result": {
             "headers": {
@@ -2885,22 +3002,22 @@
             }
         }
     },
-    "test-0000297-00474": {
+    "test-0000297-00477": {
         "ua": "Opera/9.80 (Series 60; Opera Mini/6.5.29702/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/6.5.29702/28.1857; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -2924,7 +3041,7 @@
             }
         }
     },
-    "test-0000297-00475": {
+    "test-0000297-00478": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; TITAN X310e; 2.05.161.01)",
         "result": {
             "headers": {
@@ -2963,7 +3080,7 @@
             }
         }
     },
-    "test-0000297-00476": {
+    "test-0000297-00479": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; sv-se; SonyEricssonMT15i Build/4.0.2.A.0.62) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3002,7 +3119,7 @@
             }
         }
     },
-    "test-0000297-00477": {
+    "test-0000297-00480": {
         "ua": "SonyEricssonS500i/R8BE Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1",
         "result": {
             "headers": {
@@ -3041,7 +3158,7 @@
             }
         }
     },
-    "test-0000297-00478": {
+    "test-0000297-00481": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.7; de-at; GT-I9100 Build/GRJ22; CyanogenMod-7) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3080,7 +3197,7 @@
             }
         }
     },
-    "test-0000297-00479": {
+    "test-0000297-00482": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; de-de; GT-I9000 Build/GINGERBREAD) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -3095,7 +3212,7 @@
                 "resolutionWidth": 480,
                 "resolutionHeight": 800,
                 "dualOrientation": true,
-                "type": "mobile-phone"
+                "type": "smartphone"
             },
             "browser": {
                 "name": "Dolfin",
@@ -3119,7 +3236,7 @@
             }
         }
     },
-    "test-0000297-00480": {
+    "test-0000297-00483": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; de-at; SonyEricssonMT11i Build/4.0.2.A.0.69) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3158,7 +3275,7 @@
             }
         }
     },
-    "test-0000297-00481": {
+    "test-0000297-00484": {
         "ua": "Mozilla/5.0 (;;;) AppleWebKit/534.6 HbbTV/1.1.1 (+DL+PVR; inverto; IDL-6651N Volksbox Web Edition; 1.0; 1.0;)  CE-HTML/1.0",
         "result": {
             "headers": {
@@ -3197,7 +3314,7 @@
             }
         }
     },
-    "test-0000297-00482": {
+    "test-0000297-00485": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.3; en-hk; HTC Sensation Z710e Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3236,7 +3353,7 @@
             }
         }
     },
-    "test-0000297-00483": {
+    "test-0000297-00486": {
         "ua": "Opera/8.01 (J2ME/MIDP; Opera Mini/1.1.4948/1662; de; U; ssr)",
         "result": {
             "headers": {
@@ -3262,10 +3379,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -3275,7 +3392,7 @@
             }
         }
     },
-    "test-0000297-00484": {
+    "test-0000297-00487": {
         "ua": "Mozilla/5.0 (Linux; U; Android 1.5; es-es; MB200 Build/CUPCAKE) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
         "result": {
             "headers": {
@@ -3314,22 +3431,22 @@
             }
         }
     },
-    "test-0000297-00485": {
+    "test-0000297-00488": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29476/28.1857; U; en) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.29476/28.1857; U; en) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -3340,10 +3457,10 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
@@ -3353,7 +3470,7 @@
             }
         }
     },
-    "test-0000297-00486": {
+    "test-0000297-00489": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.4; en-ca; SonyEricssonLT18i Build/4.0.2.A.0.42) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3392,7 +3509,7 @@
             }
         }
     },
-    "test-0000297-00487": {
+    "test-0000297-00490": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; MB860 Build/IMM76I; CyanogenMod-9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -3431,7 +3548,7 @@
             }
         }
     },
-    "test-0000297-00488": {
+    "test-0000297-00491": {
         "ua": "Mozilla/5.0 (Linux; U; Android 2.3.7; de-de; HD2 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
         "result": {
             "headers": {
@@ -3470,7 +3587,7 @@
             }
         }
     },
-    "test-0000297-00489": {
+    "test-0000297-00492": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; HTC Sensation XL with Beats Audio X315e Build/IML74K)Maxthon AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
@@ -3509,7 +3626,7 @@
             }
         }
     },
-    "test-0000297-00490": {
+    "test-0000297-00493": {
         "ua": "Mozilla/5.0 (Windows NT 5.0; rv:8.0) Gecko/20111012 Firefox/8.0 SeaMonkey/2.5",
         "result": {
             "headers": {
@@ -3548,7 +3665,7 @@
             }
         }
     },
-    "test-0000297-00491": {
+    "test-0000297-00494": {
         "ua": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; de) Opera 12.00",
         "result": {
             "headers": {
@@ -3587,7 +3704,7 @@
             }
         }
     },
-    "test-0000297-00492": {
+    "test-0000297-00495": {
         "ua": "Opera/9.80 (Bada; Opera Mini/6.5/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -3626,7 +3743,7 @@
             }
         }
     },
-    "test-0000297-00493": {
+    "test-0000297-00496": {
         "ua": "Mozilla/5.0 (Vodafone/1.0/LG-KC910/V10b Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)",
         "result": {
             "headers": {
@@ -3665,7 +3782,7 @@
             }
         }
     },
-    "test-0000297-00494": {
+    "test-0000297-00497": {
         "ua": "Opera/9.80 (iPhone; Opera Mini/6.5.1/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
@@ -3704,7 +3821,7 @@
             }
         }
     },
-    "test-0000297-00495": {
+    "test-0000297-00498": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.7 (KHTML, like Gecko) Iron/16.0.950.0 Chrome/16.0.950.0 Safari/535.7",
         "result": {
             "headers": {
@@ -3743,22 +3860,22 @@
             }
         }
     },
-    "test-0000297-00496": {
+    "test-0000297-00499": {
         "ua": "Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.29915/28.1857; U; de) Presto/2.8.119 Version/11.10",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (J2ME/MIDP; Opera Mini/7.0.29915/28.1857; U; de) Presto/2.8.119 Version/11.10"
             },
             "device": {
-                "deviceName": null,
-                "marketingName": null,
+                "deviceName": "general Mobile Device",
+                "marketingName": "general Mobile Device",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": null,
+                "pointingMethod": "touchscreen",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
+                "dualOrientation": true,
+                "type": "mobile-device"
             },
             "browser": {
                 "name": "Opera Mini",
@@ -3769,133 +3886,16 @@
                 "type": "transcoder"
             },
             "os": {
-                "name": "Java",
-                "marketingName": "Java",
+                "name": "JavaOS",
+                "marketingName": "JavaOS",
                 "version": "0.0.0",
-                "manufacturer": "Oracle",
+                "manufacturer": "SunMicrosystems",
                 "bits": 32
             },
             "engine": {
                 "name": "Presto",
                 "version": "2.8.119",
                 "manufacturer": "Opera"
-            }
-        }
-    },
-    "test-0000297-00497": {
-        "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Odys-Xpress Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
-        "result": {
-            "headers": {
-                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Odys-Xpress Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
-            },
-            "device": {
-                "deviceName": "Xpress",
-                "marketingName": "Xpress",
-                "manufacturer": "Odys",
-                "brand": "Odys",
-                "pointingMethod": "touchscreen",
-                "resolutionWidth": 800,
-                "resolutionHeight": 600,
-                "dualOrientation": true,
-                "type": "tablet"
-            },
-            "browser": {
-                "name": "Android Webkit",
-                "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "Google",
-                "bits": 32,
-                "type": "browser"
-            },
-            "os": {
-                "name": "Android",
-                "marketingName": "Android",
-                "version": "4.0.4",
-                "manufacturer": "Google",
-                "bits": 32
-            },
-            "engine": {
-                "name": "WebKit",
-                "version": "534.30.0",
-                "manufacturer": "Apple"
-            }
-        }
-    },
-    "test-0000297-00498": {
-        "ua": "Opera/9.80 (Series 60; Opera Mini/6.0.24455/28.1857; U; de) Presto/2.8.119 Version/11.10",
-        "result": {
-            "headers": {
-                "HTTP_USER_AGENT": "Opera/9.80 (Series 60; Opera Mini/6.0.24455/28.1857; U; de) Presto/2.8.119 Version/11.10"
-            },
-            "device": {
-                "deviceName": null,
-                "marketingName": null,
-                "manufacturer": "Unknown",
-                "brand": "Unknown",
-                "pointingMethod": null,
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": false,
-                "type": "unknown"
-            },
-            "browser": {
-                "name": "Opera Mini",
-                "modus": null,
-                "version": "6.0.24455",
-                "manufacturer": "Opera",
-                "bits": 32,
-                "type": "transcoder"
-            },
-            "os": {
-                "name": "Symbian OS",
-                "marketingName": "Symbian OS",
-                "version": "0.0.0",
-                "manufacturer": "SymbianFoundation",
-                "bits": 32
-            },
-            "engine": {
-                "name": "Presto",
-                "version": "2.8.119",
-                "manufacturer": "Opera"
-            }
-        }
-    },
-    "test-0000297-00499": {
-        "ua": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Xoom Build/IMM76) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
-        "result": {
-            "headers": {
-                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; Xoom Build/IMM76) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
-            },
-            "device": {
-                "deviceName": "Xoom",
-                "marketingName": "Xoom",
-                "manufacturer": "Motorola",
-                "brand": "Motorola",
-                "pointingMethod": "touchscreen",
-                "resolutionWidth": 1280,
-                "resolutionHeight": 800,
-                "dualOrientation": true,
-                "type": "tablet"
-            },
-            "browser": {
-                "name": "Android Webkit",
-                "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "Google",
-                "bits": 32,
-                "type": "browser"
-            },
-            "os": {
-                "name": "Android",
-                "marketingName": "Android",
-                "version": "4.0.4",
-                "manufacturer": "Google",
-                "bits": 32
-            },
-            "engine": {
-                "name": "WebKit",
-                "version": "534.30.0",
-                "manufacturer": "Apple"
             }
         }
     }

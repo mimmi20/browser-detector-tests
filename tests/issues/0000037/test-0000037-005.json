@@ -1,5 +1,83 @@
 {
     "test-0000037-00500": {
+        "ua": "Mozilla/5.0 (Linux; Android 4.4.4; D2303 Build/18.3.1.C.1.15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501088",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; D2303 Build/18.3.1.C.1.15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501088"
+            },
+            "device": {
+                "deviceName": "D2303",
+                "marketingName": "Xperia M2",
+                "manufacturer": "Sony",
+                "brand": "Sony",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 540,
+                "resolutionHeight": 960,
+                "dualOrientation": true,
+                "type": "smartphone"
+            },
+            "browser": {
+                "name": "CM Browser",
+                "modus": null,
+                "version": "0.0.0",
+                "manufacturer": "CheetahMobile",
+                "bits": 32,
+                "type": "browser"
+            },
+            "os": {
+                "name": "Android",
+                "marketingName": "Android",
+                "version": "4.4.4",
+                "manufacturer": "Google",
+                "bits": 32
+            },
+            "engine": {
+                "name": "Blink",
+                "version": "537.36.0",
+                "manufacturer": "Google"
+            }
+        }
+    },
+    "test-0000037-00501": {
+        "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; B1-710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 IppenHybridApp",
+        "result": {
+            "headers": {
+                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; B1-710 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 IppenHybridApp"
+            },
+            "device": {
+                "deviceName": "B1-710",
+                "marketingName": "Iconia B1-710",
+                "manufacturer": "Acer",
+                "brand": "Acer",
+                "pointingMethod": "touchscreen",
+                "resolutionWidth": 1024,
+                "resolutionHeight": 600,
+                "dualOrientation": true,
+                "type": "tablet"
+            },
+            "browser": {
+                "name": "Android Webkit",
+                "modus": null,
+                "version": "4.0.0",
+                "manufacturer": "Google",
+                "bits": 32,
+                "type": "browser"
+            },
+            "os": {
+                "name": "Android",
+                "marketingName": "Android",
+                "version": "4.1.2",
+                "manufacturer": "Google",
+                "bits": 32
+            },
+            "engine": {
+                "name": "WebKit",
+                "version": "534.30.0",
+                "manufacturer": "Apple"
+            }
+        }
+    },
+    "test-0000037-00502": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Vodafone Smart Tab 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/31.0.0.20.13;]",
         "result": {
             "headers": {
@@ -38,22 +116,22 @@
             }
         }
     },
-    "test-0000037-00501": {
+    "test-0000037-00503": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; ARCHOS 97b PLATINUM Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ARCHOS 97b PLATINUM Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36"
             },
             "device": {
-                "deviceName": "general Archos Device",
-                "marketingName": "general Archos Device",
-                "manufacturer": "Archos",
-                "brand": "Archos",
-                "pointingMethod": "touchscreen",
+                "deviceName": "not found via regexes",
+                "marketingName": null,
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "tablet"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Chrome",
@@ -77,7 +155,7 @@
             }
         }
     },
-    "test-0000037-00502": {
+    "test-0000037-00504": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/18.1.0.14.11;FBBV/5295262;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/1; FBCR/Vodafone.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -116,7 +194,7 @@
             }
         }
     },
-    "test-0000037-00503": {
+    "test-0000037-00505": {
         "ua": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.5.2171.95 Safari/537.36",
         "result": {
             "headers": {
@@ -155,7 +233,7 @@
             }
         }
     },
-    "test-0000037-00504": {
+    "test-0000037-00506": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/29.0.0.9.13;FBBV/9374459;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -194,7 +272,7 @@
             }
         }
     },
-    "test-0000037-00505": {
+    "test-0000037-00507": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3; SGP312 Build/10.4.1.B.0.109) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -233,7 +311,7 @@
             }
         }
     },
-    "test-0000037-00506": {
+    "test-0000037-00508": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -272,7 +350,7 @@
             }
         }
     },
-    "test-0000037-00507": {
+    "test-0000037-00509": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; MediaPad 7 Youth Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -311,7 +389,7 @@
             }
         }
     },
-    "test-0000037-00508": {
+    "test-0000037-00510": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T310 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -350,7 +428,7 @@
             }
         }
     },
-    "test-0000037-00509": {
+    "test-0000037-00511": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; ASUS_T00N Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36",
         "result": {
             "headers": {
@@ -389,7 +467,7 @@
             }
         }
     },
-    "test-0000037-00510": {
+    "test-0000037-00512": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/29.0.0.9.13;FBBV/9374459;FBDV/iPad4,1;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -428,7 +506,7 @@
             }
         }
     },
-    "test-0000037-00511": {
+    "test-0000037-00513": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SGP511 Build/17.1.1.A.0.402) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.136 Safari/537.36",
         "result": {
             "headers": {
@@ -467,7 +545,7 @@
             }
         }
     },
-    "test-0000037-00512": {
+    "test-0000037-00514": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/29.0.0.9.13;FBBV/9374459;FBDV/iPad4,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -506,7 +584,7 @@
             }
         }
     },
-    "test-0000037-00513": {
+    "test-0000037-00515": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad3,6;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.1;FBSS/2; FBCR/Vodafone.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -545,7 +623,7 @@
             }
         }
     },
-    "test-0000037-00514": {
+    "test-0000037-00516": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko)",
         "result": {
             "headers": {
@@ -584,7 +662,7 @@
             }
         }
     },
-    "test-0000037-00515": {
+    "test-0000037-00517": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T315 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -623,7 +701,7 @@
             }
         }
     },
-    "test-0000037-00516": {
+    "test-0000037-00518": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; MediaPad M1 8.0 Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -662,7 +740,7 @@
             }
         }
     },
-    "test-0000037-00517": {
+    "test-0000037-00519": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Nexus 7 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -701,7 +779,7 @@
             }
         }
     },
-    "test-0000037-00518": {
+    "test-0000037-00520": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; K010 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -740,7 +818,7 @@
             }
         }
     },
-    "test-0000037-00519": {
+    "test-0000037-00521": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Lenovo A5500-H Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -779,7 +857,7 @@
             }
         }
     },
-    "test-0000037-00520": {
+    "test-0000037-00522": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad5,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/T-Mobile.pl;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -818,7 +896,7 @@
             }
         }
     },
-    "test-0000037-00521": {
+    "test-0000037-00523": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; A1-810 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -857,7 +935,7 @@
             }
         }
     },
-    "test-0000037-00522": {
+    "test-0000037-00524": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.1;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -896,7 +974,7 @@
             }
         }
     },
-    "test-0000037-00523": {
+    "test-0000037-00525": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-V490 Build/KOT49I.A1409359515) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -935,7 +1013,7 @@
             }
         }
     },
-    "test-0000037-00524": {
+    "test-0000037-00526": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; GT-N7100 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501088",
         "result": {
             "headers": {
@@ -974,7 +1052,7 @@
             }
         }
     },
-    "test-0000037-00525": {
+    "test-0000037-00527": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.4; A1-840 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -1013,7 +1091,7 @@
             }
         }
     },
-    "test-0000037-00526": {
+    "test-0000037-00528": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad4,4;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1052,7 +1130,7 @@
             }
         }
     },
-    "test-0000037-00527": {
+    "test-0000037-00529": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad4,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/Carrier;FBID/tablet;FBLC/es_LA;FBOP/1]",
         "result": {
             "headers": {
@@ -1091,7 +1169,7 @@
             }
         }
     },
-    "test-0000037-00528": {
+    "test-0000037-00530": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T525 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -1130,7 +1208,7 @@
             }
         }
     },
-    "test-0000037-00529": {
+    "test-0000037-00531": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/27.0.0.10.12;FBBV/8291884;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1169,7 +1247,7 @@
             }
         }
     },
-    "test-0000037-00530": {
+    "test-0000037-00532": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; A1-811 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -1208,7 +1286,7 @@
             }
         }
     },
-    "test-0000037-00531": {
+    "test-0000037-00533": {
         "ua": "Mozilla/5.0 (Linux; Android 4.0.4; GT-P7511 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -1247,22 +1325,22 @@
             }
         }
     },
-    "test-0000037-00532": {
+    "test-0000037-00534": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Archos 80b Xenon Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Archos 80b Xenon Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36"
             },
             "device": {
-                "deviceName": "general Archos Device",
-                "marketingName": "general Archos Device",
-                "manufacturer": "Archos",
-                "brand": "Archos",
-                "pointingMethod": "touchscreen",
+                "deviceName": "not found via regexes",
+                "marketingName": null,
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "tablet"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Android WebView",
@@ -1286,22 +1364,22 @@
             }
         }
     },
-    "test-0000037-00533": {
+    "test-0000037-00535": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/19.77.34.5 Mobile Safari/537.36"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": "Linux Desktop",
+                "marketingName": "Linux Desktop",
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": "mouse",
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "desktop"
             },
             "browser": {
                 "name": "Chrome",
@@ -1325,7 +1403,7 @@
             }
         }
     },
-    "test-0000037-00534": {
+    "test-0000037-00536": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/23.1.0.8.11;FBBV/6660503;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1364,7 +1442,7 @@
             }
         }
     },
-    "test-0000037-00535": {
+    "test-0000037-00537": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.2; D5803 Build/23.1.A.0.690; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.2311.137 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -1403,7 +1481,7 @@
             }
         }
     },
-    "test-0000037-00536": {
+    "test-0000037-00538": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/FBIOS;FBAV/28.0.0.10.10;FBBV/8930087;FBDV/iPad3,3;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1442,7 +1520,7 @@
             }
         }
     },
-    "test-0000037-00537": {
+    "test-0000037-00539": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad3,3;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1481,7 +1559,7 @@
             }
         }
     },
-    "test-0000037-00538": {
+    "test-0000037-00540": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/29.0.0.9.13;FBBV/9374459;FBDV/iPad2,7;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1520,7 +1598,7 @@
             }
         }
     },
-    "test-0000037-00539": {
+    "test-0000037-00541": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.4; XT1021 Build/KXC21.5-40) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 GSA/4.4.11.16.arm",
         "result": {
             "headers": {
@@ -1559,7 +1637,7 @@
             }
         }
     },
-    "test-0000037-00540": {
+    "test-0000037-00542": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 [FBAN/FBIOS;FBAV/9.0.0.25.31;FBBV/2102024;FBDV/iPad3,4;FBMD/iPad;FBSN/iPhone OS;FBSV/6.1.3;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1598,7 +1676,7 @@
             }
         }
     },
-    "test-0000037-00541": {
+    "test-0000037-00543": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/29.0.0.9.13;FBBV/9374459;FBDV/iPad2,7;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1637,7 +1715,7 @@
             }
         }
     },
-    "test-0000037-00542": {
+    "test-0000037-00544": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Dragon Touch-Y88X Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/27.0.0.25.15;]",
         "result": {
             "headers": {
@@ -1676,7 +1754,7 @@
             }
         }
     },
-    "test-0000037-00543": {
+    "test-0000037-00545": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B440 [FBAN/FBIOS;FBAV/24.0.0.12.7;FBBV/6890242;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.2;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1715,7 +1793,7 @@
             }
         }
     },
-    "test-0000037-00544": {
+    "test-0000037-00546": {
         "ua": "Mozilla/5.0 (Macintosh; Intel  Mac OS X 10_10_3; en-US) AppleWebKit/10600.5.17 (KHTML, like Gecko) Version/7.0 Safari/537.71 OmniWeb/v626.0",
         "result": {
             "headers": {
@@ -1754,7 +1832,7 @@
             }
         }
     },
-    "test-0000037-00545": {
+    "test-0000037-00547": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LIFETAB_S785X Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 IppenHybridApp",
         "result": {
             "headers": {
@@ -1793,7 +1871,7 @@
             }
         }
     },
-    "test-0000037-00546": {
+    "test-0000037-00548": {
         "ua": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.22 anonymized by Abelssoft 994319410",
         "result": {
             "headers": {
@@ -1832,7 +1910,7 @@
             }
         }
     },
-    "test-0000037-00547": {
+    "test-0000037-00549": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 IppenHybridApp",
         "result": {
             "headers": {
@@ -1871,7 +1949,7 @@
             }
         }
     },
-    "test-0000037-00548": {
+    "test-0000037-00550": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T330 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -1910,7 +1988,7 @@
             }
         }
     },
-    "test-0000037-00549": {
+    "test-0000037-00551": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 [FBAN/FBIOS;FBAV/11.0.0.28.23;FBBV/2816550;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/6.1.3;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -1949,7 +2027,7 @@
             }
         }
     },
-    "test-0000037-00550": {
+    "test-0000037-00552": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T535 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/30.0.0.19.17;]",
         "result": {
             "headers": {
@@ -1988,7 +2066,7 @@
             }
         }
     },
-    "test-0000037-00551": {
+    "test-0000037-00553": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad2,7;FBMD/iPad;FBSN/iPhone OS;FBSV/8.2;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2027,7 +2105,7 @@
             }
         }
     },
-    "test-0000037-00552": {
+    "test-0000037-00554": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; MediaPad 10 LINK Build/HuaweiMediaPad) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -2066,7 +2144,7 @@
             }
         }
     },
-    "test-0000037-00553": {
+    "test-0000037-00555": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; GT-P3100 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -2105,7 +2183,7 @@
             }
         }
     },
-    "test-0000037-00554": {
+    "test-0000037-00556": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad4,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2144,7 +2222,7 @@
             }
         }
     },
-    "test-0000037-00555": {
+    "test-0000037-00557": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [FBAN/FBIOS;FBAV/13.1.0.28.19;FBBV/3740566;FBDV/iPad3,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1.2;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2183,7 +2261,7 @@
             }
         }
     },
-    "test-0000037-00556": {
+    "test-0000037-00558": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/24.0.0.12.7;FBBV/6890242;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2222,7 +2300,7 @@
             }
         }
     },
-    "test-0000037-00557": {
+    "test-0000037-00559": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; B1-730HD Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.114 Safari/537.36",
         "result": {
             "headers": {
@@ -2261,7 +2339,7 @@
             }
         }
     },
-    "test-0000037-00558": {
+    "test-0000037-00560": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/25.0.0.11.10;FBBV/7293189;FBDV/iPad2,5;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2300,7 +2378,7 @@
             }
         }
     },
-    "test-0000037-00559": {
+    "test-0000037-00561": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F69 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad4,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.3;FBSS/2; FBCR/Vodafone.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2339,7 +2417,7 @@
             }
         }
     },
-    "test-0000037-00560": {
+    "test-0000037-00562": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.4; tolino tab 8 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36",
         "result": {
             "headers": {
@@ -2378,7 +2456,7 @@
             }
         }
     },
-    "test-0000037-00561": {
+    "test-0000037-00563": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Lenovo B8080-H Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -2417,7 +2495,7 @@
             }
         }
     },
-    "test-0000037-00562": {
+    "test-0000037-00564": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-P3100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -2456,7 +2534,7 @@
             }
         }
     },
-    "test-0000037-00563": {
+    "test-0000037-00565": {
         "ua": "Opera%20Coast/3.1.1.80767 CFNetwork/672.0.8 Darwin/14.0.0",
         "result": {
             "headers": {
@@ -2495,7 +2573,7 @@
             }
         }
     },
-    "test-0000037-00564": {
+    "test-0000037-00566": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-V490 Build/KOT49I.A1412668391) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -2534,7 +2612,7 @@
             }
         }
     },
-    "test-0000037-00565": {
+    "test-0000037-00567": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B651 [FBAN/FBIOS;FBAV/6.8;FBBV/745892;FBDV/iPad3,1;FBMD/iPad;FBSN/iPhone OS;FBSV/7.0.6;FBSS/2; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2573,7 +2651,7 @@
             }
         }
     },
-    "test-0000037-00566": {
+    "test-0000037-00568": {
         "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.6.3 (KHTML, like Gecko)",
         "result": {
             "headers": {
@@ -2612,22 +2690,22 @@
             }
         }
     },
-    "test-0000037-00567": {
+    "test-0000037-00569": {
         "ua": "Mozilla/5.0 (Android; Mobile; rv:33.0a2) Gecko/33.0a2 Firefox/33.0a2",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Android; Mobile; rv:33.0a2) Gecko/33.0a2 Firefox/33.0a2"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": null,
+                "marketingName": null,
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Firefox",
@@ -2651,7 +2729,7 @@
             }
         }
     },
-    "test-0000037-00568": {
+    "test-0000037-00570": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad3,3;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/2; FBCR/AT&T;FBID/tablet;FBLC/en_US;FBOP/1]",
         "result": {
             "headers": {
@@ -2690,7 +2768,7 @@
             }
         }
     },
-    "test-0000037-00569": {
+    "test-0000037-00571": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G355HN Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/4.4.9.16.arm",
         "result": {
             "headers": {
@@ -2729,7 +2807,7 @@
             }
         }
     },
-    "test-0000037-00570": {
+    "test-0000037-00572": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SGP511 Build/17.1.A.2.36) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36",
         "result": {
             "headers": {
@@ -2768,7 +2846,7 @@
             }
         }
     },
-    "test-0000037-00571": {
+    "test-0000037-00573": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SGP511 Build/17.1.A.2.36) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -2807,7 +2885,7 @@
             }
         }
     },
-    "test-0000037-00572": {
+    "test-0000037-00574": {
         "ua": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B466 [FBAN/FBIOS;FBAV/30.0.0.34.13;FBBV/9917221;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/8.1.3;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBOP/1]",
         "result": {
             "headers": {
@@ -2846,7 +2924,7 @@
             }
         }
     },
-    "test-0000037-00573": {
+    "test-0000037-00575": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T335 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [FB_IAB/FB4A;FBAV/32.0.0.23.15;]",
         "result": {
             "headers": {
@@ -2885,22 +2963,22 @@
             }
         }
     },
-    "test-0000037-00574": {
+    "test-0000037-00576": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; LG-H420 Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; LG-H420 Build/LRX21Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36"
             },
             "device": {
-                "deviceName": "general LG Device",
-                "marketingName": "general LG Device",
-                "manufacturer": "Lg",
-                "brand": "Lg",
-                "pointingMethod": "touchscreen",
+                "deviceName": "not found via regexes",
+                "marketingName": null,
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "smartphone"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Chrome",
@@ -2924,22 +3002,22 @@
             }
         }
     },
-    "test-0000037-00575": {
+    "test-0000037-00577": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; Archos 79 Cobalt Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; Archos 79 Cobalt Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36"
             },
             "device": {
-                "deviceName": "general Archos Device",
-                "marketingName": "general Archos Device",
-                "manufacturer": "Archos",
-                "brand": "Archos",
-                "pointingMethod": "touchscreen",
+                "deviceName": "not found via regexes",
+                "marketingName": null,
+                "manufacturer": "Unknown",
+                "brand": "Unknown",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "tablet"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Chrome",
@@ -2963,7 +3041,7 @@
             }
         }
     },
-    "test-0000037-00576": {
+    "test-0000037-00578": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; SM-N910F Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.91837",
         "result": {
             "headers": {
@@ -3002,22 +3080,22 @@
             }
         }
     },
-    "test-0000037-00577": {
+    "test-0000037-00579": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.2.2; en-in; BOBBY Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; en-in; BOBBY Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": null,
+                "marketingName": null,
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Android Webkit",
@@ -3041,7 +3119,7 @@
             }
         }
     },
-    "test-0000037-00578": {
+    "test-0000037-00580": {
         "ua": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 YaBrowser/15.2.2214.3731 (beta) Yowser/2.0 Safari/537.36",
         "result": {
             "headers": {
@@ -3080,7 +3158,7 @@
             }
         }
     },
-    "test-0000037-00579": {
+    "test-0000037-00581": {
         "ua": "Mozilla/5.0 (Linux; Android 5.0.1; SM-N910F Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3119,7 +3197,7 @@
             }
         }
     },
-    "test-0000037-00580": {
+    "test-0000037-00582": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.2; Vodafone Smart Tab 4 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Safari/537.36",
         "result": {
             "headers": {
@@ -3158,7 +3236,7 @@
             }
         }
     },
-    "test-0000037-00581": {
+    "test-0000037-00583": {
         "ua": "Mozilla/5.0 (Windows; rv:36.0) Gecko/20100101 Firefox/36.0",
         "result": {
             "headers": {
@@ -3197,7 +3275,7 @@
             }
         }
     },
-    "test-0000037-00582": {
+    "test-0000037-00584": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.4; GT-I9300 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3236,7 +3314,7 @@
             }
         }
     },
-    "test-0000037-00583": {
+    "test-0000037-00585": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Dragon Touch-Y88X Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -3275,7 +3353,7 @@
             }
         }
     },
-    "test-0000037-00584": {
+    "test-0000037-00586": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; GT-P5200 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.117 Safari/537.36",
         "result": {
             "headers": {
@@ -3314,7 +3392,7 @@
             }
         }
     },
-    "test-0000037-00585": {
+    "test-0000037-00587": {
         "ua": "Mozilla/5.0 (Linux; U; Android 4.4.2; pl-pl; SAMSUNG SM-T315/T315XXUBNH1 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30",
         "result": {
             "headers": {
@@ -3353,7 +3431,7 @@
             }
         }
     },
-    "test-0000037-00586": {
+    "test-0000037-00588": {
         "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) GSA/5.3.48993 Mobile/11B651 Safari/9537.53",
         "result": {
             "headers": {
@@ -3392,7 +3470,7 @@
             }
         }
     },
-    "test-0000037-00587": {
+    "test-0000037-00589": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; C6903 Build/14.3.A.0.681) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3431,7 +3509,7 @@
             }
         }
     },
-    "test-0000037-00588": {
+    "test-0000037-00590": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; A510 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -3470,7 +3548,7 @@
             }
         }
     },
-    "test-0000037-00589": {
+    "test-0000037-00591": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.4; GT-I9100 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3509,7 +3587,7 @@
             }
         }
     },
-    "test-0000037-00590": {
+    "test-0000037-00592": {
         "ua": "Mozilla/5.0 (Linux; Android 4.1.2; GT-I9100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3548,7 +3626,7 @@
             }
         }
     },
-    "test-0000037-00591": {
+    "test-0000037-00593": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; Cynus F6 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3587,7 +3665,7 @@
             }
         }
     },
-    "test-0000037-00592": {
+    "test-0000037-00594": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LENNY Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107 Mobile Safari/537.36 OPR/29.0.1809.91837",
         "result": {
             "headers": {
@@ -3626,22 +3704,22 @@
             }
         }
     },
-    "test-0000037-00593": {
+    "test-0000037-00595": {
         "ua": "Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1203052171; U; de) Presto/2.10.254 Version/12.00",
         "result": {
             "headers": {
                 "HTTP_USER_AGENT": "Opera/9.80 (S60; SymbOS; Opera Mobi/SYB-1203052171; U; de) Presto/2.10.254 Version/12.00"
             },
             "device": {
-                "deviceName": "general Mobile Device",
-                "marketingName": "general Mobile Device",
+                "deviceName": null,
+                "marketingName": null,
                 "manufacturer": "Unknown",
                 "brand": "Unknown",
-                "pointingMethod": "touchscreen",
+                "pointingMethod": null,
                 "resolutionWidth": null,
                 "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "mobile-device"
+                "dualOrientation": false,
+                "type": "unknown"
             },
             "browser": {
                 "name": "Opera Mobile",
@@ -3665,7 +3743,7 @@
             }
         }
     },
-    "test-0000037-00594": {
+    "test-0000037-00596": {
         "ua": "Mozilla/5.0 (Linux; Android 4.2.1; ASUS Transformer Pad TF700T Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36",
         "result": {
             "headers": {
@@ -3704,7 +3782,7 @@
             }
         }
     },
-    "test-0000037-00595": {
+    "test-0000037-00597": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G900F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501088",
         "result": {
             "headers": {
@@ -3743,7 +3821,7 @@
             }
         }
     },
-    "test-0000037-00596": {
+    "test-0000037-00598": {
         "ua": "Mozilla/5.0 (Linux; Android 4.3; de-ch; SAMSUNG GT-I9505/I9505XXUEMK9 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36",
         "result": {
             "headers": {
@@ -3782,7 +3860,7 @@
             }
         }
     },
-    "test-0000037-00597": {
+    "test-0000037-00599": {
         "ua": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D802 Build/KOT49I.D80220b) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100501088",
         "result": {
             "headers": {
@@ -3811,84 +3889,6 @@
                 "name": "Android",
                 "marketingName": "Android",
                 "version": "4.4.2",
-                "manufacturer": "Google",
-                "bits": 32
-            },
-            "engine": {
-                "name": "Blink",
-                "version": "537.36.0",
-                "manufacturer": "Google"
-            }
-        }
-    },
-    "test-0000037-00598": {
-        "ua": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-at; HTC_Desire_X/2.23.123.2 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
-        "result": {
-            "headers": {
-                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.1; de-at; HTC_Desire_X/2.23.123.2 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
-            },
-            "device": {
-                "deviceName": "T328E",
-                "marketingName": "Desire X",
-                "manufacturer": "Htc",
-                "brand": "Htc",
-                "pointingMethod": "touchscreen",
-                "resolutionWidth": 480,
-                "resolutionHeight": 800,
-                "dualOrientation": true,
-                "type": "smartphone"
-            },
-            "browser": {
-                "name": "Android Webkit",
-                "modus": null,
-                "version": "4.0.0",
-                "manufacturer": "Google",
-                "bits": 32,
-                "type": "browser"
-            },
-            "os": {
-                "name": "Android",
-                "marketingName": "Android",
-                "version": "4.1.1",
-                "manufacturer": "Google",
-                "bits": 32
-            },
-            "engine": {
-                "name": "WebKit",
-                "version": "534.30.0",
-                "manufacturer": "Apple"
-            }
-        }
-    },
-    "test-0000037-00599": {
-        "ua": "Mozilla/5.0 (Linux; Android 4.2.1; HS-U980 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36",
-        "result": {
-            "headers": {
-                "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.1; HS-U980 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36"
-            },
-            "device": {
-                "deviceName": "general Hisense Device",
-                "marketingName": "general Hisense Device",
-                "manufacturer": "Hisense",
-                "brand": "Hisense",
-                "pointingMethod": "touchscreen",
-                "resolutionWidth": null,
-                "resolutionHeight": null,
-                "dualOrientation": true,
-                "type": "tablet"
-            },
-            "browser": {
-                "name": "Chrome",
-                "modus": null,
-                "version": "42.0.2311.111",
-                "manufacturer": "Google",
-                "bits": 32,
-                "type": "browser"
-            },
-            "os": {
-                "name": "Android",
-                "marketingName": "Android",
-                "version": "4.2.1",
                 "manufacturer": "Google",
                 "bits": 32
             },

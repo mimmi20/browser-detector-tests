@@ -58,7 +58,7 @@ trait UserAgentsTestTrait
 
         echo 'starting provider ', static::class, ' ...';
 
-        $data     = [];
+        $data = [];
         foreach ($this->sourceDirectory as $directory) {
             $iterator = new \DirectoryIterator($directory);
 

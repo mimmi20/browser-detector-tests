@@ -16,7 +16,992 @@ jobs:
           key: composer-v1-{{ checksum "composer.json" }}
           paths:
             - vendor
-      - run: vendor/bin/phpunit --colors --columns 121 --coverage-text
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000327Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000326Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000325Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000324Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000323Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000322Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000321Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000320Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000319Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000318Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000317Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000316Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000315Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000314Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000313Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000312Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000311Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000310Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000309Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000308Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000307Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000306Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000305Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000304Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000303Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000302Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000301Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000300Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000299Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000298Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000297Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000296Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000295Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000294Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000293Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000292Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000291Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000290Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000289Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000288Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000287Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000286Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000285Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000284Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000283Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000282Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000281Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000280Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000279Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000278Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000277Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000276Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000275Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000274Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000273Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000272Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000271Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000270Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000269Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000268Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000267Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000266Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000265Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000264Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000263Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000262Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000261Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000260Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000259Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000258Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000257Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000256Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000255Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000254Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000253Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000252Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000251Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000250Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000249Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000248Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000247Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000246Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000245Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000244Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000243Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000242Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000241Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000240Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000239Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000238Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000237Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000236Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000235Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000234Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000233Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000232Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000231Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000230Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000229Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000228Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000227Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000226Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000225Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000224Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000223Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000222Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000221Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000220Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000219Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000218Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000217Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000216Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000215Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000214Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000213Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000212Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000211Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000210Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000209Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000208Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000207Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000206Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000205Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000204Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000203Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000202Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000201Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000200Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000199Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000198Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000197Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000196Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000195Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000194Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000193Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000192Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000191Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000190Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000189Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000188Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000187Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000186Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000185Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000184Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000183Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000182Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000181Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000180Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000179Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000178Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000177Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000176Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000175Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000174Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000173Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000172Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000171Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000170Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000169Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000168Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000167Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000166Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000165Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000164Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000163Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000162Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000161Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000160Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000159Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000158Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000157Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000156Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000155Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000154Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000153Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000152Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000151Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000150Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000149Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000148Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000147Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000146Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000145Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000144Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000143Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000142Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000141Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000140Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000139Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000138Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000137Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000136Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000135Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000134Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000133Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000132Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000131Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000130Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000129Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000128Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000127Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000126Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000125Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000124Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000123Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000122Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000121Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000120Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000119Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000118Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000117Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000116Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000115Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000114Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000113Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000112Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000111Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000110Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000109Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000108Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000107Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000106Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000105Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000104Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000103Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000102Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000101Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000100Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000099Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000098Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000097Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000096Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000095Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000094Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000093Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000092Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000091Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000090Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000089Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000088Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000087Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000086Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000085Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000084Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000083Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000082Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000081Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000080Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000079Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000078Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000077Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000076Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000075Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000074Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000073Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000072Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000071Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000070Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000069Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000068Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000067Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000066Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000065Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000064Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000063Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000062Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000061Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000060Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000059Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000058Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000057Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000056Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000055Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000054Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000053Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000052Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000051Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000050Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000049Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000048Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000047Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000046Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000045Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000044Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000043Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000042Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000041Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000040Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000039Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000038Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000037Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000036Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000035Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000034Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000033Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000032Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000031Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000030Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000029Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000028Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000027Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000026Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000025Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000024Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000023Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000022Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000021Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000020Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000019Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000018Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000017Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000016Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000015Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000014Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000013Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000012Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000011Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000010Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000009Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000008Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000007Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000006Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000005Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000004Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000003Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000002Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000001Test.php -- 1000 tests
+
+    #1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --columns 119  tests/UserAgentsTest/T0000000Test.php -- 1000 tests
+
+
   phpcs:
     docker:
       - image: circleci/php:7.1
@@ -34,6 +1019,7 @@ jobs:
           paths:
             - vendor
       - run: vendor/bin/phpcs --colors
+
   php-cs-fixer:
     docker:
       - image: circleci/php:7.1
@@ -51,6 +1037,7 @@ jobs:
           paths:
             - vendor
       - run: vendor/bin/php-cs-fixer fix --dry-run -vv
+
   phpstan:
     docker:
       - image: circleci/php:7.1

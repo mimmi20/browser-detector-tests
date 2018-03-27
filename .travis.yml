@@ -40,7 +40,6 @@ jobs:
 
     - stage: composer validate
       php: 7.1
-      install: skip
       script:
         - composer validate
         - composer normalize --dry-run

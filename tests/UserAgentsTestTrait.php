@@ -12,11 +12,15 @@ declare(strict_types = 1);
 namespace BrowserDetectorTest;
 
 use BrowserDetector\Detector;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 use Psr\Log\LoggerInterface;
+use Psr\Log\NullLogger;
 use Psr\SimpleCache\CacheInterface;
 use Symfony\Component\Cache\Simple\FilesystemCache;
+use Symfony\Component\Finder\Finder;
+use UaResult\Browser\BrowserInterface;
+use UaResult\Device\DeviceInterface;
+use UaResult\Engine\EngineInterface;
+use UaResult\Os\OsInterface;
 use UaResult\Result\ResultFactory;
 use UaResult\Result\ResultInterface;
 
@@ -28,7 +32,7 @@ trait UserAgentsTestTrait
     private $object;
 
     /**
-     * @var \Monolog\Logger
+     * @var \Psr\Log\LoggerInterface
      */
     private static $logger = null;
 
@@ -41,6 +45,9 @@ trait UserAgentsTestTrait
      * Sets up the fixture, for example, opens a network connection.
      * This method is called before a test is executed.
      *
+     * @throws \Psr\SimpleCache\InvalidArgumentException
+     * @throws \Seld\JsonLint\ParsingException
+     *
      * @return void
      */
     protected function setUp(): void
@@ -50,6 +57,8 @@ trait UserAgentsTestTrait
     }
 
     /**
+     * @throws \RuntimeException
+     *
      * @return array[]
      */
     public function userAgentDataProvider(): array
@@ -59,28 +68,40 @@ trait UserAgentsTestTrait
         echo 'starting provider ', static::class, ' ...';
 
         $data = [];
-        foreach ($this->sourceDirectory as $directory) {
-            $iterator = new \DirectoryIterator($directory);
 
-            foreach ($iterator as $file) {
-                /** @var $file \SplFileInfo */
-                if (!$file->isFile() || 'json' !== $file->getExtension()) {
+        $finder = new Finder();
+        $finder->files();
+        $finder->name('*.json');
+        $finder->ignoreDotFiles(true);
+        $finder->ignoreVCS(true);
+        $finder->sortByName();
+        $finder->ignoreUnreadableDirs();
+
+        foreach ($this->sourceDirectory as $directory) {
+            $finder->in($directory);
+        }
+
+        foreach ($finder as $file) {
+            /** @var \Symfony\Component\Finder\SplFileInfo $file */
+            if (!$file->isFile()) {
+                continue;
+            }
+
+            if ('json' !== $file->getExtension()) {
+                continue;
+            }
+
+            $tests = json_decode($file->getContents(), true);
+
+            foreach ($tests as $key => $test) {
+                if (isset($data[$key])) {
+                    // Test data is duplicated for key
                     continue;
                 }
 
-                $tests = json_decode(file_get_contents($file->getPathname()), true);
-
-                foreach ($tests as $key => $test) {
-                    if (isset($data[$key])) {
-                        // Test data is duplicated for key
-                        continue;
-                    }
-
-                    $data[$key] = [
-                        'ua'     => $test['ua'],
-                        'result' => (new ResultFactory())->fromArray(static::getLogger(), $test['result']),
-                    ];
-                }
+                $data[$key] = [
+                    'result' => (new ResultFactory())->fromArray(static::getLogger(), $test),
+                ];
             }
         }
 
@@ -92,30 +113,29 @@ trait UserAgentsTestTrait
     /**
      * @dataProvider userAgentDataProvider
      *
-     * @param string                           $userAgent
-     * @param \UaResult\Result\ResultInterface $expectedResult
+     * @param ResultInterface $expectedResult
      *
      * @throws \Psr\Cache\InvalidArgumentException
-     * @throws \Seld\JsonLint\ParsingException
      *
      * @return void
      */
-    public function testUserAgents(string $userAgent, ResultInterface $expectedResult): void
+    public function testUserAgents(ResultInterface $expectedResult): void
     {
-        $result = $this->object->getBrowser($userAgent);
+        $result     = $this->object->parseArray($expectedResult->getHeaders());
+        $userAgents = json_encode($expectedResult->getHeaders());
 
         static::assertInstanceOf(
-            \UaResult\Result\ResultInterface::class,
+            ResultInterface::class,
             $result,
-            'Expected result is not an instance of "\UaResult\Result\ResultInterface" for useragent "' . $userAgent . '"'
+            'Expected result is not an instance of "\UaResult\Result\ResultInterface" for useragent "' . $userAgents . '"'
         );
 
         $foundBrowser = $result->getBrowser();
 
         static::assertInstanceOf(
-            \UaResult\Browser\BrowserInterface::class,
+            BrowserInterface::class,
             $foundBrowser,
-            'Expected browser is not an instance of "\UaResult\Browser\BrowserInterface" for useragent "' . $userAgent . '"'
+            'Expected browser is not an instance of "\UaResult\Browser\BrowserInterface" for useragent "' . $userAgents . '"'
         );
 
         self::assertEquals($expectedResult->getBrowser(), $foundBrowser);
@@ -123,9 +143,9 @@ trait UserAgentsTestTrait
         $foundEngine = $result->getEngine();
 
         static::assertInstanceOf(
-            \UaResult\Engine\EngineInterface::class,
+            EngineInterface::class,
             $foundEngine,
-            'Expected engine is not an instance of "\UaResult\Engine\EngineInterface" for useragent "' . $userAgent . '"'
+            'Expected engine is not an instance of "\UaResult\Engine\EngineInterface" for useragent "' . $userAgents . '"'
         );
 
         self::assertEquals($expectedResult->getEngine(), $foundEngine);
@@ -133,9 +153,9 @@ trait UserAgentsTestTrait
         $foundPlatform = $result->getOs();
 
         static::assertInstanceOf(
-            \UaResult\Os\OsInterface::class,
+            OsInterface::class,
             $foundPlatform,
-            'Expected platform is not an instance of "\UaResult\Os\OsInterface" for useragent "' . $userAgent . '"'
+            'Expected platform is not an instance of "\UaResult\Os\OsInterface" for useragent "' . $userAgents . '"'
         );
 
         self::assertEquals($expectedResult->getOs(), $foundPlatform);
@@ -143,9 +163,9 @@ trait UserAgentsTestTrait
         $foundDevice = $result->getDevice();
 
         static::assertInstanceOf(
-            \UaResult\Device\DeviceInterface::class,
+            DeviceInterface::class,
             $foundDevice,
-            'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgent . '"'
+            'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgents . '"'
         );
 
         self::assertEquals($expectedResult->getDevice(), $foundDevice);
@@ -176,8 +196,7 @@ trait UserAgentsTestTrait
             return static::$logger;
         }
 
-        static::$logger = new Logger('browser-detector-tests');
-        static::$logger->pushHandler(new NullHandler());
+        static::$logger = new NullLogger();
 
         return static::$logger;
     }

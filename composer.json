@@ -24,20 +24,19 @@
   ],
   "require": {
     "php": "^7.1",
-    "mimmi20/browser-detector": "~3.1.8",
-    "mimmi20/ua-result": "~5.2.1",
-    "peterkahl/apple-ios-build-version": "dev-master",
-    "peterkahl/apple-os-x-build-version": "dev-master",
+    "mimmi20/browser-detector": "~3.1.11",
+    "mimmi20/ua-result": "~5.2.2",
     "seld/jsonlint": "^1.7"
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^2.10 || ^3.0",
+    "friendsofphp/php-cs-fixer": "^2.11",
     "localheinz/composer-normalize": "^0.6.0",
-    "monolog/monolog": "^1.23",
     "phpstan/phpstan": "^0.9",
     "phpunit/phpunit": "^6.5 || ^7.0",
+    "psr/log": "^1.0",
     "squizlabs/php_codesniffer": "^3.2",
-    "symfony/cache": "^3.3 || ^4.0"
+    "symfony/cache": "^3.3 || ^4.0",
+    "symfony/finder": "^3.3 || ^4.0"
   },
   "suggest": {
     "scriptfusion/phpunit-immediate-exception-printer": "prints errors on the fly (^1.3)"
@@ -47,16 +46,6 @@
       "BrowserDetectorTest\\": "tests/"
     }
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mimmi20/Apple-iOS-build.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/mimmi20/Apple-OS-X-build.git"
-    }
-  ],
   "support": {
     "issues": "https://github.com/mimmi20/browser-detector-tests/issues",
     "source": "https://github.com/mimmi20/browser-detector-tests"

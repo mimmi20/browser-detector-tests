@@ -11,10 +11,12 @@
 declare(strict_types = 1);
 namespace BrowserDetectorTest;
 
-use BrowserDetector\Detector;
+use BrowserDetector\DetectorFactory;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use Psr\SimpleCache\CacheInterface;
+use Seld\JsonLint\JsonParser;
+use Seld\JsonLint\ParsingException;
 use Symfony\Component\Cache\Simple\FilesystemCache;
 use Symfony\Component\Finder\Finder;
 use UaResult\Browser\BrowserInterface;
@@ -45,15 +47,12 @@ trait UserAgentsTestTrait
      * Sets up the fixture, for example, opens a network connection.
      * This method is called before a test is executed.
      *
-     * @throws \Psr\SimpleCache\InvalidArgumentException
-     * @throws \Seld\JsonLint\ParsingException
-     *
      * @return void
      */
     protected function setUp(): void
     {
-        $this->object = new Detector(static::getCache(), static::getLogger());
-        $this->object->warmupCache();
+        $factory      = new DetectorFactory(static::getCache(), static::getLogger());
+        $this->object = $factory();
     }
 
     /**
@@ -81,17 +80,17 @@ trait UserAgentsTestTrait
             $finder->in($directory);
         }
 
+        $jsonParser = new JsonParser();
+
         foreach ($finder as $file) {
-            /** @var \Symfony\Component\Finder\SplFileInfo $file */
-            if (!$file->isFile()) {
+            /* @var \Symfony\Component\Finder\SplFileInfo $file */
+
+            try {
+                $tests = $jsonParser->parse($file->getContents(), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
+            } catch (ParsingException $e) {
+                static::getLogger()->error($e);
                 continue;
             }
-
-            if ('json' !== $file->getExtension()) {
-                continue;
-            }
-
-            $tests = json_decode($file->getContents(), true);
 
             foreach ($tests as $key => $test) {
                 if (isset($data[$key])) {
@@ -115,13 +114,14 @@ trait UserAgentsTestTrait
      *
      * @param ResultInterface $expectedResult
      *
-     * @throws \Psr\Cache\InvalidArgumentException
+     * @throws \Psr\SimpleCache\InvalidArgumentException
      *
      * @return void
      */
     public function testUserAgents(ResultInterface $expectedResult): void
     {
-        $result     = $this->object->parseArray($expectedResult->getHeaders());
+        $object     = $this->object;
+        $result     = $object($expectedResult->getHeaders());
         $userAgents = json_encode($expectedResult->getHeaders());
 
         static::assertInstanceOf(

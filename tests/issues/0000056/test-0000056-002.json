@@ -1,7 +1,7 @@
 {
     "test-0000056-00200": {
         "headers": {
-            "HTTP_USER_AGENT": "Puffin/15100 CFNetwork/758.4.3 Darwin/15.5.0"
+            "user-agent": "Puffin/14781 CFNetwork/758.4.3 Darwin/15.5.0"
         },
         "device": {
             "deviceName": "general Apple Device",
@@ -17,7 +17,7 @@
         "browser": {
             "name": "Puffin",
             "modus": null,
-            "version": "15100.0.0",
+            "version": "14781.0.0",
             "manufacturer": "CloudMosa",
             "bits": 32,
             "type": "browser"
@@ -37,26 +37,26 @@
     },
     "test-0000056-00201": {
         "headers": {
-            "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; SM-N915FY Build/MMB29M)"
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920V Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "SM-N915FY",
-            "marketingName": "Galaxy Note Edge 4 LTE (Europe)",
+            "deviceName": "SM-G920V",
+            "marketingName": "Galaxy S6 LTE (Verizon)",
             "manufacturer": "Samsung",
             "brand": "Samsung",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1600,
+            "resolutionWidth": 1440,
             "resolutionHeight": 2560,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "Dalvik",
+            "name": "Chrome",
             "modus": null,
-            "version": "2.1.0",
+            "version": "50.0.2661.89",
             "manufacturer": "Google",
             "bits": 32,
-            "type": "application"
+            "type": "browser"
         },
         "os": {
             "name": "Android",
@@ -66,66 +66,30 @@
             "bits": 32
         },
         "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
         }
     },
     "test-0000056-00202": {
         "headers": {
-            "HTTP_USER_AGENT": "Opera%20Coast/5.03.102982 CFNetwork/758.2.8 Darwin/15.0.0"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; PI4010G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.105 Safari/537.36"
         },
         "device": {
-            "deviceName": "general Apple Device",
-            "marketingName": "general Apple Device",
-            "manufacturer": "Apple",
-            "brand": "Apple",
-            "pointingMethod": "touchscreen",
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
             "resolutionWidth": null,
             "resolutionHeight": null,
-            "dualOrientation": true,
-            "type": "mobile-device"
-        },
-        "browser": {
-            "name": "Coast",
-            "modus": null,
-            "version": "5.03.102982",
-            "manufacturer": "Opera",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "iOS",
-            "marketingName": "iOS",
-            "version": "9.2.0",
-            "manufacturer": "Apple",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "758.2.8",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00203": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; Coolpad E501_EU Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "E501",
-            "marketingName": "Modena",
-            "manufacturer": "Coolpad",
-            "brand": "Coolpad",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 540,
-            "resolutionHeight": 960,
-            "dualOrientation": true,
-            "type": "smartphone"
+            "dualOrientation": false,
+            "type": "unknown"
         },
         "browser": {
             "name": "Chrome",
             "modus": null,
-            "version": "51.0.2704.81",
+            "version": "49.0.2623.105",
             "manufacturer": "Google",
             "bits": 32,
             "type": "browser"
@@ -133,7 +97,43 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.1.1",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00203": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; SM-T805 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36 OPR/36.2.2126.102826"
+        },
+        "device": {
+            "deviceName": "SM-T805",
+            "marketingName": "Galaxy Tab S 10.5 LTE",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 2560,
+            "resolutionHeight": 1600,
+            "dualOrientation": true,
+            "type": "fone-pad"
+        },
+        "browser": {
+            "name": "Opera Mobile",
+            "modus": null,
+            "version": "36.2.2126.102826",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -145,193 +145,49 @@
     },
     "test-0000056-00204": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; GT-I8190N Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/5.7.14.16.arm"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; D5803 Build/23.1.A.0.690) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "GT-I8190N",
-            "marketingName": "Galaxy S III Mini",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
+            "deviceName": "D5803",
+            "marketingName": "Xperia Z3 Compact",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 800,
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "Google App",
+            "name": "Chrome",
             "modus": null,
-            "version": "5.7.14.16",
+            "version": "51.0.2704.81",
             "manufacturer": "Google",
             "bits": 32,
-            "type": "application"
+            "type": "browser"
         },
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "4.1.2",
+            "version": "5.0.2",
             "manufacturer": "Google",
             "bits": 32
         },
         "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
         }
     },
     "test-0000056-00205": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/15.1.122860578 Mobile/12A405 Safari/600.1.4"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D605 Build/KOT49I.D60520h) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "iPad",
-            "marketingName": "iPad",
-            "manufacturer": "Apple",
-            "brand": "Apple",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1024,
-            "resolutionHeight": 768,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Google App",
-            "modus": null,
-            "version": "15.1.122860578",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "iOS",
-            "marketingName": "iOS",
-            "version": "8.0.2",
-            "manufacturer": "Apple",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "600.1.4",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00206": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G901F Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SM-G901F",
-            "marketingName": "Galaxy S5 Plus",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "mobile-phone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00207": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; Endeavour_1000QC Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.93 Safari/537.36"
-        },
-        "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "39.0.2171.93",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00208": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; Lenovo A7600-H Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "A7600-H",
-            "marketingName": "A10-70 A7600 Wi-Fi + 3G",
-            "manufacturer": "Lenovo",
-            "brand": "Lenovo",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00209": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "P6-U06",
-            "marketingName": "Ascend P6",
-            "manufacturer": "Huawei",
-            "brand": "Huawei",
+            "deviceName": "D605",
+            "marketingName": "Optimus L9 II",
+            "manufacturer": "Lg",
+            "brand": "Lg",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 720,
             "resolutionHeight": 1280,
@@ -359,25 +215,97 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00210": {
+    "test-0000056-00206": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SM-T520 Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.1; SCH-I545 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 GSA/4.6.10.19.arm"
         },
         "device": {
-            "deviceName": "SM-T520",
-            "marketingName": "Galaxy Tab Pro 10.1 WiFi",
+            "deviceName": "SCH-I545",
+            "marketingName": "Galaxy S4 LTE (Verizon)",
             "manufacturer": "Samsung",
             "brand": "Samsung",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 2560,
-            "resolutionHeight": 1600,
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
-            "type": "tablet"
+            "type": "smartphone"
         },
         "browser": {
-            "name": "Chrome",
+            "name": "Google App",
             "modus": null,
-            "version": "51.0.2704.81",
+            "version": "4.6.10.19",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "application"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00207": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Android 3.0.1; Tablet; rv:45.0.2) Gecko/45.0.2 Firefox/45.0.2"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Firefox",
+            "modus": null,
+            "version": "45.0.2",
+            "manufacturer": "MozillaFoundation",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "3.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Gecko",
+            "version": "45.0.2",
+            "manufacturer": "MozillaFoundation"
+        }
+    },
+    "test-0000056-00208": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; PO-9430 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Android WebView",
+            "modus": null,
+            "version": "4.0.0",
             "manufacturer": "Google",
             "bits": 32,
             "type": "browser"
@@ -395,157 +323,13 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00211": {
+    "test-0000056-00209": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Celkon Q550 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0; K013 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00212": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; X9006 Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "X9006",
-            "marketingName": "Find 7a",
-            "manufacturer": "Oppo",
-            "brand": "Oppo",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.3.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00213": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; SM-T111 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SM-T111",
-            "marketingName": "Galaxy Tab 3 Lite 7.0 3G",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1024,
-            "resolutionHeight": 600,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00214": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Mobile Safari/537.36 Edge/14.14342"
-        },
-        "device": {
-            "deviceName": "RM-1113",
-            "marketingName": "Lumia 640 LTE",
-            "manufacturer": "Microsoft",
-            "brand": "Microsoft",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Edge Mobile",
-            "modus": null,
-            "version": "14.14342.0",
-            "manufacturer": "Microsoft",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows Phone OS",
-            "marketingName": "Windows Phone OS",
-            "version": "10.0.0",
-            "manufacturer": "Microsoft",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Edge",
-            "version": "14.14342.0",
-            "manufacturer": "Microsoft"
-        }
-    },
-    "test-0000056-00215": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; K010 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "K010",
-            "marketingName": "Transformer Pad TF103C",
+            "deviceName": "K013",
+            "marketingName": "Memo Pad 7 ME176C",
             "manufacturer": "Asus",
             "brand": "Asus",
             "pointingMethod": "touchscreen",
@@ -565,78 +349,6 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "4.4.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00216": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) GSA/4.0.0.29643 Mobile/13F69 Safari/9537.53"
-        },
-        "device": {
-            "deviceName": "iPad",
-            "marketingName": "iPad",
-            "manufacturer": "Apple",
-            "brand": "Apple",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1024,
-            "resolutionHeight": 768,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Google App",
-            "modus": null,
-            "version": "4.0.0.29643",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "iOS",
-            "marketingName": "iOS",
-            "version": "9.3.2",
-            "manufacturer": "Apple",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "537.51.1",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00217": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N900K/KKU0GPC4 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SM-N900K",
-            "marketingName": "Galaxy Note 3 (Korea)",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Samsung Browser",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Samsung",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
             "version": "5.0.0",
             "manufacturer": "Google",
             "bits": 32
@@ -647,15 +359,15 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00218": {
+    "test-0000056-00210": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Archos 55 Platinum Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; XT1039 Build/LPBS23.13-17.3-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "55 Platinum",
-            "marketingName": "55 Platinum",
-            "manufacturer": "Archos",
-            "brand": "Archos",
+            "deviceName": "XT1039",
+            "marketingName": "Moto G LTE",
+            "manufacturer": "Motorola",
+            "brand": "Motorola",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 720,
             "resolutionHeight": 1280,
@@ -683,20 +395,20 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00219": {
+    "test-0000056-00211": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; Nexus 9 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; 6037K Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "Nexus 9",
-            "marketingName": "Nexus 9",
-            "manufacturer": "Htc",
-            "brand": "Google",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 2048,
-            "resolutionHeight": 1536,
-            "dualOrientation": true,
-            "type": "tablet"
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
         },
         "browser": {
             "name": "Chrome",
@@ -709,7 +421,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.1",
+            "version": "4.2.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -719,18 +431,162 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00220": {
+    "test-0000056-00212": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; GT-S6310N Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; SM-G360F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "GT-S6310N",
-            "marketingName": "Galaxy Young",
+            "deviceName": "SM-G360F",
+            "marketingName": "Galaxy Core Prime LTE",
             "manufacturer": "Samsung",
             "brand": "Samsung",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 320,
-            "resolutionHeight": 480,
+            "resolutionWidth": 480,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00213": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; IEOS10 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "48.0.2564.95",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00214": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; U; Android 5.1; en-US; X12 Build/LMY47D) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/10.7.5.785 Mobile"
+        },
+        "device": {
+            "deviceName": "X12",
+            "marketingName": "X12",
+            "manufacturer": "Cubot",
+            "brand": "Cubot",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "UC Browser",
+            "modus": null,
+            "version": "10.7.5.785",
+            "manufacturer": "UcWeb",
+            "bits": 32,
+            "type": "transcoder"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "528.5.0",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00215": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/15.1.122860578 Mobile/12D508 Safari/600.1.4"
+        },
+        "device": {
+            "deviceName": "iPad",
+            "marketingName": "iPad",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1024,
+            "resolutionHeight": 768,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Google App",
+            "modus": null,
+            "version": "15.1.122860578",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "application"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "8.2.0",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "600.1.4",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00216": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.1.2; HUAWEI G525-U00 Build/HuaweiG525-U00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "G525-U00",
+            "marketingName": "Ascend G525",
+            "manufacturer": "Huawei",
+            "brand": "Huawei",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
             "dualOrientation": true,
             "type": "smartphone"
         },
@@ -755,85 +611,13 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00221": {
+    "test-0000056-00217": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.2; rv:45.2.0) Gecko/20100101 Firefox/45.2.0 anonymized by Abelssoft 543002216"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.40) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "Windows Desktop",
-            "marketingName": "Windows Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Firefox",
-            "modus": null,
-            "version": "45.2.0",
-            "manufacturer": "MozillaFoundation",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows NT 6.2",
-            "marketingName": "Windows 8",
-            "version": "6.2.0",
-            "manufacturer": "Microsoft",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Gecko",
-            "version": "45.2.0",
-            "manufacturer": "MozillaFoundation"
-        }
-    },
-    "test-0000056-00222": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; AT10LE-A Build/JSS15Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "AT10LE-A",
-            "marketingName": "eXcite Pro",
-            "manufacturer": "Toshiba",
-            "brand": "Toshiba",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 2560,
-            "resolutionHeight": 1600,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.3.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00223": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; MotoG3 Build/LPI23.72-47.4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "MotoG3",
-            "marketingName": "Moto G (3rd gen)",
+            "deviceName": "XT1032",
+            "marketingName": "Moto G",
             "manufacturer": "Motorola",
             "brand": "Motorola",
             "pointingMethod": "touchscreen",
@@ -853,7 +637,223 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.1.1",
+            "version": "4.4.4",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00218": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; R831K Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.76 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "R831K",
+            "marketingName": "Neo 3",
+            "manufacturer": "Oppo",
+            "brand": "Oppo",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 480,
+            "resolutionHeight": 854,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "47.0.2526.76",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00219": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; Vodafone Smart 4G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Smart 4G",
+            "marketingName": "Smart 4G",
+            "manufacturer": "Zte",
+            "brand": "Vodafone",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "mobile-phone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00220": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.1.2; HUAWEI MT1-U06 Build/HuaweiMT1-U06) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.32 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "MT1-U06",
+            "marketingName": "Ascend Mate",
+            "manufacturer": "Huawei",
+            "brand": "Huawei",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "52.0.2743.32",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.1.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00221": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; TF300T Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "TF300T",
+            "marketingName": "Transformer Pad TF300T",
+            "manufacturer": "Asus",
+            "brand": "Asus",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1280,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.4",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00222": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0; LG-H440n Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "H440n",
+            "marketingName": "Spirit LTE",
+            "manufacturer": "Lg",
+            "brand": "Lg",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00223": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G920F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.104374"
+        },
+        "device": {
+            "deviceName": "SM-G920F",
+            "marketingName": "Galaxy S6 LTE (Global)",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1440,
+            "resolutionHeight": 2560,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Opera Mobile",
+            "modus": null,
+            "version": "37.0.2192.104374",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.1",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -865,67 +865,67 @@
     },
     "test-0000056-00224": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.3; de-de; AJM Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; VF-795 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Android Webkit",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.3.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00225": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G800H Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SM-G800H",
-            "marketingName": "Galaxy S5 Mini (USA)",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
+            "deviceName": "VF-795",
+            "marketingName": "Smart Speed 6",
+            "manufacturer": "Alcatel",
+            "brand": "Vodafone",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
+            "resolutionWidth": 480,
+            "resolutionHeight": 854,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "Samsung Browser",
+            "name": "Chrome",
             "modus": null,
-            "version": "3.3.0",
-            "manufacturer": "Samsung",
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
             "bits": 32,
             "type": "browser"
         },
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.1.1",
+            "version": "5.1.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00225": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.3; KFSOWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/34.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100502036"
+        },
+        "device": {
+            "deviceName": "KFSOWI",
+            "marketingName": "Kindle Fire HD 7 (3rd Gen)",
+            "manufacturer": "Amazon",
+            "brand": "Amazon",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1280,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "CM Browser",
+            "modus": null,
+            "version": "0.0.0",
+            "manufacturer": "CheetahMobile",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.3",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -937,18 +937,18 @@
     },
     "test-0000056-00226": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; ME302KL Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; KAZAM Trooper2 50 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "ME302KL",
-            "marketingName": "Memo Pad FHD 10",
-            "manufacturer": "Asus",
-            "brand": "Asus",
+            "deviceName": "Trooper 2 5.0",
+            "marketingName": "Trooper 2 5.0",
+            "manufacturer": "Kazam",
+            "brand": "Kazam",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1920,
-            "resolutionHeight": 1200,
+            "resolutionWidth": 480,
+            "resolutionHeight": 854,
             "dualOrientation": true,
-            "type": "tablet"
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -973,18 +973,378 @@
     },
     "test-0000056-00227": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; XT1052 Build/KXA21.12-L1.26) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; K00G Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "XT1052",
-            "marketingName": "Moto X (Europe)",
-            "manufacturer": "Motorola",
-            "brand": "Motorola",
+            "deviceName": "K00G",
+            "marketingName": "Fonepad Note 6",
+            "manufacturer": "Asus",
+            "brand": "Asus",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00228": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; Archos 101d Neon Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "101d Neon",
+            "marketingName": "101d Neon",
+            "manufacturer": "Archos",
+            "brand": "Archos",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1024,
+            "resolutionHeight": 600,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00229": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; RIDGE FAB 4G Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Ridge Fab 4G",
+            "marketingName": "Ridge Fab 4G",
+            "manufacturer": "Wiko",
+            "brand": "Wiko",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 720,
             "resolutionHeight": 1280,
             "dualOrientation": true,
             "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "43.0.2357.93",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00230": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; LG-D686 Build/KOT49I.D68620e) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "D686",
+            "marketingName": "Optimus G Pro Lite Dual",
+            "manufacturer": "Lg",
+            "brand": "Lg",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00231": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; CAPTIVA PAD 10.1 FHD LTE Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "43.0.2357.93",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00232": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; HUAWEI M2-A01W Build/HUAWEIM2-A01W) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "M2-A01W",
+            "marketingName": "MediaPad M2 10.0",
+            "manufacturer": "Huawei",
+            "brand": "Huawei",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1920,
+            "resolutionHeight": 1200,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00233": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900F Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Mobile Safari/537.36 OPR/37.0.2192.105088"
+        },
+        "device": {
+            "deviceName": "SM-G900F",
+            "marketingName": "Galaxy S5 LTE",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Opera Mobile",
+            "modus": null,
+            "version": "37.0.2192.105088",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00234": {
+        "headers": {
+            "user-agent": "Melvil MeatPacker/1.0"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Melvil Bot",
+            "modus": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown",
+            "bits": 32,
+            "type": "bot"
+        },
+        "os": {
+            "name": null,
+            "marketingName": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown",
+            "bits": 32
+        },
+        "engine": {
+            "name": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown"
+        }
+    },
+    "test-0000056-00235": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; SM-T800 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SM-T800",
+            "marketingName": "Galaxy Tab S 10.5",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 2560,
+            "resolutionHeight": 1600,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00236": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-A700YD Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.3 Chrome/38.0.2125.102 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SM-A700YD",
+            "marketingName": "Galaxy A7 Duos LTE",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Samsung Browser",
+            "modus": null,
+            "version": "3.3.0",
+            "manufacturer": "Samsung",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00237": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.4; Polaris_808_BE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
         },
         "browser": {
             "name": "Chrome",
@@ -1007,18 +1367,630 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00228": {
+    "test-0000056-00238": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Elite 5 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; General Mobile 4G Build/MMB29Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "Elite 5",
-            "marketingName": "Elite 5",
-            "manufacturer": "Leagoo",
-            "brand": "Leagoo",
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "50.0.2661.89",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00239": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; GT-S7580 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "GT-S7580",
+            "marketingName": "Trend Plus",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 480,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00240": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; E600 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "E600",
+            "marketingName": "Liquid E600",
+            "manufacturer": "Acer",
+            "brand": "Acer",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 480,
+            "resolutionHeight": 854,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00241": {
+        "headers": {
+            "user-agent": "NortonSafeBrowser/168.4.3.41 CFNetwork/758.4.3 Darwin/15.5.0"
+        },
+        "device": {
+            "deviceName": "general Apple Device",
+            "marketingName": "general Apple Device",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": true,
+            "type": "mobile-device"
+        },
+        "browser": {
+            "name": "Darwin Browser",
+            "modus": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "9.0.0",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "758.4.3",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00242": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; H1 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100502044"
+        },
+        "device": {
+            "deviceName": "H1",
+            "marketingName": "H1",
+            "manufacturer": "Cubot",
+            "brand": "Cubot",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 720,
             "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "CM Browser",
+            "modus": null,
+            "version": "0.0.0",
+            "manufacturer": "CheetahMobile",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00243": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-G935V Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SM-G935V",
+            "marketingName": "Galaxy S7 Edge (Verizon)",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1440,
+            "resolutionHeight": 2560,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "50.0.2661.89",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00244": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0; LG-H960 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "H960",
+            "marketingName": "V10",
+            "manufacturer": "Lg",
+            "brand": "Lg",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1440,
+            "resolutionHeight": 2560,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00245": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; SM-E700H Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SM-E700H",
+            "marketingName": "Galaxy E7 3G",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "mobile-phone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00246": {
+        "headers": {
+            "user-agent": "Opera/9.80 (J2ME/MIDP; Opera Mini/4.2.14912/32.1125; U; en) Presto/2.8.119 Version/11.10"
+        },
+        "device": {
+            "deviceName": "general Mobile Device",
+            "marketingName": "general Mobile Device",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": true,
+            "type": "mobile-device"
+        },
+        "browser": {
+            "name": "Opera Mini",
+            "modus": null,
+            "version": "4.2.14912",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "transcoder"
+        },
+        "os": {
+            "name": "JavaOS",
+            "marketingName": "JavaOS",
+            "version": "0.0.0",
+            "manufacturer": "SunMicrosystems",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Presto",
+            "version": "2.8.119",
+            "manufacturer": "Opera"
+        }
+    },
+    "test-0000056-00247": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; HUAWEI MT7-TL10 Build/HuaweiMT7-TL10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "MT7-TL10",
+            "marketingName": "Ascend Mate 7",
+            "manufacturer": "Huawei",
+            "brand": "Huawei",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "50.0.2661.89",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00248": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0; SGP771 Build/32.1.A.1.185) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SGP771",
+            "marketingName": "Xperia Z4 Tablet LTE",
+            "manufacturer": "Sony",
+            "brand": "Sony",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 2560,
+            "resolutionHeight": 1600,
+            "dualOrientation": true,
+            "type": "fone-pad"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00249": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0; SM-N9005 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Mobile Safari/537.36 OPR/36.1.2126.102083"
+        },
+        "device": {
+            "deviceName": "SM-N9005",
+            "marketingName": "Galaxy Note 3 LTE",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Opera Mobile",
+            "modus": null,
+            "version": "36.1.2126.102083",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00250": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; C6903 Build/14.1.G.2.257) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "C6903",
+            "marketingName": "Xperia Z1",
+            "manufacturer": "Sony",
+            "brand": "Sony",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00251": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; HSG1303 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "HSG1303",
+            "marketingName": "HSG1303",
+            "manufacturer": "Hannspree",
+            "brand": "Hannspree",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1280,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00252": {
+        "headers": {
+            "user-agent": "Dalvik/2.1.0 (Linux; U; Android 5.0.2; RIDGE FAB 4G Build/LRX22G)"
+        },
+        "device": {
+            "deviceName": "Ridge Fab 4G",
+            "marketingName": "Ridge Fab 4G",
+            "manufacturer": "Wiko",
+            "brand": "Wiko",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Dalvik",
+            "modus": null,
+            "version": "2.1.0",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "application"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "0.0.0",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00253": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/0E32"
+        },
+        "device": {
+            "deviceName": "Windows Desktop",
+            "marketingName": "Windows Desktop",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "mouse",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "desktop"
+        },
+        "browser": {
+            "name": "Firefox",
+            "modus": null,
+            "version": "0.0.0",
+            "manufacturer": "MozillaFoundation",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Windows NT 6.3",
+            "marketingName": "Windows 8.1",
+            "version": "6.3.0",
+            "manufacturer": "Microsoft",
+            "bits": 64
+        },
+        "engine": {
+            "name": "Gecko",
+            "version": "30.0.0",
+            "manufacturer": "MozillaFoundation"
+        }
+    },
+    "test-0000056-00254": {
+        "headers": {
+            "user-agent": "iCabMobile/9.4.5 CFNetwork/758.4.3 Darwin/15.5.0"
+        },
+        "device": {
+            "deviceName": "general Apple Device",
+            "marketingName": "general Apple Device",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": true,
+            "type": "mobile-device"
+        },
+        "browser": {
+            "name": "iCab Mobile",
+            "modus": null,
+            "version": "9.4.5",
+            "manufacturer": "AlexanderClauss",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "9.0.0",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "758.4.3",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00255": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; JY-S3 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "JY-S3",
+            "marketingName": "JY-S3",
+            "manufacturer": "Jiayu",
+            "brand": "Jiayu",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
             "type": "smartphone"
         },
@@ -1043,20 +2015,20 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00229": {
+    "test-0000056-00256": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; B1-760HD Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; HUAWEI RIO-L01 Build/HuaweiRIO-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
+            "deviceName": "RIO-L01",
+            "marketingName": "GX8",
+            "manufacturer": "Huawei",
+            "brand": "Huawei",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -1069,7 +2041,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.1",
+            "version": "5.1.0",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -1079,20 +2051,20 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00230": {
+    "test-0000056-00257": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; D5503 Build/14.5.A.0.270) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; SM-T810 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "D5503",
-            "marketingName": "Xperia Z1 Compact",
-            "manufacturer": "Sony",
-            "brand": "Sony",
+            "deviceName": "SM-T810",
+            "marketingName": "Galaxy Tab S2 (9.7, Wi-Fi, 2015)",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
+            "resolutionWidth": 2048,
+            "resolutionHeight": 1536,
             "dualOrientation": true,
-            "type": "smartphone"
+            "type": "tablet"
         },
         "browser": {
             "name": "Chrome",
@@ -1115,1034 +2087,26 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00231": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; A511 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "A511",
-            "marketingName": "A511",
-            "manufacturer": "Acer",
-            "brand": "Acer",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00232": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; 100Cw Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
-        },
-        "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Android Webkit",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00233": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; Endeavour_1100 Build/LRX22C; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Safari/537.36"
-        },
-        "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Android WebView",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00234": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; E6653 Build/32.0.A.6.200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "E6653",
-            "marketingName": "Xperia Z5 LTE",
-            "manufacturer": "Sony",
-            "brand": "Sony",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00235": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Linux Desktop",
-            "marketingName": "Linux Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.84",
-            "manufacturer": "Google",
-            "bits": 64,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Fedora Linux",
-            "marketingName": "Fedora Linux",
-            "version": "0.0.0",
-            "manufacturer": "Redhat",
-            "bits": 64
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00236": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; LTE706 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00237": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; SCH-I545 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SCH-I545",
-            "marketingName": "Galaxy S4 LTE (Verizon)",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "50.0.2661.89",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00238": {
-        "headers": {
-            "HTTP_USER_AGENT": "Dalvik/1.6.0 (Linux; U; Android 4.1.2; A511 Build/JZO54K)"
-        },
-        "device": {
-            "deviceName": "A511",
-            "marketingName": "A511",
-            "manufacturer": "Acer",
-            "brand": "Acer",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Dalvik",
-            "modus": null,
-            "version": "1.6.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00239": {
-        "headers": {
-            "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; GT-I9195 Build/MMB29T)"
-        },
-        "device": {
-            "deviceName": "GT-I9195",
-            "marketingName": "Galaxy S4 Mini",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 540,
-            "resolutionHeight": 960,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Dalvik",
-            "modus": null,
-            "version": "2.1.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00240": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; Z410 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Z410",
-            "marketingName": "Liquid Z410",
-            "manufacturer": "Acer",
-            "brand": "Acer",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 540,
-            "resolutionHeight": 960,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00241": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Archos Diamond Plus Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "not found via regexes",
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00242": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; iRULU_V3 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "V3",
-            "marketingName": "V3",
-            "manufacturer": "Irulu",
-            "brand": "Irulu",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00243": {
-        "headers": {
-            "HTTP_USER_AGENT": "MxBrowser-iPhone/60 CFNetwork/758.4.3 Darwin/15.5.0"
-        },
-        "device": {
-            "deviceName": "iPhone",
-            "marketingName": "iPhone",
-            "manufacturer": "Apple",
-            "brand": "Apple",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 320,
-            "resolutionHeight": 480,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Maxthon",
-            "modus": null,
-            "version": "60.0.0",
-            "manufacturer": "Maxthon",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "iOS",
-            "marketingName": "iOS",
-            "version": "0.0.0",
-            "manufacturer": "Apple",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "758.4.3",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00244": {
-        "headers": {
-            "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 6.0; HUAWEI GRA-L09 Build/HUAWEIGRA-L09)"
-        },
-        "device": {
-            "deviceName": "GRA-L09",
-            "marketingName": "P8",
-            "manufacturer": "Huawei",
-            "brand": "Huawei",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Dalvik",
-            "modus": null,
-            "version": "2.1.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00245": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; XT1080 Build/SU6-7.7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "XT1080",
-            "marketingName": "Droid Ultra",
-            "manufacturer": "Motorola",
-            "brand": "Motorola",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "50.0.2661.89",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00246": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; SM-J100H Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 GSA/5.14.32.16.arm"
-        },
-        "device": {
-            "deviceName": "SM-J100H",
-            "marketingName": "Galaxy J1 Duos",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Google App",
-            "modus": null,
-            "version": "5.14.32.16",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00247": {
-        "headers": {
-            "HTTP_USER_AGENT": "Dalvik/1.6.0 (Linux; U; Android 4.2.2; OZZY Build/JDQ39)"
-        },
-        "device": {
-            "deviceName": "Ozzy",
-            "marketingName": "Ozzy",
-            "manufacturer": "Wiko",
-            "brand": "Wiko",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 320,
-            "resolutionHeight": 480,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Dalvik",
-            "modus": null,
-            "version": "1.6.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00248": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; T04 Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "T04",
-            "marketingName": "Liquid Z630S",
-            "manufacturer": "Acer",
-            "brand": "Acer",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00249": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; LG-H735 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "H735",
-            "marketingName": "G4S 4G",
-            "manufacturer": "Lg",
-            "brand": "Lg",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00250": {
-        "headers": {
-            "HTTP_USER_AGENT": "Dalvik/2.1.0 (Linux; U; Android 5.1; H1 Build/LMY47D)"
-        },
-        "device": {
-            "deviceName": "H1",
-            "marketingName": "H1",
-            "manufacturer": "Cubot",
-            "brand": "Cubot",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Dalvik",
-            "modus": null,
-            "version": "2.1.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "0.0.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00251": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.3; en-in; C5302 Build/12.1.A.1.205) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/76.0.0.24.67;]"
-        },
-        "device": {
-            "deviceName": "C5302",
-            "marketingName": "Xperia SP HSPA",
-            "manufacturer": "Sony",
-            "brand": "Sony",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Facebook App",
-            "modus": null,
-            "version": "76.0.0.24.67",
-            "manufacturer": "Facebook",
-            "bits": 32,
-            "type": "application"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.3.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00252": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG-SM-G920A Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SM-G920A",
-            "marketingName": "Galaxy S6 LTE (AT&T)",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1440,
-            "resolutionHeight": 2560,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Samsung Browser",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Samsung",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00253": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; Aquaris E5 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Aquaris E5",
-            "marketingName": "Aquaris E5",
-            "manufacturer": "Bq",
-            "brand": "Bq",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00254": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-T537A Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "not found via regexes",
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00255": {
-        "headers": {
-            "HTTP_USER_AGENT": "Chrome 10.0.601.0 (Win 7)"
-        },
-        "device": {
-            "deviceName": null,
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "10.0.601.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": null,
-            "marketingName": null,
-            "version": "0.0.0",
-            "manufacturer": "Unknown",
-            "bits": 32
-        },
-        "engine": {
-            "name": null,
-            "version": "0.0.0",
-            "manufacturer": "Unknown"
-        }
-    },
-    "test-0000056-00256": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (compatible; MSIE 6.01; Windows NT 5.1)"
-        },
-        "device": {
-            "deviceName": "Windows Desktop",
-            "marketingName": "Windows Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Internet Explorer",
-            "modus": null,
-            "version": "6.01.0",
-            "manufacturer": "Microsoft",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows NT 5.1",
-            "marketingName": "Windows XP",
-            "version": "5.1.0",
-            "manufacturer": "Microsoft",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Trident",
-            "version": "0.0.0",
-            "manufacturer": "Microsoft"
-        }
-    },
-    "test-0000056-00257": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; WOW64; rv:41.0) Gecko/20100101 Firefox/47.0 (x86 de) Anonymisiert durch AlMiSoft Browser-Anonymisierer 63421845"
-        },
-        "device": {
-            "deviceName": "Windows Desktop",
-            "marketingName": "Windows Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Firefox",
-            "modus": null,
-            "version": "47.0.0",
-            "manufacturer": "MozillaFoundation",
-            "bits": 64,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows NT 10.0",
-            "marketingName": "Windows 10",
-            "version": "10.0.0",
-            "manufacturer": "Microsoft",
-            "bits": 64
-        },
-        "engine": {
-            "name": "Gecko",
-            "version": "41.0.0",
-            "manufacturer": "MozillaFoundation"
-        }
-    },
     "test-0000056-00258": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; LG-V935 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; YOGA Tablet 2-830F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "V935",
-            "marketingName": "G Pad II 10.1 LTE",
-            "manufacturer": "Lg",
-            "brand": "Lg",
+            "deviceName": "830F",
+            "marketingName": "Yoga Tablet 2 8.0",
+            "manufacturer": "Lenovo",
+            "brand": "Lenovo",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 1920,
             "resolutionHeight": 1200,
             "dualOrientation": true,
-            "type": "fone-pad"
+            "type": "tablet"
         },
         "browser": {
             "name": "Chrome",
             "modus": null,
             "version": "51.0.2704.81",
             "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00259": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; GT-N8000 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36 OPR/37.0.2192.105088"
-        },
-        "device": {
-            "deviceName": "GT-N8000",
-            "marketingName": "Galaxy Note 10.1 3G & WiFi",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Opera Mobile",
-            "modus": null,
-            "version": "37.0.2192.105088",
-            "manufacturer": "Opera",
             "bits": 32,
             "type": "browser"
         },
@@ -2159,20 +2123,20 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00260": {
+    "test-0000056-00259": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; HTC Desire EYE Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.2; LG-V500 Build/JDQ39B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "Desire Eye",
-            "marketingName": "Desire Eye",
-            "manufacturer": "Htc",
-            "brand": "Htc",
+            "deviceName": "V500",
+            "marketingName": "G Pad 8.3",
+            "manufacturer": "Lg",
+            "brand": "Lg",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
+            "resolutionWidth": 1920,
+            "resolutionHeight": 1200,
             "dualOrientation": true,
-            "type": "smartphone"
+            "type": "tablet"
         },
         "browser": {
             "name": "Chrome",
@@ -2185,7 +2149,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "6.0.1",
+            "version": "4.2.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -2195,15 +2159,51 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00261": {
+    "test-0000056-00260": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.1; Nexus 5 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (iPad; CPU OS 9_3_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/46.0.2490.73 Mobile/13E238 Safari/600.1.4"
         },
         "device": {
-            "deviceName": "Nexus 5",
-            "marketingName": "Nexus 5",
-            "manufacturer": "Lg",
-            "brand": "Google",
+            "deviceName": "iPad",
+            "marketingName": "iPad",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1024,
+            "resolutionHeight": 768,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome for iOS",
+            "modus": null,
+            "version": "46.0.2490.73",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "9.3.1",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "600.1.4",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00261": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; Redmi Note 3 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Redmi Note 3",
+            "marketingName": "Redmi Note 3",
+            "manufacturer": "XiaomiTech",
+            "brand": "XiaomiTech",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 1080,
             "resolutionHeight": 1920,
@@ -2221,7 +2221,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.1",
+            "version": "5.1.1",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -2233,18 +2233,18 @@
     },
     "test-0000056-00262": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Archos 45c Platinum Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; BIRDY Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "45c Platinum",
-            "marketingName": "45c Platinum",
-            "manufacturer": "Archos",
-            "brand": "Archos",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 854,
-            "dualOrientation": true,
-            "type": "smartphone"
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
         },
         "browser": {
             "name": "Chrome",
@@ -2269,13 +2269,13 @@
     },
     "test-0000056-00263": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0; K00Z Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.1.1; M532 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "K00Z",
-            "marketingName": "Fonepad 7 Dual SIM ME175CG",
-            "manufacturer": "Asus",
-            "brand": "Asus",
+            "deviceName": "M532",
+            "marketingName": "Stylistic",
+            "manufacturer": "Fujitsu",
+            "brand": "Fujitsu",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 1280,
             "resolutionHeight": 800,
@@ -2293,7 +2293,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.0",
+            "version": "4.1.1",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -2305,134 +2305,26 @@
     },
     "test-0000056-00264": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.2; Allwinner-Tablet Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; One Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.138 Mobile Safari/537.36 OPR/22.0.1485.81203"
         },
         "device": {
-            "deviceName": "Tablet",
-            "marketingName": "Tablet",
-            "manufacturer": "AllWinner",
-            "brand": "AllWinner",
+            "deviceName": "M7",
+            "marketingName": "One",
+            "manufacturer": "Htc",
+            "brand": "Htc",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 800,
-            "resolutionHeight": 480,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "50.0.2661.89",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00265": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N8000 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "GT-N8000",
-            "marketingName": "Galaxy Note 10.1 3G & WiFi",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00266": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; LIFETAB_S732X Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "LifeTab S732X",
-            "marketingName": "LifeTab S732X",
-            "manufacturer": "Medion",
-            "brand": "Medion",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1024,
-            "resolutionHeight": 600,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00267": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Z500 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532"
-        },
-        "device": {
-            "deviceName": "Z500",
-            "marketingName": "Liquid Z500",
-            "manufacturer": "Acer",
-            "brand": "Acer",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 720,
-            "resolutionHeight": 1280,
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "UC Browser",
+            "name": "Opera Mobile",
             "modus": null,
-            "version": "3.4.3.532",
-            "manufacturer": "UcWeb",
+            "version": "22.0.1485.81203",
+            "manufacturer": "Opera",
             "bits": 32,
-            "type": "transcoder"
+            "type": "browser"
         },
         "os": {
             "name": "Android",
@@ -2447,56 +2339,20 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00268": {
+    "test-0000056-00265": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.3; KFAPWI Build/KTU84M) AppleWebKit/537.36 (KHTML, like Gecko) Silk/50.2.1 like Chrome/50.0.2661.89 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; E5823 Build/32.0.A.6.200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "KFAPWI",
-            "marketingName": "Kindle Fire HDX 8.9 (3rd Gen)",
-            "manufacturer": "Amazon",
-            "brand": "Amazon",
+            "deviceName": "E5823",
+            "marketingName": "Xperia Z5 Compact",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 2560,
-            "resolutionHeight": 1600,
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
             "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Silk",
-            "modus": null,
-            "version": "50.2.1",
-            "manufacturer": "Amazon",
-            "bits": 32,
-            "type": "transcoder"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.3",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00269": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; FDR-A01w Build/HuaweiMediaPad) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "FDR-A01W",
-            "marketingName": "MediaPad T2 10.0 Pro LTE",
-            "manufacturer": "Huawei",
-            "brand": "Huawei",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1920,
-            "resolutionHeight": 1200,
-            "dualOrientation": true,
-            "type": "fone-pad"
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -2519,20 +2375,128 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00270": {
+    "test-0000056-00266": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; K011 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; D6616 Build/23.1.C.0.399) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "K011",
-            "marketingName": "Memo Pad 8 ME181C",
-            "manufacturer": "Asus",
-            "brand": "Asus",
+            "deviceName": "D6616",
+            "marketingName": "Xperia Z3",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
-            "type": "tablet"
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "50.0.2661.89",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00267": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; Archos Diamond S Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Diamond S",
+            "marketingName": "Diamond S",
+            "manufacturer": "Archos",
+            "brand": "Archos",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "43.0.2357.93",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00268": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.1.2; GT-N7100 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "GT-N7100",
+            "marketingName": "Galaxy Note II",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "50.0.2661.89",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.1.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00269": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; ZTE Blade Vec Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Blade Vec",
+            "marketingName": "Blade Vec",
+            "manufacturer": "Zte",
+            "brand": "Zte",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
+            "dualOrientation": true,
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -2555,45 +2519,9 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00271": {
+    "test-0000056-00270": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; de-DE; GT-P5110 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 OPR/16.0.2168.103662 Safari/534.30"
-        },
-        "device": {
-            "deviceName": "GT-P5110",
-            "marketingName": "Galaxy Tab 2 10.1 WiFi",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Opera Mobile",
-            "modus": null,
-            "version": "16.0.2168.103662",
-            "manufacturer": "Opera",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00272": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Hi3798CV100 Build/HMD-3.0.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; JIMMY Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
             "deviceName": null,
@@ -2627,90 +2555,18 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00273": {
+    "test-0000056-00271": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; X17_S Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; LG-V500 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "X17 S",
-            "marketingName": "X17 S",
-            "manufacturer": "Cubot",
-            "brand": "Cubot",
+            "deviceName": "V500",
+            "marketingName": "G Pad 8.3",
+            "manufacturer": "Lg",
+            "brand": "Lg",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Android WebView",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00274": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Archos 40c Titanium Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "not found via regexes",
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Android WebView",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00275": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; SurfTab breeze 10.1 quad plus Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "SurfTab Breeze 10.1 Quad plus",
-            "marketingName": "SurfTab Breeze 10.1 Quad plus",
-            "manufacturer": "TrekStor",
-            "brand": "TrekStor",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
+            "resolutionWidth": 1920,
+            "resolutionHeight": 1200,
             "dualOrientation": true,
             "type": "tablet"
         },
@@ -2718,186 +2574,6 @@
             "name": "Chrome",
             "modus": null,
             "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00276": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:48.0) Gecko/20100101 Firefox/48.0"
-        },
-        "device": {
-            "deviceName": "Macintosh",
-            "marketingName": "Macintosh",
-            "manufacturer": "Apple",
-            "brand": "Apple",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Firefox",
-            "modus": null,
-            "version": "48.0.0",
-            "manufacturer": "MozillaFoundation",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Mac OS X",
-            "marketingName": "Mac OS X",
-            "version": "10.7.0",
-            "manufacturer": "Apple",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Gecko",
-            "version": "48.0.0",
-            "manufacturer": "MozillaFoundation"
-        }
-    },
-    "test-0000056-00277": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1; Lenovo TB3-710I Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "TB3-710I",
-            "marketingName": "Tab3 7 Essential",
-            "manufacturer": "Lenovo",
-            "brand": "Lenovo",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1024,
-            "resolutionHeight": 600,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.1.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00278": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2700.0 Iron Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Windows Desktop",
-            "marketingName": "Windows Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Iron",
-            "modus": null,
-            "version": "51.0.2700.0",
-            "manufacturer": "Srware",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows NT 6.3",
-            "marketingName": "Windows 8.1",
-            "version": "6.3.0",
-            "manufacturer": "Microsoft",
-            "bits": 64
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00279": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.2.2; ru-ru; OYSTERS T80 3G Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30"
-        },
-        "device": {
-            "deviceName": "not found via regexes",
-            "marketingName": null,
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": null,
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "unknown"
-        },
-        "browser": {
-            "name": "Android Webkit",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.2.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "WebKit",
-            "version": "534.30.0",
-            "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00280": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; P024 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.77 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "P024",
-            "marketingName": "Zenpad 8.0 Z380KL",
-            "manufacturer": "Asus",
-            "brand": "Asus",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "fone-pad"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.77",
             "manufacturer": "Google",
             "bits": 32,
             "type": "browser"
@@ -2915,13 +2591,301 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00281": {
+    "test-0000056-00272": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; LG-V700 Build/KOT49I.A1403851714) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6 Build/MOB30M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.32 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "V700",
-            "marketingName": "G Pad 10.1",
+            "deviceName": "Nexus 6",
+            "marketingName": "Nexus 6",
+            "manufacturer": "Motorola",
+            "brand": "Google",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1440,
+            "resolutionHeight": 2560,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "52.0.2743.32",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00273": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.3; HTC One Build/KTU84L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.74904"
+        },
+        "device": {
+            "deviceName": "M7",
+            "marketingName": "One",
+            "manufacturer": "Htc",
+            "brand": "Htc",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Opera Mobile",
+            "modus": null,
+            "version": "21.0.1437.74904",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.3",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00274": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; ETB7626 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Android WebView",
+            "modus": null,
+            "version": "4.0.0",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.1.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00275": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; SM-G130HN Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "SM-G130HN",
+            "marketingName": "Galaxy Young 2",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 320,
+            "resolutionHeight": 480,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.4.2",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00276": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.3; XT1032 Build/14.10.0Q3.X-76-LGG-8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "48.0.2564.95",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.3.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00277": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69 Safari/9537.53 Kitt/1.3.6/15"
+        },
+        "device": {
+            "deviceName": "iPad",
+            "marketingName": "iPad",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1024,
+            "resolutionHeight": 768,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Safari",
+            "modus": null,
+            "version": "7.0.0",
+            "manufacturer": "Apple",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "9.3.2",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "601.1.46",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00278": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Lenovo K50-t5 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "K50-t5",
+            "marketingName": "K3 Note",
+            "manufacturer": "Lenovo",
+            "brand": "Lenovo",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00279": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 6.1; rv:24.0) Gecko/20100101 Firefox/24.0 SeaMonkey/2.21"
+        },
+        "device": {
+            "deviceName": "Windows Desktop",
+            "marketingName": "Windows Desktop",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "mouse",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "desktop"
+        },
+        "browser": {
+            "name": "SeaMonkey",
+            "modus": null,
+            "version": "2.21.0",
+            "manufacturer": "MozillaFoundation",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Windows NT 6.1",
+            "marketingName": "Windows 7",
+            "version": "6.1.0",
+            "manufacturer": "Microsoft",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Gecko",
+            "version": "24.0.0",
+            "manufacturer": "MozillaFoundation"
+        }
+    },
+    "test-0000056-00280": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; LG-V480 Build/KOT49I.A1405304718) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "V480",
+            "marketingName": "G Pad 8.0",
             "manufacturer": "Lg",
             "brand": "Lg",
             "pointingMethod": "touchscreen",
@@ -2951,20 +2915,164 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00282": {
+    "test-0000056-00281": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; Q102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/51.0.2704.64 Mobile/13A452 Safari/601.1.46"
         },
         "device": {
-            "deviceName": null,
-            "marketingName": null,
+            "deviceName": "iPad",
+            "marketingName": "iPad",
+            "manufacturer": "Apple",
+            "brand": "Apple",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1024,
+            "resolutionHeight": 768,
+            "dualOrientation": true,
+            "type": "tablet"
+        },
+        "browser": {
+            "name": "Chrome for iOS",
+            "modus": null,
+            "version": "51.0.2704.64",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "iOS",
+            "marketingName": "iOS",
+            "version": "9.0.2",
+            "manufacturer": "Apple",
+            "bits": 32
+        },
+        "engine": {
+            "name": "WebKit",
+            "version": "601.1.0",
+            "manufacturer": "Apple"
+        }
+    },
+    "test-0000056-00282": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.5.2564.88 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "Windows Desktop",
+            "marketingName": "Windows Desktop",
             "manufacturer": "Unknown",
             "brand": "Unknown",
-            "pointingMethod": null,
+            "pointingMethod": "mouse",
             "resolutionWidth": null,
             "resolutionHeight": null,
             "dualOrientation": false,
-            "type": "unknown"
+            "type": "desktop"
+        },
+        "browser": {
+            "name": "Dragon",
+            "modus": null,
+            "version": "48.5.2564.88",
+            "manufacturer": "Comodo",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Windows NT 6.3",
+            "marketingName": "Windows 8.1",
+            "version": "6.3.0",
+            "manufacturer": "Microsoft",
+            "bits": 64
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00283": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.2.1; HS-U970 Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "HS-U970",
+            "marketingName": "Infinity Prime 1",
+            "manufacturer": "Hisense",
+            "brand": "Hisense",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "4.2.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00284": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.1; YOGA Tablet 2 Pro-1380L Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
+        },
+        "device": {
+            "deviceName": "1380L",
+            "marketingName": "Yoga Tablet 2 Pro 13.3 LTE",
+            "manufacturer": "Lenovo",
+            "brand": "Lenovo",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 2560,
+            "resolutionHeight": 1440,
+            "dualOrientation": true,
+            "type": "fone-pad"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
+            "version": "51.0.2704.81",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00285": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; B15Q Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "B15Q",
+            "marketingName": "Cat B15Q",
+            "manufacturer": "Caterpillar",
+            "brand": "Caterpillar",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 480,
+            "resolutionHeight": 800,
+            "dualOrientation": true,
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -2987,225 +3095,9 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00283": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.4; GT-P5110 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "GT-P5110",
-            "marketingName": "Galaxy Tab 2 10.1 WiFi",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.4.4",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00284": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0; VIE-L09 Build/HUAWEIVIE-L09; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "VIE-L09",
-            "marketingName": "P9 Plus",
-            "manufacturer": "Huawei",
-            "brand": "Huawei",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Android WebView",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00285": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; B15 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "B15",
-            "marketingName": "Cat B15",
-            "manufacturer": "Caterpillar",
-            "brand": "Caterpillar",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "50.0.2661.89",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
     "test-0000056-00286": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; P023 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "P023",
-            "marketingName": "ZenPad 10",
-            "manufacturer": "Asus",
-            "brand": "Asus",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "5.0.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00287": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.1.2; PAP5300DUO Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "PAP5300DUO",
-            "marketingName": "MultiPhone 5300 DUO",
-            "manufacturer": "Prestigio",
-            "brand": "Prestigio",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 854,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "51.0.2704.81",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00288": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.5.2704.63 Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Windows Desktop",
-            "marketingName": "Windows Desktop",
-            "manufacturer": "Unknown",
-            "brand": "Unknown",
-            "pointingMethod": "mouse",
-            "resolutionWidth": null,
-            "resolutionHeight": null,
-            "dualOrientation": false,
-            "type": "desktop"
-        },
-        "browser": {
-            "name": "Dragon",
-            "modus": null,
-            "version": "51.5.2704.63",
-            "manufacturer": "Comodo",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Windows NT 6.1",
-            "marketingName": "Windows 7",
-            "version": "6.1.0",
-            "manufacturer": "Microsoft",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00289": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.1.1; SM-N915FY Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; SM-N915FY Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36"
         },
         "device": {
             "deviceName": "SM-N915FY",
@@ -3221,6 +3113,186 @@
         "browser": {
             "name": "Chrome",
             "modus": null,
+            "version": "49.0.2623.91",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "6.0.1",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00287": {
+        "headers": {
+            "user-agent": "node-superagent/2.0.0"
+        },
+        "device": {
+            "deviceName": null,
+            "marketingName": null,
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": null,
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "unknown"
+        },
+        "browser": {
+            "name": "superagent",
+            "modus": null,
+            "version": "2.0.0",
+            "manufacturer": "Unknown",
+            "bits": 32,
+            "type": "bot"
+        },
+        "os": {
+            "name": null,
+            "marketingName": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown",
+            "bits": 32
+        },
+        "engine": {
+            "name": null,
+            "version": "0.0.0",
+            "manufacturer": "Unknown"
+        }
+    },
+    "test-0000056-00288": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900V Build/LRX21T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/50.0.2661.86 Mobile Safari/537.36 GSA/5.13.31.21.arm"
+        },
+        "device": {
+            "deviceName": "SM-G900V",
+            "marketingName": "Galaxy S5 CDMA (Verizon)",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Google App",
+            "modus": null,
+            "version": "5.13.31.21",
+            "manufacturer": "Google",
+            "bits": 32,
+            "type": "application"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "5.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
+        }
+    },
+    "test-0000056-00289": {
+        "headers": {
+            "user-agent": "Opera/9.80 (Android; Opera Mini/16.0.2168/37.8552; U; de) Presto/2.12.423 Version/12.16"
+        },
+        "device": {
+            "deviceName": "general Mobile Device",
+            "marketingName": "general Mobile Device",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": true,
+            "type": "mobile-device"
+        },
+        "browser": {
+            "name": "Opera Mini",
+            "modus": null,
+            "version": "16.0.2168",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "transcoder"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "0.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Presto",
+            "version": "2.12.423",
+            "manufacturer": "Opera"
+        }
+    },
+    "test-0000056-00290": {
+        "headers": {
+            "user-agent": "Opera/9.80 (Android; Opera Mini/7.6.40234/37.8552; U; de) Presto/2.12.423 Version/12.16"
+        },
+        "device": {
+            "deviceName": "general Mobile Device",
+            "marketingName": "general Mobile Device",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": true,
+            "type": "mobile-device"
+        },
+        "browser": {
+            "name": "Opera Mini",
+            "modus": null,
+            "version": "7.6.40234",
+            "manufacturer": "Opera",
+            "bits": 32,
+            "type": "transcoder"
+        },
+        "os": {
+            "name": "Android",
+            "marketingName": "Android",
+            "version": "0.0.0",
+            "manufacturer": "Google",
+            "bits": 32
+        },
+        "engine": {
+            "name": "Presto",
+            "version": "2.12.423",
+            "manufacturer": "Opera"
+        }
+    },
+    "test-0000056-00291": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.1.2; XT890 Build/9.8.2I-50_SMI-26) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "XT890",
+            "marketingName": "Razr I",
+            "manufacturer": "Motorola",
+            "brand": "Motorola",
+            "pointingMethod": "touchscreen",
+            "resolutionWidth": 540,
+            "resolutionHeight": 960,
+            "dualOrientation": true,
+            "type": "smartphone"
+        },
+        "browser": {
+            "name": "Chrome",
+            "modus": null,
             "version": "51.0.2704.81",
             "manufacturer": "Google",
             "bits": 32,
@@ -3229,7 +3301,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.1.1",
+            "version": "4.1.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -3239,25 +3311,25 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00290": {
+    "test-0000056-00292": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0.2; P021 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; F5121 Build/34.0.A.1.277) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "P021",
-            "marketingName": "ZenPad 10 Z300CG",
-            "manufacturer": "Asus",
-            "brand": "Asus",
+            "deviceName": "F5121",
+            "marketingName": "Xperia X",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1280,
-            "resolutionHeight": 800,
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
-            "type": "fone-pad"
+            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
             "modus": null,
-            "version": "50.0.2661.89",
+            "version": "51.0.2704.81",
             "manufacturer": "Google",
             "bits": 32,
             "type": "browser"
@@ -3265,7 +3337,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.2",
+            "version": "6.0.1",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -3275,13 +3347,13 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00291": {
+    "test-0000056-00293": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.3; WAX Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.1; HIGHWAY STAR Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
         },
         "device": {
-            "deviceName": "Wax",
-            "marketingName": "Wax",
+            "deviceName": "Highway Star 4G",
+            "marketingName": "Highway Star 4G",
             "manufacturer": "Wiko",
             "brand": "Wiko",
             "pointingMethod": "touchscreen",
@@ -3301,7 +3373,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "4.3.0",
+            "version": "5.1.0",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -3311,28 +3383,28 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00292": {
+    "test-0000056-00294": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; PSP5453DUO Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; Sony Xperia Z3 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 GSA/3.4.16.1149292.arm"
         },
         "device": {
-            "deviceName": "PSP5453DUO",
-            "marketingName": "Multiphone 5453 Duo",
-            "manufacturer": "Prestigio",
-            "brand": "Prestigio",
+            "deviceName": "C6603",
+            "marketingName": "Xperia Z",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 540,
-            "resolutionHeight": 960,
+            "resolutionWidth": 1080,
+            "resolutionHeight": 1920,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "Chrome",
+            "name": "Google App",
             "modus": null,
-            "version": "47.0.2526.83",
+            "version": "3.4.16.1149292",
             "manufacturer": "Google",
             "bits": 32,
-            "type": "browser"
+            "type": "application"
         },
         "os": {
             "name": "Android",
@@ -3347,15 +3419,15 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00293": {
+    "test-0000056-00295": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.2.1; Lenovo K900_ROW Build/JOP40D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36"
+            "user-agent": "Dalvik/2.1.0 (Linux; U; Android 6.0.1; D6503 Build/23.5.A.0.575)"
         },
         "device": {
-            "deviceName": "K900",
-            "marketingName": "IdeaPhone",
-            "manufacturer": "Lenovo",
-            "brand": "Lenovo",
+            "deviceName": "D6503",
+            "marketingName": "Xperia Z2 LTE",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 1080,
             "resolutionHeight": 1920,
@@ -3363,125 +3435,53 @@
             "type": "smartphone"
         },
         "browser": {
-            "name": "Chrome",
+            "name": "Dalvik",
             "modus": null,
-            "version": "49.0.2623.91",
+            "version": "2.1.0",
             "manufacturer": "Google",
             "bits": 32,
-            "type": "browser"
+            "type": "application"
         },
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "4.2.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00294": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SCH-R740C Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
-        },
-        "device": {
-            "deviceName": "SCH-R740C",
-            "marketingName": "Galaxy Discover",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 320,
-            "resolutionHeight": 480,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "Android Webkit",
-            "modus": null,
-            "version": "4.0.0",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.1.2",
+            "version": "6.0.1",
             "manufacturer": "Google",
             "bits": 32
         },
         "engine": {
             "name": "WebKit",
-            "version": "534.30.0",
+            "version": "0.0.0",
             "manufacturer": "Apple"
-        }
-    },
-    "test-0000056-00295": {
-        "headers": {
-            "HTTP_USER_AGENT": "UCWEB/2.0 (MIDP-2.0; U; Adr 4.3; en-US; 6016D) U2/1.0.0 UCBrowser/9.3.0.440 U2/1.0.0 Mobile"
-        },
-        "device": {
-            "deviceName": "OT-6016D",
-            "marketingName": "One Touch Idol 2 mini",
-            "manufacturer": "Alcatel",
-            "brand": "Alcatel",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 540,
-            "resolutionHeight": 960,
-            "dualOrientation": true,
-            "type": "smartphone"
-        },
-        "browser": {
-            "name": "UC Browser",
-            "modus": null,
-            "version": "9.3.0.440",
-            "manufacturer": "UcWeb",
-            "bits": 32,
-            "type": "transcoder"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "4.3.0",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "U2",
-            "version": "1.0.0",
-            "manufacturer": "UcWeb"
         }
     },
     "test-0000056-00296": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 5.0; SM-G900F Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2763.0 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; RIDGE 4G Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/80.0.0.21.65;]"
         },
         "device": {
-            "deviceName": "SM-G900F",
-            "marketingName": "Galaxy S5 LTE",
-            "manufacturer": "Samsung",
-            "brand": "Samsung",
+            "deviceName": "Ridge 4G",
+            "marketingName": "Ridge 4G",
+            "manufacturer": "Wiko",
+            "brand": "Wiko",
             "pointingMethod": "touchscreen",
-            "resolutionWidth": 1080,
-            "resolutionHeight": 1920,
+            "resolutionWidth": 720,
+            "resolutionHeight": 1280,
             "dualOrientation": true,
             "type": "smartphone"
         },
         "browser": {
-            "name": "Chrome",
+            "name": "Facebook App",
             "modus": null,
-            "version": "53.0.2763.0",
-            "manufacturer": "Google",
+            "version": "80.0.0.21.65",
+            "manufacturer": "Facebook",
             "bits": 32,
-            "type": "browser"
+            "type": "application"
         },
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.0",
+            "version": "5.0.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -3493,54 +3493,18 @@
     },
     "test-0000056-00297": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 6.0.1; SHIELD Tablet Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 5.0.2; SGP611 Build/23.1.A.1.28) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36"
         },
         "device": {
-            "deviceName": "Shield",
-            "marketingName": "Shield",
-            "manufacturer": "NVIDIA",
-            "brand": "NVIDIA",
+            "deviceName": "SGP611",
+            "marketingName": "Xperia Z3 Tablet Compact Wi-Fi",
+            "manufacturer": "Sony",
+            "brand": "Sony",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 1920,
             "resolutionHeight": 1200,
             "dualOrientation": true,
             "type": "tablet"
-        },
-        "browser": {
-            "name": "Chrome",
-            "modus": null,
-            "version": "47.0.2526.83",
-            "manufacturer": "Google",
-            "bits": 32,
-            "type": "browser"
-        },
-        "os": {
-            "name": "Android",
-            "marketingName": "Android",
-            "version": "6.0.1",
-            "manufacturer": "Google",
-            "bits": 32
-        },
-        "engine": {
-            "name": "Blink",
-            "version": "537.36.0",
-            "manufacturer": "Google"
-        }
-    },
-    "test-0000056-00298": {
-        "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; Android 4.4.2; ZTE Blade C341 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Safari/537.36"
-        },
-        "device": {
-            "deviceName": "Blade C341",
-            "marketingName": "Blade C341",
-            "manufacturer": "Zte",
-            "brand": "Zte",
-            "pointingMethod": "touchscreen",
-            "resolutionWidth": 480,
-            "resolutionHeight": 800,
-            "dualOrientation": true,
-            "type": "smartphone"
         },
         "browser": {
             "name": "Chrome",
@@ -3553,7 +3517,7 @@
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "4.4.2",
+            "version": "5.0.2",
             "manufacturer": "Google",
             "bits": 32
         },
@@ -3563,15 +3527,51 @@
             "manufacturer": "Google"
         }
     },
-    "test-0000056-00299": {
+    "test-0000056-00298": {
         "headers": {
-            "HTTP_USER_AGENT": "Mozilla/5.0 (Linux; U; Android 5.0.2; zh-CN; ALE-UL00 Build/HuaweiALE-UL00) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/10.9.4.728 U3/0.8.0 Mobile Safari/534.30"
+            "user-agent": "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
         },
         "device": {
-            "deviceName": "ALE-UL00",
-            "marketingName": "P8 Lite",
-            "manufacturer": "Huawei",
-            "brand": "Huawei",
+            "deviceName": "Linux Desktop",
+            "marketingName": "Linux Desktop",
+            "manufacturer": "Unknown",
+            "brand": "Unknown",
+            "pointingMethod": "mouse",
+            "resolutionWidth": null,
+            "resolutionHeight": null,
+            "dualOrientation": false,
+            "type": "desktop"
+        },
+        "browser": {
+            "name": "Firefox",
+            "modus": null,
+            "version": "47.0.0",
+            "manufacturer": "MozillaFoundation",
+            "bits": 64,
+            "type": "browser"
+        },
+        "os": {
+            "name": "Fedora Linux",
+            "marketingName": "Fedora Linux",
+            "version": "0.0.0",
+            "manufacturer": "Redhat",
+            "bits": 64
+        },
+        "engine": {
+            "name": "Gecko",
+            "version": "47.0.0",
+            "manufacturer": "MozillaFoundation"
+        }
+    },
+    "test-0000056-00299": {
+        "headers": {
+            "user-agent": "Mozilla/5.0 (Linux; Android 4.4.2; GT-N7100 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.32 Mobile Safari/537.36"
+        },
+        "device": {
+            "deviceName": "GT-N7100",
+            "marketingName": "Galaxy Note II",
+            "manufacturer": "Samsung",
+            "brand": "Samsung",
             "pointingMethod": "touchscreen",
             "resolutionWidth": 720,
             "resolutionHeight": 1280,
@@ -3579,24 +3579,24 @@
             "type": "smartphone"
         },
         "browser": {
-            "name": "UC Browser",
+            "name": "Chrome",
             "modus": null,
-            "version": "10.9.4.728",
-            "manufacturer": "UcWeb",
+            "version": "52.0.2743.32",
+            "manufacturer": "Google",
             "bits": 32,
-            "type": "transcoder"
+            "type": "browser"
         },
         "os": {
             "name": "Android",
             "marketingName": "Android",
-            "version": "5.0.2",
+            "version": "4.4.2",
             "manufacturer": "Google",
             "bits": 32
         },
         "engine": {
-            "name": "U3",
-            "version": "0.8.0",
-            "manufacturer": "UcWeb"
+            "name": "Blink",
+            "version": "537.36.0",
+            "manufacturer": "Google"
         }
     }
 }

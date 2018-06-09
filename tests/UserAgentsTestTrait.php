@@ -50,6 +50,7 @@ trait UserAgentsTestTrait
      */
     protected function setUp(): void
     {
+        /** @var \PHPUnit\Framework\MockObject\MockObject $logger */
         $logger = $this->getMockBuilder(NullLogger::class)
             ->disableOriginalConstructor()
             ->setMethods(['info', 'notice', 'warning', 'error', 'critical', 'alert', 'emergency'])
@@ -76,12 +77,14 @@ trait UserAgentsTestTrait
             ->expects(self::never())
             ->method('emergency');
 
+        /** @var \Psr\Log\NullLogger $logger */
         $factory      = new DetectorFactory(static::getCache(), $logger);
         $this->object = $factory();
     }
 
     /**
      * @throws \RuntimeException
+     * @throws \Exception
      *
      * @return array[]
      */

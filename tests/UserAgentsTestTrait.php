@@ -12,7 +12,6 @@ declare(strict_types = 1);
 namespace BrowserDetectorTest;
 
 use BrowserDetector\DetectorFactory;
-use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use Psr\SimpleCache\CacheInterface;
 use Seld\JsonLint\JsonParser;
@@ -51,12 +50,41 @@ trait UserAgentsTestTrait
      */
     protected function setUp(): void
     {
-        $factory      = new DetectorFactory(static::getCache(), static::getLogger());
+        /** @var \PHPUnit\Framework\MockObject\MockObject $logger */
+        $logger = $this->getMockBuilder(NullLogger::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['info', 'notice', 'warning', 'error', 'critical', 'alert', 'emergency'])
+            ->getMock();
+        $logger
+            ->expects(self::never())
+            ->method('info');
+        $logger
+            ->expects(self::never())
+            ->method('notice');
+        $logger
+            ->expects(self::never())
+            ->method('warning');
+        $logger
+            ->expects(self::never())
+            ->method('error');
+        $logger
+            ->expects(self::never())
+            ->method('critical');
+        $logger
+            ->expects(self::never())
+            ->method('alert');
+        $logger
+            ->expects(self::never())
+            ->method('emergency');
+
+        /** @var \Psr\Log\NullLogger $logger */
+        $factory      = new DetectorFactory(static::getCache(), $logger);
         $this->object = $factory();
     }
 
     /**
      * @throws \RuntimeException
+     * @throws \Exception
      *
      * @return array[]
      */
@@ -81,6 +109,7 @@ trait UserAgentsTestTrait
         }
 
         $jsonParser = new JsonParser();
+        $logger     = new NullLogger();
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
@@ -88,8 +117,7 @@ trait UserAgentsTestTrait
             try {
                 $tests = $jsonParser->parse($file->getContents(), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
             } catch (ParsingException $e) {
-                static::getLogger()->error($e);
-                continue;
+                throw new \Exception(sprintf('file "%s" contains invalid json', $file->getPathname()), 0, $e);
             }
 
             foreach ($tests as $key => $test) {
@@ -99,7 +127,7 @@ trait UserAgentsTestTrait
                 }
 
                 $data[$key] = [
-                    'result' => (new ResultFactory())->fromArray(static::getLogger(), $test),
+                    'result' => (new ResultFactory())->fromArray($logger, $test),
                 ];
             }
         }
@@ -120,14 +148,17 @@ trait UserAgentsTestTrait
      */
     public function testUserAgents(ResultInterface $expectedResult): void
     {
-        $object     = $this->object;
-        $result     = $object($expectedResult->getHeaders());
-        $userAgents = json_encode($expectedResult->getHeaders());
+        $headers = $expectedResult->getHeaders();
+        $object  = $this->object;
+        $result  = $object($headers);
 
         static::assertInstanceOf(
             ResultInterface::class,
             $result,
-            'Expected result is not an instance of "\UaResult\Result\ResultInterface" for useragent "' . $userAgents . '"'
+            sprintf(
+                'found result is not an instance of "\UaResult\Result\ResultInterface" for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
         );
 
         $foundBrowser = $result->getBrowser();
@@ -135,42 +166,53 @@ trait UserAgentsTestTrait
         static::assertInstanceOf(
             BrowserInterface::class,
             $foundBrowser,
-            'Expected browser is not an instance of "\UaResult\Browser\BrowserInterface" for useragent "' . $userAgents . '"'
+            sprintf(
+                'found browser is not an instance of "\UaResult\Browser\BrowserInterface" for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
         );
-
-        self::assertEquals($expectedResult->getBrowser(), $foundBrowser);
 
         $foundEngine = $result->getEngine();
 
         static::assertInstanceOf(
             EngineInterface::class,
             $foundEngine,
-            'Expected engine is not an instance of "\UaResult\Engine\EngineInterface" for useragent "' . $userAgents . '"'
+            sprintf(
+                'found engine is not an instance of "\UaResult\Engine\EngineInterface" for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
         );
-
-        self::assertEquals($expectedResult->getEngine(), $foundEngine);
 
         $foundPlatform = $result->getOs();
 
         static::assertInstanceOf(
             OsInterface::class,
             $foundPlatform,
-            'Expected platform is not an instance of "\UaResult\Os\OsInterface" for useragent "' . $userAgents . '"'
+            sprintf(
+                'found platform is not an instance of "\UaResult\Os\OsInterface" for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
         );
-
-        self::assertEquals($expectedResult->getOs(), $foundPlatform);
 
         $foundDevice = $result->getDevice();
 
         static::assertInstanceOf(
             DeviceInterface::class,
             $foundDevice,
-            'Expected result is not an instance of "\UaResult\Device\DeviceInterface" for useragent "' . $userAgents . '"'
+            sprintf(
+                'found result is not an instance of "\UaResult\Device\DeviceInterface" for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
         );
 
-        self::assertEquals($expectedResult->getDevice(), $foundDevice);
-
-        //self::assertEquals($expectedResult, $result);
+        self::assertEquals(
+            $expectedResult,
+            $result,
+            sprintf(
+                'detection result mismatch for headers %s',
+                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+            )
+        );
     }
 
     /**
@@ -185,19 +227,5 @@ trait UserAgentsTestTrait
         static::$cache = new FilesystemCache('', 0, __DIR__ . '/../cache/');
 
         return static::$cache;
-    }
-
-    /**
-     * @return \Psr\Log\LoggerInterface
-     */
-    private static function getLogger(): LoggerInterface
-    {
-        if (null !== static::$logger) {
-            return static::$logger;
-        }
-
-        static::$logger = new NullLogger();
-
-        return static::$logger;
     }
 }

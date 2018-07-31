@@ -825,9 +825,13 @@ jobs:
     #  - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --group 0000201 -- 1000 tests
       - run: php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 119 tests/UserAgentsTest/T0000201Test.php -- 1000 tests
 
-    # 884 tests
-    #  - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --group 0000202 --  884 tests
-      - run: php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000202Test.php --  884 tests
+    #1000 tests
+    #  - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --group 0000202 -- 1000 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 119 tests/UserAgentsTest/T0000202Test.php -- 1000 tests
+
+    # 513 tests
+    #  - run: php -n -d memory_limit=768M vendor/bin/phpunit --printer 'ScriptFUSION\PHPUnitImmediateExceptionPrinter\ImmediateExceptionPrinter' --colors --no-coverage --group 0000203 --  513 tests
+      - run: php -n -d memory_limit=768M vendor/bin/phpunit --colors --no-coverage --columns 117 tests/UserAgentsTest/T0000203Test.php --  513 tests
 
 
   phpcs:

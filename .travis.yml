@@ -40,9 +40,9 @@ jobs:
 
     - stage: composer validate
       php: 7.1
+      install: skip
       script:
         - composer validate
-        - composer normalize --dry-run
 
     - stage: static code analysis
       php: 7.1
@@ -63,7 +63,7 @@ jobs:
       env:
         - COMPOSER_FLAGS=""
         - TEST=phpstan
-      script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests
+      script: vendor/bin/phpstan analyse -l max -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress tests
 
 notifications:
   email: false

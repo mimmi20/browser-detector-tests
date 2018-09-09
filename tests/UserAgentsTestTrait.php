@@ -12,11 +12,11 @@ declare(strict_types = 1);
 namespace BrowserDetectorTest;
 
 use BrowserDetector\DetectorFactory;
+use ExceptionalJSON\DecodeErrorException;
+use ExceptionalJSON\EncodeErrorException;
+use JsonClass\Json;
 use Psr\Log\NullLogger;
-use Psr\SimpleCache\CacheInterface;
-use Seld\JsonLint\JsonParser;
-use Seld\JsonLint\ParsingException;
-use Symfony\Component\Cache\Simple\FilesystemCache;
+use Symfony\Component\Cache\Simple\NullCache;
 use Symfony\Component\Finder\Finder;
 use UaResult\Browser\BrowserInterface;
 use UaResult\Device\DeviceInterface;
@@ -77,8 +77,10 @@ trait UserAgentsTestTrait
             ->expects(self::never())
             ->method('emergency');
 
+        $cache = new NullCache();
+
         /** @var \Psr\Log\NullLogger $logger */
-        $factory      = new DetectorFactory(static::getCache(), $logger);
+        $factory      = new DetectorFactory($cache, $logger);
         $this->object = $factory();
     }
 
@@ -108,15 +110,14 @@ trait UserAgentsTestTrait
             $finder->in($directory);
         }
 
-        $jsonParser = new JsonParser();
-        $logger     = new NullLogger();
+        $logger = new NullLogger();
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
 
             try {
-                $tests = $jsonParser->parse($file->getContents(), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
-            } catch (ParsingException $e) {
+                $tests = (new Json())->decode($file->getContents(), true);
+            } catch (DecodeErrorException $e) {
                 throw new \Exception(sprintf('file "%s" contains invalid json', $file->getPathname()), 0, $e);
             }
 
@@ -152,12 +153,18 @@ trait UserAgentsTestTrait
         $object  = $this->object;
         $result  = $object($headers);
 
+        try {
+            $encodedHeaders = (new Json())->encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        } catch (EncodeErrorException $e) {
+            $encodedHeaders = '<failed to encode headers>';
+        }
+
         static::assertInstanceOf(
             ResultInterface::class,
             $result,
             sprintf(
                 'found result is not an instance of "\UaResult\Result\ResultInterface" for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
 
@@ -168,7 +175,7 @@ trait UserAgentsTestTrait
             $foundBrowser,
             sprintf(
                 'found browser is not an instance of "\UaResult\Browser\BrowserInterface" for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
 
@@ -179,7 +186,7 @@ trait UserAgentsTestTrait
             $foundEngine,
             sprintf(
                 'found engine is not an instance of "\UaResult\Engine\EngineInterface" for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
 
@@ -190,7 +197,7 @@ trait UserAgentsTestTrait
             $foundPlatform,
             sprintf(
                 'found platform is not an instance of "\UaResult\Os\OsInterface" for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
 
@@ -201,7 +208,7 @@ trait UserAgentsTestTrait
             $foundDevice,
             sprintf(
                 'found result is not an instance of "\UaResult\Device\DeviceInterface" for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
 
@@ -210,22 +217,8 @@ trait UserAgentsTestTrait
             $result,
             sprintf(
                 'detection result mismatch for headers %s',
-                json_encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
+                $encodedHeaders
             )
         );
-    }
-
-    /**
-     * @return \Psr\SimpleCache\CacheInterface
-     */
-    private static function getCache(): CacheInterface
-    {
-        if (null !== static::$cache) {
-            return static::$cache;
-        }
-
-        static::$cache = new FilesystemCache('', 0, __DIR__ . '/../cache/');
-
-        return static::$cache;
     }
 }

@@ -18,6 +18,8 @@ use JsonClass\Json;
 use Psr\Log\NullLogger;
 use Symfony\Component\Cache\Simple\NullCache;
 use Symfony\Component\Finder\Finder;
+use UaNormalizer\NormalizerFactory;
+use UaRequest\GenericRequestFactory;
 use UaResult\Browser\BrowserInterface;
 use UaResult\Device\DeviceInterface;
 use UaResult\Engine\EngineInterface;
@@ -153,8 +155,17 @@ trait UserAgentsTestTrait
         $object  = $this->object;
         $result  = $object($headers);
 
+        $normalizer = (new NormalizerFactory())->build();
+        $request    = (new GenericRequestFactory())->createRequestFromArray($headers);
+
+        $data = [
+            'all-headers' => $headers,
+            'device-ua'   => $normalizer->normalize($request->getDeviceUserAgent()),
+            'browser-ua'  => $normalizer->normalize($request->getBrowserUserAgent()),
+        ];
+
         try {
-            $encodedHeaders = (new Json())->encode($headers, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+            $encodedHeaders = (new Json())->encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
         } catch (EncodeErrorException $e) {
             $encodedHeaders = '<failed to encode headers>';
         }

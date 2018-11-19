@@ -15,14 +15,14 @@ use BrowserDetectorTest\UserAgentsTestTrait;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class T0000220Test
+ * Class T0000221Test
  *
- * has 1000 tests
+ * has 60 tests
  * this file was created/edited automatically, please do not edit it
  *
- * @group      0000220
+ * @group      0000221
  */
-class T0000220Test extends TestCase
+class T0000221Test extends TestCase
 {
     use UserAgentsTestTrait;
 
@@ -30,6 +30,6 @@ class T0000220Test extends TestCase
      * @var string[]
      */
     private $sourceDirectory = [
-        'tests/issues/0000220/',
+        'tests/issues/0000221/',
     ];
 }

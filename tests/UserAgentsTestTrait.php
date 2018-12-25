@@ -12,19 +12,18 @@ declare(strict_types = 1);
 namespace BrowserDetectorTest;
 
 use BrowserDetector\DetectorFactory;
+use BrowserDetector\Loader\CompanyLoaderFactory;
 use ExceptionalJSON\DecodeErrorException;
 use ExceptionalJSON\EncodeErrorException;
 use JsonClass\Json;
 use Psr\Log\NullLogger;
 use Symfony\Component\Cache\Simple\NullCache;
 use Symfony\Component\Finder\Finder;
-use UaNormalizer\NormalizerFactory;
 use UaRequest\GenericRequestFactory;
 use UaResult\Browser\BrowserInterface;
 use UaResult\Device\DeviceInterface;
 use UaResult\Engine\EngineInterface;
 use UaResult\Os\OsInterface;
-use UaResult\Result\ResultFactory;
 use UaResult\Result\ResultInterface;
 
 trait UserAgentsTestTrait
@@ -112,7 +111,13 @@ trait UserAgentsTestTrait
             $finder->in($directory);
         }
 
-        $logger = new NullLogger();
+        $logger               = new NullLogger();
+        $jsonParser           = new Json();
+        $companyLoaderFactory = new CompanyLoaderFactory($jsonParser);
+
+        /** @var \BrowserDetector\Loader\CompanyLoader $companyLoader */
+        $companyLoader = $companyLoaderFactory();
+        $resultFactory = new ResultFactory($companyLoader);
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
@@ -130,7 +135,7 @@ trait UserAgentsTestTrait
                 }
 
                 $data[$key] = [
-                    'result' => (new ResultFactory())->fromArray($logger, $test),
+                    'result' => $resultFactory->fromArray($logger, $test),
                 ];
             }
         }
@@ -154,14 +159,12 @@ trait UserAgentsTestTrait
         $headers = $expectedResult->getHeaders();
         $object  = $this->object;
         $result  = $object($headers);
-
-        $normalizer = (new NormalizerFactory())->build();
-        $request    = (new GenericRequestFactory())->createRequestFromArray($headers);
+        $request = (new GenericRequestFactory())->createRequestFromArray($headers);
 
         $data = [
             'all-headers' => $headers,
-            'device-ua'   => $normalizer->normalize($request->getDeviceUserAgent()),
-            'browser-ua'  => $normalizer->normalize($request->getBrowserUserAgent()),
+            'device-ua'   => $request->getDeviceUserAgent(),
+            'browser-ua'  => $request->getBrowserUserAgent(),
         ];
 
         try {

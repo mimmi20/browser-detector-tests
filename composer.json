@@ -25,11 +25,10 @@
   "require": {
     "php": "^7.1",
     "ext-json": "*",
-    "mimmi20/browser-detector": "~4.0.22",
-    "mimmi20/json-class": "~1.0.0",
-    "mimmi20/ua-generic-request": "~3.0.2",
-    "mimmi20/ua-normalizer": "~3.0.1",
-    "mimmi20/ua-result": "~5.2.5"
+    "mimmi20/browser-detector": "dev-updates",
+    "mimmi20/json-class": "~2.0.1",
+    "mimmi20/ua-generic-request": "~4.0.0",
+    "mimmi20/ua-result": "~6.0.0"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.13",
@@ -42,11 +41,12 @@
     "phpstan/phpstan-strict-rules": "^0.10",
     "phpunit/phpunit": "^7.5",
     "psr/log": "^1.0",
-    "squizlabs/php_codesniffer": "^3.3",
+    "squizlabs/php_codesniffer": "^3.4",
     "symfony/cache": "^4.2",
     "symfony/finder": "^4.2"
   },
   "config": {
+    "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true
   },
@@ -55,6 +55,8 @@
       "BrowserDetectorTest\\": "tests/"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "support": {
     "issues": "https://github.com/mimmi20/browser-detector-tests/issues",
     "source": "https://github.com/mimmi20/browser-detector-tests"

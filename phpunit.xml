@@ -5,11 +5,14 @@
         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
         backupGlobals="false"
         backupStaticAttributes="false"
+        beStrictAboutChangesToGlobalState="true"
+        beStrictAboutCoversAnnotation="false"
         beStrictAboutOutputDuringTests="true"
         beStrictAboutTestsThatDoNotTestAnything="true"
         beStrictAboutTodoAnnotatedTests="true"
-        verbose="true"
         failOnWarning="true"
+        failOnRisky="true"
+        verbose="true"
         bootstrap="vendor/autoload.php"
         >
     <php>

@@ -51,7 +51,6 @@ trait UserAgentsTestTrait
      */
     protected function setUp(): void
     {
-        /** @var \PHPUnit\Framework\MockObject\MockObject $logger */
         $logger = $this->getMockBuilder(NullLogger::class)
             ->disableOriginalConstructor()
             ->setMethods(['info', 'notice', 'warning', 'error', 'critical', 'alert', 'emergency'])
@@ -99,6 +98,14 @@ trait UserAgentsTestTrait
 
         $data = [];
 
+        $logger               = new NullLogger();
+        $jsonParser           = new Json();
+        $companyLoaderFactory = new CompanyLoaderFactory($jsonParser, new Finder());
+
+        /** @var \BrowserDetector\Loader\CompanyLoader $companyLoader */
+        $companyLoader = $companyLoaderFactory();
+        $resultFactory = new ResultFactory($companyLoader);
+
         $finder = new Finder();
         $finder->files();
         $finder->name('*.json');
@@ -110,14 +117,6 @@ trait UserAgentsTestTrait
         foreach ($this->sourceDirectory as $directory) {
             $finder->in($directory);
         }
-
-        $logger               = new NullLogger();
-        $jsonParser           = new Json();
-        $companyLoaderFactory = new CompanyLoaderFactory($jsonParser);
-
-        /** @var \BrowserDetector\Loader\CompanyLoader $companyLoader */
-        $companyLoader = $companyLoaderFactory();
-        $resultFactory = new ResultFactory($companyLoader);
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */

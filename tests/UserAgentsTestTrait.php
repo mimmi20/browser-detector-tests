@@ -13,6 +13,7 @@ namespace BrowserDetectorTest;
 
 use BrowserDetector\DetectorFactory;
 use BrowserDetector\Loader\CompanyLoaderFactory;
+use BrowserDetector\Loader\Helper\Filter;
 use ExceptionalJSON\DecodeErrorException;
 use ExceptionalJSON\EncodeErrorException;
 use JsonClass\Json;
@@ -100,7 +101,7 @@ trait UserAgentsTestTrait
 
         $logger               = new NullLogger();
         $jsonParser           = new Json();
-        $companyLoaderFactory = new CompanyLoaderFactory($jsonParser, new Finder());
+        $companyLoaderFactory = new CompanyLoaderFactory($jsonParser, new Filter());
 
         /** @var \BrowserDetector\Loader\CompanyLoader $companyLoader */
         $companyLoader = $companyLoaderFactory();

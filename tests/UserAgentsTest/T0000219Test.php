@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class T0000219Test
  *
- * has 743 tests
+ * has 1000 tests
  * this file was created/edited automatically, please do not edit it
  *
  * @group      0000219

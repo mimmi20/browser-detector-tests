@@ -17,12 +17,12 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class T0000221Test
  *
- * has 427 tests
+ * has 719 tests
  * this file was created/edited automatically, please do not edit it
  *
- * @group      0000221
+ * @group 0000221
  */
-class T0000221Test extends TestCase
+final class T0000221Test extends TestCase
 {
     use UserAgentsTestTrait;
 

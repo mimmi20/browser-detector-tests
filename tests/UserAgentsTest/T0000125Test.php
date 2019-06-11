@@ -20,9 +20,9 @@ use PHPUnit\Framework\TestCase;
  * has 1000 tests
  * this file was created/edited automatically, please do not edit it
  *
- * @group      0000125
+ * @group 0000125
  */
-class T0000125Test extends TestCase
+final class T0000125Test extends TestCase
 {
     use UserAgentsTestTrait;
 

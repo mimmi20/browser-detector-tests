@@ -6,20 +6,24 @@ parameters:
     - %currentWorkingDirectory%/vendor/autoload.php
     - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/autoload.php
     - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/src/Util/Tokens.php
-  includes:
-    - vendor/phpstan/phpstan-strict-rules/rules.neon
-    - vendor/phpstan/phpstan-phpunit/extension.neon
-    - vendor/phpstan/phpstan-phpunit/rules.neon
-    - vendor/pepakriz/phpstan-exception-rules/extension.neon
-    - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-    - vendor/localheinz/phpstan-rules/rules.neon
-  parameters:
-    exceptionRules:
-      reportUnusedCatchesOfUncheckedExceptions: false
-      uncheckedExceptions: []
+  exceptionRules:
+    reportUnusedCatchesOfUncheckedExceptions: true
+    uncheckedExceptions: []
+  classesAllowedToBeExtended:
+    - UnexpectedValueException
+    - OutOfRangeException
   excludes_analyse:
     - */tests/*/data/*
   ignoreErrors:
     - '~MockObject~'
     - '~is not subtype of Throwable~'
 #    - '~of function array_multisort is passed by reference, so it expects variables only~'
+    - '~Useless \@throws~'
+
+includes:
+  - vendor/phpstan/phpstan-strict-rules/rules.neon
+  - vendor/phpstan/phpstan-phpunit/extension.neon
+  - vendor/phpstan/phpstan-phpunit/rules.neon
+  - vendor/pepakriz/phpstan-exception-rules/extension.neon
+  - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+  - vendor/localheinz/phpstan-rules/rules.neon

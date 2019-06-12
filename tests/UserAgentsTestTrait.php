@@ -18,7 +18,8 @@ use ExceptionalJSON\DecodeErrorException;
 use ExceptionalJSON\EncodeErrorException;
 use JsonClass\Json;
 use Psr\Log\NullLogger;
-use Symfony\Component\Cache\Simple\NullCache;
+use Symfony\Component\Cache\Adapter\NullAdapter;
+use Symfony\Component\Cache\Psr16Cache;
 use Symfony\Component\Finder\Finder;
 use UaResult\Browser\BrowserInterface;
 use UaResult\Device\DeviceInterface;
@@ -77,7 +78,7 @@ trait UserAgentsTestTrait
             ->expects(self::never())
             ->method('emergency');
 
-        $cache = new NullCache();
+        $cache = new Psr16Cache(new NullAdapter());
 
         /** @var \Psr\Log\NullLogger $logger */
         $factory      = new DetectorFactory($cache, $logger);
@@ -128,7 +129,7 @@ trait UserAgentsTestTrait
             }
 
             foreach ($tests as $key => $test) {
-                if (isset($data[$key])) {
+                if (array_key_exists($key, $data)) {
                     // Test data is duplicated for key
                     continue;
                 }
@@ -149,7 +150,10 @@ trait UserAgentsTestTrait
      *
      * @param ResultInterface $expectedResult
      *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws \Psr\SimpleCache\InvalidArgumentException
+     * @throws \PHPUnit\Framework\ExpectationFailedException
+     * @throws \PHPUnit\Framework\Exception
      *
      * @return void
      */

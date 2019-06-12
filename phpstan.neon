@@ -16,9 +16,10 @@ parameters:
     - */tests/*/data/*
   ignoreErrors:
     - '~MockObject~'
-    - '~is not subtype of Throwable~'
-#    - '~of function array_multisort is passed by reference, so it expects variables only~'
+#    - '~is not subtype of Throwable~'
     - '~Useless \@throws~'
+    - '~Missing \@throws~'
+    - '~ will always evaluate to true~'
 
 includes:
   - vendor/phpstan/phpstan-strict-rules/rules.neon

@@ -151,7 +151,6 @@ trait UserAgentsTestTrait
      * @param ResultInterface $expectedResult
      *
      * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
-     * @throws \Psr\SimpleCache\InvalidArgumentException
      * @throws \PHPUnit\Framework\ExpectationFailedException
      * @throws \PHPUnit\Framework\Exception
      *

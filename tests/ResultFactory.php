@@ -51,6 +51,9 @@ final class ResultFactory
      * @param \Psr\Log\LoggerInterface $logger
      * @param array                    $data
      *
+     * @throws \BrowserDetector\Version\NotNumericException
+     * @throws \UnexpectedValueException
+     *
      * @return \UaResult\Result\Result
      */
     public function fromArray(LoggerInterface $logger, array $data): Result
